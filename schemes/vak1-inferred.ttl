@@ -1,0 +1,2865 @@
+@prefix curr1: <http://ilearn.ilabt.imec.be/vocab/curr1/> .
+@prefix elem: <http://ilearn.ilabt.imec.be/vocab/elem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vak1: <http://ilearn.ilabt.imec.be/vocab/vak1/> .
+
+elem:secundair-onderwijs skos:member vak1:aardrijkskunde,
+        vak1:administratie,
+        vak1:afwerking-bouw,
+        vak1:afwerking-ruwbouw,
+        vak1:agrarische-technieken,
+        vak1:agrarische-technieken-dier,
+        vak1:agrarische-technieken-plant,
+        vak1:algemene-muziekleer,
+        vak1:algemene-verbale-vorming,
+        vak1:amateurkunsten,
+        vak1:anatomie,
+        vak1:apotheek,
+        vak1:architecturale-vorming,
+        vak1:architectuur,
+        vak1:architectuurtekenen,
+        vak1:artistieke-creatie,
+        vak1:artistieke-expressie,
+        vak1:atelier-drama,
+        vak1:atelier-woord,
+        vak1:audiovisuele-en-podiumtechnieken,
+        vak1:audiovisuele-vorming,
+        vak1:autorijtechnieken,
+        vak1:autotechnieken,
+        vak1:bakkerij,
+        vak1:bedrijfswetenschappen,
+        vak1:beeld-en-mediacultuur,
+        vak1:beeldende-kunsten,
+        vak1:beeldende-vorming,
+        vak1:besturing-bouwmachines,
+        vak1:bewegingswetenschappen,
+        vak1:binnenhuisarchitectuur,
+        vak1:binnenhuiskunst,
+        vak1:biochemie,
+        vak1:biologie,
+        vak1:biotechniek,
+        vak1:biotechnische-wetenschappen,
+        vak1:boekhouding,
+        vak1:bosbouw,
+        vak1:bouwkunst,
+        vak1:burgerschap,
+        vak1:centrale-verwarming,
+        vak1:chemie,
+        vak1:commerciele-handel,
+        vak1:commerciele-technieken,
+        vak1:communicatie,
+        vak1:communicatiewetenschappen,
+        vak1:confectie,
+        vak1:creatief-musiceren,
+        vak1:cultuurbeschouwing,
+        vak1:cultuurwetenschappen,
+        vak1:dakwerken,
+        vak1:dans,
+        vak1:decoratieve-technieken,
+        vak1:defensie,
+        vak1:dierenzorg,
+        vak1:duits,
+        vak1:ecologie,
+        vak1:economie,
+        vak1:eigen-cultuur-en-religie,
+        vak1:elektriciteit,
+        vak1:elektromechanica,
+        vak1:elektromechanische-technieken,
+        vak1:elektronica,
+        vak1:elektrotechnieken,
+        vak1:engels,
+        vak1:esthetica,
+        vak1:exploratie,
+        vak1:expressie,
+        vak1:fiets-brom-en-motortechnieken,
+        vak1:filosofie,
+        vak1:fotografie,
+        vak1:frans,
+        vak1:fruit-en-groenten,
+        vak1:fysica,
+        vak1:fysiologie,
+        vak1:gedragswetenschappen,
+        vak1:geschiedenis,
+        vak1:glastechnieken,
+        vak1:godsdienst,
+        vak1:goud-en-juwelen,
+        vak1:grafimedia,
+        vak1:grafische-technieken,
+        vak1:grieks,
+        vak1:grime,
+        vak1:groenaanleg,
+        vak1:groendecoratie,
+        vak1:groepsmusiceren,
+        vak1:haarverzorging,
+        vak1:hebreeuws,
+        vak1:hedendaagse-dans,
+        vak1:hoefverzorging,
+        vak1:hoteltechnieken,
+        vak1:hout-verpakking,
+        vak1:hr,
+        vak1:humane-wetenschappen,
+        vak1:indirecte-zorg,
+        vak1:informatica,
+        vak1:informatica-wetenschappen,
+        vak1:instrument,
+        vak1:instrumentenbouw,
+        vak1:interlevensbeschouwelijke-dialoog,
+        vak1:italiaans,
+        vak1:keukentechnieken,
+        vak1:klassieke-dans,
+        vak1:koeltechnieken,
+        vak1:koetswerk,
+        vak1:kunstbeschouwing,
+        vak1:kunststoffen,
+        vak1:labo,
+        vak1:landbouw,
+        vak1:lassen-constructie,
+        vak1:latijn,
+        vak1:lichamelijke-opvoeding,
+        vak1:logistiek,
+        vak1:maatschappelijke-vorming,
+        vak1:marketing,
+        vak1:mechanica,
+        vak1:mechanische-vormgeving,
+        vak1:mechanische-vorming,
+        vak1:mediawijsheid,
+        vak1:mens-en-samenleving,
+        vak1:merchandising,
+        vak1:meubelmakerij,
+        vak1:militaire-vorming,
+        vak1:mode,
+        vak1:muziek,
+        vak1:muziektheorie,
+        vak1:natuurtechnieken,
+        vak1:natuurwetenschappen,
+        vak1:nautische-technieken,
+        vak1:nederlands,
+        vak1:nederlands-voor-nieuwkomers,
+        vak1:niet-confessionele-zedenleer,
+        vak1:officier,
+        vak1:onthaal,
+        vak1:onthaal-en-recreatie,
+        vak1:onthaal-organisatie-sales,
+        vak1:optiek,
+        vak1:opvoedkunde,
+        vak1:orthopedie,
+        vak1:oud-hebreeuws,
+        vak1:pedagogie,
+        vak1:plastische-opvoeding,
+        vak1:podiumkunsten,
+        vak1:pr,
+        vak1:praktische-harmonie,
+        vak1:printmedia,
+        vak1:productie-industrie,
+        vak1:project-algemene-vakken,
+        vak1:psychologie,
+        vak1:publiciteit,
+        vak1:publiciteitstekenen,
+        vak1:recht,
+        vak1:restauranttechnieken,
+        vak1:restauratie,
+        vak1:rijn-en-binnenvaart,
+        vak1:russisch,
+        vak1:ruwbouw,
+        vak1:sales,
+        vak1:sanitair,
+        vak1:scheepswerktuigkunde,
+        vak1:scheepvaart,
+        vak1:schilderen-en-decoratie,
+        vak1:schoonheidsverzorging,
+        vak1:schoonmaak,
+        vak1:schrijnwerkerij,
+        vak1:slagerij,
+        vak1:sociale-activiteit,
+        vak1:sociologie,
+        vak1:soldaat,
+        vak1:spaans,
+        vak1:steen-en-marmerbewerking,
+        vak1:steigerbouw,
+        vak1:tandtechnieken,
+        vak1:tandverzorging,
+        vak1:technische-wetenschappen-en-engineering,
+        vak1:tekenen,
+        vak1:textiel,
+        vak1:textielproductie,
+        vak1:textielverzorging,
+        vak1:toegepaste-beeldende-vorming,
+        vak1:toegepaste-biochemie,
+        vak1:toegepaste-biologie,
+        vak1:toegepaste-chemie,
+        vak1:toegepaste-fysica,
+        vak1:toerisme,
+        vak1:topsport,
+        vak1:transport,
+        vak1:tuinaanleg-en-beheer,
+        vak1:tuinbouw,
+        vak1:uurwerkmaken,
+        vak1:veiligheidstechnieken,
+        vak1:verkoop,
+        vak1:verpleegkunde,
+        vak1:vrije-beeldende-vorming,
+        vak1:waarnemingstekenen,
+        vak1:wegenwerken,
+        vak1:wellness,
+        vak1:welzijnswetenschappen,
+        vak1:wijnbouw,
+        vak1:wiskunde,
+        vak1:zakelijke-communicatie,
+        vak1:zang,
+        vak1:zedenleer,
+        vak1:zee-en-binnenvaart,
+        vak1:zeemanschap,
+        vak1:zeevisserij .
+
+elem:vakken skos:member vak1:aardrijkskunde,
+        vak1:administratie,
+        vak1:afwerking-bouw,
+        vak1:afwerking-ruwbouw,
+        vak1:agrarische-technieken,
+        vak1:agrarische-technieken-dier,
+        vak1:agrarische-technieken-plant,
+        vak1:algemene-muziekleer,
+        vak1:algemene-verbale-vorming,
+        vak1:amateurkunsten,
+        vak1:anatomie,
+        vak1:apotheek,
+        vak1:architecturale-vorming,
+        vak1:architectuur,
+        vak1:architectuurtekenen,
+        vak1:artistieke-creatie,
+        vak1:artistieke-expressie,
+        vak1:atelier-drama,
+        vak1:atelier-woord,
+        vak1:audiovisuele-en-podiumtechnieken,
+        vak1:audiovisuele-vorming,
+        vak1:autorijtechnieken,
+        vak1:autotechnieken,
+        vak1:bakkerij,
+        vak1:bedrijfswetenschappen,
+        vak1:beeld-en-mediacultuur,
+        vak1:beeldende-kunsten,
+        vak1:beeldende-vorming,
+        vak1:besturing-bouwmachines,
+        vak1:bewegingswetenschappen,
+        vak1:binnenhuisarchitectuur,
+        vak1:binnenhuiskunst,
+        vak1:biochemie,
+        vak1:biologie,
+        vak1:biotechniek,
+        vak1:biotechnische-wetenschappen,
+        vak1:boekhouding,
+        vak1:bosbouw,
+        vak1:bouwkunst,
+        vak1:burgerschap,
+        vak1:centrale-verwarming,
+        vak1:chemie,
+        vak1:commerciele-handel,
+        vak1:commerciele-technieken,
+        vak1:communicatie,
+        vak1:communicatiewetenschappen,
+        vak1:confectie,
+        vak1:creatief-musiceren,
+        vak1:cultuurbeschouwing,
+        vak1:cultuurwetenschappen,
+        vak1:dakwerken,
+        vak1:dans,
+        vak1:decoratieve-technieken,
+        vak1:defensie,
+        vak1:dierenzorg,
+        vak1:duits,
+        vak1:ecologie,
+        vak1:economie,
+        vak1:eigen-cultuur-en-religie,
+        vak1:elektriciteit,
+        vak1:elektromechanica,
+        vak1:elektromechanische-technieken,
+        vak1:elektronica,
+        vak1:elektrotechnieken,
+        vak1:engels,
+        vak1:esthetica,
+        vak1:exploratie,
+        vak1:expressie,
+        vak1:fiets-brom-en-motortechnieken,
+        vak1:filosofie,
+        vak1:fotografie,
+        vak1:frans,
+        vak1:fruit-en-groenten,
+        vak1:fysica,
+        vak1:fysiologie,
+        vak1:gedragswetenschappen,
+        vak1:geschiedenis,
+        vak1:glastechnieken,
+        vak1:godsdienst,
+        vak1:goud-en-juwelen,
+        vak1:grafimedia,
+        vak1:grafische-technieken,
+        vak1:grieks,
+        vak1:grime,
+        vak1:groenaanleg,
+        vak1:groendecoratie,
+        vak1:groepsmusiceren,
+        vak1:haarverzorging,
+        vak1:hebreeuws,
+        vak1:hedendaagse-dans,
+        vak1:hoefverzorging,
+        vak1:hoteltechnieken,
+        vak1:hout-verpakking,
+        vak1:hr,
+        vak1:humane-wetenschappen,
+        vak1:indirecte-zorg,
+        vak1:informatica,
+        vak1:informatica-wetenschappen,
+        vak1:instrument,
+        vak1:instrumentenbouw,
+        vak1:interlevensbeschouwelijke-dialoog,
+        vak1:italiaans,
+        vak1:keukentechnieken,
+        vak1:klassieke-dans,
+        vak1:koeltechnieken,
+        vak1:koetswerk,
+        vak1:kunstbeschouwing,
+        vak1:kunststoffen,
+        vak1:labo,
+        vak1:landbouw,
+        vak1:lassen-constructie,
+        vak1:latijn,
+        vak1:lichamelijke-opvoeding,
+        vak1:logistiek,
+        vak1:maatschappelijke-vorming,
+        vak1:marketing,
+        vak1:mechanica,
+        vak1:mechanische-vormgeving,
+        vak1:mechanische-vorming,
+        vak1:mediawijsheid,
+        vak1:mens-en-samenleving,
+        vak1:merchandising,
+        vak1:meubelmakerij,
+        vak1:militaire-vorming,
+        vak1:mode,
+        vak1:muziek,
+        vak1:muziektheorie,
+        vak1:natuurtechnieken,
+        vak1:natuurwetenschappen,
+        vak1:nautische-technieken,
+        vak1:nederlands,
+        vak1:nederlands-voor-nieuwkomers,
+        vak1:niet-confessionele-zedenleer,
+        vak1:officier,
+        vak1:onthaal,
+        vak1:onthaal-en-recreatie,
+        vak1:onthaal-organisatie-sales,
+        vak1:optiek,
+        vak1:opvoedkunde,
+        vak1:orthopedie,
+        vak1:oud-hebreeuws,
+        vak1:pedagogie,
+        vak1:plastische-opvoeding,
+        vak1:podiumkunsten,
+        vak1:pr,
+        vak1:praktische-harmonie,
+        vak1:printmedia,
+        vak1:productie-industrie,
+        vak1:project-algemene-vakken,
+        vak1:psychologie,
+        vak1:publiciteit,
+        vak1:publiciteitstekenen,
+        vak1:recht,
+        vak1:restauranttechnieken,
+        vak1:restauratie,
+        vak1:rijn-en-binnenvaart,
+        vak1:russisch,
+        vak1:ruwbouw,
+        vak1:sales,
+        vak1:sanitair,
+        vak1:scheepswerktuigkunde,
+        vak1:scheepvaart,
+        vak1:schilderen-en-decoratie,
+        vak1:schoonheidsverzorging,
+        vak1:schoonmaak,
+        vak1:schrijnwerkerij,
+        vak1:slagerij,
+        vak1:sociale-activiteit,
+        vak1:sociologie,
+        vak1:soldaat,
+        vak1:spaans,
+        vak1:steen-en-marmerbewerking,
+        vak1:steigerbouw,
+        vak1:tandtechnieken,
+        vak1:tandverzorging,
+        vak1:technische-wetenschappen-en-engineering,
+        vak1:tekenen,
+        vak1:textiel,
+        vak1:textielproductie,
+        vak1:textielverzorging,
+        vak1:toegepaste-beeldende-vorming,
+        vak1:toegepaste-biochemie,
+        vak1:toegepaste-biologie,
+        vak1:toegepaste-chemie,
+        vak1:toegepaste-fysica,
+        vak1:toerisme,
+        vak1:topsport,
+        vak1:transport,
+        vak1:tuinaanleg-en-beheer,
+        vak1:tuinbouw,
+        vak1:uurwerkmaken,
+        vak1:veiligheidstechnieken,
+        vak1:verkoop,
+        vak1:verpleegkunde,
+        vak1:vrije-beeldende-vorming,
+        vak1:waarnemingstekenen,
+        vak1:wegenwerken,
+        vak1:wellness,
+        vak1:welzijnswetenschappen,
+        vak1:wijnbouw,
+        vak1:wiskunde,
+        vak1:zakelijke-communicatie,
+        vak1:zang,
+        vak1:zedenleer,
+        vak1:zee-en-binnenvaart,
+        vak1:zeemanschap,
+        vak1:zeevisserij .
+
+vak1: a owl:Ontology .
+
+curr1:curr1:s-wd-filosofie skos:related vak1:filosofie .
+
+curr1:s-algemene-doorstroomcompetenties skos:related vak1:exploratie .
+
+curr1:s-bewegingswetenschappen skos:related vak1:bewegingswetenschappen .
+
+curr1:s-computers-en-systemen skos:related vak1:informatica-wetenschappen .
+
+curr1:s-digitale-media-en-toepassingen skos:related vak1:informatica-wetenschappen .
+
+curr1:s-erfgoed skos:related vak1:restauratie .
+
+curr1:s-ethiek skos:related vak1:maatschappelijke-vorming .
+
+curr1:s-filosofie skos:related vak1:filosofie .
+
+curr1:s-handel-verkoop-groothandel skos:related vak1:verkoop .
+
+curr1:s-industrieel-onderhoud-en-ontwerp skos:related vak1:schoonmaak .
+
+curr1:s-informaticawetenschappen skos:related vak1:informatica-wetenschappen .
+
+curr1:s-keuzes-maken skos:related vak1:exploratie .
+
+curr1:s-onderzoeken skos:related vak1:exploratie .
+
+curr1:s-sport-en-beweging skos:related vak1:lichamelijke-opvoeding .
+
+curr1:s-sport-en-ontspanning skos:related vak1:topsport .
+
+curr1:s-stem skos:related vak1:labo .
+
+curr1:s-wijnbouw skos:related vak1:wijnbouw .
+
+curr1:s-wiskunde skos:related vak1:wiskunde .
+
+curr1:s-wiskunde-algebra-analyse skos:related vak1:wiskunde .
+
+curr1:s-wiskunde-getallenleer skos:related vak1:wiskunde .
+
+curr1:s-wiskunde-kansrekenen-statistiek skos:related vak1:wiskunde .
+
+curr1:s-wiskunde-meetkunde-en-metend-rekenen skos:related vak1:wiskunde .
+
+curr1:s-wiskunde-modelleren-en-heuristiek skos:related vak1:wiskunde .
+
+curr1:s-wiskunde-redeneren skos:related vak1:wiskunde .
+
+curr1:s-elektriciteit skos:related vak1:elektriciteit,
+        vak1:elektrotechnieken .
+
+curr1:s-glas-en-steen skos:related vak1:glastechnieken,
+        vak1:steen-en-marmerbewerking .
+
+curr1:s-sociale-wetenschappen skos:related vak1:recht,
+        vak1:sociologie .
+
+curr1:s-textiel-kledij-confectie skos:related vak1:confectie,
+        vak1:textielproductie .
+
+curr1:s-voeding skos:related vak1:bakkerij,
+        vak1:slagerij .
+
+curr1:s-bank-verzekeringen-en-immobilien skos:related vak1:economie,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken .
+
+curr1:s-economie skos:related vak1:bedrijfswetenschappen,
+        vak1:economie,
+        vak1:recht .
+
+curr1:s-fysica skos:related vak1:fysica,
+        vak1:natuurwetenschappen,
+        vak1:toegepaste-fysica .
+
+curr1:s-garage-en-koetswerk skos:related vak1:autotechnieken,
+        vak1:fiets-brom-en-motortechnieken,
+        vak1:koetswerk .
+
+curr1:s-horeca skos:related vak1:hoteltechnieken,
+        vak1:keukentechnieken,
+        vak1:restauranttechnieken .
+
+curr1:s-hout skos:related vak1:hout-verpakking,
+        vak1:meubelmakerij,
+        vak1:schrijnwerkerij .
+
+curr1:s-koeling-en-warmte skos:related vak1:centrale-verwarming,
+        vak1:koeltechnieken,
+        vak1:sanitair .
+
+curr1:s-kunst-en-cultuur skos:related vak1:artistieke-creatie,
+        vak1:artistieke-expressie,
+        vak1:kunstbeschouwing .
+
+curr1:s-mentaal-welbevinden skos:related vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:psychologie .
+
+curr1:s-printmedia skos:related vak1:grafische-technieken,
+        vak1:printmedia,
+        vak1:publiciteitstekenen .
+
+curr1:s-textielcreatie-en-mode skos:related vak1:mode,
+        vak1:textielproductie,
+        vak1:textielverzorging .
+
+curr1:s-toerisme skos:related vak1:onthaal,
+        vak1:onthaal-organisatie-sales,
+        vak1:sales .
+
+curr1:s-veiligheid skos:related vak1:maatschappelijke-vorming,
+        vak1:militaire-vorming,
+        vak1:veiligheidstechnieken .
+
+curr1:s-wd-economie skos:related vak1:bedrijfswetenschappen,
+        vak1:economie,
+        vak1:recht .
+
+curr1:s-wd-fysica skos:related vak1:fysica,
+        vak1:natuurwetenschappen,
+        vak1:toegepaste-fysica .
+
+curr1:s-ambachten skos:related vak1:goud-en-juwelen,
+        vak1:hoefverzorging,
+        vak1:instrumentenbouw,
+        vak1:uurwerkmaken .
+
+curr1:s-klassieke-talen skos:related vak1:grieks,
+        vak1:hebreeuws,
+        vak1:latijn,
+        vak1:oud-hebreeuws .
+
+curr1:s-mediawijsheid skos:related vak1:informatica-wetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:nederlands,
+        vak1:project-algemene-vakken .
+
+curr1:s-relaties skos:related vak1:gedragswetenschappen,
+        vak1:humane-wetenschappen,
+        vak1:sociale-activiteit,
+        vak1:sociologie .
+
+vak1:afwerking-bouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "afwerking bouw"@nl ;
+    skos:related curr1:s-bouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:afwerking-ruwbouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "afwerking ruwbouw"@nl ;
+    skos:related curr1:s-bouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:agrarische-technieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "agrarische technieken"@nl ;
+    skos:related curr1:s-groenaanleg-en-groenbeheer ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:agrarische-technieken-dier a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "agrarische technieken dier"@nl ;
+    skos:related curr1:s-landbouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:agrarische-technieken-plant a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "agrarische technieken plant"@nl ;
+    skos:related curr1:s-landbouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:artistieke-creatie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "artistieke creatie"@nl ;
+    skos:related curr1:s-kunst-en-cultuur ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:bakkerij a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "bakkerij"@nl ;
+    skos:related curr1:s-voeding ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:besturing-bouwmachines a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "besturing bouwmachines"@nl ;
+    skos:related curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:bewegingswetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "bewegingswetenschappen"@nl ;
+    skos:related curr1:s-bewegingswetenschappen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:binnenhuiskunst a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "binnenhuiskunst"@nl ;
+    skos:related curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:bosbouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "bosbouw"@nl ;
+    skos:related curr1:s-groenaanleg-en-groenbeheer ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:bouwkunst a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "bouwkunst"@nl ;
+    skos:related curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:commerciele-handel a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "commerciële handel"@nl ;
+    skos:related curr1:s-communicatie-media-en-multimedia ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:dakwerken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "dakwerken"@nl ;
+    skos:related curr1:s-bouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:defensie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "defensie"@nl ;
+    skos:related curr1:s-diensten-aan-de-gemeenschap ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:dierenzorg a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "dierenzorg"@nl ;
+    skos:related curr1:s-landbouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:eigen-cultuur-en-religie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "eigen cultuur en religie"@nl ;
+    skos:related curr1:s-religie-en-geloof ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:elektromechanische-technieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "elektromechanische technieken"@nl ;
+    skos:related curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:elektrotechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "elektrotechnieken"@nl ;
+    skos:related curr1:s-elektriciteit ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:fruit-en-groenten a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "fruit en groenten"@nl ;
+    skos:related curr1:s-landbouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:glastechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "glastechnieken"@nl ;
+    skos:related curr1:s-glas-en-steen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:godsdienst a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "godsdienst"@nl ;
+    skos:related curr1:s-religie-en-geloof ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:goud-en-juwelen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "goud en juwelen"@nl ;
+    skos:related curr1:s-ambachten ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:grafimedia a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "grafimedia"@nl ;
+    skos:related curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:grime a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "grime"@nl ;
+    skos:related curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:groenaanleg a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "groenaanleg"@nl ;
+    skos:related curr1:s-groenaanleg-en-groenbeheer ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:groendecoratie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "groendecoratie"@nl ;
+    skos:related curr1:s-groenaanleg-en-groenbeheer ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:hoefverzorging a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "hoefverzorging"@nl ;
+    skos:related curr1:s-ambachten ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:hoteltechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "hoteltechnieken"@nl ;
+    skos:related curr1:s-horeca ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:hout-verpakking a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "(Hout)verpakking"@nl ;
+    skos:related curr1:s-hout ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:humane-wetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "humane wetenschappen"@nl ;
+    skos:related curr1:s-relaties ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:instrumentenbouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "instrumentenbouw"@nl ;
+    skos:related curr1:s-ambachten ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:interlevensbeschouwelijke-dialoog a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "interlevensbeschouwelijke dialoog"@nl ;
+    skos:related curr1:s-religie-en-geloof ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:keukentechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "keukentechnieken"@nl ;
+    skos:related curr1:s-horeca ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:landbouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "landbouw"@nl ;
+    skos:related curr1:s-landbouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:lichamelijke-opvoeding a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "lichamelijke opvoeding"@nl ;
+    skos:related curr1:s-sport-en-beweging ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:mechanische-vormgeving a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "mechanische vormgeving"@nl ;
+    skos:related curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:merchandising a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "merchandising"@nl ;
+    skos:related curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:meubelmakerij a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "meubelmakerij"@nl ;
+    skos:related curr1:s-hout ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:natuurtechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "natuurtechnieken"@nl ;
+    skos:related curr1:s-groenaanleg-en-groenbeheer ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:nautische-technieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "nautische technieken"@nl ;
+    skos:related curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:niet-confessionele-zedenleer a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "niet-confessionele zedenleer"@nl ;
+    skos:related curr1:s-religie-en-geloof ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:officier a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "officier"@nl ;
+    skos:related curr1:s-diensten-aan-de-gemeenschap ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:onthaal-en-recreatie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "onthaal en recreatie"@nl ;
+    skos:related curr1:s-communicatie-media-en-multimedia ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:optiek a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "optiek"@nl ;
+    skos:related curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:opvoedkunde a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "opvoedkunde"@nl ;
+    skos:related curr1:s-gedragswetenschappen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:orthopedie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "orthopedie"@nl ;
+    skos:related curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:pedagogie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "pedagogie"@nl ;
+    skos:related curr1:s-gedragswetenschappen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:pr a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "PR"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:publiciteit a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "publiciteit"@nl ;
+    skos:related curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:publiciteitstekenen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "publiciteitstekenen"@nl ;
+    skos:related curr1:s-printmedia ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:restauranttechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "restauranttechnieken"@nl ;
+    skos:related curr1:s-horeca ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:ruwbouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "ruwbouw"@nl ;
+    skos:related curr1:s-bouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:sales a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "sales"@nl ;
+    skos:related curr1:s-toerisme ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:scheepswerktuigkunde a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "scheepswerktuigkunde"@nl ;
+    skos:related curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:schrijnwerkerij a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "schrijnwerkerij"@nl ;
+    skos:related curr1:s-hout ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:slagerij a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "slagerij"@nl ;
+    skos:related curr1:s-voeding ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:sociale-activiteit a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "sociale activiteit"@nl ;
+    skos:related curr1:s-relaties ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:soldaat a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "soldaat"@nl ;
+    skos:related curr1:s-diensten-aan-de-gemeenschap ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:steen-en-marmerbewerking a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "steen- en marmerbewerking"@nl ;
+    skos:related curr1:s-glas-en-steen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:steigerbouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "steigerbouw"@nl ;
+    skos:related curr1:s-bouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:topsport a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "topsport"@nl ;
+    skos:related curr1:s-sport-en-ontspanning ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:transport a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "transport"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:tuinaanleg-en-beheer a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "tuinaanleg en -beheer"@nl ;
+    skos:related curr1:s-groenaanleg-en-groenbeheer ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:tuinbouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "tuinbouw"@nl ;
+    skos:related curr1:s-groenaanleg-en-groenbeheer ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:uurwerkmaken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "uurwerkmaken"@nl ;
+    skos:related curr1:s-ambachten ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:verkoop a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "verkoop"@nl ;
+    skos:related curr1:s-handel-verkoop-groothandel ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:wegenwerken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "wegenwerken"@nl ;
+    skos:related curr1:s-bouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:wellness a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "wellness"@nl ;
+    skos:related curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:welzijnswetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "welzijnswetenschappen"@nl ;
+    skos:related curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:wijnbouw a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "wijnbouw"@nl ;
+    skos:related curr1:s-wijnbouw ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:zedenleer a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "zedenleer"@nl ;
+    skos:related curr1:s-religie-en-geloof ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:zeevisserij a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "zeevisserij"@nl ;
+    skos:related curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-aardwetenschappen skos:related vak1:aardrijkskunde,
+        vak1:ecologie,
+        vak1:maatschappelijke-vorming,
+        vak1:project-algemene-vakken,
+        vak1:toerisme .
+
+curr1:s-bronnenkritiek skos:related vak1:geschiedenis,
+        vak1:maatschappelijke-vorming,
+        vak1:mediawijsheid,
+        vak1:nederlands,
+        vak1:project-algemene-vakken .
+
+curr1:s-chemie skos:related vak1:biochemie,
+        vak1:chemie,
+        vak1:natuurwetenschappen,
+        vak1:toegepaste-biochemie,
+        vak1:toegepaste-chemie .
+
+curr1:s-communicatie skos:related vak1:communicatie,
+        vak1:communicatiewetenschappen,
+        vak1:nederlands,
+        vak1:nederlands-voor-nieuwkomers,
+        vak1:project-algemene-vakken .
+
+curr1:s-gedragswetenschappen skos:related vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:opvoedkunde,
+        vak1:pedagogie,
+        vak1:psychologie .
+
+curr1:s-geld-en-consumptie skos:related vak1:economie,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken,
+        vak1:recht,
+        vak1:toerisme .
+
+curr1:s-historische-beeldvorming skos:related vak1:geschiedenis,
+        vak1:maatschappelijke-vorming,
+        vak1:mediawijsheid,
+        vak1:nederlands,
+        vak1:project-algemene-vakken .
+
+curr1:s-historische-dynamieken skos:related vak1:geschiedenis,
+        vak1:maatschappelijke-vorming,
+        vak1:mediawijsheid,
+        vak1:nederlands,
+        vak1:project-algemene-vakken .
+
+curr1:s-historische-tijdlijn skos:related vak1:geschiedenis,
+        vak1:maatschappelijke-vorming,
+        vak1:mediawijsheid,
+        vak1:nederlands,
+        vak1:project-algemene-vakken .
+
+curr1:s-landbouw skos:related vak1:agrarische-technieken-dier,
+        vak1:agrarische-technieken-plant,
+        vak1:dierenzorg,
+        vak1:fruit-en-groenten,
+        vak1:landbouw .
+
+curr1:s-landschap-en-plaats skos:related vak1:aardrijkskunde,
+        vak1:ecologie,
+        vak1:maatschappelijke-vorming,
+        vak1:project-algemene-vakken,
+        vak1:toerisme .
+
+curr1:s-literatuur skos:related vak1:communicatie,
+        vak1:communicatiewetenschappen,
+        vak1:nederlands,
+        vak1:nederlands-voor-nieuwkomers,
+        vak1:project-algemene-vakken .
+
+curr1:s-mens-en-leefomgeving skos:related vak1:aardrijkskunde,
+        vak1:ecologie,
+        vak1:maatschappelijke-vorming,
+        vak1:project-algemene-vakken,
+        vak1:toerisme .
+
+curr1:s-religie-en-geloof skos:related vak1:eigen-cultuur-en-religie,
+        vak1:godsdienst,
+        vak1:interlevensbeschouwelijke-dialoog,
+        vak1:niet-confessionele-zedenleer,
+        vak1:zedenleer .
+
+curr1:s-ruimte-en-tijd skos:related vak1:aardrijkskunde,
+        vak1:ecologie,
+        vak1:maatschappelijke-vorming,
+        vak1:project-algemene-vakken,
+        vak1:toerisme .
+
+curr1:s-ruimtelijk-onderzoek skos:related vak1:aardrijkskunde,
+        vak1:ecologie,
+        vak1:maatschappelijke-vorming,
+        vak1:project-algemene-vakken,
+        vak1:toerisme .
+
+curr1:s-taal-en-cultuur skos:related vak1:communicatie,
+        vak1:communicatiewetenschappen,
+        vak1:nederlands,
+        vak1:nederlands-voor-nieuwkomers,
+        vak1:project-algemene-vakken .
+
+curr1:s-taalsysteem skos:related vak1:communicatie,
+        vak1:communicatiewetenschappen,
+        vak1:nederlands,
+        vak1:nederlands-voor-nieuwkomers,
+        vak1:project-algemene-vakken .
+
+vak1:administratie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "administratie"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie,
+        curr1:s-ondersteuning-aan-bedrijven-en-organisaties ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:amateurkunsten a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "amateurkunsten"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:anatomie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "anatomie"@nl ;
+    skos:related curr1:s-biologie,
+        curr1:s-wd-biologie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:apotheek a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "apotheek"@nl ;
+    skos:related curr1:s-gezonde-levensstijl,
+        curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:architecturale-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "architecturale vorming"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:architectuur a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "architectuur"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:architectuurtekenen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "architectuurtekenen"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:atelier-drama a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "(Atelier) drama"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:atelier-woord a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "(Atelier) woord"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:audiovisuele-en-podiumtechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "audiovisuele en podiumtechnieken"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:audiovisuele-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "audiovisuele vorming"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:beeldende-kunsten a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "beeldende kunsten"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:beeldende-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "beeldende vorming"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:binnenhuisarchitectuur a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "binnenhuisarchitectuur"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:biologie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "biologie"@nl ;
+    skos:related curr1:s-biologie,
+        curr1:s-wd-biologie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:biotechniek a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "biotechniek"@nl ;
+    skos:related curr1:s-biologie,
+        curr1:s-wd-biologie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:biotechnische-wetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "biotechnische wetenschappen"@nl ;
+    skos:related curr1:s-bk-chemie,
+        curr1:s-wd-chemie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:boekhouding a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "boekhouding"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie,
+        curr1:s-ondersteuning-aan-bedrijven-en-organisaties ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:creatief-musiceren a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "creatief musiceren"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:dans a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "dans"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:decoratieve-technieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "decoratieve technieken"@nl ;
+    skos:related curr1:s-bouw,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:expressie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "expressie"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:filosofie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "filosofie"@nl ;
+    skos:related curr1:curr1:s-wd-filosofie,
+        curr1:s-filosofie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:fotografie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "fotografie"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:fysica a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "fysica"@nl ;
+    skos:related curr1:s-fysica,
+        curr1:s-wd-fysica ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:fysiologie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "fysiologie"@nl ;
+    skos:related curr1:s-biologie,
+        curr1:s-wd-biologie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:grafische-technieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "grafische technieken"@nl ;
+    skos:related curr1:s-kunstcreatie,
+        curr1:s-printmedia ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:groepsmusiceren a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "groepsmusiceren"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:haarverzorging a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "haarverzorging"@nl ;
+    skos:related curr1:s-gezonde-levensstijl,
+        curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:hedendaagse-dans a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "hedendaagse dans"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:hr a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "HR"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie,
+        curr1:s-ondersteuning-aan-bedrijven-en-organisaties ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:indirecte-zorg a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "indirecte zorg"@nl ;
+    skos:related curr1:s-gezonde-levensstijl,
+        curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:instrument a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "instrument"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:klassieke-dans a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "klassieke dans"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:lassen-constructie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "lassen-constructie"@nl ;
+    skos:related curr1:s-bouw,
+        curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:logistiek a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "logistiek"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie,
+        curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:marketing a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "marketing"@nl ;
+    skos:related curr1:s-communicatie-media-en-multimedia,
+        curr1:s-ondernemen-en-organisatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:militaire-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "militaire vorming"@nl ;
+    skos:related curr1:s-diensten-aan-de-gemeenschap,
+        curr1:s-veiligheid ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:mode a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "mode"@nl ;
+    skos:related curr1:s-kunstcreatie,
+        curr1:s-textielcreatie-en-mode ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:muziek a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "muziek"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:plastische-opvoeding a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "plastische opvoeding"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:podiumkunsten a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "podiumkunsten"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:praktische-harmonie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "praktische harmonie"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:printmedia a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "printmedia"@nl ;
+    skos:related curr1:s-kunstcreatie,
+        curr1:s-printmedia ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:psychologie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "psychologie"@nl ;
+    skos:related curr1:s-gedragswetenschappen,
+        curr1:s-mentaal-welbevinden ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:restauratie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "restauratie"@nl ;
+    skos:related curr1:s-erfgoed,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:rijn-en-binnenvaart a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Rijn- en binnenvaart"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie,
+        curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:scheepvaart a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "scheepvaart"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie,
+        curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:schilderen-en-decoratie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "schilderen en decoratie"@nl ;
+    skos:related curr1:s-bouw,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:schoonheidsverzorging a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "schoonheidsverzorging"@nl ;
+    skos:related curr1:s-gezonde-levensstijl,
+        curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:schoonmaak a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "schoonmaak"@nl ;
+    skos:related curr1:s-gezonde-levensstijl,
+        curr1:s-industrieel-onderhoud-en-ontwerp ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:tandtechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "tandtechnieken"@nl ;
+    skos:related curr1:s-gezonde-levensstijl,
+        curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:tandverzorging a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "tandverzorging"@nl ;
+    skos:related curr1:s-gezonde-levensstijl,
+        curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:technische-wetenschappen-en-engineering a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "technische wetenschappen en engineering"@nl ;
+    skos:related curr1:s-bk-chemie,
+        curr1:s-wd-chemie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:tekenen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "tekenen"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:textiel a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "textiel"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:textielproductie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "textielproductie"@nl ;
+    skos:related curr1:s-textiel-kledij-confectie,
+        curr1:s-textielcreatie-en-mode ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:textielverzorging a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "textielverzorging"@nl ;
+    skos:related curr1:s-kunstcreatie,
+        curr1:s-textielcreatie-en-mode ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:toegepaste-beeldende-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "toegepaste beeldende vorming"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:toegepaste-biologie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "toegepaste biologie"@nl ;
+    skos:related curr1:s-biologie,
+        curr1:s-wd-biologie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:toegepaste-fysica a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "toegepaste fysica"@nl ;
+    skos:related curr1:s-fysica,
+        curr1:s-wd-fysica ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:veiligheidstechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "veiligheidstechnieken"@nl ;
+    skos:related curr1:s-diensten-aan-de-gemeenschap,
+        curr1:s-veiligheid ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:verpleegkunde a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "verpleegkunde"@nl ;
+    skos:related curr1:s-gezonde-levensstijl,
+        curr1:s-gezondheidszorg-en-welzijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:vrije-beeldende-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "vrije beeldende vorming"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:waarnemingstekenen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "waarnemingstekenen"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:zang a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "zang"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:zee-en-binnenvaart a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "zee- en binnenvaart"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie,
+        curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:zeemanschap a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "zeemanschap"@nl ;
+    skos:related curr1:s-ondernemen-en-organisatie,
+        curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-diensten-aan-de-gemeenschap skos:related vak1:defensie,
+        vak1:militaire-vorming,
+        vak1:officier,
+        vak1:recht,
+        vak1:soldaat,
+        vak1:veiligheidstechnieken .
+
+curr1:s-ondersteuning-aan-bedrijven-en-organisaties skos:related vak1:administratie,
+        vak1:boekhouding,
+        vak1:commerciele-technieken,
+        vak1:economie,
+        vak1:hr,
+        vak1:onthaal .
+
+vak1:algemene-muziekleer a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "algemene muziekleer"@nl ;
+    skos:related curr1:s-kunstbeleving-en-waardering,
+        curr1:s-kunstconcepten,
+        curr1:s-kunstgeschiedenis-en-kunststromingen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:algemene-verbale-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "algemene verbale vorming"@nl ;
+    skos:related curr1:s-kunstbeleving-en-waardering,
+        curr1:s-kunstconcepten,
+        curr1:s-kunstgeschiedenis-en-kunststromingen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:artistieke-expressie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "artistieke expressie"@nl ;
+    skos:related curr1:s-kunst,
+        curr1:s-kunst-en-cultuur,
+        curr1:s-kunstcreatie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:autorijtechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "autorijtechnieken"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht,
+        curr1:s-vervoer-transport-logistiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:autotechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "autotechnieken"@nl ;
+    skos:related curr1:s-garage-en-koetswerk,
+        curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:bedrijfswetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "bedrijfswetenschappen"@nl ;
+    skos:related curr1:s-economie,
+        curr1:s-ondernemen-en-organisatie,
+        curr1:s-wd-economie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:beeld-en-mediacultuur a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "beeld- en mediacultuur"@nl ;
+    skos:related curr1:s-kunstbeleving-en-waardering,
+        curr1:s-kunstconcepten,
+        curr1:s-kunstgeschiedenis-en-kunststromingen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:centrale-verwarming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "centrale verwarming"@nl ;
+    skos:related curr1:s-koeling-en-warmte,
+        curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:chemie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "chemie"@nl ;
+    skos:related curr1:s-bk-chemie,
+        curr1:s-chemie,
+        curr1:s-wd-chemie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:commerciele-technieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "commerciële technieken"@nl ;
+    skos:related curr1:s-communicatie-media-en-multimedia,
+        curr1:s-ondernemen-en-organisatie,
+        curr1:s-ondersteuning-aan-bedrijven-en-organisaties ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:confectie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "confectie"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht,
+        curr1:s-textiel-kledij-confectie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:cultuurbeschouwing a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "cultuurbeschouwing"@nl ;
+    skos:related curr1:s-kunstbeleving-en-waardering,
+        curr1:s-kunstconcepten,
+        curr1:s-kunstgeschiedenis-en-kunststromingen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:cultuurwetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "cultuurwetenschappen"@nl ;
+    skos:related curr1:s-kunstbeleving-en-waardering,
+        curr1:s-kunstconcepten,
+        curr1:s-kunstgeschiedenis-en-kunststromingen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:elektriciteit a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "elektriciteit"@nl ;
+    skos:related curr1:s-elektriciteit,
+        curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:elektromechanica a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "elektromechanica"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht,
+        curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:elektronica a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "elektronica"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht,
+        curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:esthetica a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "esthetica"@nl ;
+    skos:related curr1:s-kunstbeleving-en-waardering,
+        curr1:s-kunstconcepten,
+        curr1:s-kunstgeschiedenis-en-kunststromingen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:exploratie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "exploratie"@nl ;
+    skos:related curr1:s-algemene-doorstroomcompetenties,
+        curr1:s-keuzes-maken,
+        curr1:s-onderzoeken ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:fiets-brom-en-motortechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "fiets, brom en motortechnieken"@nl ;
+    skos:related curr1:s-garage-en-koetswerk,
+        curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:informatica a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "informatica"@nl ;
+    skos:related curr1:s-communicatie-media-en-multimedia,
+        curr1:s-ondernemen-en-organisatie,
+        curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:koeltechnieken a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "koeltechnieken"@nl ;
+    skos:related curr1:s-koeling-en-warmte,
+        curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:koetswerk a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "koetswerk"@nl ;
+    skos:related curr1:s-garage-en-koetswerk,
+        curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:kunststoffen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "kunststoffen"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht,
+        curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:labo a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "labo"@nl ;
+    skos:related curr1:s-bk-chemie,
+        curr1:s-stem,
+        curr1:s-wd-chemie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:mechanica a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "mechanica"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht,
+        curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:mechanische-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "mechanische vorming"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht,
+        curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:muziektheorie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "muziektheorie"@nl ;
+    skos:related curr1:s-kunstbeleving-en-waardering,
+        curr1:s-kunstconcepten,
+        curr1:s-kunstgeschiedenis-en-kunststromingen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:onthaal-organisatie-sales a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "onthaal organisatie sales"@nl ;
+    skos:related curr1:s-communicatie-media-en-multimedia,
+        curr1:s-ondernemen-en-organisatie,
+        curr1:s-toerisme ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:productie-industrie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "productie-industrie"@nl ;
+    skos:related curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht,
+        curr1:s-technologische-industrie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:sanitair a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "sanitair"@nl ;
+    skos:related curr1:s-koeling-en-warmte,
+        curr1:s-technologie-en-technieken,
+        curr1:s-technologisch-inzicht ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:toegepaste-biochemie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "toegepaste biochemie"@nl ;
+    skos:related curr1:s-biologie,
+        curr1:s-chemie,
+        curr1:s-wd-biologie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:toegepaste-chemie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "toegepaste chemie"@nl ;
+    skos:related curr1:s-bk-chemie,
+        curr1:s-chemie,
+        curr1:s-wd-chemie ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-bk-chemie skos:related vak1:biochemie,
+        vak1:biotechnische-wetenschappen,
+        vak1:chemie,
+        vak1:labo,
+        vak1:natuurwetenschappen,
+        vak1:technische-wetenschappen-en-engineering,
+        vak1:toegepaste-chemie .
+
+curr1:s-communicatie-media-en-multimedia skos:related vak1:commerciele-handel,
+        vak1:commerciele-technieken,
+        vak1:informatica,
+        vak1:marketing,
+        vak1:onthaal,
+        vak1:onthaal-en-recreatie,
+        vak1:onthaal-organisatie-sales .
+
+curr1:s-democratie-en-mensenrechten skos:related vak1:burgerschap,
+        vak1:communicatie,
+        vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken,
+        vak1:sociologie .
+
+curr1:s-dialoog skos:related vak1:burgerschap,
+        vak1:communicatie,
+        vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken,
+        vak1:sociologie .
+
+curr1:s-diversiteit skos:related vak1:burgerschap,
+        vak1:communicatie,
+        vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken,
+        vak1:sociologie .
+
+curr1:s-groenaanleg-en-groenbeheer skos:related vak1:agrarische-technieken,
+        vak1:bosbouw,
+        vak1:groenaanleg,
+        vak1:groendecoratie,
+        vak1:natuurtechnieken,
+        vak1:tuinaanleg-en-beheer,
+        vak1:tuinbouw .
+
+curr1:s-identiteit skos:related vak1:burgerschap,
+        vak1:communicatie,
+        vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken,
+        vak1:sociologie .
+
+curr1:s-maatschappijkritisch-denken skos:related vak1:burgerschap,
+        vak1:communicatie,
+        vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken,
+        vak1:sociologie .
+
+curr1:s-wd-chemie skos:related vak1:biochemie,
+        vak1:biotechnische-wetenschappen,
+        vak1:chemie,
+        vak1:labo,
+        vak1:natuurwetenschappen,
+        vak1:technische-wetenschappen-en-engineering,
+        vak1:toegepaste-chemie .
+
+vak1:geschiedenis a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "geschiedenis"@nl ;
+    skos:related curr1:s-bronnenkritiek,
+        curr1:s-historische-beeldvorming,
+        curr1:s-historische-dynamieken,
+        curr1:s-historische-tijdlijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:informatica-wetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "informatica(wetenschappen)"@nl ;
+    skos:related curr1:s-computers-en-systemen,
+        curr1:s-digitale-media-en-toepassingen,
+        curr1:s-informaticawetenschappen,
+        curr1:s-mediawijsheid ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:kunstbeschouwing a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "kunstbeschouwing"@nl ;
+    skos:related curr1:s-kunst-en-cultuur,
+        curr1:s-kunstbeleving-en-waardering,
+        curr1:s-kunstconcepten,
+        curr1:s-kunstgeschiedenis-en-kunststromingen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:mediawijsheid a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "mediawijsheid"@nl ;
+    skos:related curr1:s-bronnenkritiek,
+        curr1:s-historische-beeldvorming,
+        curr1:s-historische-dynamieken,
+        curr1:s-historische-tijdlijn ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:onthaal a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "onthaal"@nl ;
+    skos:related curr1:s-communicatie-media-en-multimedia,
+        curr1:s-ondernemen-en-organisatie,
+        curr1:s-ondersteuning-aan-bedrijven-en-organisaties,
+        curr1:s-toerisme ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-kunstbeleving-en-waardering skos:related vak1:algemene-muziekleer,
+        vak1:algemene-verbale-vorming,
+        vak1:beeld-en-mediacultuur,
+        vak1:cultuurbeschouwing,
+        vak1:cultuurwetenschappen,
+        vak1:esthetica,
+        vak1:kunstbeschouwing,
+        vak1:muziektheorie .
+
+curr1:s-kunstconcepten skos:related vak1:algemene-muziekleer,
+        vak1:algemene-verbale-vorming,
+        vak1:beeld-en-mediacultuur,
+        vak1:cultuurbeschouwing,
+        vak1:cultuurwetenschappen,
+        vak1:esthetica,
+        vak1:kunstbeschouwing,
+        vak1:muziektheorie .
+
+curr1:s-kunstgeschiedenis-en-kunststromingen skos:related vak1:algemene-muziekleer,
+        vak1:algemene-verbale-vorming,
+        vak1:beeld-en-mediacultuur,
+        vak1:cultuurbeschouwing,
+        vak1:cultuurwetenschappen,
+        vak1:esthetica,
+        vak1:kunstbeschouwing,
+        vak1:muziektheorie .
+
+curr1:s-participatie skos:related vak1:burgerschap,
+        vak1:communicatie,
+        vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken,
+        vak1:recht,
+        vak1:sociologie .
+
+curr1:s-politiek skos:related vak1:burgerschap,
+        vak1:communicatie,
+        vak1:gedragswetenschappen,
+        vak1:maatschappelijke-vorming,
+        vak1:mens-en-samenleving,
+        vak1:project-algemene-vakken,
+        vak1:recht,
+        vak1:sociologie .
+
+vak1:aardrijkskunde a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "aardrijkskunde"@nl ;
+    skos:related curr1:s-aardwetenschappen,
+        curr1:s-landschap-en-plaats,
+        curr1:s-mens-en-leefomgeving,
+        curr1:s-ruimte-en-tijd,
+        curr1:s-ruimtelijk-onderzoek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:biochemie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "biochemie"@nl ;
+    skos:related curr1:s-biologie,
+        curr1:s-bk-chemie,
+        curr1:s-chemie,
+        curr1:s-wd-biologie,
+        curr1:s-wd-chemie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:communicatiewetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "communicatiewetenschappen"@nl ;
+    skos:related curr1:s-communicatie,
+        curr1:s-literatuur,
+        curr1:s-moderne-talen,
+        curr1:s-taal-en-cultuur,
+        curr1:s-taalsysteem ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:duits a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Duits"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-moderne-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:ecologie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "ecologie"@nl ;
+    skos:related curr1:s-aardwetenschappen,
+        curr1:s-landschap-en-plaats,
+        curr1:s-mens-en-leefomgeving,
+        curr1:s-ruimte-en-tijd,
+        curr1:s-ruimtelijk-onderzoek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:engels a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Engels"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-moderne-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:frans a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Frans"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-moderne-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:grieks a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Grieks"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-klassieke-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:hebreeuws a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Hebreeuws"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-klassieke-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:italiaans a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Italiaans"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-moderne-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:latijn a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Latijn"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-klassieke-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:nederlands-voor-nieuwkomers a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Nederlands voor nieuwkomers"@nl ;
+    skos:related curr1:s-communicatie,
+        curr1:s-literatuur,
+        curr1:s-moderne-talen,
+        curr1:s-taal-en-cultuur,
+        curr1:s-taalsysteem ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:oud-hebreeuws a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "(Oud-)Hebreeuws"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-klassieke-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:russisch a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Russisch"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-moderne-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:spaans a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Spaans"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-moderne-talen ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-biologie skos:related vak1:anatomie,
+        vak1:biochemie,
+        vak1:biologie,
+        vak1:biotechniek,
+        vak1:fysiologie,
+        vak1:natuurwetenschappen,
+        vak1:project-algemene-vakken,
+        vak1:toegepaste-biochemie,
+        vak1:toegepaste-biologie .
+
+curr1:s-bouw skos:related vak1:afwerking-bouw,
+        vak1:afwerking-ruwbouw,
+        vak1:dakwerken,
+        vak1:decoratieve-technieken,
+        vak1:lassen-constructie,
+        vak1:ruwbouw,
+        vak1:schilderen-en-decoratie,
+        vak1:steigerbouw,
+        vak1:wegenwerken .
+
+curr1:s-gezonde-levensstijl skos:related vak1:apotheek,
+        vak1:haarverzorging,
+        vak1:indirecte-zorg,
+        vak1:maatschappelijke-vorming,
+        vak1:schoonheidsverzorging,
+        vak1:schoonmaak,
+        vak1:tandtechnieken,
+        vak1:tandverzorging,
+        vak1:verpleegkunde .
+
+curr1:s-wd-biologie skos:related vak1:anatomie,
+        vak1:biochemie,
+        vak1:biologie,
+        vak1:biotechniek,
+        vak1:fysiologie,
+        vak1:natuurwetenschappen,
+        vak1:project-algemene-vakken,
+        vak1:toegepaste-biochemie,
+        vak1:toegepaste-biologie .
+
+vak1:economie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "economie"@nl ;
+    skos:related curr1:s-bank-verzekeringen-en-immobilien,
+        curr1:s-economie,
+        curr1:s-geld-en-consumptie,
+        curr1:s-ondernemen-en-organisatie,
+        curr1:s-ondersteuning-aan-bedrijven-en-organisaties,
+        curr1:s-wd-economie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:toerisme a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "toerisme"@nl ;
+    skos:related curr1:s-aardwetenschappen,
+        curr1:s-geld-en-consumptie,
+        curr1:s-landschap-en-plaats,
+        curr1:s-mens-en-leefomgeving,
+        curr1:s-ruimte-en-tijd,
+        curr1:s-ruimtelijk-onderzoek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:zakelijke-communicatie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "zakelijke communicatie"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-moderne-talen,
+        curr1:s-ondernemen-en-organisatie ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-technologische-industrie skos:related vak1:elektromechanica,
+        vak1:elektromechanische-technieken,
+        vak1:elektronica,
+        vak1:informatica,
+        vak1:kunststoffen,
+        vak1:lassen-constructie,
+        vak1:mechanica,
+        vak1:mechanische-vormgeving,
+        vak1:mechanische-vorming,
+        vak1:productie-industrie .
+
+curr1:s-vervoer-transport-logistiek skos:related vak1:autorijtechnieken,
+        vak1:besturing-bouwmachines,
+        vak1:logistiek,
+        vak1:nautische-technieken,
+        vak1:rijn-en-binnenvaart,
+        vak1:scheepswerktuigkunde,
+        vak1:scheepvaart,
+        vak1:zee-en-binnenvaart,
+        vak1:zeemanschap,
+        vak1:zeevisserij .
+
+vak1:burgerschap a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "burgerschap"@nl ;
+    skos:related curr1:s-democratie-en-mensenrechten,
+        curr1:s-dialoog,
+        curr1:s-diversiteit,
+        curr1:s-identiteit,
+        curr1:s-maatschappijkritisch-denken,
+        curr1:s-participatie,
+        curr1:s-politiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:natuurwetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "natuurwetenschappen"@nl ;
+    skos:related curr1:s-biologie,
+        curr1:s-bk-chemie,
+        curr1:s-chemie,
+        curr1:s-fysica,
+        curr1:s-wd-biologie,
+        curr1:s-wd-chemie,
+        curr1:s-wd-fysica ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:recht a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "recht"@nl ;
+    skos:related curr1:s-diensten-aan-de-gemeenschap,
+        curr1:s-economie,
+        curr1:s-geld-en-consumptie,
+        curr1:s-participatie,
+        curr1:s-politiek,
+        curr1:s-sociale-wetenschappen,
+        curr1:s-wd-economie ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:wiskunde a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "wiskunde"@nl ;
+    skos:related curr1:s-wiskunde,
+        curr1:s-wiskunde-algebra-analyse,
+        curr1:s-wiskunde-getallenleer,
+        curr1:s-wiskunde-kansrekenen-statistiek,
+        curr1:s-wiskunde-meetkunde-en-metend-rekenen,
+        curr1:s-wiskunde-modelleren-en-heuristiek,
+        curr1:s-wiskunde-redeneren ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-gezondheidszorg-en-welzijn skos:related vak1:apotheek,
+        vak1:haarverzorging,
+        vak1:indirecte-zorg,
+        vak1:optiek,
+        vak1:orthopedie,
+        vak1:schoonheidsverzorging,
+        vak1:tandtechnieken,
+        vak1:tandverzorging,
+        vak1:verpleegkunde,
+        vak1:wellness,
+        vak1:welzijnswetenschappen .
+
+curr1:s-1-communicatie skos:related vak1:duits,
+        vak1:engels,
+        vak1:frans,
+        vak1:grieks,
+        vak1:hebreeuws,
+        vak1:italiaans,
+        vak1:latijn,
+        vak1:oud-hebreeuws,
+        vak1:project-algemene-vakken,
+        vak1:russisch,
+        vak1:spaans,
+        vak1:zakelijke-communicatie .
+
+curr1:s-1-literatuur skos:related vak1:duits,
+        vak1:engels,
+        vak1:frans,
+        vak1:grieks,
+        vak1:hebreeuws,
+        vak1:italiaans,
+        vak1:latijn,
+        vak1:oud-hebreeuws,
+        vak1:project-algemene-vakken,
+        vak1:russisch,
+        vak1:spaans,
+        vak1:zakelijke-communicatie .
+
+curr1:s-1-taal-en-cultuur skos:related vak1:duits,
+        vak1:engels,
+        vak1:frans,
+        vak1:grieks,
+        vak1:hebreeuws,
+        vak1:italiaans,
+        vak1:latijn,
+        vak1:oud-hebreeuws,
+        vak1:project-algemene-vakken,
+        vak1:russisch,
+        vak1:spaans,
+        vak1:zakelijke-communicatie .
+
+curr1:s-1-taalsysteem skos:related vak1:duits,
+        vak1:engels,
+        vak1:frans,
+        vak1:grieks,
+        vak1:hebreeuws,
+        vak1:italiaans,
+        vak1:latijn,
+        vak1:oud-hebreeuws,
+        vak1:project-algemene-vakken,
+        vak1:russisch,
+        vak1:spaans,
+        vak1:zakelijke-communicatie .
+
+curr1:s-moderne-talen skos:related vak1:communicatie,
+        vak1:communicatiewetenschappen,
+        vak1:duits,
+        vak1:engels,
+        vak1:frans,
+        vak1:italiaans,
+        vak1:nederlands,
+        vak1:nederlands-voor-nieuwkomers,
+        vak1:project-algemene-vakken,
+        vak1:russisch,
+        vak1:spaans,
+        vak1:zakelijke-communicatie .
+
+vak1:mens-en-samenleving a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "mens en samenleving"@nl ;
+    skos:related curr1:s-bank-verzekeringen-en-immobilien,
+        curr1:s-democratie-en-mensenrechten,
+        curr1:s-dialoog,
+        curr1:s-diversiteit,
+        curr1:s-geld-en-consumptie,
+        curr1:s-identiteit,
+        curr1:s-maatschappijkritisch-denken,
+        curr1:s-participatie,
+        curr1:s-politiek ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:sociologie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "sociologie"@nl ;
+    skos:related curr1:s-democratie-en-mensenrechten,
+        curr1:s-dialoog,
+        curr1:s-diversiteit,
+        curr1:s-identiteit,
+        curr1:s-maatschappijkritisch-denken,
+        curr1:s-participatie,
+        curr1:s-politiek,
+        curr1:s-relaties,
+        curr1:s-sociale-wetenschappen ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:gedragswetenschappen a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "gedragswetenschappen"@nl ;
+    skos:related curr1:s-democratie-en-mensenrechten,
+        curr1:s-dialoog,
+        curr1:s-diversiteit,
+        curr1:s-gedragswetenschappen,
+        curr1:s-identiteit,
+        curr1:s-maatschappijkritisch-denken,
+        curr1:s-mentaal-welbevinden,
+        curr1:s-participatie,
+        curr1:s-politiek,
+        curr1:s-relaties ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:nederlands a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "Nederlands"@nl ;
+    skos:related curr1:s-bronnenkritiek,
+        curr1:s-communicatie,
+        curr1:s-historische-beeldvorming,
+        curr1:s-historische-dynamieken,
+        curr1:s-historische-tijdlijn,
+        curr1:s-literatuur,
+        curr1:s-mediawijsheid,
+        curr1:s-moderne-talen,
+        curr1:s-taal-en-cultuur,
+        curr1:s-taalsysteem ;
+    skos:topConceptOf vak1:_scheme .
+
+vak1:communicatie a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "communicatie"@nl ;
+    skos:related curr1:s-communicatie,
+        curr1:s-democratie-en-mensenrechten,
+        curr1:s-dialoog,
+        curr1:s-diversiteit,
+        curr1:s-identiteit,
+        curr1:s-literatuur,
+        curr1:s-maatschappijkritisch-denken,
+        curr1:s-moderne-talen,
+        curr1:s-participatie,
+        curr1:s-politiek,
+        curr1:s-taal-en-cultuur,
+        curr1:s-taalsysteem ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-technologie-en-technieken skos:related vak1:audiovisuele-en-podiumtechnieken,
+        vak1:autorijtechnieken,
+        vak1:autotechnieken,
+        vak1:centrale-verwarming,
+        vak1:confectie,
+        vak1:elektriciteit,
+        vak1:elektromechanica,
+        vak1:elektronica,
+        vak1:fiets-brom-en-motortechnieken,
+        vak1:koeltechnieken,
+        vak1:koetswerk,
+        vak1:kunststoffen,
+        vak1:mechanica,
+        vak1:mechanische-vorming,
+        vak1:productie-industrie,
+        vak1:sanitair,
+        vak1:textiel .
+
+curr1:s-technologisch-inzicht skos:related vak1:audiovisuele-en-podiumtechnieken,
+        vak1:autorijtechnieken,
+        vak1:autotechnieken,
+        vak1:centrale-verwarming,
+        vak1:confectie,
+        vak1:elektriciteit,
+        vak1:elektromechanica,
+        vak1:elektronica,
+        vak1:fiets-brom-en-motortechnieken,
+        vak1:koeltechnieken,
+        vak1:koetswerk,
+        vak1:kunststoffen,
+        vak1:mechanica,
+        vak1:mechanische-vorming,
+        vak1:productie-industrie,
+        vak1:sanitair,
+        vak1:textiel .
+
+curr1:s-ondernemen-en-organisatie skos:related vak1:administratie,
+        vak1:bedrijfswetenschappen,
+        vak1:boekhouding,
+        vak1:commerciele-technieken,
+        vak1:economie,
+        vak1:hr,
+        vak1:informatica,
+        vak1:logistiek,
+        vak1:marketing,
+        vak1:onthaal,
+        vak1:onthaal-organisatie-sales,
+        vak1:pr,
+        vak1:rijn-en-binnenvaart,
+        vak1:scheepvaart,
+        vak1:transport,
+        vak1:zakelijke-communicatie,
+        vak1:zee-en-binnenvaart,
+        vak1:zeemanschap .
+
+vak1:maatschappelijke-vorming a skos:Concept ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "maatschappelijke vorming"@nl ;
+    skos:related curr1:s-aardwetenschappen,
+        curr1:s-bronnenkritiek,
+        curr1:s-democratie-en-mensenrechten,
+        curr1:s-dialoog,
+        curr1:s-diversiteit,
+        curr1:s-ethiek,
+        curr1:s-gedragswetenschappen,
+        curr1:s-gezonde-levensstijl,
+        curr1:s-historische-beeldvorming,
+        curr1:s-historische-dynamieken,
+        curr1:s-historische-tijdlijn,
+        curr1:s-identiteit,
+        curr1:s-landschap-en-plaats,
+        curr1:s-maatschappijkritisch-denken,
+        curr1:s-mediawijsheid,
+        curr1:s-mens-en-leefomgeving,
+        curr1:s-mentaal-welbevinden,
+        curr1:s-participatie,
+        curr1:s-politiek,
+        curr1:s-ruimte-en-tijd,
+        curr1:s-ruimtelijk-onderzoek,
+        curr1:s-veiligheid ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-kunst skos:related vak1:amateurkunsten,
+        vak1:architecturale-vorming,
+        vak1:architectuur,
+        vak1:architectuurtekenen,
+        vak1:artistieke-expressie,
+        vak1:atelier-drama,
+        vak1:atelier-woord,
+        vak1:audiovisuele-vorming,
+        vak1:beeldende-kunsten,
+        vak1:beeldende-vorming,
+        vak1:binnenhuisarchitectuur,
+        vak1:creatief-musiceren,
+        vak1:dans,
+        vak1:expressie,
+        vak1:fotografie,
+        vak1:groepsmusiceren,
+        vak1:hedendaagse-dans,
+        vak1:instrument,
+        vak1:klassieke-dans,
+        vak1:muziek,
+        vak1:plastische-opvoeding,
+        vak1:podiumkunsten,
+        vak1:praktische-harmonie,
+        vak1:tekenen,
+        vak1:toegepaste-beeldende-vorming,
+        vak1:vrije-beeldende-vorming,
+        vak1:waarnemingstekenen,
+        vak1:zang .
+
+vak1:project-algemene-vakken a skos:Concept ;
+    skos:altLabel "PAV"@nl ;
+    skos:inScheme vak1:_scheme ;
+    skos:prefLabel "project algemene vakken"@nl ;
+    skos:related curr1:s-1-communicatie,
+        curr1:s-1-literatuur,
+        curr1:s-1-taal-en-cultuur,
+        curr1:s-1-taalsysteem,
+        curr1:s-aardwetenschappen,
+        curr1:s-bank-verzekeringen-en-immobilien,
+        curr1:s-biologie,
+        curr1:s-bronnenkritiek,
+        curr1:s-communicatie,
+        curr1:s-democratie-en-mensenrechten,
+        curr1:s-dialoog,
+        curr1:s-diversiteit,
+        curr1:s-geld-en-consumptie,
+        curr1:s-historische-beeldvorming,
+        curr1:s-historische-dynamieken,
+        curr1:s-historische-tijdlijn,
+        curr1:s-identiteit,
+        curr1:s-landschap-en-plaats,
+        curr1:s-literatuur,
+        curr1:s-maatschappijkritisch-denken,
+        curr1:s-mediawijsheid,
+        curr1:s-mens-en-leefomgeving,
+        curr1:s-moderne-talen,
+        curr1:s-participatie,
+        curr1:s-politiek,
+        curr1:s-ruimte-en-tijd,
+        curr1:s-ruimtelijk-onderzoek,
+        curr1:s-taal-en-cultuur,
+        curr1:s-taalsysteem,
+        curr1:s-wd-biologie ;
+    skos:topConceptOf vak1:_scheme .
+
+curr1:s-kunstcreatie skos:related vak1:amateurkunsten,
+        vak1:architecturale-vorming,
+        vak1:architectuur,
+        vak1:architectuurtekenen,
+        vak1:artistieke-expressie,
+        vak1:atelier-drama,
+        vak1:atelier-woord,
+        vak1:audiovisuele-vorming,
+        vak1:beeldende-kunsten,
+        vak1:beeldende-vorming,
+        vak1:binnenhuisarchitectuur,
+        vak1:binnenhuiskunst,
+        vak1:bouwkunst,
+        vak1:creatief-musiceren,
+        vak1:dans,
+        vak1:decoratieve-technieken,
+        vak1:expressie,
+        vak1:fotografie,
+        vak1:grafimedia,
+        vak1:grafische-technieken,
+        vak1:grime,
+        vak1:groepsmusiceren,
+        vak1:hedendaagse-dans,
+        vak1:instrument,
+        vak1:klassieke-dans,
+        vak1:merchandising,
+        vak1:mode,
+        vak1:muziek,
+        vak1:plastische-opvoeding,
+        vak1:podiumkunsten,
+        vak1:praktische-harmonie,
+        vak1:printmedia,
+        vak1:publiciteit,
+        vak1:restauratie,
+        vak1:schilderen-en-decoratie,
+        vak1:tekenen,
+        vak1:textielverzorging,
+        vak1:toegepaste-beeldende-vorming,
+        vak1:vrije-beeldende-vorming,
+        vak1:waarnemingstekenen,
+        vak1:zang .
+
+vak1:_scheme a skos:ConceptScheme ;
+    skos:hasTopConcept vak1:aardrijkskunde,
+        vak1:administratie,
+        vak1:afwerking-bouw,
+        vak1:afwerking-ruwbouw,
+        vak1:agrarische-technieken,
+        vak1:agrarische-technieken-dier,
+        vak1:agrarische-technieken-plant,
+        vak1:algemene-muziekleer,
+        vak1:algemene-verbale-vorming,
+        vak1:amateurkunsten,
+        vak1:anatomie,
+        vak1:apotheek,
+        vak1:architecturale-vorming,
+        vak1:architectuur,
+        vak1:architectuurtekenen,
+        vak1:artistieke-creatie,
+        vak1:artistieke-expressie,
+        vak1:atelier-drama,
+        vak1:atelier-woord,
+        vak1:audiovisuele-en-podiumtechnieken,
+        vak1:audiovisuele-vorming,
+        vak1:autorijtechnieken,
+        vak1:autotechnieken,
+        vak1:bakkerij,
+        vak1:bedrijfswetenschappen,
+        vak1:beeld-en-mediacultuur,
+        vak1:beeldende-kunsten,
+        vak1:beeldende-vorming,
+        vak1:besturing-bouwmachines,
+        vak1:bewegingswetenschappen,
+        vak1:binnenhuisarchitectuur,
+        vak1:binnenhuiskunst,
+        vak1:biochemie,
+        vak1:biologie,
+        vak1:biotechniek,
+        vak1:biotechnische-wetenschappen,
+        vak1:boekhouding,
+        vak1:bosbouw,
+        vak1:bouwkunst,
+        vak1:burgerschap,
+        vak1:centrale-verwarming,
+        vak1:chemie,
+        vak1:commerciele-handel,
+        vak1:commerciele-technieken,
+        vak1:communicatie,
+        vak1:communicatiewetenschappen,
+        vak1:confectie,
+        vak1:creatief-musiceren,
+        vak1:cultuurbeschouwing,
+        vak1:cultuurwetenschappen,
+        vak1:dakwerken,
+        vak1:dans,
+        vak1:decoratieve-technieken,
+        vak1:defensie,
+        vak1:dierenzorg,
+        vak1:duits,
+        vak1:ecologie,
+        vak1:economie,
+        vak1:eigen-cultuur-en-religie,
+        vak1:elektriciteit,
+        vak1:elektromechanica,
+        vak1:elektromechanische-technieken,
+        vak1:elektronica,
+        vak1:elektrotechnieken,
+        vak1:engels,
+        vak1:esthetica,
+        vak1:exploratie,
+        vak1:expressie,
+        vak1:fiets-brom-en-motortechnieken,
+        vak1:filosofie,
+        vak1:fotografie,
+        vak1:frans,
+        vak1:fruit-en-groenten,
+        vak1:fysica,
+        vak1:fysiologie,
+        vak1:gedragswetenschappen,
+        vak1:geschiedenis,
+        vak1:glastechnieken,
+        vak1:godsdienst,
+        vak1:goud-en-juwelen,
+        vak1:grafimedia,
+        vak1:grafische-technieken,
+        vak1:grieks,
+        vak1:grime,
+        vak1:groenaanleg,
+        vak1:groendecoratie,
+        vak1:groepsmusiceren,
+        vak1:haarverzorging,
+        vak1:hebreeuws,
+        vak1:hedendaagse-dans,
+        vak1:hoefverzorging,
+        vak1:hoteltechnieken,
+        vak1:hout-verpakking,
+        vak1:hr,
+        vak1:humane-wetenschappen,
+        vak1:indirecte-zorg,
+        vak1:informatica,
+        vak1:informatica-wetenschappen,
+        vak1:instrument,
+        vak1:instrumentenbouw,
+        vak1:interlevensbeschouwelijke-dialoog,
+        vak1:italiaans,
+        vak1:keukentechnieken,
+        vak1:klassieke-dans,
+        vak1:koeltechnieken,
+        vak1:koetswerk,
+        vak1:kunstbeschouwing,
+        vak1:kunststoffen,
+        vak1:labo,
+        vak1:landbouw,
+        vak1:lassen-constructie,
+        vak1:latijn,
+        vak1:lichamelijke-opvoeding,
+        vak1:logistiek,
+        vak1:maatschappelijke-vorming,
+        vak1:marketing,
+        vak1:mechanica,
+        vak1:mechanische-vormgeving,
+        vak1:mechanische-vorming,
+        vak1:mediawijsheid,
+        vak1:mens-en-samenleving,
+        vak1:merchandising,
+        vak1:meubelmakerij,
+        vak1:militaire-vorming,
+        vak1:mode,
+        vak1:muziek,
+        vak1:muziektheorie,
+        vak1:natuurtechnieken,
+        vak1:natuurwetenschappen,
+        vak1:nautische-technieken,
+        vak1:nederlands,
+        vak1:nederlands-voor-nieuwkomers,
+        vak1:niet-confessionele-zedenleer,
+        vak1:officier,
+        vak1:onthaal,
+        vak1:onthaal-en-recreatie,
+        vak1:onthaal-organisatie-sales,
+        vak1:optiek,
+        vak1:opvoedkunde,
+        vak1:orthopedie,
+        vak1:oud-hebreeuws,
+        vak1:pedagogie,
+        vak1:plastische-opvoeding,
+        vak1:podiumkunsten,
+        vak1:pr,
+        vak1:praktische-harmonie,
+        vak1:printmedia,
+        vak1:productie-industrie,
+        vak1:project-algemene-vakken,
+        vak1:psychologie,
+        vak1:publiciteit,
+        vak1:publiciteitstekenen,
+        vak1:recht,
+        vak1:restauranttechnieken,
+        vak1:restauratie,
+        vak1:rijn-en-binnenvaart,
+        vak1:russisch,
+        vak1:ruwbouw,
+        vak1:sales,
+        vak1:sanitair,
+        vak1:scheepswerktuigkunde,
+        vak1:scheepvaart,
+        vak1:schilderen-en-decoratie,
+        vak1:schoonheidsverzorging,
+        vak1:schoonmaak,
+        vak1:schrijnwerkerij,
+        vak1:slagerij,
+        vak1:sociale-activiteit,
+        vak1:sociologie,
+        vak1:soldaat,
+        vak1:spaans,
+        vak1:steen-en-marmerbewerking,
+        vak1:steigerbouw,
+        vak1:tandtechnieken,
+        vak1:tandverzorging,
+        vak1:technische-wetenschappen-en-engineering,
+        vak1:tekenen,
+        vak1:textiel,
+        vak1:textielproductie,
+        vak1:textielverzorging,
+        vak1:toegepaste-beeldende-vorming,
+        vak1:toegepaste-biochemie,
+        vak1:toegepaste-biologie,
+        vak1:toegepaste-chemie,
+        vak1:toegepaste-fysica,
+        vak1:toerisme,
+        vak1:topsport,
+        vak1:transport,
+        vak1:tuinaanleg-en-beheer,
+        vak1:tuinbouw,
+        vak1:uurwerkmaken,
+        vak1:veiligheidstechnieken,
+        vak1:verkoop,
+        vak1:verpleegkunde,
+        vak1:vrije-beeldende-vorming,
+        vak1:waarnemingstekenen,
+        vak1:wegenwerken,
+        vak1:wellness,
+        vak1:welzijnswetenschappen,
+        vak1:wijnbouw,
+        vak1:wiskunde,
+        vak1:zakelijke-communicatie,
+        vak1:zang,
+        vak1:zedenleer,
+        vak1:zee-en-binnenvaart,
+        vak1:zeemanschap,
+        vak1:zeevisserij ;
+    skos:prefLabel "vakken"@nl .
+

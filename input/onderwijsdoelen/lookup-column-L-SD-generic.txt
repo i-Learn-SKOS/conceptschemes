@@ -1,0 +1,35 @@
+Frans|Kennis en attitudes
+Frans|Taaltaken, verwerkingsniveaus, tekstsoorten en tekstkenmerken
+Ict|Informatie- en communicatietechnologie (ICT)
+Leren Leren|leren leren
+Lichamelijke Opvoeding|LICHAMELIJKE OPVOEDING - GEZONDE EN VEILIGE LEVENSSTIJL
+Lichamelijke Opvoeding|LICHAMELIJKE OPVOEDING - MOTORISCHE COMPETENTIES
+Lichamelijke Opvoeding|LICHAMELIJKE OPVOEDING - ZELFCONCEPT EN HET SOCIAAL FUNCTIONEREN
+Mens en maatschappij|Brongebruik
+Mens en maatschappij|Maatschappij
+Mens en maatschappij|Mens
+Mens en maatschappij|Ruimte
+Mens en maatschappij|Tijd
+Muzische Vorming|MUZISCHE VORMING - ATTITUDES
+Muzische Vorming|MUZISCHE VORMING - BEELD
+Muzische Vorming|MUZISCHE VORMING - BEWEGING
+Muzische Vorming|MUZISCHE VORMING - DRAMA
+Muzische Vorming|MUZISCHE VORMING - MEDIA
+Muzische Vorming|MUZISCHE VORMING - MUZIEK
+Nederlands|Nederlands - (Inter)culturele gerichtheid
+Nederlands|Nederlands - Lezen
+Nederlands|Nederlands - Luisteren
+Nederlands|Nederlands - Schrijven
+Nederlands|Nederlands - Spreken
+Nederlands|Nederlands - Strategieën
+Nederlands|Nederlands - Taalbeschouwing
+Sociale Vaardigheden|Sociale vaardigheden - Domein gespreksconventies
+Sociale Vaardigheden|Sociale vaardigheden - Domein relatiewijzen
+Sociale Vaardigheden|Sociale vaardigheden - Domein samenwerking
+Wetenschappen en techniek|Natuur
+Wetenschappen en techniek|Techniek
+Wiskunde|Attitudes
+Wiskunde|Wiskunde - Getallen
+Wiskunde|Wiskunde - Meetkunde
+Wiskunde|Wiskunde - Meten
+Wiskunde|Wiskunde - Strategieën en probleemoplossende vaardigheden

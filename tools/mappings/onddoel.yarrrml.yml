@@ -1,0 +1,132 @@
+prefixes:
+  onddoel: "http://ilearn.ilabt.imec.be/vocab/onddoel/"
+  skos: "http://www.w3.org/2004/02/skos/core#"
+  ilearn: "http://semweb.mmlab.be/ns/ilearn#"
+  lom: "http://semweb.mmlab.be/ns/lom#"
+  idlab-fn: "http://example.com/idlab/function/"
+  grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+
+sources:
+  # paths are relative to the ../tools directory; see ../tools/map.sh
+  helper: ['mappings/helper.csv~csv']
+  lager: ['../input/onderwijsdoelen/onderwijsdoelen-lager-prepared.csv~csv']
+  sec-gr1: ['../input/onderwijsdoelen/onderwijsdoelen-secundair-graad1-na-modernisering-prepared.csv~csv']
+  sec-gr2: ['../input/onderwijsdoelen/onderwijsdoelen-secundair-graad2-na-modernisering-prepared.csv~csv']
+  sec-gr3: ['../input/onderwijsdoelen/onderwijsdoelen-secundair-graad3-na-modernisering-prepared.csv~csv']
+
+mappings:
+  scheme:
+    sources:
+      - helper
+    s: onddoel:_scheme
+    po:
+      - [a, skos:ConceptScheme]
+      - [skos:prefLabel, "onderwijsdoelen", nl~lang]
+    condition:
+      function: idlab-fn:equal
+      parameters:
+        - [grel:valueParameter, $(Mapping)]
+        - [grel:valueParameter2, "scheme"]
+  concepts:
+    sources:
+      - lager
+      - sec-gr1
+      - sec-gr2
+      - sec-gr3
+    s: onddoel:$(Id)
+    po:
+      - [a, skos:Concept]
+      - [skos:inScheme, onddoel:_scheme~iri]
+      - [skos:topConceptOf, onddoel:_scheme~iri]
+      - [skos:prefLabel, $(Id), nl~lang]
+#      - [skos:notation, doel-$(Id), xsd:string]
+      - p: skos:definition
+        o:
+          - function: grel:array_join(p_array_a = $(Nummer / Code), p_array_a = $(Onderwijsdoel), p_string_sep = " ")
+            language: nl
+      - [skos:related, $(Onderwijsniveau_id)~iri]
+  member:
+    sources:
+      - lager
+      - sec-gr1
+      - sec-gr2
+      - sec-gr3
+    s: http://ilearn.ilabt.imec.be/vocab/elem/onddoel
+    po:
+      - [skos:member, onddoel:$(Id)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Id)]
+        - [grel:valueParameter2, ""]
+  verwant-leergebied:
+    sources:
+      - lager
+    s: onddoel:$(Id)
+    po:
+      - [skos:related, $(Verwant leergebied)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Verwant leergebied)]
+        - [grel:valueParameter2, ""]
+  verwant-subdomein:
+    sources:
+      - lager
+    s: onddoel:$(Id)
+    po:
+      - [skos:related, $(Verwant subdomein)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Verwant subdomein)]
+        - [grel:valueParameter2, ""]
+  verwant-thema:
+    sources:
+      - lager
+    s: onddoel:$(Id)
+    po:
+      - [skos:related, $(Verwant thema)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Verwant thema)]
+        - [grel:valueParameter2, ""]
+  verwante-sleutelcompetentie:
+    sources:
+      - sec-gr1
+      - sec-gr2
+      - sec-gr3
+    s: onddoel:$(Id)
+    po:
+      - [skos:related, $(Verwante sleutelcompetentie)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Verwante sleutelcompetentie)]
+        - [grel:valueParameter2, ""]
+  verwante-bouwsteen:
+    sources:
+      - sec-gr1
+      - sec-gr2
+      - sec-gr3
+    s: onddoel:$(Id)
+    po:
+      - [skos:related, $(Verwante bouwsteen)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Verwante bouwsteen)]
+        - [grel:valueParameter2, ""]
+  verwant-wetenschapsdomein:
+    sources:
+      - sec-gr2
+      - sec-gr3
+    s: onddoel:$(Id)
+    po:
+      - [skos:related, $(Verwant wetenschapsdomein)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Verwant wetenschapsdomein)]
+        - [grel:valueParameter2, ""]

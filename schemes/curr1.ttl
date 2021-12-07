@@ -1,0 +1,1387 @@
+#################################################################################
+# This file contains curriculum concepts applicable to SECUNDAIR ONDERWIJS only #
+#################################################################################
+@prefix curr1: <http://ilearn.ilabt.imec.be/vocab/curr1/> .
+@prefix elem: <http://ilearn.ilabt.imec.be/vocab/elem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://ilearn.ilabt.imec.be/vocab/curr1/> a owl:Ontology .
+
+curr1:_scheme a skos:ConceptScheme ;
+  skos:prefLabel "curriculum secundair onderwijs"@nl .
+
+###### niveau 1
+
+### sleutel(c)ompetenties
+###   alle URIs: curr1:c-[a-z-]+
+###   alle skos:notations: sl-[a-z-]+
+
+curr1:c-andere-talen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-andere-talen" ;
+  skos:prefLabel "andere talen"@nl ;
+  skos:altLabel "competenties in andere talen"@nl ;
+  skos:definition "3. Competenties in andere talen"@nl .
+elem:secundair-onderwijs skos:member curr1:c-andere-talen .
+elem:sleutelcompetenties skos:member curr1:c-andere-talen .
+
+curr1:c-burgerschap-en-samenleven a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-burgerschap-en-samenleven" ;
+  skos:prefLabel "burgerschap en samenleven"@nl ;
+  skos:definition "7. Burgerschapscompetenties met inbegrip van competenties inzake samenleven"@nl .
+elem:secundair-onderwijs skos:member curr1:c-burgerschap-en-samenleven .
+elem:sleutelcompetenties skos:member curr1:c-burgerschap-en-samenleven .
+
+curr1:c-cultureel-bewustzijn-en-culturele-expressie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-cultureel-bewustzijn-en-culturele-expressie" ;
+  skos:prefLabel "cultureel bewustzijn en culturele expressie"@nl ;
+  skos:definition "16. Cultureel bewustzijn en culturele expressie"@nl .
+elem:secundair-onderwijs skos:member curr1:c-cultureel-bewustzijn-en-culturele-expressie .
+elem:sleutelcompetenties skos:member curr1:c-cultureel-bewustzijn-en-culturele-expressie .
+
+curr1:c-digitale-competenties-en-mediawijsheid a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-digitale-competenties-en-mediawijsheid" ;
+  skos:prefLabel "digitale competenties en mediawijsheid"@nl ;
+  skos:definition "4. Digitale competentie en mediawijsheid"@nl .
+elem:secundair-onderwijs skos:member curr1:c-digitale-competenties-en-mediawijsheid .
+elem:sleutelcompetenties skos:member curr1:c-digitale-competenties-en-mediawijsheid .
+
+curr1:c-duurzaamheid a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-duurzaamheid" ;
+  skos:prefLabel "duurzaamheid"@nl ;
+  skos:definition "10. Competenties inzake duurzaamheid"@nl .
+elem:secundair-onderwijs skos:member curr1:c-duurzaamheid .
+elem:sleutelcompetenties skos:member curr1:c-duurzaamheid .
+
+curr1:c-economisch-financiele-competenties a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-economisch-financiele-competenties" ;
+  skos:prefLabel "economisch-financiële competenties"@nl ;
+  skos:definition "11. Economische en financiële competenties"@nl .
+elem:secundair-onderwijs skos:member curr1:c-economisch-financiele-competenties .
+elem:sleutelcompetenties skos:member curr1:c-economisch-financiele-competenties .
+
+curr1:c-historisch-bewustzijn a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-historisch-bewustzijn" ;
+  skos:prefLabel "historisch bewustzijn"@nl ;
+  skos:altLabel "geschiedenis"@nl ;
+  skos:definition "8. Competenties met betrekking tot historisch bewustzijn"@nl .
+elem:secundair-onderwijs skos:member curr1:c-historisch-bewustzijn .
+elem:sleutelcompetenties skos:member curr1:c-historisch-bewustzijn .
+
+curr1:c-juridische-competenties a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-juridische-competenties" ;
+  skos:prefLabel "juridische competenties"@nl ;
+  skos:definition "12. Juridische competenties"@nl .
+elem:secundair-onderwijs skos:member curr1:c-juridische-competenties .
+elem:sleutelcompetenties skos:member curr1:c-juridische-competenties .
+
+curr1:c-leercompetenties a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-leercompetenties" ;
+  skos:prefLabel "leercompetenties"@nl ;
+  skos:definition "13. Leercompetenties met inbegrip van onderzoekscompetenties, innovatiedenken, creativiteit, probleemoplossend en kritisch denken, systeemdenken, informatieverwerking en samenwerken"@nl .
+elem:secundair-onderwijs skos:member curr1:c-leercompetenties .
+elem:sleutelcompetenties skos:member curr1:c-leercompetenties .
+
+curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-lichamelijk-geestelijk-en-emotioneel-welzijn" ;
+  skos:prefLabel "lichamelijk, geestelijk en emotioneel welzijn"@nl ;
+  skos:altLabel "lichamelijke en geestelijke gezondheid"@nl ;
+  skos:definition "1. Competenties op het vlak van lichamelijk, geestelijk en emotioneel bewustzijn/gezondheid"@nl .
+elem:secundair-onderwijs skos:member curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn .
+elem:sleutelcompetenties skos:member curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn .
+
+curr1:c-nederlands a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-nederlands" ;
+  skos:prefLabel "Nederlands"@nl ;
+  skos:definition "2. Competenties in het Nederlands"@nl .
+elem:secundair-onderwijs skos:member curr1:c-nederlands .
+elem:sleutelcompetenties skos:member curr1:c-nederlands .
+
+curr1:c-ondernemingszin a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-ondernemingszin" ;
+  skos:prefLabel "ondernemingszin"@nl ;
+  skos:altLabel "ondernemen"@nl ;
+  skos:definition "15. Ontwikkeling van initiatief, ambitie, ondernemingszin en loopbaancompetenties"@nl .
+elem:secundair-onderwijs skos:member curr1:c-ondernemingszin .
+elem:sleutelcompetenties skos:member curr1:c-ondernemingszin .
+
+curr1:c-religie-en-levensbeschouwing a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-religie-en-levensbeschouwing" ;
+  skos:prefLabel "religie en levenbeschouwing"@nl ;
+  skos:definition "Competenties betreffende religie en levensbeschouwing"@nl .
+elem:secundair-onderwijs skos:member curr1:c-religie-en-levensbeschouwing .
+elem:sleutelcompetenties skos:member curr1:c-religie-en-levensbeschouwing .
+
+curr1:c-ruimtelijk-bewustzijn a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-ruimtelijk-bewustzijn" ;
+  skos:prefLabel "ruimtelijk bewustzijn"@nl ;
+  skos:altLabel "aardrijkskunde"@nl ;
+  skos:definition "9. Competenties met betrekking tot ruimtelijk bewustzijn"@nl .
+elem:secundair-onderwijs skos:member curr1:c-ruimtelijk-bewustzijn .
+elem:sleutelcompetenties skos:member curr1:c-ruimtelijk-bewustzijn .
+
+curr1:c-sociaal-relationele-vorming a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-sociaal-relationele-vorming" ;
+  skos:prefLabel "sociaal-relationele vorming"@nl ;
+  skos:definition "5. Sociaal-relationele competenties"@nl .
+elem:secundair-onderwijs skos:member curr1:c-sociaal-relationele-vorming .
+elem:sleutelcompetenties skos:member curr1:c-sociaal-relationele-vorming .
+
+curr1:c-stem a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-stem" ;
+  skos:prefLabel "STEM (sleutelcompetentie)"@nl ;
+  skos:altLabel "wetenschappen, technologie, engineering, wiskunde"@nl ;
+  skos:definition "6. Competenties inzake wiskunde, exacte wetenschappen en technologie"@nl .
+elem:secundair-onderwijs skos:member curr1:c-stem .
+elem:sleutelcompetenties skos:member curr1:c-stem .
+
+curr1:c-zelfbewustzijn a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "sl-zelfbewustzijn" ;
+  skos:prefLabel "zelfbewustzijn"@nl ;
+  skos:altLabel "zelfexpressie"@nl,
+    "zelfsturing"@nl,
+    "zelfwendbaarheid"@nl ;
+  skos:definition "14. Zelfbewustzijn en zelfexpressie, zelfsturing en wendbaarheid"@nl .
+elem:secundair-onderwijs skos:member curr1:c-zelfbewustzijn .
+elem:sleutelcompetenties skos:member curr1:c-zelfbewustzijn .
+
+### studie(d)omeinen
+###   alle URIs: curr1:d-[a-z-]+
+###   alle skos:notations: st-[a-z-]+
+
+curr1:d-bouwen-en-wonen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-bouwen-en-wonen" ;
+  skos:prefLabel "bouwen en wonen"@nl .
+elem:secundair-onderwijs skos:member curr1:d-bouwen-en-wonen .
+elem:studiedomeinen skos:member curr1:d-bouwen-en-wonen .
+
+curr1:d-economie-en-organisatie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-economie-en-organisatie" ;
+  skos:prefLabel "economie en organisatie"@nl .
+elem:secundair-onderwijs skos:member curr1:d-economie-en-organisatie .
+elem:studiedomeinen skos:member curr1:d-economie-en-organisatie .
+
+curr1:d-kunst-en-cultuur a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-kunst-en-cultuur" ;
+  skos:prefLabel "kunst en cultuur"@nl ;
+  skos:altLabel "kunst en creatie"@nl .
+elem:secundair-onderwijs skos:member curr1:d-kunst-en-cultuur .
+elem:studiedomeinen skos:member curr1:d-kunst-en-cultuur .
+
+curr1:d-land-en-tuinbouw a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-land-en-tuinbouw" ;
+  skos:prefLabel "land- en tuinbouw"@nl .
+elem:secundair-onderwijs skos:member curr1:d-land-en-tuinbouw .
+elem:studiedomeinen skos:member curr1:d-land-en-tuinbouw .
+
+curr1:d-niet-bepaald a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-niet-bepaald" ;
+  skos:prefLabel "niet bepaald studiedomein"@nl .
+elem:secundair-onderwijs skos:member curr1:d-niet-bepaald .
+elem:studiedomeinen skos:member curr1:d-niet-bepaald .
+
+curr1:d-sport-en-ontspanning a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-sport-en-ontspanning" ;
+  skos:prefLabel "sport en ontspanning"@nl .
+elem:secundair-onderwijs skos:member curr1:d-sport-en-ontspanning .
+elem:studiedomeinen skos:member curr1:d-sport-en-ontspanning .
+
+curr1:d-stem a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-stem" ;
+  skos:prefLabel "STEM (studiedomein)"@nl .
+elem:secundair-onderwijs skos:member curr1:d-stem .
+elem:studiedomeinen skos:member curr1:d-stem .
+
+curr1:d-voeding-en-horeca a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-voeding-en-horeca" ;
+  skos:prefLabel "voeding en horeca"@nl .
+elem:secundair-onderwijs skos:member curr1:d-voeding-en-horeca .
+elem:studiedomeinen skos:member curr1:d-voeding-en-horeca .
+
+curr1:d-zorg-en-welzijn a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:topConceptOf curr1:_scheme ;
+#  skos:notation "st-zorg-en-welzijn" ;
+  skos:prefLabel "zorg en welzijn"@nl .
+elem:secundair-onderwijs skos:member curr1:d-zorg-en-welzijn .
+elem:studiedomeinen skos:member curr1:d-zorg-en-welzijn .
+
+### overige
+
+###### niveau 2
+
+### vroegere (s)ubdomeinen: bouwstenen - beroepskwalificaties - wetenschapsdomeinen
+###   alle URIs: curr1:s-[a-z-]+
+###   alle skos:notations: su-[a-z-]+
+###   ontdubbelen bouwstenen die tegelijk ook beroepskwalificatie en/of wetenschapsdomein waren:
+###   - bouwstenen blijven oorspronkelijke URI behouden
+###   - wetenschapsdomeinen:  URI: curr1:s-wd-[a-z-]+ ; notation: su-wd-[a-z-]+ (invoeging wd-)
+###   - beroekskwalificaties: URI: curr1:s-bk-[a-z-]+ ; notation: su-bk-[a-z-]+ (invoeging bk-)
+###   ontdubbelen bouwstenen die narrower waren van verschillende sleutelcompetenties:
+###   - telkens behoudt één bouwsteen de oorspronkelijke URI en skos:notation
+###   - de overige krijgen een aangepaste URI en notation (x is een cijfer):
+###     URI: curr1:s-x-[a-z-]+ ; notation: su-x-[a-z-]+ (invoeging x-)
+
+curr1:s-aardwetenschappen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-aardwetenschappen" ;
+  skos:prefLabel "aardwetenschappen"@nl ;
+  skos:broader curr1:d-niet-bepaald .
+elem:secundair-onderwijs skos:member curr1:s-aardwetenschappen .
+elem:wetenschapsdomeinen skos:member curr1:s-aardwetenschappen .
+
+curr1:s-algemene-doorstroomcompetenties a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-algemene-doorstroomcompetenties" ;
+  skos:prefLabel "algemene doorstroomcompetenties"@nl ;
+  skos:broader curr1:d-niet-bepaald .
+elem:secundair-onderwijs skos:member curr1:s-algemene-doorstroomcompetenties .
+elem:wetenschapsdomeinen skos:member curr1:s-algemene-doorstroomcompetenties .
+
+curr1:s-ambachten a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-ambachten" ;
+  skos:prefLabel "ambachten"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-ambachten .
+elem:beroepskwalificaties skos:member curr1:s-ambachten .
+
+curr1:s-bank-verzekeringen-en-immobilien a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-bank-verzekeringen-en-immobilien" ;
+  skos:prefLabel "bank, verzekeringen en organisatie"@nl ;
+  skos:altLabel "vastgoed"@nl ;
+  skos:broader curr1:d-economie-en-organisatie .
+elem:secundair-onderwijs skos:member curr1:s-bank-verzekeringen-en-immobilien .
+elem:beroepskwalificaties skos:member curr1:s-bank-verzekeringen-en-immobilien .
+
+curr1:s-bewegingswetenschappen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-bewegingswetenschappen" ;
+  skos:prefLabel "bewegingswetenschappen"@nl ;
+  skos:broader curr1:d-sport-en-ontspanning .
+elem:secundair-onderwijs skos:member curr1:s-bewegingswetenschappen .
+elem:wetenschapsdomeinen skos:member curr1:s-bewegingswetenschappen .
+
+curr1:s-biologie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-biologie" ;
+  skos:prefLabel "biologie (bouwsteen)"@nl ;
+  skos:definition "Inzicht ontwikkelen in de basiseigenschappen van levende systemen."@nl ;
+  skos:broader curr1:c-stem ,
+    curr1:c-duurzaamheid ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-biologie .
+elem:bouwstenen skos:member curr1:s-biologie .
+
+curr1:s-wd-biologie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wd-biologie" ;
+  skos:prefLabel "biologie (wetenschapsdomein)"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-wd-biologie .
+elem:wetenschapsdomeinen skos:member curr1:s-wd-biologie .
+
+curr1:s-bloemsierkunst a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-bloemsierkunst" ;
+  skos:prefLabel "bloemsierkunst"@nl ;
+  skos:broader curr1:d-land-en-tuinbouw .
+elem:secundair-onderwijs skos:member curr1:s-bloemsierkunst .
+elem:beroepskwalificaties skos:member curr1:s-bloemsierkunst .
+
+curr1:s-bouw a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-bouw" ;
+  skos:prefLabel "bouw"@nl ;
+  skos:broader curr1:d-bouwen-en-wonen .
+elem:secundair-onderwijs skos:member curr1:s-bouw .
+elem:beroepskwalificaties skos:member curr1:s-bouw .
+
+curr1:s-bronnenkritiek a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-bronnenkritiek" ;
+  skos:prefLabel "bronnenkritiek"@nl ;
+  skos:definition "Kritisch reflecteren met en over historische bronnen."@nl ;
+  skos:broader curr1:c-historisch-bewustzijn ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-bronnenkritiek .
+elem:bouwstenen skos:member curr1:s-bronnenkritiek .
+
+curr1:s-chemie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-chemie" ;
+  skos:prefLabel "chemie (bouwsteen)"@nl ;
+  skos:definition "Inzicht ontwikkelen in de bouw, structuur en eigenschappen van materie in levende en niet-levende systemen."@nl ;
+  skos:broader curr1:c-stem ,
+    curr1:c-duurzaamheid ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-chemie .
+elem:bouwstenen skos:member curr1:s-chemie .
+
+curr1:s-wd-chemie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wd-chemie" ;
+  skos:prefLabel "chemie (wetenschapsdomein)"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-wd-chemie .
+elem:wetenschapsdomeinen skos:member curr1:s-wd-chemie .
+
+curr1:s-bk-chemie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-bk-chemie" ;
+  skos:prefLabel "chemie (beroepskwalificatie)"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-bk-chemie .
+elem:beroepskwalificaties skos:member curr1:s-bk-chemie .
+
+curr1:s-communicatie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-communicatie" ;
+  skos:prefLabel "communicatie (Nederlands)"@nl ;
+  skos:altLabel "communicatievaardigheden (Nederlands)"@nl,
+    "communicatieve vaardigheden (Nederlands)"@nl ;
+  skos:definition "Het Nederlands receptief, productief en interactief, zowel mondeling als schriftelijk gebruiken als communicatiemiddel in relevante situaties."@nl ;
+  skos:broader curr1:c-nederlands ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-communicatie .
+elem:bouwstenen skos:member curr1:s-communicatie .
+
+curr1:s-1-communicatie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-1-communicatie" ;
+  skos:prefLabel "communicatie (andere talen)"@nl ;
+  skos:altLabel "communicatievaardigheden (andere talen)"@nl,
+    "communicatieve vaardigheden (andere talen)"@nl ;
+  skos:definition "Vreemde talen receptief, productief en interactief, zowel mondeling als schriftelijk gebruiken als communicatiemiddelen in relevante situaties."@nl ;
+  skos:broader curr1:c-andere-talen ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-1-communicatie .
+elem:bouwstenen skos:member curr1:s-1-communicatie .
+
+curr1:s-communicatie-media-en-multimedia a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-communicatie-media-en-multimedia" ;
+  skos:prefLabel "communicatie, media en multimedia"@nl ;
+  skos:broader curr1:d-economie-en-organisatie .
+elem:secundair-onderwijs skos:member curr1:s-communicatie-media-en-multimedia .
+elem:beroepskwalificaties skos:member curr1:s-communicatie-media-en-multimedia .
+
+curr1:s-computers-en-systemen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-computers-en-systemen" ;
+  skos:prefLabel "computers en systemen"@nl ;
+  skos:definition "Computationeel denken en handelen."@nl ;
+  skos:broader curr1:c-digitale-competenties-en-mediawijsheid .
+elem:secundair-onderwijs skos:member curr1:s-computers-en-systemen .
+elem:bouwstenen skos:member curr1:s-computers-en-systemen .
+
+curr1:s-democratie-en-mensenrechten a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-democratie-en-mensenrechten" ;
+  skos:prefLabel "democratie en mensenrechten"@nl ;
+  skos:definition "Democratische principes en democratische cultuur kaderen binnen de moderne rechtsstaat."@nl ;
+  skos:broader curr1:c-burgerschap-en-samenleven ,
+    curr1:c-juridische-competenties ;
+  skos:related curr1:c-duurzaamheid .
+elem:secundair-onderwijs skos:member curr1:s-democratie-en-mensenrechten .
+elem:bouwstenen skos:member curr1:s-democratie-en-mensenrechten .
+
+curr1:s-dialoog a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-dialoog" ;
+  skos:prefLabel "dialoog"@nl ;
+  skos:definition "Geïnformeerd en beargumenteerd met elkaar in dialoog gaan."@nl ;
+  skos:broader curr1:c-burgerschap-en-samenleven ;
+  skos:related curr1:c-duurzaamheid,
+    curr1:c-juridische-competenties .
+elem:secundair-onderwijs skos:member curr1:s-dialoog .
+elem:bouwstenen skos:member curr1:s-dialoog .
+
+curr1:s-diensten-aan-de-gemeenschap a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-diensten-aan-de-gemeenschap" ;
+  skos:prefLabel "diensten aan de gemeenschap"@nl ;
+  skos:broader curr1:d-economie-en-organisatie .
+elem:secundair-onderwijs skos:member curr1:s-diensten-aan-de-gemeenschap .
+elem:beroepskwalificaties skos:member curr1:s-diensten-aan-de-gemeenschap .
+
+curr1:s-digitale-media-en-toepassingen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-digitale-media-en-toepassingen" ;
+  skos:prefLabel "digitale media en toepassingen"@nl ;
+  skos:definition "Digitale media en toepassingen gebruiken om te creëren, te participeren en te interageren."@nl ;
+  skos:broader curr1:c-digitale-competenties-en-mediawijsheid .
+elem:secundair-onderwijs skos:member curr1:s-digitale-media-en-toepassingen .
+elem:bouwstenen skos:member curr1:s-digitale-media-en-toepassingen .
+
+curr1:s-diversiteit a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-diversiteit" ;
+  skos:prefLabel "diversiteit"@nl ;
+  skos:definition "Omgaan met diversiteit in het samenleven en het samenwerken."@nl ;
+  skos:broader curr1:c-burgerschap-en-samenleven ;
+  skos:related curr1:c-duurzaamheid,
+    curr1:c-juridische-competenties .
+elem:secundair-onderwijs skos:member curr1:s-diversiteit .
+elem:bouwstenen skos:member curr1:s-diversiteit .
+
+curr1:s-elektriciteit a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-elektriciteit" ;
+  skos:prefLabel "elektriciteit"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-elektriciteit .
+elem:beroepskwalificaties skos:member curr1:s-elektriciteit .
+
+curr1:s-economie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-economie" ;
+  skos:prefLabel "economie (bouwsteen)"@nl ;
+  skos:definition "Reflecteren over de werking van de markten en de economie als systeem en de invloed van de overheid hierop duiden binnen de (inter)nationale context."@nl ;
+  skos:broader curr1:c-economisch-financiele-competenties,
+    curr1:c-juridische-competenties ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin,
+    curr1:c-duurzaamheid .
+elem:secundair-onderwijs skos:member curr1:s-economie .
+elem:bouwstenen skos:member curr1:s-economie .
+
+curr1:s-wd-economie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wd-economie" ;
+  skos:prefLabel "economie (wetenschapsdomein)"@nl ;
+  skos:broader curr1:d-economie-en-organisatie .
+elem:secundair-onderwijs skos:member curr1:s-wd-economie .
+elem:wetenschapsdomeinen skos:member curr1:s-wd-economie .
+
+curr1:s-erfgoed a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-erfgoed" ;
+  skos:prefLabel "erfgoed"@nl ;
+  skos:broader curr1:d-kunst-en-cultuur .
+elem:secundair-onderwijs skos:member curr1:s-erfgoed .
+elem:beroepskwalificaties skos:member curr1:s-erfgoed .
+
+curr1:s-ethiek a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-ethiek" ;
+  skos:prefLabel "ethiek"@nl ;
+  skos:broader curr1:c-religie-en-levensbeschouwing .
+elem:secundair-onderwijs skos:member curr1:s-ethiek .
+elem:bouwstenen skos:member curr1:s-ethiek .
+
+curr1:s-filosofie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-filosofie" ;
+  skos:prefLabel "filosofie (bouwsteen)"@nl ;
+  skos:broader curr1:c-religie-en-levensbeschouwing .
+elem:secundair-onderwijs skos:member curr1:s-filosofie .
+elem:bouwstenen skos:member curr1:s-filosofie .
+
+curr1:s-wd-filosofie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wd-filosofie" ;
+  skos:prefLabel "filosofie (wetenschapsdomein)"@nl ;
+  skos:broader curr1:d-niet-bepaald .
+elem:secundair-onderwijs skos:member curr1:s-wd-filosofie .
+elem:wetenschapsdomeinen skos:member curr1:s-wd-filosofie .
+
+curr1:s-fysica a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-fysica" ;
+  skos:prefLabel "fysica (bouwsteen)"@nl ;
+  skos:definition "Inzicht ontwikkelen in de verschijningsvormen van energie, de wisselwerking tussen materie onderling en met energie alsook de gevolgen ervan."@nl ;
+  skos:broader curr1:c-stem ,
+    curr1:c-duurzaamheid ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-fysica .
+elem:bouwstenen skos:member curr1:s-fysica .
+
+curr1:s-wd-fysica a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wd-fysica" ;
+  skos:prefLabel "fysica (wetenschapsdomein)"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-wd-fysica .
+elem:wetenschapsdomeinen skos:member curr1:s-wd-fysica .
+
+curr1:s-garage-en-koetswerk a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-garage-en-koetswerk" ;
+  skos:prefLabel "garage- en koetswerk"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-garage-en-koetswerk .
+elem:beroepskwalificaties skos:member curr1:s-garage-en-koetswerk .
+
+curr1:s-gedragswetenschappen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-gedragswetenschappen" ;
+  skos:prefLabel "gedragswetenschappen"@nl ;
+  skos:broader curr1:d-zorg-en-welzijn .
+elem:secundair-onderwijs skos:member curr1:s-gedragswetenschappen .
+elem:wetenschapsdomeinen skos:member curr1:s-gedragswetenschappen .
+
+curr1:s-geld-en-consumptie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-geld-en-consumptie" ;
+  skos:prefLabel "geld en consumptie"@nl ;
+  skos:definition "Inzicht ontwikkelen in consumptiegedrag, inkomensverwerving en financiële producten om budgettaire gevolgen op korte en lange termijn in te schatten."@nl ;
+  skos:broader curr1:c-duurzaamheid,
+    curr1:c-economisch-financiele-competenties,
+    curr1:c-juridische-competenties ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-geld-en-consumptie .
+elem:bouwstenen skos:member curr1:s-geld-en-consumptie .
+
+curr1:s-gezonde-levensstijl a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-gezond" ;
+  skos:prefLabel "gezonde levensstijl"@nl ;
+  skos:definition "Een gezonde levensstijl opbouwen, onderhouden en versterken."@nl ;
+  skos:broader curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn .
+elem:secundair-onderwijs skos:member curr1:s-gezonde-levensstijl .
+elem:bouwstenen skos:member curr1:s-gezonde-levensstijl .
+
+curr1:s-gezondheidszorg-en-welzijn a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-gezondheidszorg-en-welzijn" ;
+  skos:prefLabel "gezondheidszorg en welzijn"@nl ;
+  skos:broader curr1:d-zorg-en-welzijn .
+elem:secundair-onderwijs skos:member curr1:s-gezondheidszorg-en-welzijn .
+elem:beroepskwalificaties skos:member curr1:s-gezondheidszorg-en-welzijn .
+
+curr1:s-glas-en-steen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-glas-en-steen" ;
+  skos:prefLabel "glas en steen"@nl ;
+  skos:broader curr1:d-bouwen-en-wonen .
+elem:secundair-onderwijs skos:member curr1:s-glas-en-steen .
+elem:beroepskwalificaties skos:member curr1:s-glas-en-steen .
+
+curr1:s-groenaanleg-en-groenbeheer a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-groenaanleg-en-groenbeheer" ;
+  skos:prefLabel "groenaanleg en groenbeheer"@nl ;
+  skos:broader curr1:d-land-en-tuinbouw .
+elem:secundair-onderwijs skos:member curr1:s-groenaanleg-en-groenbeheer .
+elem:beroepskwalificaties skos:member curr1:s-groenaanleg-en-groenbeheer .
+
+curr1:s-handel-verkoop-groothandel a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-handel-verkoop-groothandel" ;
+  skos:prefLabel "handel, verkoop, groothandel"@nl ;
+  skos:broader curr1:d-economie-en-organisatie .
+elem:secundair-onderwijs skos:member curr1:s-handel-verkoop-groothandel .
+elem:beroepskwalificaties skos:member curr1:s-handel-verkoop-groothandel .
+
+curr1:s-historische-beeldvorming a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-historische-beeldvorming" ;
+  skos:prefLabel "historische beeldvorming"@nl ;
+  skos:definition "Tot beargumenteerde historische beeldvorming komen vanuit verschillende perspectieven."@nl ;
+  skos:broader curr1:c-historisch-bewustzijn ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-historische-beeldvorming .
+elem:bouwstenen skos:member curr1:s-historische-beeldvorming .
+
+curr1:s-historische-dynamieken a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-historische-dynamieken" ;
+  skos:prefLabel "historische dynamieken"@nl ;
+  skos:definition "Over de complexe relatie tussen verleden, heden en toekomst reflecteren en deze duiden."@nl ;
+  skos:broader curr1:c-historisch-bewustzijn ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-historische-dynamieken .
+elem:bouwstenen skos:member curr1:s-historische-dynamieken .
+
+curr1:s-historische-tijdlijn a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-historische-tijdlijn" ;
+  skos:prefLabel "historische tijdlijn"@nl ;
+  skos:definition "Historische fenomenen situeren in een historisch referentiekader."@nl ;
+  skos:broader curr1:c-historisch-bewustzijn ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-historische-tijdlijn .
+elem:bouwstenen skos:member curr1:s-historische-tijdlijn .
+
+curr1:s-horeca a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-horeca" ;
+  skos:prefLabel "horeca"@nl ;
+  skos:broader curr1:d-voeding-en-horeca .
+elem:secundair-onderwijs skos:member curr1:s-horeca .
+elem:beroepskwalificaties skos:member curr1:s-horeca .
+
+curr1:s-hout a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-hout" ;
+  skos:prefLabel "hout"@nl ;
+  skos:broader curr1:d-bouwen-en-wonen .
+elem:secundair-onderwijs skos:member curr1:s-hout .
+elem:beroepskwalificaties skos:member curr1:s-hout .
+
+curr1:s-identiteit a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-identiteit" ;
+  skos:prefLabel "identiteit"@nl ;
+  skos:definition "De dynamiek en de gelaagdheid van (eigen) identiteiten duiden."@nl ;
+  skos:broader curr1:c-burgerschap-en-samenleven ;
+  skos:related curr1:c-duurzaamheid,
+    curr1:c-juridische-competenties .
+elem:secundair-onderwijs skos:member curr1:s-identiteit .
+elem:bouwstenen skos:member curr1:s-identiteit .
+
+curr1:s-industrieel-onderhoud-en-ontwerp a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-industrieel-onderhoud-en-ontwerp" ;
+  skos:prefLabel "industrieel onderhoud en ontwerp"@nl ;
+  skos:broader curr1:d-zorg-en-welzijn .
+elem:secundair-onderwijs skos:member curr1:s-industrieel-onderhoud-en-ontwerp .
+elem:beroepskwalificaties skos:member curr1:s-industrieel-onderhoud-en-ontwerp .
+
+curr1:s-informatie-verwerven a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-informatie-verwerven" ;
+  skos:prefLabel "informatie verwerven"@nl ;
+  skos:definition "Geschikte (leer-)activiteiten, strategieën en tools inzetten om informatie digitaal en niet-digitaal kritisch te verwerven, beheren en verwerken rekening houdend met het beoogde leerresultaat en –proces."@nl ;
+  skos:broader curr1:c-leercompetenties .
+elem:secundair-onderwijs skos:member curr1:s-informatie-verwerven .
+elem:bouwstenen skos:member curr1:s-informatie-verwerven .
+
+curr1:s-informaticawetenschappen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-informaticawetenschappen" ;
+  skos:prefLabel "informaticawetenschappen"@nl ;
+  skos:broader curr1:d-niet-bepaald .
+elem:secundair-onderwijs skos:member curr1:s-informaticawetenschappen .
+elem:wetenschapsdomeinen skos:member curr1:s-informaticawetenschappen .
+
+curr1:s-keuzes-maken a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-keuzes-maken" ;
+  skos:prefLabel "keuzes maken"@nl ;
+  skos:definition "(Duurzame) keuzes maken, rekening houdend met gevolgen op korte en lange termijn."@nl ;
+  skos:broader curr1:c-duurzaamheid,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-keuzes-maken .
+elem:bouwstenen skos:member curr1:s-keuzes-maken .
+
+curr1:s-klassieke-talen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-klassieke-talen" ;
+  skos:prefLabel "klassieke talen"@nl ;
+  skos:broader curr1:d-niet-bepaald .
+elem:secundair-onderwijs skos:member curr1:s-klassieke-talen .
+elem:wetenschapsdomeinen skos:member curr1:s-klassieke-talen .
+
+curr1:s-koeling-en-warmte a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-koeling-en-warmte" ;
+  skos:prefLabel "koeling en warmte"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-koeling-en-warmte .
+elem:beroepskwalificaties skos:member curr1:s-koeling-en-warmte .
+
+curr1:s-kunst a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-kunst" ;
+  skos:prefLabel "kunst"@nl ;
+  skos:broader curr1:d-kunst-en-cultuur .
+elem:secundair-onderwijs skos:member curr1:s-kunst .
+elem:beroepskwalificaties skos:member curr1:s-kunst .
+
+curr1:s-kunst-en-cultuur a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-kunst-en-cultuur" ;
+  skos:prefLabel "kunst en cultuur"@nl ;
+  skos:broader curr1:d-kunst-en-cultuur .
+elem:secundair-onderwijs skos:member curr1:s-kunst-en-cultuur .
+elem:wetenschapsdomeinen skos:member curr1:s-kunst-en-cultuur .
+
+curr1:s-kunstbeleving-en-waardering a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-kunstbeleving-en-waardering" ;
+  skos:prefLabel "kunstbeleving en waardering"@nl ;
+  skos:definition "Uitingen van kunst en cultuur beleven en de waardering ervoor duiden."@nl ;
+  skos:broader curr1:c-cultureel-bewustzijn-en-culturele-expressie ,
+    curr1:c-zelfbewustzijn .
+elem:secundair-onderwijs skos:member curr1:s-kunstbeleving-en-waardering .
+elem:bouwstenen skos:member curr1:s-kunstbeleving-en-waardering .
+
+curr1:s-kunstconcepten a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-kunstconcepten" ;
+  skos:prefLabel "kunstconcepten"@nl ;
+  skos:definition "Uitingen van kunst en cultuur waarnemen en conceptualiseren."@nl ;
+  skos:broader curr1:c-cultureel-bewustzijn-en-culturele-expressie .
+elem:secundair-onderwijs skos:member curr1:s-kunstconcepten .
+elem:bouwstenen skos:member curr1:s-kunstconcepten .
+
+curr1:s-kunstcreatie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-kunstcreatie" ;
+  skos:prefLabel "kunstcreatie"@nl ;
+  skos:definition "Verbeelding gericht inzetten bij het creëren van artistiek werk."@nl ;
+  skos:broader curr1:c-cultureel-bewustzijn-en-culturele-expressie,
+    curr1:c-zelfbewustzijn .
+elem:secundair-onderwijs skos:member curr1:s-kunstcreatie .
+elem:bouwstenen skos:member curr1:s-kunstcreatie .
+
+curr1:s-kunstgeschiedenis-en-kunststromingen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-kunstgeschiedenis-en-kunststromingen" ;
+  skos:prefLabel "kunstgeschiedenis en kunststromingen"@nl ;
+  skos:definition "Uitingen van kunst en cultuur duiden in relatie tot de maatschappelijke,  historische en geografische context waarin ze zich manifesteren."@nl ;
+  skos:broader curr1:c-cultureel-bewustzijn-en-culturele-expressie .
+elem:secundair-onderwijs skos:member curr1:s-kunstgeschiedenis-en-kunststromingen .
+elem:bouwstenen skos:member curr1:s-kunstgeschiedenis-en-kunststromingen .
+
+curr1:s-landbouw a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-landbouw" ;
+  skos:prefLabel "landbouw"@nl ;
+  skos:broader curr1:d-land-en-tuinbouw .
+elem:secundair-onderwijs skos:member curr1:s-landbouw .
+elem:beroepskwalificaties skos:member curr1:s-landbouw .
+
+curr1:s-landschap-en-plaats a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-landschap-en-plaats" ;
+  skos:prefLabel "landschap en plaats"@nl ;
+  skos:definition "Plaatsbegrip hanteren om lokale, nationale en internationale gebeurtenissen in een geografisch kader te plaatsen."@nl ;
+  skos:broader curr1:c-ruimtelijk-bewustzijn ,
+    curr1:c-duurzaamheid ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-landschap-en-plaats .
+elem:bouwstenen skos:member curr1:s-landschap-en-plaats .
+
+curr1:s-leren-leren a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-leren-leren" ;
+  skos:prefLabel "leren leren"@nl ;
+  skos:altLabel "leervaardigheden"@nl ;
+  skos:definition "Zichzelf als lerende begrijpen en positioneren ten aanzien van leren in het algemeen en van specifieke leerdomeinen."@nl ;
+  skos:broader curr1:c-leercompetenties,
+    curr1:c-zelfbewustzijn .
+elem:secundair-onderwijs skos:member curr1:s-leren-leren .
+elem:bouwstenen skos:member curr1:s-leren-leren .
+
+curr1:s-literatuur a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-literatuur" ;
+  skos:prefLabel "literatuur (Nederlands)"@nl ;
+  skos:definition "Literatuur in het Nederlands beleven."@nl ;
+  skos:broader curr1:c-nederlands ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-literatuur .
+elem:bouwstenen skos:member curr1:s-literatuur .
+
+curr1:s-1-literatuur a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-1-literatuur" ;
+  skos:prefLabel "literatuur (andere talen)"@nl ;
+  skos:definition "Literatuur in vreemde talen beleven."@nl ;
+  skos:broader curr1:c-andere-talen ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-1-literatuur .
+elem:bouwstenen skos:member curr1:s-1-literatuur .
+
+curr1:s-maatschappijkritisch-denken a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-maatschappijkritisch-denken" ;
+  skos:prefLabel "maatschappijkritisch denken"@nl ;
+  skos:definition "De wederzijdse invloed tussen maatschappelijke domeinen en ontwikkelingen en de impact ervan op de (globale) samenleving en het individu kritisch benaderen."@nl ;
+  skos:broader curr1:c-burgerschap-en-samenleven,
+    curr1:c-duurzaamheid ;
+  skos:related curr1:c-juridische-competenties .
+elem:secundair-onderwijs skos:member curr1:s-maatschappijkritisch-denken .
+elem:bouwstenen skos:member curr1:s-maatschappijkritisch-denken .
+
+curr1:s-mediawijsheid a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-mediawijsheid" ;
+  skos:prefLabel "mediawijsheid"@nl ;
+  skos:definition "Verantwoord, kritisch en ethisch omgaan met digitale en niet-digitale media en informatie."@nl ;
+  skos:broader curr1:c-digitale-competenties-en-mediawijsheid .
+elem:secundair-onderwijs skos:member curr1:s-mediawijsheid .
+elem:bouwstenen skos:member curr1:s-mediawijsheid .
+
+curr1:s-mens-en-leefomgeving a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-mens-en-leefomgeving" ;
+  skos:prefLabel "mens en leefomgeving"@nl ;
+  skos:definition "Ruimtelijke patronen en processen aan het aardoppervlak verklaren als het resultaat van interacties tussen natuurlijke processen onderling, tussen menselijke processen onderling en tussen natuurlijke en menselijke processen."@nl ;
+  skos:broader curr1:c-ruimtelijk-bewustzijn,
+    curr1:c-duurzaamheid ,
+    curr1:c-juridische-competenties ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-mens-en-leefomgeving .
+elem:bouwstenen skos:member curr1:s-mens-en-leefomgeving .
+
+curr1:s-mentaal-welbevinden a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-mentaal-welbevinden" ;
+  skos:prefLabel "mentaal welbevinden"@nl ;
+  skos:definition "Het mentaal welbevinden opbouwen, onderhouden en versterken."@nl ;
+  skos:broader curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn,
+    curr1:c-zelfbewustzijn .
+elem:secundair-onderwijs skos:member curr1:s-mentaal-welbevinden .
+elem:bouwstenen skos:member curr1:s-mentaal-welbevinden .
+
+curr1:s-milieu a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-milieu" ;
+  skos:prefLabel "milieu"@nl ;
+  skos:broader curr1:d-land-en-tuinbouw .
+elem:secundair-onderwijs skos:member curr1:s-milieu .
+elem:beroepskwalificaties skos:member curr1:s-milieu .
+
+curr1:s-moderne-talen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-moderne-talen" ;
+  skos:prefLabel "moderne talen"@nl ;
+  skos:broader curr1:d-niet-bepaald .
+elem:secundair-onderwijs skos:member curr1:s-moderne-talen .
+elem:wetenschapsdomeinen skos:member curr1:s-moderne-talen .
+
+curr1:s-ondernemen-en-organisatie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-ondernemen-en-organisatie" ;
+  skos:prefLabel "ondernemen en organisatie"@nl ;
+  skos:altLabel "bedrijf en organisatie"@nl ;
+  skos:definition "De werking van ondernemingen en organisaties en hun maatschappelijke rol duiden."@nl ;
+  skos:broader curr1:c-economisch-financiele-competenties ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin,
+    curr1:c-duurzaamheid,
+    curr1:c-juridische-competenties .
+elem:secundair-onderwijs skos:member curr1:s-ondernemen-en-organisatie .
+elem:bouwstenen skos:member curr1:s-ondernemen-en-organisatie .
+
+curr1:s-ondersteuning-aan-bedrijven-en-organisaties a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-ondersteuning-aan-bedrijven-en-organisaties" ;
+  skos:prefLabel "ondersteuning aan bedrijven en organisaties"@nl ;
+  skos:broader curr1:d-economie-en-organisatie .
+elem:secundair-onderwijs skos:member curr1:s-ondersteuning-aan-bedrijven-en-organisaties .
+elem:beroepskwalificaties skos:member curr1:s-ondersteuning-aan-bedrijven-en-organisaties .
+
+curr1:s-onderzoeken a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-onderzoeken" ;
+  skos:prefLabel "onderzoeken"@nl ;
+  skos:definition "Een (onderzoeks-)probleem (v)erkennen en een antwoord of oplossing zoeken gebruikmakend van geschikte (leer-)activiteiten, strategieën en tools."@nl ;
+  skos:broader curr1:c-leercompetenties .
+elem:secundair-onderwijs skos:member curr1:s-onderzoeken .
+elem:bouwstenen skos:member curr1:s-onderzoeken .
+
+curr1:s-opportuniteiten-verkennen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-opportuniteiten-verkennen" ;
+  skos:prefLabel "opportuniteiten verkennen"@nl ;
+  skos:definition "Opportuniteiten zien en verkennen met behulp van een creatief denkproces."@nl ;
+  skos:broader curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-opportuniteiten-verkennen .
+elem:bouwstenen skos:member curr1:s-opportuniteiten-verkennen .
+
+curr1:s-paarden a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-paarden" ;
+  skos:prefLabel "paarden"@nl ;
+  skos:broader curr1:d-land-en-tuinbouw .
+elem:secundair-onderwijs skos:member curr1:s-paarden .
+elem:beroepskwalificaties skos:member curr1:s-paarden .
+
+curr1:s-participatie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-participatie" ;
+  skos:prefLabel "participatie"@nl ;
+  skos:definition "Actief participeren aan de samenleving, rekening houdend met de rechten en plichten van iedereen binnen de rechtsstaat."@nl ;
+  skos:broader curr1:c-burgerschap-en-samenleven,
+    curr1:c-juridische-competenties ;
+  skos:related curr1:c-duurzaamheid .
+elem:secundair-onderwijs skos:member curr1:s-participatie .
+elem:bouwstenen skos:member curr1:s-participatie .
+
+curr1:s-politiek a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-politiek" ;
+  skos:prefLabel "politiek"@nl ;
+  skos:definition "Democratische besluitvorming op lokaal, nationaal en internationaal niveau duiden"@nl ;
+  skos:broader curr1:c-burgerschap-en-samenleven .
+elem:secundair-onderwijs skos:member curr1:s-politiek .
+elem:bouwstenen skos:member curr1:s-politiek .
+
+curr1:s-printmedia a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-printmedia" ;
+  skos:prefLabel "printmedia"@nl ;
+  skos:broader curr1:d-kunst-en-cultuur .
+elem:secundair-onderwijs skos:member curr1:s-printmedia .
+elem:beroepskwalificaties skos:member curr1:s-printmedia .
+
+curr1:s-reguleren a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-reguleren" ;
+  skos:prefLabel "reguleren"@nl ;
+  skos:definition "Leeropvattingen, -proces en -resultaten reguleren."@nl ;
+  skos:broader curr1:c-leercompetenties,
+    curr1:c-zelfbewustzijn .
+elem:secundair-onderwijs skos:member curr1:s-reguleren .
+elem:bouwstenen skos:member curr1:s-reguleren .
+
+curr1:s-relaties a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-relaties" ;
+  skos:prefLabel "relaties"@nl ;
+  skos:definition "Interpersoonlijke relaties opbouwen, onderhouden en versterken."@nl ;
+  skos:broader curr1:c-sociaal-relationele-vorming,
+    curr1:c-zelfbewustzijn .
+elem:secundair-onderwijs skos:member curr1:s-relaties .
+elem:bouwstenen skos:member curr1:s-relaties .
+
+curr1:s-religie-en-geloof a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-religie-en-geloof" ;
+  skos:prefLabel "religie en geloof"@nl ;
+  skos:broader curr1:c-religie-en-levensbeschouwing .
+elem:secundair-onderwijs skos:member curr1:s-religie-en-geloof .
+elem:bouwstenen skos:member curr1:s-religie-en-geloof .
+
+curr1:s-ruimte-en-tijd a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-ruimte-en-tijd" ;
+  skos:prefLabel "ruimte en tijd"@nl ;
+  skos:definition "Personen, plaatsen, patronen en processen situeren op verschillende ruimtelijke schaalniveaus en tijdsschalen."@nl ;
+  skos:broader curr1:c-ruimtelijk-bewustzijn ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin,
+    curr1:c-duurzaamheid .
+elem:secundair-onderwijs skos:member curr1:s-ruimte-en-tijd .
+elem:bouwstenen skos:member curr1:s-ruimte-en-tijd .
+
+curr1:s-ruimtelijk-onderzoek a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-ruimtelijk-onderzoek" ;
+  skos:prefLabel "ruimtelijk onderzoek"@nl ;
+  skos:definition "Geografische methoden en technieken aanwenden om ruimtelijke patronen en processen te onderzoeken."@nl ;
+  skos:broader curr1:c-ruimtelijk-bewustzijn ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin,
+    curr1:c-duurzaamheid .
+elem:secundair-onderwijs skos:member curr1:s-ruimtelijk-onderzoek .
+elem:bouwstenen skos:member curr1:s-ruimtelijk-onderzoek .
+
+curr1:s-samenwerken a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-samenwerken" ;
+  skos:prefLabel "samenwerken"@nl ;
+  skos:definition "Samen het leerproces vormgeven."@nl ;
+  skos:broader curr1:c-leercompetenties ,
+    curr1:c-zelfbewustzijn .
+elem:secundair-onderwijs skos:member curr1:s-samenwerken .
+elem:bouwstenen skos:member curr1:s-samenwerken .
+
+curr1:s-sociale-wetenschappen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-sociale-wetenschappen" ;
+  skos:prefLabel "sociale wetenschappen"@nl ;
+  skos:broader curr1:d-zorg-en-welzijn .
+elem:secundair-onderwijs skos:member curr1:s-sociale-wetenschappen .
+elem:wetenschapsdomeinen skos:member curr1:s-sociale-wetenschappen .
+
+curr1:s-sport-en-beweging a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-sport-en-beweging" ;
+  skos:prefLabel "sport en beweging"@nl ;
+  skos:definition "Een fysiek actieve levensstijl opbouwen, onderhouden en versterken"@nl ;
+  skos:broader curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn .
+elem:secundair-onderwijs skos:member curr1:s-sport-en-beweging .
+elem:bouwstenen skos:member curr1:s-sport-en-beweging .
+
+curr1:s-sport-en-ontspanning a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-sport-en-ontspanning" ;
+  skos:prefLabel "sport en ontspanning"@nl ;
+  skos:broader curr1:d-sport-en-ontspanning .
+elem:secundair-onderwijs skos:member curr1:s-sport-en-ontspanning .
+elem:beroepskwalificaties skos:member curr1:s-sport-en-ontspanning .
+
+curr1:s-stem a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-stem" ;
+  skos:prefLabel "STEM"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-stem .
+elem:wetenschapsdomeinen skos:member curr1:s-stem .
+
+curr1:s-stem-onderzoek a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-stem-onderzoek" ;
+  skos:prefLabel "STEM-onderzoek"@nl ;
+  skos:definition "Natuurwetenschappelijke, technologische en wiskundige concepten en methoden inzetten om problemen op te lossen en om objecten, systemen en hun interacties te onderzoeken en te begrijpen."@nl ;
+  skos:broader curr1:c-stem,
+    curr1:c-duurzaamheid ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-stem-onderzoek .
+elem:bouwstenen skos:member curr1:s-stem-onderzoek .
+
+curr1:s-taal-en-cultuur a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-taal-en-cultuur" ;
+  skos:prefLabel "taal en cultuur (Nederlands)"@nl ;
+  skos:altLabel "taal en maatschappij (Nederlands)"@nl ;
+  skos:definition "Inzicht hebben in taal, in het bijzonder het Nederlands, als exponent en deel van een cultuur en een maatschappij."@nl ;
+  skos:broader curr1:c-nederlands ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-taal-en-cultuur .
+elem:bouwstenen skos:member curr1:s-taal-en-cultuur .
+
+curr1:s-1-taal-en-cultuur a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-1-taal-en-cultuur" ;
+  skos:prefLabel "taal en cultuur (andere talen)"@nl ;
+  skos:altLabel "taal en maatschappij (andere talen)"@nl ;
+  skos:definition "Inzicht hebben in vreemde talen als exponenten en delen van culturen en maatschappijen."@nl ;
+  skos:broader curr1:c-andere-talen ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-1-taal-en-cultuur .
+elem:bouwstenen skos:member curr1:s-1-taal-en-cultuur .
+
+curr1:s-taalsysteem a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:prefLabel "taalsysteem (Nederlands)"@nl ;
+#  skos:notation "su-taalsysteem" ;
+  skos:altLabel "taalsystematiek (Nederlands)"@nl ;
+  skos:definition "Kenmerken en principes van het Nederlands begrijpen om ze in te zetten bij het communiceren."@nl ;
+  skos:broader curr1:c-nederlands ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-taalsysteem .
+elem:bouwstenen skos:member curr1:s-taalsysteem .
+
+curr1:s-1-taalsysteem a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:prefLabel "taalsysteem (andere talen)"@nl ;
+#  skos:notation "su-1-taalsysteem" ;
+  skos:altLabel "taalsystematiek (andere talen)"@nl ;
+  skos:definition "Kenmerken en principes van vreemde talen begrijpen om ze in te zetten bij het communiceren."@nl ;
+  skos:broader curr1:c-andere-talen ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-1-taalsysteem .
+elem:bouwstenen skos:member curr1:s-1-taalsysteem .
+
+curr1:s-technologie-en-technieken a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-technologie-en-technieken" ;
+  skos:prefLabel "technologie en technieken"@nl ;
+  skos:definition "Technische systemen ontwerpen, realiseren, in gebruik nemen en evalueren rekening houdend met fundamentele maatschappelijke, wetenschappelijke en technologische aspecten."@nl ;
+  skos:broader curr1:c-stem,
+    curr1:c-duurzaamheid ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-technologie-en-technieken .
+elem:bouwstenen skos:member curr1:s-technologie-en-technieken .
+
+curr1:s-technologische-industrie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-technologische-industrie" ;
+  skos:prefLabel "technologische industrie"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-technologische-industrie .
+elem:beroepskwalificaties skos:member curr1:s-technologische-industrie .
+
+curr1:s-technologisch-inzicht a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-technologisch-inzicht" ;
+  skos:prefLabel "technologisch inzicht"@nl ;
+  skos:definition "Inzicht ontwikkelen in technische systemen en processen en hun relatie tot verschillende technologische domeinen en tot andere domeinen (wetenschappen, wiskunde …)."@nl ;
+  skos:broader curr1:c-stem ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin,
+    curr1:c-duurzaamheid .
+elem:secundair-onderwijs skos:member curr1:s-technologisch-inzicht .
+elem:bouwstenen skos:member curr1:s-technologisch-inzicht .
+
+curr1:s-textiel-kledij-confectie a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-textiel-kledij-confectie" ;
+  skos:prefLabel "textiel, kledij, confectie"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-textiel-kledij-confectie .
+elem:beroepskwalificaties skos:member curr1:s-textiel-kledij-confectie .
+
+curr1:s-textielcreatie-en-mode a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-textielcreatie-en-mode" ;
+  skos:prefLabel "textielcreatie en mode"@nl ;
+  skos:broader curr1:d-kunst-en-cultuur .
+elem:secundair-onderwijs skos:member curr1:s-textielcreatie-en-mode .
+elem:beroepskwalificaties skos:member curr1:s-textielcreatie-en-mode .
+
+curr1:s-toerisme a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-toerisme" ;
+  skos:prefLabel "toerisme"@nl ;
+  skos:broader curr1:d-economie-en-organisatie .
+elem:secundair-onderwijs skos:member curr1:s-toerisme .
+elem:beroepskwalificaties skos:member curr1:s-toerisme .
+
+curr1:s-uitvoeringsanalyse a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-uitvoeringsanalyse" ;
+  skos:prefLabel "uitvoeringsanalyse"@nl ;
+  skos:definition "De uitvoerbaarheid van ideeën onderzoeken, het inzetten van middelen tegenover doelstellingen afwegen en het gekozen idee realiseren."@nl ;
+  skos:broader curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-uitvoeringsanalyse .
+elem:bouwstenen skos:member curr1:s-uitvoeringsanalyse .
+
+curr1:s-vaktaal a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-vaktaal" ;
+  skos:prefLabel "vaktaal"@nl ;
+  skos:altLabel "jargon"@nl ;
+  skos:definition "Domeinspecifieke terminologie, symbolen en voorstellingen hanteren."@nl ;
+  skos:broader curr1:c-leercompetenties .
+elem:secundair-onderwijs skos:member curr1:s-vaktaal .
+elem:bouwstenen skos:member curr1:s-vaktaal .
+
+curr1:s-veiligheid a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-veiligheid" ;
+  skos:prefLabel "veiligheid"@nl ;
+  skos:definition "Een veilige levensstijl realiseren door het correct inschatten van risicofactoren"@nl ;
+  skos:broader curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn .
+elem:secundair-onderwijs skos:member curr1:s-veiligheid .
+elem:bouwstenen skos:member curr1:s-veiligheid .
+
+curr1:s-vervoer-transport-logistiek a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-vervoer-transport-logistiek" ;
+  skos:prefLabel "vervoer, transport, logistiek"@nl ;
+  skos:broader curr1:d-stem,
+    curr1:d-economie-en-organisatie .
+elem:secundair-onderwijs skos:member curr1:s-vervoer-transport-logistiek .
+elem:beroepskwalificaties skos:member curr1:s-vervoer-transport-logistiek .
+
+curr1:s-voeding a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-voeding" ;
+  skos:prefLabel "voeding"@nl ;
+  skos:broader curr1:d-voeding-en-horeca .
+elem:secundair-onderwijs skos:member curr1:s-voeding .
+elem:beroepskwalificaties skos:member curr1:s-voeding .
+
+curr1:s-wijnbouw a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wijnbouw" ;
+  skos:prefLabel "wijnbouw"@nl ;
+  skos:broader curr1:d-land-en-tuinbouw .
+elem:secundair-onderwijs skos:member curr1:s-wijnbouw .
+elem:beroepskwalificaties skos:member curr1:s-wijnbouw .
+
+curr1:s-wiskunde a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wiskunde" ;
+  skos:prefLabel "wiskunde"@nl ;
+  skos:broader curr1:d-stem .
+elem:secundair-onderwijs skos:member curr1:s-wiskunde .
+elem:wetenschapsdomeinen skos:member curr1:s-wiskunde .
+
+curr1:s-wiskunde-algebra-analyse a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wiskunde-algebra-analyse" ;
+  skos:prefLabel "wiskunde - algebra, analyse"@nl ;
+  skos:definition "Inzicht ontwikkelen in en omgaan met relatie en verandering: zoals algebra, analyse en discrete structuren."@nl ;
+  skos:broader curr1:c-stem ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-wiskunde-algebra-analyse .
+elem:bouwstenen skos:member curr1:s-wiskunde-algebra-analyse .
+
+curr1:s-wiskunde-getallenleer a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wiskunde-getallenleer" ;
+  skos:prefLabel "wiskunde - getallenleer"@nl ;
+  skos:definition "Inzicht ontwikkelen in en omgaan met getallen en hoeveelheden: getallenleer."@nl ;
+  skos:broader curr1:c-stem ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-wiskunde-getallenleer .
+elem:bouwstenen skos:member curr1:s-wiskunde-getallenleer .
+
+curr1:s-wiskunde-kansrekenen-statistiek a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wiskunde-kansrekenen-statistiek" ;
+  skos:prefLabel "wiskunde - kansrekenen, statistiek"@nl ;
+  skos:definition "Inzicht ontwikkelen in en omgaan met data en onzekerheid: zoals kansrekenen en statistiek."@nl ;
+  skos:broader curr1:c-stem ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-wiskunde-kansrekenen-statistiek .
+elem:bouwstenen skos:member curr1:s-wiskunde-kansrekenen-statistiek .
+
+curr1:s-wiskunde-meetkunde-en-metend-rekenen a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wiskunde-meetkunde-en-metend-rekenen" ;
+  skos:prefLabel "wiskunde - meetkunde en metend rekenen"@nl ;
+  skos:definition "Inzicht ontwikkelen in en omgaan met ruimte en vorm: meetkunde en metend rekenen."@nl ;
+  skos:broader curr1:c-stem ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-wiskunde-meetkunde-en-metend-rekenen .
+elem:bouwstenen skos:member curr1:s-wiskunde-meetkunde-en-metend-rekenen .
+
+curr1:s-wiskunde-modelleren-en-heuristiek a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wiskunde-modelleren-en-heuristiek" ;
+  skos:prefLabel "wiskunde - modelleren en heuristiek"@nl ;
+  skos:definition "Modelleren en problemen oplossen door analyseren, (de)mathematiseren of aanwenden van heuristieken."@nl ;
+  skos:broader curr1:c-stem ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-wiskunde-modelleren-en-heuristiek .
+elem:bouwstenen skos:member curr1:s-wiskunde-modelleren-en-heuristiek .
+
+curr1:s-wiskunde-redeneren a skos:Concept ;
+  skos:inScheme curr1:_scheme ;
+#  skos:notation "su-wiskunde-redeneren" ;
+  skos:prefLabel "wiskunde - redeneren"@nl ;
+  skos:definition "Redeneringen opbouwen en abstraheren rekening houdend met de samenhang en structuur van wiskunde."@nl ;
+  skos:broader curr1:c-stem ;
+  skos:related curr1:c-leercompetenties,
+    curr1:c-digitale-competenties-en-mediawijsheid,
+    curr1:c-sociaal-relationele-vorming,
+    curr1:c-ondernemingszin .
+elem:secundair-onderwijs skos:member curr1:s-wiskunde-redeneren .
+elem:bouwstenen skos:member curr1:s-wiskunde-redeneren .

@@ -1,0 +1,37 @@
+prefixes:
+  rr: 'http://www.w3.org/ns/r2rml#'
+  xsd: 'http://www.w3.org/2001/XMLSchema#'
+  rml: 'http://semweb.mmlab.be/ns/rml#'
+  ql: 'http://semweb.mmlab.be/ns/ql#'
+  rdfs: 'http://www.w3.org/2000/01/rdf-schema#'
+  csvw: 'http://www.w3.org/ns/csvw#'
+  fnml: 'http://semweb.mmlab.be/ns/fnml#'
+  fno: 'https://w3id.org/function/ontology#'
+  foaf: 'http://xmlns.com/foaf/0.1/'
+  org: 'http://www.w3.org/ns/org#'
+  rov: 'http://www.w3.org/ns/regorg#'
+  skos: 'http://www.w3.org/2004/02/skos/core#'
+  vcard: 'http://www.w3.org/2006/vcard/ns#'
+  locn: 'http://www.w3.org/ns/locn#'
+  icon-data: 'http://ilearn.ilabt.imec.be/iconen#'
+  icon-files: 'https://ilearn.ilabt.imec.be/iconen/'
+  curr1: 'http://ilearn.ilabt.imec.be/vocab/curr1/'
+  curr2: 'http://ilearn.ilabt.imec.be/vocab/curr2/'
+  ondniv: 'http://ilearn.ilabt.imec.be/vocab/ondniv/'
+  schema: 'http://schema.org/'
+sources:
+  iconSource:
+    access: ../input/iconen/iconen.csv
+    referenceFormulation: csv
+    delimiter: ","
+mappings:
+  logoLink:
+    source: iconSource
+    s: $(id)
+    po:
+      - [foaf:logo, "icon-data:$(bestandslink)~iri"]
+  logo:
+    source: iconSource
+    s: icon-data:$(bestandslink)
+    po:
+      - [schema:contentUrl, "icon-files:$(bestandslink)~iri"]

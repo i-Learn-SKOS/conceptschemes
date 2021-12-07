@@ -1,0 +1,64 @@
+@prefix elem: <http://ilearn.ilabt.imec.be/vocab/elem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://ilearn.ilabt.imec.be/vocab/elem/> a owl:Ontology .
+
+elem:_scheme a skos:ConceptScheme ;
+  skos:prefLabel "elementsoorten"@nl .
+
+elem:lager-onderwijs a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "lager onderwijs"@nl .
+
+elem:leergebieden a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "leergebieden"@nl .
+
+elem:subdomeinen a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "subdomeinen"@nl .
+
+elem:themas a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "thema's"@nl .
+
+elem:secundair-onderwijs a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "secundair onderwijs"@nl .
+
+elem:sleutelcompetenties a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "sleutelcompetenties"@nl .
+
+elem:studiedomeinen a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "studiedomeinen"@nl .
+
+elem:bouwstenen a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "bouwstenen"@nl .
+
+elem:beroepskwalificaties a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "beroepskwalificaties"@nl .
+
+elem:wetenschapsdomeinen a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "wetenschapsdomeinen"@nl .
+
+elem:vakken a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "vakken"@nl .
+
+elem:trefwoorden a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "trefwoorden"@nl .
+
+elem:ondniv a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsniveaus"@nl .
+
+elem:onddoel a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsdoelen"@nl .

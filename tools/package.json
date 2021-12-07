@@ -1,0 +1,16 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "All kinds of node tools in this project",
+  "author": "Martin Vanbrabant",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "graphql-ld-comunica": "^1.2.1",
+    "graphql-to-sparql": "^2.2.0",
+    "node-fetch": "^2.6.1",
+    "exceljs": "^4.3.0",
+    "winston": "^3.3.3",
+    "graphy": "^4.3.3"
+  }
+}

@@ -1,0 +1,39 @@
+Frans|Kennis
+Frans|Lezen
+Frans|Luisteren
+Frans|Mondelinge interactie
+Frans|Schrijven
+Frans|Spreken
+Lichamelijke Opvoeding|Groot-motorische vaardigheden en acties in gevarieerde situaties
+Lichamelijke Opvoeding|Klein-motorische vaardigheden in gevarieerde situaties
+Lichamelijke Opvoeding|Oplossen van kind-aangepaste bewegingsproblemen
+Lichamelijke Opvoeding|Zelfredzaamheid in kind-gerichte bewegingssituaties
+Mens en maatschappij|Algemene vaardigheden ruimte
+Mens en maatschappij|Algemene vaardigheden tijd
+Mens en maatschappij|Dagelijkse tijd
+Mens en maatschappij|Historische tijd
+Mens en maatschappij|Ik en de ander
+Mens en maatschappij|Ik en de anderen: in groep
+Mens en maatschappij|Ik en mezelf
+Mens en maatschappij|Oriëntatie- en kaartvaardigheid
+Mens en maatschappij|Politieke en juridische verschijnselen
+Mens en maatschappij|Ruimtebeleving
+Mens en maatschappij|Ruimtelijke ordening/bepaaldheid
+Mens en maatschappij|Sociaal-culturele verschijnselen
+Mens en maatschappij|Sociaal-economische verschijnselen
+Mens en maatschappij|Verkeer en mobiliteit
+Nederlands|Begrippen en termen
+Nederlands|Overkoepelende attitudes
+Nederlands|Strategieën
+Nederlands|Taalgebruik
+Nederlands|Taalsysteem
+Sociale Vaardigheden|Relatiewijzen
+Wetenschappen en techniek|Algemene vaardigheden
+Wetenschappen en techniek|Gezondheid
+Wetenschappen en techniek|Kerncomponenten van techniek
+Wetenschappen en techniek|Levende en niet-levende natuur
+Wetenschappen en techniek|Milieu
+Wetenschappen en techniek|Techniek als menselijke activiteit
+Wetenschappen en techniek|Techniek en samenleving
+Wiskunde|Begripsvorming-wiskundetaal-feitenkennis
+Wiskunde|Procedures

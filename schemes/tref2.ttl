@@ -1,0 +1,3293 @@
+@prefix tref2: <http://ilearn.ilabt.imec.be/vocab/tref2/> .
+@prefix curr2: <http://ilearn.ilabt.imec.be/vocab/curr2/> .
+@prefix elem: <http://ilearn.ilabt.imec.be/vocab/elem/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+elem:lager-onderwijs skos:member tref2:aankondiging, tref2:aanwijzend-voornaamwoord, tref2:aanwijzingsbord, tref2:aardbol, tref2:aarde, tref2:ademhaling, tref2:afgelegde-weg, tref2:afkorting, tref2:afleiding, tref2:afspraak, tref2:afstand, tref2:aftrekken, tref2:afval, tref2:afval-sorteren, tref2:afvalmateriaal, tref2:alfabet, tref2:analoge-klok, tref2:app, tref2:apparaat, tref2:armoede, tref2:artikel, tref2:assemblage, tref2:associativiteit, tref2:atlas, tref2:audiovisueel, tref2:balk, tref2:beamer, tref2:bedreigd-dier, tref2:begrijpend-luisteren, tref2:begrip-tijd, tref2:bejaarde, tref2:belasting, tref2:belgie, tref2:berm, tref2:beroep, tref2:besturingsysteem, tref2:beweging, tref2:bewegingselement, tref2:bewegingspartituur, tref2:bewegingszin, tref2:bewerkingsschema, tref2:bezittelijk-voornaamwoord, tref2:bijvoeglijk-naamwoord, tref2:biotoop, tref2:bloedsomploop, tref2:bloedvatenstelsel, tref2:blokkenconstructie, tref2:bol, tref2:boodschapper, tref2:brandwonde, tref2:breuk, tref2:breukschaal, tref2:brief, tref2:bron, tref2:brug, tref2:burgemeester, tref2:camera, tref2:chatten, tref2:cijferen, tref2:cirkel, tref2:collage, tref2:communicatie, tref2:communicatiemodel, tref2:communicatievaardigheid, tref2:commutativiteit, tref2:compositie, tref2:computer, tref2:condenseren, tref2:conflict, tref2:constructie, tref2:coordinatenrooster, tref2:culturele-activiteit, tref2:cultuur, tref2:cyberpesten, tref2:dag, tref2:de-kringloop-van-het-water, tref2:deelbaarheid, tref2:delen, tref2:deler, tref2:determinatietabel, tref2:dichtheid, tref2:dier, tref2:digitaal-profiel, tref2:digitale-klok, tref2:discriminatie, tref2:distributiviteit, tref2:dode-hoek, tref2:driehoek, tref2:drijven, tref2:duurzaam, tref2:e-safety, tref2:eetgedrag, tref2:eetgewoonte, tref2:eeuw, tref2:eeuwband, tref2:eeuwenband, tref2:eigennaam, tref2:emphatie, tref2:energie, tref2:energiebron, tref2:energieomzetting, tref2:enkelvoud, tref2:erfgoed, tref2:europese-unie, tref2:evacatieregel, tref2:evacuatie, tref2:evacuatieplan, tref2:evenwijdig, tref2:familie, tref2:fictie, tref2:fietser, tref2:fietsuitrusting, tref2:figuurlijk, tref2:formulier, tref2:fototoestel, tref2:fysieke-beperking, tref2:gebergte, tref2:gedrag, tref2:geheel-getal, tref2:geldwaarde, tref2:geluid, tref2:gemachtigd-opzichter, tref2:gemeenschap, tref2:gemeente, tref2:gemeentebestuur, tref2:gemeenteraad, tref2:geografisch-kenmerk, tref2:geschiedenis, tref2:gesprek, tref2:getallijn, tref2:gevoel, tref2:gewest, tref2:gewicht, tref2:gezichtspunt, tref2:gezin, tref2:globe, tref2:grondstof, tref2:haatmail, tref2:handicap, tref2:handleiding, tref2:handschriftontwikkeling, tref2:hart, tref2:helpfunctie, tref2:hemellichaam, tref2:herinneringseducatie, tref2:historisch-feit, tref2:hoek, tref2:hoofdrekenen, tref2:hoorwoord, tref2:huwelijk, tref2:identiteit, tref2:industrieel, tref2:infinitief, tref2:informatie, tref2:informatiebron, tref2:informatievaardigheid, tref2:informatieve-tekst, tref2:inhoud, tref2:inloggen, tref2:instructie, tref2:integratie, tref2:internet, tref2:interpunctie, tref2:interview, tref2:intrest, tref2:jaartal, tref2:kaart, tref2:kaartbegrip, tref2:kalender, tref2:kalenderjaar, tref2:kinderdans, tref2:kinderzitje, tref2:klank, tref2:klankduur, tref2:klankhoogte, tref2:klankkleur, tref2:kleur, tref2:klimaat, tref2:klok-lezen, tref2:knutselen, tref2:kommagetal, tref2:kompas, tref2:koning, tref2:krimpen, tref2:kruispunt, tref2:kubus, tref2:kunst, tref2:kunstenaar, tref2:kust, tref2:kwartier, tref2:landelijk, tref2:landschap, tref2:landschapskenmerk, tref2:lay-out, tref2:leesteken, tref2:legende, tref2:lengte, tref2:letterlijk, tref2:levencyclus, tref2:levenslijn, tref2:lichaamsdeel, tref2:lichaamshouding, tref2:lichaamsorientatie, tref2:lidwoord, tref2:lijnschaal, tref2:lijnstuk, tref2:loodrecht, tref2:luchtfoto, tref2:luisterstrategie, tref2:luistervaardigheden, tref2:maan, tref2:maand, tref2:maateenheid, tref2:maatgetal, tref2:macht, tref2:maquette, tref2:massa, tref2:materiaal, tref2:media, tref2:mediacontent, tref2:mediagebruik, tref2:mediageletterheid, tref2:mediamiddel, tref2:mediatoepassing, tref2:mediavaardigheid, tref2:mediawijs, tref2:mediawijsheid, tref2:medicatie, tref2:medium, tref2:meervoud, tref2:meetinstrumenten, tref2:meetresultaat, tref2:mens-met-beperking, tref2:mentale-beperking, tref2:menu, tref2:middeleeuw, tref2:migratie, tref2:milieubewust, tref2:milieuprobleem, tref2:minister, tref2:minuut, tref2:mobiliteit, tref2:muziekinstrument, tref2:muzieknotatie, tref2:natuurlijk-getal, tref2:natuurlijk-verschijnsel, tref2:navigatiesysteem, tref2:negatief-getal, tref2:nieuwe-tijd, tref2:nieuws, tref2:non-fictie, tref2:non-verbaal, tref2:noodsituatie, tref2:norm, tref2:omtrek, tref2:onderhoud, tref2:onderwerp, tref2:onderwijs, tref2:onthoudwoord, tref2:ontkenning, tref2:ontvanger, tref2:ontwerpen, tref2:ontwikkelingsland, tref2:onze-tijd, tref2:openbaar-vervoer, tref2:oppervlakte, tref2:oproep, tref2:optellen, tref2:opwaartse-kracht, tref2:opwarming-aarde, tref2:ordenen-tijd, tref2:oudheid, tref2:overbrenging, tref2:overheid, tref2:parallellogram, tref2:periode, tref2:persoonlijk-voornaamwoord, tref2:persoonsvorm, tref2:pictogram, tref2:piramide, tref2:plant, tref2:plattegrond, tref2:plicht, tref2:pluviometer, tref2:politieagent, tref2:politiek, tref2:politieke-partij, tref2:pop-up, tref2:positief-getal, tref2:prehistorie, tref2:priemgetal, tref2:procent, tref2:punt, tref2:racisme, tref2:rationaal-getal, tref2:realiseren, tref2:recht, tref2:recht-van-de-mens, tref2:recht-van-het-kind, tref2:rechte, tref2:rechthoek, tref2:reclame, tref2:recreatief, tref2:recycleren, tref2:regel, tref2:regelwoord, tref2:regering, tref2:rekenmachine, tref2:religie, tref2:rijmen, tref2:romeins-cijfer, tref2:route, tref2:routeplanner, tref2:ruimte, tref2:ruit, tref2:rust, tref2:samenlevingsvorm, tref2:samenstelling, tref2:samenwerken, tref2:samenwonen, tref2:sattelietbeeld, tref2:schaal, tref2:schaalbegrip, tref2:schaduw, tref2:schatten, tref2:scheiding, tref2:schema, tref2:schepen, tref2:schooljaar, tref2:schrikkeljaar, tref2:seconde, tref2:seizoen, tref2:siezoen, tref2:signaalwoord, tref2:skelet, tref2:sleutelwoord, tref2:smartphone, tref2:smelten, tref2:snelheid, tref2:sociaae-netwerk, tref2:software, tref2:sorteren, tref2:spam, tref2:spelling, tref2:spiegelas, tref2:spiegelbeeld, tref2:spiegeling, tref2:spier, tref2:spijsvertering, tref2:splitsen, tref2:stam, tref2:stappenplan, tref2:stedelijk, tref2:ster, tref2:stoep, tref2:stollen, tref2:straat, tref2:studiekeuze, tref2:symmetrieas, tref2:synoniem, tref2:tabel, tref2:tafel, tref2:talent, tref2:technisch-luisteren, tref2:technisch-principe, tref2:technisch-proces, tref2:technisch-systeem, tref2:tegenstelling, tref2:tegenwoordige-tijd, tref2:tekenen, tref2:telefoongesprek, tref2:telwoord, tref2:temperatuur, tref2:textuur, tref2:thermometer, tref2:tijd, tref2:tijdband, tref2:tijdlijn, tref2:tijdsaanduiding, tref2:tijdsduur, tref2:tijdsmeting, tref2:toeristisch, tref2:topografie, tref2:topografische-kaart, tref2:trap-van-vergelijking, tref2:trapezium, tref2:tussenrichting, tref2:tv, tref2:uitnodiging, tref2:uitzending, tref2:uitzetten, tref2:uur, tref2:uurtabel, tref2:valhelm, tref2:veelvlak, tref2:veelvoud, tref2:veiligheid, tref2:veiligheidsgordel, tref2:verbaal, tref2:verbodsbord, tref2:verbonden-vat, tref2:verdampen, tref2:verdubbelen, tref2:verenkelen, tref2:verhoogkussen, tref2:verhouding, tref2:verkeersbord, tref2:verkeerslicht, tref2:verkleinwoord, tref2:verleden-tijd, tref2:vermenigvuldigen, tref2:verslag, tref2:verslag-geven, tref2:verslaving, tref2:vervuiling, tref2:verwijswoord, tref2:vierhoek, tref2:vierkant, tref2:vlak, tref2:vlakke-figuur, tref2:vlakte, tref2:vloeistof, tref2:vluchteling, tref2:voeding, tref2:voedingsdriehoek, tref2:voedingsgewoonte, tref2:voedingsmiddel, tref2:voedingspiramide, tref2:voedingsstof, tref2:voedselketen, tref2:voetganger, tref2:volksdans, tref2:volksvertegenwoordiger, tref2:voltooid-verleden-tijd, tref2:volume, tref2:vooroordeel, tref2:voorrang, tref2:voorrangsbord, tref2:voortplanting, tref2:voorzetsel, tref2:vormleer, tref2:vreemdeling, tref2:waarde, tref2:wachtwoord, tref2:wagen, tref2:webcam, tref2:week, tref2:weer, tref2:weerbaarheid, tref2:weerkalender, tref2:weerselement, tref2:weersvoorspelling, tref2:weg, tref2:wegenkaart, tref2:weggebruiker, tref2:welvaart, tref2:werktekening, tref2:werkwoord, tref2:werkwoordvervoeging, tref2:wet, tref2:windrichting, tref2:windroos, tref2:windstreek, tref2:woestijn, tref2:woordenboek, tref2:woordenschat, tref2:zebrapad, tref2:zelfbewustzijn, tref2:zelfstandig-naamwoord, tref2:zelfvertrouwen, tref2:zender, tref2:ziekte, tref2:zin, tref2:zinken, tref2:zinsdeel, tref2:zintuig, tref2:zoekrobot, tref2:zon, tref2:zonnestand, tref2:zorg, tref2:zwam .
+
+elem:trefwoorden skos:member tref2:aankondiging, tref2:aanwijzend-voornaamwoord, tref2:aanwijzingsbord, tref2:aardbol, tref2:aarde, tref2:ademhaling, tref2:afgelegde-weg, tref2:afkorting, tref2:afleiding, tref2:afspraak, tref2:afstand, tref2:aftrekken, tref2:afval, tref2:afval-sorteren, tref2:afvalmateriaal, tref2:alfabet, tref2:analoge-klok, tref2:app, tref2:apparaat, tref2:armoede, tref2:artikel, tref2:assemblage, tref2:associativiteit, tref2:atlas, tref2:audiovisueel, tref2:balk, tref2:beamer, tref2:bedreigd-dier, tref2:begrijpend-luisteren, tref2:begrip-tijd, tref2:bejaarde, tref2:belasting, tref2:belgie, tref2:berm, tref2:beroep, tref2:besturingsysteem, tref2:beweging, tref2:bewegingselement, tref2:bewegingspartituur, tref2:bewegingszin, tref2:bewerkingsschema, tref2:bezittelijk-voornaamwoord, tref2:bijvoeglijk-naamwoord, tref2:biotoop, tref2:bloedsomploop, tref2:bloedvatenstelsel, tref2:blokkenconstructie, tref2:bol, tref2:boodschapper, tref2:brandwonde, tref2:breuk, tref2:breukschaal, tref2:brief, tref2:bron, tref2:brug, tref2:burgemeester, tref2:camera, tref2:chatten, tref2:cijferen, tref2:cirkel, tref2:collage, tref2:communicatie, tref2:communicatiemodel, tref2:communicatievaardigheid, tref2:commutativiteit, tref2:compositie, tref2:computer, tref2:condenseren, tref2:conflict, tref2:constructie, tref2:coordinatenrooster, tref2:culturele-activiteit, tref2:cultuur, tref2:cyberpesten, tref2:dag, tref2:de-kringloop-van-het-water, tref2:deelbaarheid, tref2:delen, tref2:deler, tref2:determinatietabel, tref2:dichtheid, tref2:dier, tref2:digitaal-profiel, tref2:digitale-klok, tref2:discriminatie, tref2:distributiviteit, tref2:dode-hoek, tref2:driehoek, tref2:drijven, tref2:duurzaam, tref2:e-safety, tref2:eetgedrag, tref2:eetgewoonte, tref2:eeuw, tref2:eeuwband, tref2:eeuwenband, tref2:eigennaam, tref2:emphatie, tref2:energie, tref2:energiebron, tref2:energieomzetting, tref2:enkelvoud, tref2:erfgoed, tref2:europese-unie, tref2:evacatieregel, tref2:evacuatie, tref2:evacuatieplan, tref2:evenwijdig, tref2:familie, tref2:fictie, tref2:fietser, tref2:fietsuitrusting, tref2:figuurlijk, tref2:formulier, tref2:fototoestel, tref2:fysieke-beperking, tref2:gebergte, tref2:gedrag, tref2:geheel-getal, tref2:geldwaarde, tref2:geluid, tref2:gemachtigd-opzichter, tref2:gemeenschap, tref2:gemeente, tref2:gemeentebestuur, tref2:gemeenteraad, tref2:geografisch-kenmerk, tref2:geschiedenis, tref2:gesprek, tref2:getallijn, tref2:gevoel, tref2:gewest, tref2:gewicht, tref2:gezichtspunt, tref2:gezin, tref2:globe, tref2:grondstof, tref2:haatmail, tref2:handicap, tref2:handleiding, tref2:handschriftontwikkeling, tref2:hart, tref2:helpfunctie, tref2:hemellichaam, tref2:herinneringseducatie, tref2:historisch-feit, tref2:hoek, tref2:hoofdrekenen, tref2:hoorwoord, tref2:huwelijk, tref2:identiteit, tref2:industrieel, tref2:infinitief, tref2:informatie, tref2:informatiebron, tref2:informatievaardigheid, tref2:informatieve-tekst, tref2:inhoud, tref2:inloggen, tref2:instructie, tref2:integratie, tref2:internet, tref2:interpunctie, tref2:interview, tref2:intrest, tref2:jaartal, tref2:kaart, tref2:kaartbegrip, tref2:kalender, tref2:kalenderjaar, tref2:kinderdans, tref2:kinderzitje, tref2:klank, tref2:klankduur, tref2:klankhoogte, tref2:klankkleur, tref2:kleur, tref2:klimaat, tref2:klok-lezen, tref2:knutselen, tref2:kommagetal, tref2:kompas, tref2:koning, tref2:krimpen, tref2:kruispunt, tref2:kubus, tref2:kunst, tref2:kunstenaar, tref2:kust, tref2:kwartier, tref2:landelijk, tref2:landschap, tref2:landschapskenmerk, tref2:lay-out, tref2:leesteken, tref2:legende, tref2:lengte, tref2:letterlijk, tref2:levencyclus, tref2:levenslijn, tref2:lichaamsdeel, tref2:lichaamshouding, tref2:lichaamsorientatie, tref2:lidwoord, tref2:lijnschaal, tref2:lijnstuk, tref2:loodrecht, tref2:luchtfoto, tref2:luisterstrategie, tref2:luistervaardigheden, tref2:maan, tref2:maand, tref2:maateenheid, tref2:maatgetal, tref2:macht, tref2:maquette, tref2:massa, tref2:materiaal, tref2:media, tref2:mediacontent, tref2:mediagebruik, tref2:mediageletterheid, tref2:mediamiddel, tref2:mediatoepassing, tref2:mediavaardigheid, tref2:mediawijs, tref2:mediawijsheid, tref2:medicatie, tref2:medium, tref2:meervoud, tref2:meetinstrumenten, tref2:meetresultaat, tref2:mens-met-beperking, tref2:mentale-beperking, tref2:menu, tref2:middeleeuw, tref2:migratie, tref2:milieubewust, tref2:milieuprobleem, tref2:minister, tref2:minuut, tref2:mobiliteit, tref2:muziekinstrument, tref2:muzieknotatie, tref2:natuurlijk-getal, tref2:natuurlijk-verschijnsel, tref2:navigatiesysteem, tref2:negatief-getal, tref2:nieuwe-tijd, tref2:nieuws, tref2:non-fictie, tref2:non-verbaal, tref2:noodsituatie, tref2:norm, tref2:omtrek, tref2:onderhoud, tref2:onderwerp, tref2:onderwijs, tref2:onthoudwoord, tref2:ontkenning, tref2:ontvanger, tref2:ontwerpen, tref2:ontwikkelingsland, tref2:onze-tijd, tref2:openbaar-vervoer, tref2:oppervlakte, tref2:oproep, tref2:optellen, tref2:opwaartse-kracht, tref2:opwarming-aarde, tref2:ordenen-tijd, tref2:oudheid, tref2:overbrenging, tref2:overheid, tref2:parallellogram, tref2:periode, tref2:persoonlijk-voornaamwoord, tref2:persoonsvorm, tref2:pictogram, tref2:piramide, tref2:plant, tref2:plattegrond, tref2:plicht, tref2:pluviometer, tref2:politieagent, tref2:politiek, tref2:politieke-partij, tref2:pop-up, tref2:positief-getal, tref2:prehistorie, tref2:priemgetal, tref2:procent, tref2:punt, tref2:racisme, tref2:rationaal-getal, tref2:realiseren, tref2:recht, tref2:recht-van-de-mens, tref2:recht-van-het-kind, tref2:rechte, tref2:rechthoek, tref2:reclame, tref2:recreatief, tref2:recycleren, tref2:regel, tref2:regelwoord, tref2:regering, tref2:rekenmachine, tref2:religie, tref2:rijmen, tref2:romeins-cijfer, tref2:route, tref2:routeplanner, tref2:ruimte, tref2:ruit, tref2:rust, tref2:samenlevingsvorm, tref2:samenstelling, tref2:samenwerken, tref2:samenwonen, tref2:sattelietbeeld, tref2:schaal, tref2:schaalbegrip, tref2:schaduw, tref2:schatten, tref2:scheiding, tref2:schema, tref2:schepen, tref2:schooljaar, tref2:schrikkeljaar, tref2:seconde, tref2:seizoen, tref2:siezoen, tref2:signaalwoord, tref2:skelet, tref2:sleutelwoord, tref2:smartphone, tref2:smelten, tref2:snelheid, tref2:sociaae-netwerk, tref2:software, tref2:sorteren, tref2:spam, tref2:spelling, tref2:spiegelas, tref2:spiegelbeeld, tref2:spiegeling, tref2:spier, tref2:spijsvertering, tref2:splitsen, tref2:stam, tref2:stappenplan, tref2:stedelijk, tref2:ster, tref2:stoep, tref2:stollen, tref2:straat, tref2:studiekeuze, tref2:symmetrieas, tref2:synoniem, tref2:tabel, tref2:tafel, tref2:talent, tref2:technisch-luisteren, tref2:technisch-principe, tref2:technisch-proces, tref2:technisch-systeem, tref2:tegenstelling, tref2:tegenwoordige-tijd, tref2:tekenen, tref2:telefoongesprek, tref2:telwoord, tref2:temperatuur, tref2:textuur, tref2:thermometer, tref2:tijd, tref2:tijdband, tref2:tijdlijn, tref2:tijdsaanduiding, tref2:tijdsduur, tref2:tijdsmeting, tref2:toeristisch, tref2:topografie, tref2:topografische-kaart, tref2:trap-van-vergelijking, tref2:trapezium, tref2:tussenrichting, tref2:tv, tref2:uitnodiging, tref2:uitzending, tref2:uitzetten, tref2:uur, tref2:uurtabel, tref2:valhelm, tref2:veelvlak, tref2:veelvoud, tref2:veiligheid, tref2:veiligheidsgordel, tref2:verbaal, tref2:verbodsbord, tref2:verbonden-vat, tref2:verdampen, tref2:verdubbelen, tref2:verenkelen, tref2:verhoogkussen, tref2:verhouding, tref2:verkeersbord, tref2:verkeerslicht, tref2:verkleinwoord, tref2:verleden-tijd, tref2:vermenigvuldigen, tref2:verslag, tref2:verslag-geven, tref2:verslaving, tref2:vervuiling, tref2:verwijswoord, tref2:vierhoek, tref2:vierkant, tref2:vlak, tref2:vlakke-figuur, tref2:vlakte, tref2:vloeistof, tref2:vluchteling, tref2:voeding, tref2:voedingsdriehoek, tref2:voedingsgewoonte, tref2:voedingsmiddel, tref2:voedingspiramide, tref2:voedingsstof, tref2:voedselketen, tref2:voetganger, tref2:volksdans, tref2:volksvertegenwoordiger, tref2:voltooid-verleden-tijd, tref2:volume, tref2:vooroordeel, tref2:voorrang, tref2:voorrangsbord, tref2:voortplanting, tref2:voorzetsel, tref2:vormleer, tref2:vreemdeling, tref2:waarde, tref2:wachtwoord, tref2:wagen, tref2:webcam, tref2:week, tref2:weer, tref2:weerbaarheid, tref2:weerkalender, tref2:weerselement, tref2:weersvoorspelling, tref2:weg, tref2:wegenkaart, tref2:weggebruiker, tref2:welvaart, tref2:werktekening, tref2:werkwoord, tref2:werkwoordvervoeging, tref2:wet, tref2:windrichting, tref2:windroos, tref2:windstreek, tref2:woestijn, tref2:woordenboek, tref2:woordenschat, tref2:zebrapad, tref2:zelfbewustzijn, tref2:zelfstandig-naamwoord, tref2:zelfvertrouwen, tref2:zender, tref2:ziekte, tref2:zin, tref2:zinken, tref2:zinsdeel, tref2:zintuig, tref2:zoekrobot, tref2:zon, tref2:zonnestand, tref2:zorg, tref2:zwam .
+
+<http://ilearn.ilabt.imec.be/vocab/tref2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> owl:Ontology .
+
+tref2:_scheme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:ConceptScheme ;
+	skos:prefLabel "trefwoorden lager onderwijs"@nl .
+
+tref2:aankondiging <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "aankondigingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "aankondiging"@nl ;
+	skos:related curr2:s-lezen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:aanwijzend-voornaamwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "aanwijzende voornaamwoorden"@nl, "pronom démonstratif"@nl, "pronoms démonstratifs"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "aanwijzend voornaamwoord"@nl ;
+	skos:related curr2:l-frans ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:aanwijzingsbord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "aanwijzingsborden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "aanwijzingsbord"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:aardbol <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "aardbollen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "aardbol"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:aarde <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "aarde"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ademhaling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "ademhalingstelsel"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ademhaling"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:afgelegde-weg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "afgelegde wegen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "afgelegde weg"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:afkorting <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "afkortingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "afkorting"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:afleiding <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "afleidingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "afleiding"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:afspraak <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "afspraken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "afspraak"@nl ;
+	skos:related curr2:t-ik-en-de-anderen-in-groep ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:afstand <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "afstanden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "afstand"@nl ;
+	skos:related curr2:s-meten, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:aftrekken <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "aftrekken"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:afval <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "afval"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:afval-sorteren <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "afval sorteren"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:afvalmateriaal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "afvalmaterialen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "afvalmateriaal"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:alfabet <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "alfabetten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "alfabet"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:analoge-klok <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "analoge klokken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "analoge klok"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:app <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "applicatie"@nl, "applicaties"@nl, "apps"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "app"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:apparaat <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "apparaten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "apparaat"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:armoede <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "armoedes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "armoede"@nl ;
+	skos:related curr2:t-sociaal-economische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:artikel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "artikels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "artikel"@nl ;
+	skos:related curr2:s-lezen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:assemblage <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "assemblages"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "assemblage"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:associativiteit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "associativiteit"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:atlas <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "atlassen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "atlas"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:audiovisueel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "audiovisueel"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:balk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "balken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "balk"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:beamer <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "beamers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "beamer"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bedreigd-dier <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bedreigde dieren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bedreigd dier"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:begrijpend-luisteren <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "begrijpend luisteren"@nl ;
+	skos:related curr2:s-luisteren ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:begrip-tijd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "begrippen tijd"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "begrip tijd"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bejaarde <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bejaarden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bejaarde"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:belasting <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "belastingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "belasting"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:belgie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "België"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:berm <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bermen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "berm"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:beroep <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "beroepen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "beroep"@nl ;
+	skos:related curr2:t-sociaal-economische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:besturingsysteem <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "besturingsystemen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "besturingsysteem"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:beweging <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bewegingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "beweging"@nl ;
+	skos:related curr2:t-gezondheid, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bewegingselement <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bewegingselementen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bewegingselement"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bewegingspartituur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bewegingspartituren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bewegingspartituur"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bewegingszin <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bewegingszinnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bewegingszin"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bewerkingsschema <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bewerkingsschema's"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bewerkingsschema"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bezittelijk-voornaamwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bezittelijke voornaamwoorden"@nl, "pronom possessif"@nl, "pronoms possessifs"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bezittelijk voornaamwoord"@nl ;
+	skos:related curr2:l-frans ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bijvoeglijk-naamwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "adjectif"@nl, "adjectifs"@nl, "bijvoeglijke naamwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bijvoeglijk naamwoord"@nl ;
+	skos:related curr2:l-frans, curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:biotoop <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "biotopen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "biotoop"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bloedsomploop <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bloedsomploop"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bloedvatenstelsel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bloedvatenstelsels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bloedvatenstelsel"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:blokkenconstructie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "blokkenconstructies"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "blokkenconstructie"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bol <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bollen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bol"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:boodschapper <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "boodschappers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "boodschapper"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:brandwonde <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "brandwonden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "brandwonde"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:breuk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "breuken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "breuk"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:breukschaal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "breukschalen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "breukschaal"@nl ;
+	skos:related curr2:s-meten, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:brief <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "briefkaart"@nl, "briefkaarten"@nl, "brieven"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "brief"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:bron <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bronnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "bron"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:brug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "bruggen"@nl, "de brug"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "brug"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:burgemeester <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "burgemeesters"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "burgemeester"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:camera <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "camera's"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "camera"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:chatten <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "chattenen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "chatten"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:cijferen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "cijferen"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:cirkel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "cirkels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "cirkel"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:collage <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "collages"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "collage"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:communicatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "communicaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "communicatie"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:communicatiemodel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "communicatiemodellen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "communicatiemodel"@nl ;
+	skos:related curr2:s-luisteren, curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:communicatievaardigheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "communicatievaardigheden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "communicatievaardigheid"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:commutativiteit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "commutativiteit"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:compositie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "composities"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "compositie"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:computer <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "computers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "computer"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:condenseren <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "condenseren"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:conflict <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "conflicten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "conflict"@nl ;
+	skos:related curr2:t-ik-en-de-ander ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:constructie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "constructies"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "constructie"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:coordinatenrooster <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "coördinatenroosters"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "coördinatenrooster"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:culturele-activiteit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "culturele activiteiten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "culturele activiteit"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:cultuur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "culturen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "cultuur"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:cyberpesten <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "cyberpesten"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:dag <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "dagen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "dag"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:de-kringloop-van-het-water <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "de kringloop van het wateren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "de kringloop van het water"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:deelbaarheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "deelbaarheid"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:delen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "delen"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:deler <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "delers"@nl, "gemeenschappelijke deler"@nl, "gemeenschappelijke delers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "deler"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:determinatietabel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "determinatietabellen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "determinatietabel"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:dichtheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "dichtheden"@nl, "soortelijk gewicht"@nl, "soortelijke gewichten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "dichtheid"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:dier <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "dieren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "dier"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:digitaal-profiel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "digitale profielen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "digitaal profiel"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:digitale-klok <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "digitale klokken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "digitale klok"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:discriminatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "discriminaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "discriminatie"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:distributiviteit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "distributiviteit"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:dode-hoek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "dode hoeken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "dode hoek"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:driehoek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "driehoeken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "driehoek"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:drijven <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "drijven"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:duurzaam <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "duurzaam"@nl ;
+	skos:related curr2:t-sociaal-economische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:e-safety <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "e-safety"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:eetgedrag <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "eetgedrag"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:eetgewoonte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "eetgewoonten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "eetgewoonte"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:eeuw <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "eeuwen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "eeuw"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:eeuwband <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "eeuwbanden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "eeuwband"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:eeuwenband <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "eeuwenbanden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "eeuwenband"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:eigennaam <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "eigennamen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "eigennaam"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:emphatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "emphatieën"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "emphatie"@nl ;
+	skos:related curr2:t-ik-en-de-ander ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:energie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "energieën"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "energie"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:energiebron <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "energiebronnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "energiebron"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek, curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:energieomzetting <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "energieomzettingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "energieomzetting"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:enkelvoud <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "enkelvoud"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:erfgoed <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "erfgoed"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:europese-unie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "Europese unie"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:evacatieregel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "evacatieregels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "evacatieregel"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:evacuatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "evacuaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "evacuatie"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:evacuatieplan <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "evacuatieplannen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "evacuatieplan"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:evenwijdig <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "evenwijdig"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:familie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "families"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "familie"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:fictie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "ficties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "fictie"@nl ;
+	skos:related curr2:s-lezen, curr2:s-luisteren, curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:fietser <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "fietsers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "fietser"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:fietsuitrusting <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "fietsuitrustingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "fietsuitrusting"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:figuurlijk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "figuurlijk"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:formulier <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "formulieren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "formulier"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:fototoestel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "fototoestellen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "fototoestel"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:fysieke-beperking <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "fysieke beperkingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "fysieke beperking"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gebergte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gebergten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gebergte"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gedrag <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gedrag"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:geheel-getal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gehele getallen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "geheel getal"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:geldwaarde <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "geldwaarden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "geldwaarde"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:geluid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "geluiden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "geluid"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gemachtigd-opzichter <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gemachtigde opzichters"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gemachtigd opzichter"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gemeenschap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gemeenschappen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gemeenschap"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gemeente <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gemeenten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gemeente"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gemeentebestuur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gemeentebesturen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gemeentebestuur"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gemeenteraad <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gemeenteraden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gemeenteraad"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:geografisch-kenmerk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "geografische kenmerken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "geografisch kenmerk"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:geschiedenis <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "geschiedenissen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "geschiedenis"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gesprek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gesprekken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gesprek"@nl ;
+	skos:related curr2:s-luisteren, curr2:s-spreken ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:getallijn <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "getalas"@nl, "getalassen"@nl, "getallijnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "getallijn"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gevoel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gevoelens"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gevoel"@nl ;
+	skos:related curr2:t-ik-en-de-ander ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gewest <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gewesten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gewest"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gewicht <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gewichten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gewicht"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gezichtspunt <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gezichtspunten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gezichtspunt"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:gezin <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "gezinnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "gezin"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:globe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "globes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "globe"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:grondstof <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "grondstoffen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "grondstof"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek, curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:haatmail <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "haatmails"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "haatmail"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:handicap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "handicaps"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "handicap"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:handleiding <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "handleidingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "handleiding"@nl ;
+	skos:related curr2:t-techniek-als-menselijke-activiteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:handschriftontwikkeling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "handschriftontwikkelingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "handschriftontwikkeling"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:hart <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "harten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "hart"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:helpfunctie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "helpfuncties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "helpfunctie"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:hemellichaam <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "hemellichamen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "hemellichaam"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:herinneringseducatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "herinneringseducaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "herinneringseducatie"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:historisch-feit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "historische feiten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "historisch feit"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:hoek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "hoeken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "hoek"@nl ;
+	skos:related curr2:s-meetkunde, curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:hoofdrekenen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "hoofdrekenen"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:hoorwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "hoorwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "hoorwoord"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:huwelijk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "huwelijken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "huwelijk"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:identiteit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "identiteiten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "identiteit"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:industrieel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "industrieel"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:infinitief <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "infinitieven"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "infinitief"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:informatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "informaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "informatie"@nl ;
+	skos:related curr2:s-luisteren, curr2:s-schrijven, curr2:s-spreken ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:informatiebron <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "informatiebronnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "informatiebron"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:informatievaardigheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "informatievaardigheden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "informatievaardigheid"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:informatieve-tekst <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "informatieve teksten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "informatieve tekst"@nl ;
+	skos:related curr2:s-lezen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:inhoud <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "inhouden"@nl, "inhoudsmaat"@nl, "inhoudsmaten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "inhoud"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:inloggen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "inloggen"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:instructie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "instructies"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "instructie"@nl ;
+	skos:related curr2:s-lezen, curr2:s-luisteren, curr2:s-schrijven, curr2:s-spreken ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:integratie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "integraties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "integratie"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:internet <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "internet"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:interpunctie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "interpuncties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "interpunctie"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:interview <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "interviews"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "interview"@nl ;
+	skos:related curr2:s-luisteren, curr2:s-spreken ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:intrest <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "intresten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "intrest"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:jaartal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "jaartallen"@nl, "jaren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "jaartal"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kaart <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kaarten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kaart"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kaartbegrip <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kaartbegrippen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kaartbegrip"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kalender <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kalenders"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kalender"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kalenderjaar <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kalenderjaren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kalenderjaar"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kinderdans <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kinderdansen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kinderdans"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kinderzitje <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kinderzitjes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kinderzitje"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:klank <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "klanken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "klank"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:klankduur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "klankduur"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:klankhoogte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "klankhoogtes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "klankhoogte"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:klankkleur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "klankkleuren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "klankkleur"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kleur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kleuren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kleur"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:klimaat <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "klimaten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "klimaat"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:klok-lezen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "klok lezen"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:knutselen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "knutselen"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kommagetal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kommagetallen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kommagetal"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kompas <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kompassen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kompas"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:koning <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "koningen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "koning"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:krimpen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "krimpen"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kruispunt <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kruispunten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kruispunt"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kubus <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kubussen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kubus"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kunst <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kunsten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kunst"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kunstenaar <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kunstenaars"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kunstenaar"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kust <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kusten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kust"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:kwartier <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "kwartieren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "kwartier"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:landelijk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "landelijk"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:landschap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "landschappen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "landschap"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:landschapskenmerk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "landschapskenmerken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "landschapskenmerk"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:lay-out <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "lay-outs"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "lay-out"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:leesteken <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "leestekens"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "leesteken"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:legende <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "legendes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "legende"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:lengte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "lengtes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "lengte"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:letterlijk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "letterlijk"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:levencyclus <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "levencyclusen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "levencyclus"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:levenslijn <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "levenslijnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "levenslijn"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:lichaamsdeel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "lichaamsdelen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "lichaamsdeel"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:lichaamshouding <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "lichaamshoudingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "lichaamshouding"@nl ;
+	skos:related curr2:t-gezondheid, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:lichaamsorientatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "lichaamsoriëntaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "lichaamsoriëntatie"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:lidwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "article"@nl, "articles"@nl, "lidwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "lidwoord"@nl ;
+	skos:related curr2:l-frans, curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:lijnschaal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "lijnschalen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "lijnschaal"@nl ;
+	skos:related curr2:s-meten, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:lijnstuk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "lijnstukken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "lijnstuk"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:loodrecht <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "loodrecht"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:luchtfoto <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "luchtfoto's"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "luchtfoto"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:luisterstrategie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "luisterstrategieën"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "luisterstrategie"@nl ;
+	skos:related curr2:s-luisteren ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:luistervaardigheden <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "luistervaardigheden"@nl ;
+	skos:related curr2:s-luisteren ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:maan <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "manen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "maan"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:maand <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "maanden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "maand"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:maateenheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "maateenheden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "maateenheid"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:maatgetal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "maatgetallen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "maatgetal"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:macht <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "machten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "macht"@nl ;
+	skos:related curr2:s-getallen, curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:maquette <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "maquettes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "maquette"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:massa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "massa's"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "massa"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:materiaal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "materialen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "materiaal"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek, curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:media <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "media"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mediacontent <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mediacontent"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mediagebruik <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "mediagebruiken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mediagebruik"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mediageletterheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mediageletterheid"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mediamiddel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "mediamiddelen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mediamiddel"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mediatoepassing <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "mediatoepassingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mediatoepassing"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mediavaardigheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "mediavaardigheden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mediavaardigheid"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mediawijs <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mediawijs"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mediawijsheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mediawijsheid"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:medicatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "medicaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "medicatie"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:medium <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "mediums"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "medium"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:meervoud <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "meervoud"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:meetinstrumenten <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "meetinstrumentenen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "meetinstrumenten"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:meetresultaat <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "meetresultaten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "meetresultaat"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mens-met-beperking <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "mensen met beperking"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mens met beperking"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mentale-beperking <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "mentale beperkingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mentale beperking"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:menu <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "menu's"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "menu"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:middeleeuw <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "middeleeuwen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "middeleeuw"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:migratie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "migraties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "migratie"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:milieubewust <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "milieubewust"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:milieuprobleem <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "milieuproblemen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "milieuprobleem"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:minister <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "ministers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "minister"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:minuut <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "minuten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "minuut"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:mobiliteit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "mobiliteiten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "mobiliteit"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:muziekinstrument <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "muziekinstrumenten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "muziekinstrument"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:muzieknotatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "muzieknotaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "muzieknotatie"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:natuurlijk-getal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "natuurljke getallen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "natuurlijk getal"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:natuurlijk-verschijnsel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "natuurlijke verschijnselen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "natuurlijk verschijnsel"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek, curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:navigatiesysteem <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "navigatiesystemen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "navigatiesysteem"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:negatief-getal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "negatieve getallen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "negatief getal"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:nieuwe-tijd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "nieuwe tijden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "nieuwe tijd"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:nieuws <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "nieuws"@nl ;
+	skos:related curr2:s-lezen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:non-fictie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "non-ficties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "non-fictie"@nl ;
+	skos:related curr2:s-luisteren ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:non-verbaal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "non-verbaal"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:noodsituatie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "noodsituaties"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "noodsituatie"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:norm <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "normen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "norm"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:omtrek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "omtrekken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "omtrek"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:onderhoud <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "onderhouden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "onderhoud"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:onderwerp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "onderwerpen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "onderwerp"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:onderwijs <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "onderwijs"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen, curr2:t-sociaal-economische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:onthoudwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "onthoudwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "onthoudwoord"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ontkenning <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "la négation"@nl, "les négations"@nl, "ontkenningen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ontkenning"@nl ;
+	skos:related curr2:l-frans ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ontvanger <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "ontvangers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ontvanger"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ontwerpen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ontwerpen"@nl ;
+	skos:related curr2:t-techniek-als-menselijke-activiteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ontwikkelingsland <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "ontwikkelingslanden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ontwikkelingsland"@nl ;
+	skos:related curr2:t-sociaal-economische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:onze-tijd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "onze tijden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "onze tijd"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:openbaar-vervoer <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "openbaar vervoer"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:oppervlakte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "oppervlaktes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "oppervlakte"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:oproep <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "oproepen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "oproep"@nl ;
+	skos:related curr2:s-luisteren, curr2:s-schrijven, curr2:s-spreken ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:optellen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "optellen"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:opwaartse-kracht <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "opwaartse krachten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "opwaartse kracht"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:opwarming-aarde <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "opwarming aarde"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ordenen-tijd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ordenen tijd"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:oudheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "oudheden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "oudheid"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:overbrenging <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "overbrengingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "overbrenging"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:overheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "overheden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "overheid"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:parallellogram <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "parallellogrammen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "parallellogram"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:periode <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "historische periode"@nl, "historische periodes"@nl, "periodes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "periode"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:persoonlijk-voornaamwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "persoonlijke voornaamwoorden"@nl, "pronom personnel"@nl, "pronoms personnels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "persoonlijk voornaamwoord"@nl ;
+	skos:related curr2:l-frans ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:persoonsvorm <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "persoonsvormen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "persoonsvorm"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:pictogram <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "pictogrammen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "pictogram"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:piramide <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "piramides"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "piramide"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:plant <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "planten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "plant"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:plattegrond <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "plattegronden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "plattegrond"@nl ;
+	skos:related curr2:s-meetkunde, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:plicht <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "plichten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "plicht"@nl ;
+	skos:related curr2:t-ik-en-de-anderen-in-groep ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:pluviometer <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "pluviometers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "pluviometer"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:politieagent <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "politieagenten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "politieagent"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:politiek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "politiek"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:politieke-partij <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "politieke partijen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "politieke partij"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:pop-up <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "pop-ups"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "pop-up"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:positief-getal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "positieve getallen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "positief getal"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:prehistorie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "prehistories"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "prehistorie"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:priemgetal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "priemfactor"@nl, "priemfactoren"@nl, "priemgetallen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "priemgetal"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:procent <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "procenten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "procent"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:punt <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "punten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "punt"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:racisme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "racismen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "racisme"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:rationaal-getal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "rationale getallen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "rationaal getal"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:realiseren <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "realiseren"@nl ;
+	skos:related curr2:t-techniek-als-menselijke-activiteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:recht <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "rechten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "recht"@nl ;
+	skos:related curr2:t-ik-en-de-anderen-in-groep ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:recht-van-de-mens <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "rechten van de mens"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "recht van de mens"@nl ;
+	skos:related curr2:t-ik-en-de-anderen-in-groep ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:recht-van-het-kind <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "rechten van het kind"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "recht van het kind"@nl ;
+	skos:related curr2:t-ik-en-de-anderen-in-groep ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:rechte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "rechten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "rechte"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:rechthoek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "rechthoeken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "rechthoek"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:reclame <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "reclames"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "reclame"@nl ;
+	skos:related curr2:s-lezen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:recreatief <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "recreatief"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:recycleren <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "recycleren"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur, curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:regel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "regels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "regel"@nl ;
+	skos:related curr2:t-ik-en-de-anderen-in-groep ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:regelwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "regelwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "regelwoord"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:regering <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "regeringen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "regering"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:rekenmachine <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "rekenmachines"@nl, "zakrekenmachine"@nl, "zakrekenmachines"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "rekenmachine"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:religie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "religies"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "religie"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:rijmen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "rijmen"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:romeins-cijfer <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "Romeinse cijfers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "Romeins cijfer"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:route <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "routes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "route"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:routeplanner <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "routeplanners"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "routeplanner"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ruimte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "ruimtes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ruimte"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ruit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "ruiten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ruit"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:rust <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "rust"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:samenlevingsvorm <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "samenlevingsvormen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "samenlevingsvorm"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:samenstelling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "samenstellingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "samenstelling"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:samenwerken <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "samenwerken"@nl ;
+	skos:related curr2:t-ik-en-de-anderen-in-groep ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:samenwonen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "samenwonen"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:sattelietbeeld <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "sattelietbeelden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "sattelietbeeld"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:schaal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "schalen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "schaal"@nl ;
+	skos:related curr2:s-meten, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:schaalbegrip <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "schaalbegrippen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "schaalbegrip"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:schaduw <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "schaduwen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "schaduw"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:schatten <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "schatten"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:scheiding <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "echtscheiding"@nl, "echtscheidingen"@nl, "scheidingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "scheiding"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:schema <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "schema's"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "schema"@nl ;
+	skos:related curr2:s-lezen, curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:schepen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "schepenen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "schepen"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:schooljaar <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "schooljaren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "schooljaar"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:schrikkeljaar <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "schrikkeljaren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "schrikkeljaar"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:seconde <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "seconden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "seconde"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:seizoen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "seizoenen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "seizoen"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:siezoen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "siezoenen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "siezoen"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:signaalwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "signaalwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "signaalwoord"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:skelet <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "skeletten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "skelet"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:sleutelwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "sleutelwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "sleutelwoord"@nl ;
+	skos:related curr2:s-luisteren, curr2:s-spreken ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:smartphone <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "smartphones"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "smartphone"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:smelten <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "smelten"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:snelheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "snelheden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "snelheid"@nl ;
+	skos:related curr2:s-meten, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:sociaae-netwerk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "sociale netwerken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "sociaae netwerk"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:software <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "software"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:sorteren <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "sorteren"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:spam <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "spam"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:spelling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "spellingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "spelling"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:spiegelas <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "spiegelassen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "spiegelas"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:spiegelbeeld <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "spiegelbeelden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "spiegelbeeld"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:spiegeling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "spiegelingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "spiegeling"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:spier <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "spieren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "spier"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:spijsvertering <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "spijsverteringstelsel"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "spijsvertering"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:splitsen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "splitsen"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:stam <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "stammen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "stam"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:stappenplan <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "stappenplannen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "stappenplan"@nl ;
+	skos:related curr2:t-techniek-als-menselijke-activiteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:stedelijk <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "stedelijk"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ster <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "sterren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ster"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:stoep <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "stoepen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "stoep"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:stollen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "stollen"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:straat <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "straten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "straat"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:studiekeuze <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "studiekeuzes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "studiekeuze"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:symmetrieas <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "symmetrieassen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "symmetrieas"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:synoniem <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "synoniemen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "synoniem"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tabel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tabellen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tabel"@nl ;
+	skos:related curr2:s-lezen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tafel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tafels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tafel"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:talent <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "talenten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "talent"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:technisch-luisteren <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "technisch luisteren"@nl ;
+	skos:related curr2:s-luisteren ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:technisch-principe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "technische principes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "technisch principe"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:technisch-proces <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "technische processen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "technisch proces"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:technisch-systeem <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "technische systeem"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "technisch systeem"@nl ;
+	skos:related curr2:t-kerncomponenten-van-techniek ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tegenstelling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tegenstellingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tegenstelling"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tegenwoordige-tijd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "présent"@nl, "tegenwoordige tijden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tegenwoordige tijd"@nl ;
+	skos:related curr2:l-frans, curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tekenen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tekenen"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:telefoongesprek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "telefoongesprekken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "telefoongesprek"@nl ;
+	skos:related curr2:s-luisteren, curr2:s-spreken ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:telwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "chiffre"@nl, "chiffres"@nl, "telwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "telwoord"@nl ;
+	skos:related curr2:l-frans ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:temperatuur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "temperaturen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "temperatuur"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:textuur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "texturen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "textuur"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:thermometer <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "thermometers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "thermometer"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tijd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tijden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tijd"@nl ;
+	skos:related curr2:s-meten, curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tijdband <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tijdbanden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tijdband"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tijdlijn <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tijdlijnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tijdlijn"@nl ;
+	skos:related curr2:t-historische-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tijdsaanduiding <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tijdsaanduidingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tijdsaanduiding"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tijdsduur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tijdsduren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tijdsduur"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tijdsmeting <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tijdsmetingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tijdsmeting"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:toeristisch <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "toeristisch"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:topografie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "topografieën"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "topografie"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:topografische-kaart <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "topografische kaarten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "topografische kaart"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:trap-van-vergelijking <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "trappen van vergelijking"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "trap van vergelijking"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:trapezium <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "trapeziums"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "trapezium"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tussenrichting <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tussenrichtingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tussenrichting"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:tv <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "tv's"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "tv"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:uitnodiging <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "uitnodigingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "uitnodiging"@nl ;
+	skos:related curr2:s-lezen, curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:uitzending <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "uitzendingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "uitzending"@nl ;
+	skos:related curr2:s-luisteren ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:uitzetten <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "uitzetten"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:uur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "uren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "uur"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:uurtabel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "uurtabellen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "uurtabel"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:valhelm <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "valhelmen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "valhelm"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:veelvlak <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "veelvlakken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "veelvlak"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:veelvoud <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "veelvouden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "veelvoud"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:veiligheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "veiligheid"@nl ;
+	skos:related curr2:t-gezondheid, curr2:t-sociaal-culturele-verschijnselen, curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:veiligheidsgordel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "veiligheidsgordels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "veiligheidsgordel"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verbaal <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verbaal"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verbodsbord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verbodsborden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verbodsbord"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verbonden-vat <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verbonden vaten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verbonden vat"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verdampen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verdampen"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verdubbelen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verdubbelen"@nl ;
+	skos:related curr2:s-schrijven, curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verenkelen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verenkelen"@nl ;
+	skos:related curr2:s-schrijven, curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verhoogkussen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verhoogkussens"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verhoogkussen"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verhouding <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verhoudingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verhouding"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verkeersbord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verkeersborden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verkeersbord"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verkeerslicht <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verkeerslichten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verkeerslicht"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verkleinwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verkleinwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verkleinwoord"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verleden-tijd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verleden tijden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verleden tijd"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vermenigvuldigen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vermenigvuldigen"@nl ;
+	skos:related curr2:s-getallen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verslag <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verslagen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verslag"@nl ;
+	skos:related curr2:s-schrijven ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verslag-geven <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verslag geven"@nl ;
+	skos:related curr2:s-luisteren, curr2:s-spreken ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verslaving <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verslavingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verslaving"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vervuiling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vervuilingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vervuiling"@nl ;
+	skos:related curr2:t-milieu ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:verwijswoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verwijswoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "verwijswoord"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vierhoek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vierhoeken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vierhoek"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vierkant <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vierkanten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vierkant"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vlak <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vlakken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vlak"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vlakke-figuur <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vlakke figuren"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vlakke figuur"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vlakte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vlakten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vlakte"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vloeistof <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vloeistoffen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vloeistof"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vluchteling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vluchtelingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vluchteling"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voeding <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "voedingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voeding"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voedingsdriehoek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voedingsdriehoek"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voedingsgewoonte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "voedingsgewoonten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voedingsgewoonte"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voedingsmiddel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "voedingsmiddellen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voedingsmiddel"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voedingspiramide <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voedingspiramide"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voedingsstof <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "voedingsstoffen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voedingsstof"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voedselketen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voedselketen"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voetganger <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "voetgangers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voetganger"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:volksdans <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "volksdansen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "volksdans"@nl ;
+	skos:related curr2:l-muzische-vorming ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:volksvertegenwoordiger <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "volksvertegenwoordigers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "volksvertegenwoordiger"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voltooid-verleden-tijd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "passé composé"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voltooid verleden tijd"@nl ;
+	skos:related curr2:l-frans ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:volume <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "volumes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "volume"@nl ;
+	skos:related curr2:s-meten ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vooroordeel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vooroordelen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vooroordeel"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voorrang <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "voorrangen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voorrang"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voorrangsbord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "voorrangsborden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voorrangsbord"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voortplanting <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voortplanting"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:voorzetsel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "voorzetsels"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "voorzetsel"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vormleer <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vormleer"@nl ;
+	skos:related curr2:s-meetkunde ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:vreemdeling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vreemdelingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "vreemdeling"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:waarde <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "waarden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "waarde"@nl ;
+	skos:related curr2:t-sociaal-culturele-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:wachtwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "wachtwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "wachtwoord"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:wagen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "wagens"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "wagen"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:webcam <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "webcams"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "webcam"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:week <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "weken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "week"@nl ;
+	skos:related curr2:t-dagelijkse-tijd ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:weer <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "het weer"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "weer"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:weerbaarheid <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "weerbaarheid"@nl ;
+	skos:related curr2:t-ik-en-de-ander ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:weerkalender <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "weerkalenders"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "weerkalender"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:weerselement <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "weerselementen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "weerselement"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:weersvoorspelling <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "weersvoorspellingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "weersvoorspelling"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:weg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "wegen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "weg"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:wegenkaart <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "wegenkaarten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "wegenkaart"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:weggebruiker <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "weggebruikers"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "weggebruiker"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:welvaart <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "welvaarten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "welvaart"@nl ;
+	skos:related curr2:t-sociaal-economische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:werktekening <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "werktekeningen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "werktekening"@nl ;
+	skos:related curr2:t-techniek-als-menselijke-activiteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:werkwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "verbe"@nl, "verbes"@nl, "werkwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "werkwoord"@nl ;
+	skos:related curr2:l-frans, curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:werkwoordvervoeging <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "conjugaison des verbes"@nl, "werkwoordvervoegingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "werkwoordvervoeging"@nl ;
+	skos:related curr2:l-frans ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:wet <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "wetten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "wet"@nl ;
+	skos:related curr2:t-politieke-en-juridische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:windrichting <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "windrichtingen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "windrichting"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:windroos <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "windrozen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "windroos"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:windstreek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "windstreken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "windstreek"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:woestijn <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "woestijnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "woestijn"@nl ;
+	skos:related curr2:t-ruimtelijke-ordening-bepaaldheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:woordenboek <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "woordenboeken"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "woordenboek"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:woordenschat <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "vocabulaire"@nl, "vocabulaires"@nl, "woordenschatten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "woordenschat"@nl ;
+	skos:related curr2:l-frans ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zebrapad <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zebrapaden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zebrapad"@nl ;
+	skos:related curr2:t-verkeer-en-mobiliteit ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zelfbewustzijn <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zelfbewustzijn"@nl ;
+	skos:related curr2:t-ik-en-de-ander ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zelfstandig-naamwoord <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "substantif"@nl, "substantifs"@nl, "zelfstandige naamwoorden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zelfstandig naamwoord"@nl ;
+	skos:related curr2:l-frans, curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zelfvertrouwen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zelfvertrouwen"@nl ;
+	skos:related curr2:t-ik-en-de-ander ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zender <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zenders"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zender"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:ziekte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "ziektes"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "ziekte"@nl ;
+	skos:related curr2:t-gezondheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zin <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zinnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zin"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zinken <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zinken"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zinsdeel <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zinsdelen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zinsdeel"@nl ;
+	skos:related curr2:s-taalbeschouwing ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zintuig <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zintuigen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zintuig"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zoekrobot <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zoekrobotten"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zoekrobot"@nl ;
+	skos:related curr2:t-ict ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zon <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zonnen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zon"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zonnestand <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zonnestanden"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zonnestand"@nl ;
+	skos:related curr2:t-orientatie-en-kaartvaardigheid ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zorg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zorgen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zorg"@nl ;
+	skos:related curr2:t-sociaal-economische-verschijnselen ;
+	skos:topConceptOf tref2:_scheme .
+
+tref2:zwam <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> skos:Concept ;
+	skos:altLabel "zwammen"@nl ;
+	skos:inScheme tref2:_scheme ;
+	skos:prefLabel "zwam"@nl ;
+	skos:related curr2:t-levende-en-niet-levende-natuur ;
+	skos:topConceptOf tref2:_scheme .
+

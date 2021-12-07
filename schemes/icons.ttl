@@ -1,0 +1,292 @@
+@prefix : <http://mapping.example.com/> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix curr1: <http://ilearn.ilabt.imec.be/vocab/curr1/> .
+@prefix curr2: <http://ilearn.ilabt.imec.be/vocab/curr2/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix icon-data: <http://ilearn.ilabt.imec.be/iconen#> .
+@prefix icon-files: <https://ilearn.ilabt.imec.be/iconen/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix ondniv: <http://ilearn.ilabt.imec.be/vocab/ondniv/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rov: <http://www.w3.org/ns/regorg#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+icon-data:bouwen-en-wonen.svg schema:contentUrl icon-files:bouwen-en-wonen.svg .
+
+icon-data:burgerschap.svg schema:contentUrl icon-files:burgerschap.svg .
+
+icon-data:cultureel.svg schema:contentUrl icon-files:cultureel.svg .
+
+icon-data:digitaal.svg schema:contentUrl icon-files:digitaal.svg .
+
+icon-data:duurzaamheid.svg schema:contentUrl icon-files:duurzaamheid.svg .
+
+icon-data:economie-en-organisatie.svg schema:contentUrl icon-files:economie-en-organisatie.svg .
+
+icon-data:economisch.svg schema:contentUrl icon-files:economisch.svg .
+
+icon-data:extra-curriculair.svg schema:contentUrl icon-files:extra-curriculair.svg .
+
+icon-data:frans.svg schema:contentUrl icon-files:frans.svg .
+
+icon-data:historisch-bewustzijn.svg schema:contentUrl icon-files:historisch-bewustzijn.svg .
+
+icon-data:ict.svg schema:contentUrl icon-files:ict.svg .
+
+icon-data:juridische-competenties.svg schema:contentUrl icon-files:juridische-competenties.svg .
+
+icon-data:kunst-en-cultuur.svg schema:contentUrl icon-files:kunst-en-cultuur.svg .
+
+icon-data:land-en-tuinbouw.svg schema:contentUrl icon-files:land-en-tuinbouw.svg .
+
+icon-data:leercompetenties.svg schema:contentUrl icon-files:leercompetenties.svg .
+
+icon-data:leerjaar.svg schema:contentUrl icon-files:leerjaar.svg .
+
+icon-data:leerjaar1.svg schema:contentUrl icon-files:leerjaar1.svg .
+
+icon-data:leerjaar2.svg schema:contentUrl icon-files:leerjaar2.svg .
+
+icon-data:leerjaar3.svg schema:contentUrl icon-files:leerjaar3.svg .
+
+icon-data:leerjaar4.svg schema:contentUrl icon-files:leerjaar4.svg .
+
+icon-data:leerjaar5.svg schema:contentUrl icon-files:leerjaar5.svg .
+
+icon-data:leerjaar6.svg schema:contentUrl icon-files:leerjaar6.svg .
+
+icon-data:leren-leren.svg schema:contentUrl icon-files:leren-leren.svg .
+
+icon-data:levensbeschouwelijke-vakken.svg schema:contentUrl icon-files:levensbeschouwelijke-vakken.svg .
+
+icon-data:lichaamgeest.svg schema:contentUrl icon-files:lichaamgeest.svg .
+
+icon-data:lichamelijke-opvoeding.svg schema:contentUrl icon-files:lichamelijke-opvoeding.svg .
+
+icon-data:logo-i-learn.svg schema:contentUrl icon-files:logo-i-learn.svg .
+
+icon-data:mens-en-maatschappij.svg schema:contentUrl icon-files:mens-en-maatschappij.svg .
+
+icon-data:muzische-vorming.svg schema:contentUrl icon-files:muzische-vorming.svg .
+
+icon-data:nederlands.svg schema:contentUrl icon-files:nederlands.svg .
+
+icon-data:nederlandscomp.svg schema:contentUrl icon-files:nederlandscomp.svg .
+
+icon-data:niet-bepaald.svg schema:contentUrl icon-files:niet-bepaald.svg .
+
+icon-data:ondernemingszin.svg schema:contentUrl icon-files:ondernemingszin.svg .
+
+icon-data:religie-en-levensbeschouwing.svg schema:contentUrl icon-files:religie-en-levensbeschouwing.svg .
+
+icon-data:ruimtelijk-bewustzijn.svg schema:contentUrl icon-files:ruimtelijk-bewustzijn.svg .
+
+icon-data:secundair.svg schema:contentUrl icon-files:secundair.svg .
+
+icon-data:secundair1.svg schema:contentUrl icon-files:secundair1.svg .
+
+icon-data:secundair2.svg schema:contentUrl icon-files:secundair2.svg .
+
+icon-data:secundair3.svg schema:contentUrl icon-files:secundair3.svg .
+
+icon-data:secundair3_3.svg schema:contentUrl icon-files:secundair3_3.svg .
+
+icon-data:sociaal-relationele-vorming.svg schema:contentUrl icon-files:sociaal-relationele-vorming.svg .
+
+icon-data:sociale-vaardigheden.svg schema:contentUrl icon-files:sociale-vaardigheden.svg .
+
+icon-data:sport-en-ontspanning.svg schema:contentUrl icon-files:sport-en-ontspanning.svg .
+
+icon-data:stem.svg schema:contentUrl icon-files:stem.svg .
+
+icon-data:stem_dom.svg schema:contentUrl icon-files:stem_dom.svg .
+
+icon-data:talen.svg schema:contentUrl icon-files:talen.svg .
+
+icon-data:voeding-en-horeca.svg schema:contentUrl icon-files:voeding-en-horeca.svg .
+
+icon-data:wetenschap-en-techniek.svg schema:contentUrl icon-files:wetenschap-en-techniek.svg .
+
+icon-data:wiskunde.svg schema:contentUrl icon-files:wiskunde.svg .
+
+icon-data:zelfbewustzijn.svg schema:contentUrl icon-files:zelfbewustzijn.svg .
+
+icon-data:zorg-en-welzijn.svg schema:contentUrl icon-files:zorg-en-welzijn.svg .
+
+curr1:c-andere-talen foaf:logo icon-data:talen.svg .
+
+curr1:c-burgerschap-en-samenleven foaf:logo icon-data:burgerschap.svg .
+
+curr1:c-cultureel-bewustzijn-en-culturele-expressie foaf:logo icon-data:cultureel.svg .
+
+curr1:c-digitale-competenties-en-mediawijsheid foaf:logo icon-data:digitaal.svg .
+
+curr1:c-duurzaamheid foaf:logo icon-data:duurzaamheid.svg .
+
+curr1:c-economisch-financiele-competenties foaf:logo icon-data:economisch.svg .
+
+curr1:c-historisch-bewustzijn foaf:logo icon-data:historisch-bewustzijn.svg .
+
+curr1:c-juridische-competenties foaf:logo icon-data:juridische-competenties.svg .
+
+curr1:c-leercompetenties foaf:logo icon-data:leercompetenties.svg .
+
+curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn foaf:logo icon-data:lichaamgeest.svg .
+
+curr1:c-nederlands foaf:logo icon-data:nederlandscomp.svg .
+
+curr1:c-ondernemingszin foaf:logo icon-data:ondernemingszin.svg .
+
+curr1:c-religie-en-levensbeschouwing foaf:logo icon-data:religie-en-levensbeschouwing.svg .
+
+curr1:c-ruimtelijk-bewustzijn foaf:logo icon-data:ruimtelijk-bewustzijn.svg .
+
+curr1:c-sociaal-relationele-vorming foaf:logo icon-data:sociaal-relationele-vorming.svg .
+
+curr1:c-stem foaf:logo icon-data:stem.svg .
+
+curr1:c-zelfbewustzijn foaf:logo icon-data:zelfbewustzijn.svg .
+
+curr1:d-bouwen-en-wonen foaf:logo icon-data:bouwen-en-wonen.svg .
+
+curr1:d-economie-en-organisatie foaf:logo icon-data:economie-en-organisatie.svg .
+
+curr1:d-kunst-en-cultuur foaf:logo icon-data:kunst-en-cultuur.svg .
+
+curr1:d-land-en-tuinbouw foaf:logo icon-data:land-en-tuinbouw.svg .
+
+curr1:d-niet-bepaald foaf:logo icon-data:niet-bepaald.svg .
+
+curr1:d-sport-en-ontspanning foaf:logo icon-data:sport-en-ontspanning.svg .
+
+curr1:d-stem foaf:logo icon-data:stem_dom.svg .
+
+curr1:d-voeding-en-horeca foaf:logo icon-data:voeding-en-horeca.svg .
+
+curr1:d-zorg-en-welzijn foaf:logo icon-data:zorg-en-welzijn.svg .
+
+curr2:l-extra-curriculair foaf:logo icon-data:extra-curriculair.svg .
+
+curr2:l-frans foaf:logo icon-data:frans.svg .
+
+curr2:l-ict foaf:logo icon-data:ict.svg .
+
+curr2:l-leren-leren foaf:logo icon-data:leren-leren.svg .
+
+curr2:l-levensbeschouwelijke-vakken foaf:logo icon-data:levensbeschouwelijke-vakken.svg .
+
+curr2:l-lichamelijke-opvoeding foaf:logo icon-data:lichamelijke-opvoeding.svg .
+
+curr2:l-mens-en-maatschappij foaf:logo icon-data:mens-en-maatschappij.svg .
+
+curr2:l-muzische-vorming foaf:logo icon-data:muzische-vorming.svg .
+
+curr2:l-nederlands foaf:logo icon-data:nederlands.svg .
+
+curr2:l-sociale-vaardigheden foaf:logo icon-data:sociale-vaardigheden.svg .
+
+curr2:l-wetenschap-en-techniek foaf:logo icon-data:wetenschap-en-techniek.svg .
+
+curr2:l-wiskunde foaf:logo icon-data:wiskunde.svg .
+
+ondniv:basis foaf:logo icon-data:logo-i-learn.svg .
+
+ondniv:basis-kleuter foaf:logo icon-data:logo-i-learn.svg .
+
+ondniv:basis-kleuter-3j foaf:logo icon-data:logo-i-learn.svg .
+
+ondniv:basis-kleuter-4j foaf:logo icon-data:logo-i-learn.svg .
+
+ondniv:basis-kleuter-5j foaf:logo icon-data:logo-i-learn.svg .
+
+ondniv:basis-lager foaf:logo icon-data:leerjaar.svg .
+
+ondniv:basis-lager-lj1 foaf:logo icon-data:leerjaar1.svg .
+
+ondniv:basis-lager-lj2 foaf:logo icon-data:leerjaar2.svg .
+
+ondniv:basis-lager-lj3 foaf:logo icon-data:leerjaar3.svg .
+
+ondniv:basis-lager-lj4 foaf:logo icon-data:leerjaar4.svg .
+
+ondniv:basis-lager-lj5 foaf:logo icon-data:leerjaar5.svg .
+
+ondniv:basis-lager-lj6 foaf:logo icon-data:leerjaar6.svg .
+
+ondniv:sec foaf:logo icon-data:secundair.svg .
+
+ondniv:sec-gr1 foaf:logo icon-data:secundair1.svg .
+
+ondniv:sec-gr1-astroom foaf:logo icon-data:secundair1.svg .
+
+ondniv:sec-gr1-bstroom foaf:logo icon-data:secundair1.svg .
+
+ondniv:sec-gr2 foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-arbeidsmarkt foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-arbeidsmarkt-bso foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-doorstroom foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-doorstroom-aso foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-doorstroom-kso foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-doorstroom-tso foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-dubbel foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-dubbel-kso foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr2-dubbel-tso foaf:logo icon-data:secundair2.svg .
+
+ondniv:sec-gr3 foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-arbeidsmarkt foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-arbeidsmarkt-bso foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-doorstroom foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-doorstroom-aso foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-doorstroom-kso foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-doorstroom-tso foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-dubbel foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-dubbel-kso foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3-dubbel-tso foaf:logo icon-data:secundair3.svg .
+
+ondniv:sec-gr3lj3 foaf:logo icon-data:secundair3_3.svg .
+
+ondniv:sec-gr3lj3-arbeidsmarkt foaf:logo icon-data:secundair3_3.svg .
+
+ondniv:sec-gr3lj3-arbeidsmarkt-bso foaf:logo icon-data:secundair3_3.svg .
+
+ondniv:sec-gr3lj3-arbeidsmarkt-kso foaf:logo icon-data:secundair3_3.svg .
+
+ondniv:sec-gr3lj3-arbeidsmarkt-tso foaf:logo icon-data:secundair3_3.svg .
+
+ondniv:sec-gr3lj3-doorstroom foaf:logo icon-data:secundair3_3.svg .
+
+ondniv:sec-gr3lj3-doorstroom-aso foaf:logo icon-data:secundair3_3.svg .
+
+ondniv:sec-gr3lj3-doorstroom-kso foaf:logo icon-data:secundair3_3.svg .
+
