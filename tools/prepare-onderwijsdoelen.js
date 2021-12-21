@@ -15,14 +15,9 @@ const columnHeadersToConsiderForId = [
   "Niveau",
   "Onderwijsstructuur",
   "Soort",
-  "Graad",
-  "Stroom",
-  "Finaliteit",
-  "Onderwijsvorm",
-  "Indeling",
-  "Sleutelcompetentie",
-  "Wetenschapsdomein",
-  "Nummer / Code"]
+  "Nummer / Code",
+  "Onderwijsdoel"
+]
 
 // in the order of how the ondniv is to be constructed:
 // we don't take 'onderwijsvorm' into account as one field contains multiple values.
@@ -206,48 +201,97 @@ const transformationsForId = {
     } else {
       return { error: `Not a Nummer / Code: "${x}"` };
     }
-  }
+  },
+  // "Verwant leergebied": x => {
+  //   return x.split('/').slice(-1)[0]
+  // },
+  // "Verwant subdomein": x => {
+  //   return x.split('/').slice(-1)[0]
+  // },
+  // "Verwant thema": x => {
+  //   return x.split('/').slice(-1)[0]
+  // },
+  // "Verwante bouwsteen": x => {
+  //   return x.split('/').slice(-1)[0]
+  // },
+  // "Verwant wetenschapsdomein": x => {
+  //   return x.split('/').slice(-1)[0]
+  // },
+  "Onderwijsdoel": x => {
+    return "" + signedToUnsignedDecimal(x.trim().hashCode());
+    //return x.split(/[^a-zA-Zëï]+/g).map((s,i) => {return {s, i}}).filter(onlyUnique).sort((a, b) => b.s.length - a.s.length).slice(0,8).sort((a,b) => a.i - b.i).map(v => v.s).join('-')
+  },
 }
+
+function onlyUnique(value, index, self) {
+  return self.map(s => s.s).indexOf(value.s) === index;
+}
+
+function signedToUnsignedDecimal(number)
+{
+  if (number < 0)
+  {
+    number = 0xFFFFFFFF + number + 1;
+  }
+
+  return number;
+}
+
+function decimalToHexString(number)
+{
+  if (number < 0)
+  {
+    number = 0xFFFFFFFF + number + 1;
+  }
+
+  return number.toString(16).toUpperCase();
+}
+
+String.prototype.hashCode = function() {
+  var hash = 0, i, chr;
+  if (this.length === 0) return hash;
+  for (i = 0; i < this.length; i++) {
+    chr   = this.charCodeAt(i);
+    hash  = ((hash << 5) - hash) + chr;
+    hash |= 0; // Convert to 32bit integer
+  }
+  return hash;
+};
+
+const ondnivColumnHeader = "Onderwijsniveau_id";
 
 // The keys correspond to the sheetnames in the lookup Excel file
 const relatedColumnsInfo = {
   "L-LG": {
     "inputColumnHeaders": ["Indeling"],
-    "outputColumnHeader": "Verwant leergebied",
-    "ondnivColumnHeader": "Onderwijsniveau_id"
+    "outputColumnHeader": "Verwant leergebied"
   },
   "L-SD-generic": {
     "exclude": /^Frans/i,
     "inputColumnHeaders": ["Indeling", "Titel 1"],
-    "outputColumnHeader": "Verwant subdomein",
-    "ondnivColumnHeader": "Onderwijsniveau_id"
+    "outputColumnHeader": "Verwant subdomein"
   },
   "L-SD-frans": {
     "include": /^Frans/i,
     "inputColumnHeaders": ["Indeling", "Titel 2"],
-    "outputColumnHeader": "Verwant subdomein",
-    "ondnivColumnHeader": "Onderwijsniveau_id"
+    "outputColumnHeader": "Verwant subdomein"
   },
   "L-TH": {
     "exclude": /^Frans/i,
     "inputColumnHeaders": ["Indeling", "Titel 2"],
-    "outputColumnHeader": "Verwant thema",
-    "ondnivColumnHeader": "Onderwijsniveau_id"
+    "outputColumnHeader": "Verwant thema"
   },
   "S-SL": {
     "inputColumnHeaders": ["Sleutelcompetentie"],
-    "outputColumnHeader": "Verwante sleutelcompetentie",
-    "ondnivColumnHeader": "Onderwijsniveau_id"
+    "outputColumnHeader": "Verwante sleutelcompetentie"
   },
   "S-BS": {
     "inputColumnHeaders": ["Sleutelcompetentie", "Onderdeel"],
-    "outputColumnHeader": "Verwante bouwsteen",
-    "ondnivColumnHeader": "Onderwijsniveau_id"
+    "outputColumnHeader": "Verwante bouwsteen"
   },
   "S-WD": {
     "inputColumnHeaders": ["Wetenschapsdomein"],
-    "outputColumnHeader": "Verwant wetenschapsdomein",
-    "ondnivColumnHeader": "Onderwijsniveau_id"
+    "outputColumnHeader": "Verwant wetenschapsdomein"
   }
 }
 
@@ -272,21 +316,6 @@ class PrepareOnderwijsdoelenToolbox {
           this.logger.info(`Adding columns Id, Verwant... in worksheet "${worksheet.name}"`);
           const firstRow = worksheet.getRow(1);
           const hc = getHeadersColumnNumbers(firstRow, this.logger);
-          // collect headers for Id in the order we need them
-          const orderedHeadersForId = [];
-          columnHeadersToConsiderForId.forEach(header => {
-            if (hc.hasOwnProperty(header)) {
-              orderedHeadersForId.push(header);
-            }
-          });
-          const orderedOndNivHeadersForId = [];
-          columnHeadersToConsiderForOndNivId.forEach(header => {
-            if (hc.hasOwnProperty(header)) {
-              orderedOndNivHeadersForId.push(header);
-            }
-          });
-          this.logger.info(`Using column headers for Id: ${orderedHeadersForId.join(", ")}`);
-          this.logger.info(`Using column headers for OndNiv Id: ${orderedOndNivHeadersForId.join(", ")}`);
           // collect available input for related columns
           const relatedColumnsInfoKeysToUse = [];
           for (const [key, info] of Object.entries(relatedColumnsInfo)) {
@@ -310,25 +339,61 @@ class PrepareOnderwijsdoelenToolbox {
             }
             this.logger.info(`Using column headers for related concepts: ${Array.from(usedHeaders).join(", ")}`);
           }
-
           // Add columns this way and not using worksheet.spliceColumns(); the latter sometimes corrupts the Excel file...
           let hcEx = addColumnWithHeader(firstRow, "Id", this.logger);
+          // ondniv is added everywhere
+          hcEx = addColumnWithHeader(firstRow, ondnivColumnHeader, this.logger);
           const relatedColumnHeadersAdded = [];
           for (const key of relatedColumnsInfoKeysToUse) {
-            let header = relatedColumnsInfo[key]["ondnivColumnHeader"];
-            if (!relatedColumnHeadersAdded.includes(header)) {
-              hcEx = addColumnWithHeader(firstRow, header, this.logger);
-              relatedColumnHeadersAdded.push(header);
-            }
-            header = relatedColumnsInfo[key]["outputColumnHeader"];
+            let header = relatedColumnsInfo[key]["outputColumnHeader"];
             if (!relatedColumnHeadersAdded.includes(header)) {
               hcEx = addColumnWithHeader(firstRow, header, this.logger);
               relatedColumnHeadersAdded.push(header);
             }
           }
+
+          // collect headers for Id in the order we need them
+          const orderedHeadersForId = [];
+          columnHeadersToConsiderForId.forEach(header => {
+            if (hcEx.hasOwnProperty(header)) {
+              orderedHeadersForId.push(header);
+            }
+          });
+          this.logger.info(`Using column headers for Id: ${orderedHeadersForId.join(", ")}`);
+          const orderedOndNivHeadersForId = [];
+          columnHeadersToConsiderForOndNivId.forEach(header => {
+            if (hcEx.hasOwnProperty(header)) {
+              orderedOndNivHeadersForId.push(header);
+            }
+          });
+          this.logger.info(`Using column headers for OndNiv Id: ${orderedOndNivHeadersForId.join(", ")}`);
           // now fill the new columns row per row
           worksheet.eachRow(function (row, rowNumber) {
             if (rowNumber > 1) {
+              // Fill related columns
+              for (const key of relatedColumnsInfoKeysToUse) {
+                const info = relatedColumnsInfo[key];
+                const texts = [];
+                for (const header of info["inputColumnHeaders"]) {
+                  texts.push(getRowValueAtHeader(hcEx, row, header, this.logger));
+                }
+                const txt = texts.join("|");
+                if (txt) {
+                  if (info["include"] && !txt.match(info["include"])) {
+                    this.logger.debug(`"${key}", not included: "${txt}"`);
+                  } else if (info["exclude"] && txt.match(info["exclude"])) {
+                    this.logger.debug(`"${key}", excluded: "${txt}"`);
+                  } else {
+                    const related = this.lookup[key][txt];
+                    if (related) {
+                      const header = info["outputColumnHeader"];
+                      setRowValueAtHeader(hcEx, row, header, related, this.logger);
+                      this.logger.debug(`"${key}", added: "${header}" --> "${related}"`);
+                    }
+                  }
+                }
+              }
+              // Fill ID
               let id = "";
               let faulty = false;
               orderedHeadersForId.forEach(header => {
@@ -353,6 +418,9 @@ class PrepareOnderwijsdoelenToolbox {
                   }
                 }
               });
+              setRowValueAtHeader(hcEx, row, "Id", id, this.logger);
+              this.logger.debug(`Id: ${id}`);
+              // Fill OndNiv
               let ondnivId = "";
               orderedOndNivHeadersForId.forEach(header => {
                 if (!faulty) {
@@ -376,31 +444,7 @@ class PrepareOnderwijsdoelenToolbox {
                   }
                 }
               });
-              setRowValueAtHeader(hcEx, row, "Id", id, this.logger);
-              this.logger.debug(`Id: ${id}`);
-              for (const key of relatedColumnsInfoKeysToUse) {
-                const info = relatedColumnsInfo[key];
-                setRowValueAtHeader(hcEx, row, info["ondnivColumnHeader"], `http://ilearn.ilabt.imec.be/vocab/ondniv/${ondnivId}`, this.logger);
-                const texts = [];
-                for (const header of info["inputColumnHeaders"]) {
-                  texts.push(getRowValueAtHeader(hcEx, row, header, this.logger));
-                }
-                const txt = texts.join("|");
-                if (txt) {
-                  if (info["include"] && !txt.match(info["include"])) {
-                    this.logger.debug(`"${key}", not included: "${txt}"`);
-                  } else if (info["exclude"] && txt.match(info["exclude"])) {
-                    this.logger.debug(`"${key}", excluded: "${txt}"`);
-                  } else {
-                    const related = this.lookup[key][txt];
-                    if (related) {
-                      const header = info["outputColumnHeader"];
-                      setRowValueAtHeader(hcEx, row, header, related, this.logger);
-                      this.logger.debug(`"${key}", added: "${header}" --> "${related}"`);
-                    }
-                  }
-                }
-              }
+              setRowValueAtHeader(hcEx, row, ondnivColumnHeader, `http://ilearn.ilabt.imec.be/vocab/ondniv/${ondnivId}`, this.logger);
             }
           }.bind(this));
         }

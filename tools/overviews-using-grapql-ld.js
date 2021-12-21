@@ -37,6 +37,7 @@ class QueryToolbox {
       // skos predicates
       "prefLabel": {"@id": "http://www.w3.org/2004/02/skos/core#prefLabel", "@language": "nl"},
       "altLabel": {"@id": "http://www.w3.org/2004/02/skos/core#altLabel", "@language": "nl"},
+      "hiddenLabel": {"@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel", "@language": "nl"},
       "definition": {"@id": "http://www.w3.org/2004/02/skos/core#definition", "@language": "nl"},
       "topConceptOf": {"@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"},
       "inScheme": {"@id": "http://www.w3.org/2004/02/skos/core#inScheme"},
@@ -90,6 +91,7 @@ class QueryToolbox {
         id @single
         prefLabel @single
         altLabel @optional
+        hiddenLabel @optional
         definition @single @optional
       }`;
     return await this._query(context, query);
@@ -109,17 +111,20 @@ class QueryToolbox {
         id(_:ID)
         prefLabel @single
         altLabel @optional
+        hiddenLabel @optional
         definition @single @optional
         schemeHasConcept: schemeHas(type: Concept) @optional {
           id @single
           prefLabel @single
           altLabel @optional
+          hiddenLabel @optional
           definition @single @optional
         }
         schemeHasCollection: schemeHas(type: Collection) @optional {
           id @single
           prefLabel @single
           altLabel @optional
+          hiddenLabel @optional
           definition @single @optional
         }
       }`;
@@ -138,6 +143,7 @@ class QueryToolbox {
         id @single
         prefLabel @single
         altLabel @optional
+        hiddenLabel @optional
         definition @single @optional
       }`;
     return await this._query(context, query);
@@ -157,11 +163,13 @@ class QueryToolbox {
         id(_:ID) @single
         prefLabel @single
         altLabel @optional
+        hiddenLabel @optional
         definition @single @optional
         member @optional {
           id @single
           prefLabel @single
           altLabel @optional
+          hiddenLabel @optional
           definition @single @optional
         }
       }`;
@@ -187,6 +195,7 @@ class QueryToolbox {
         id @single
         prefLabel @single
         altLabel @optional
+        hiddenLabel @optional
         definition @single @optional
       }`;
     return await this._query(context, query);
@@ -204,33 +213,36 @@ class QueryToolbox {
       {
         TYPE(_:Concept)
         id(_:ID) @single
-        prefLabel @single
-        altLabel @optional
-        definition @single @optional
+        ... conceptFields
         memberOf @optional {
           id @single
-          prefLabel @single
-          altLabel @optional
-          definition @single @optional
+          ... collectionFields
         }
         broader @optional {
           id @single
-          prefLabel @single
-          altLabel @optional
-          definition @single @optional
+          ... conceptFields
         }
         narrower @optional {
           id @single
-          prefLabel @single
-          altLabel @optional
-          definition @single @optional
+          ... conceptFields
         }
         related @optional {
           id @single
-          prefLabel @single
-          altLabel @optional
-          definition @single @optional
+          ... conceptFields
         }
+      }
+      
+      fragment collectionFields on Collection {
+        prefLabel @single
+        altLabel @optional
+        hiddenLabel @optional
+      }
+      
+      fragment conceptFields on Concept {
+        prefLabel @single
+        altLabel @optional
+        hiddenLabel @optional
+        definition @single @optional
       }`;
     return this._addIdToQueryResult(await this._query(context, query), conceptUri);
   }
@@ -260,43 +272,36 @@ class QueryToolbox {
         ${topRestriction}
         id @single
         inScheme(_:ID) @single
-        memberOf @optional
-        prefLabel @single
-        altLabel @optional
-        definition @single @optional
+        ... conceptFields
         narrower @optional {
           ${restriction}
           id @single
-          memberOf @optional
-          prefLabel @single
-          altLabel @optional
-          definition @single @optional
+          ... conceptFields
           narrower @optional {
             ${restriction}
             id @single
-            memberOf @optional
-            prefLabel @single
-            altLabel @optional
-            definition @single @optional
+            ... conceptFields
             narrower @optional {
               ${restriction}
               id @single
-              memberOf @optional
-              prefLabel @single
-              altLabel @optional
-              definition @single @optional
+              ... conceptFields
               # five levels is enough...
               narrower @optional {
                 ${restriction}
                 id @single
-                memberOf @optional
-                prefLabel @single
-                altLabel @optional
-                definition @single @optional
+                ... conceptFields
               }
             }
           }
         }
+      }
+      
+      fragment conceptFields on Concept {
+        prefLabel @single
+        altLabel @optional
+        hiddenLabel @optional
+        definition @single @optional
+        memberOf @optional
       }`;
     return await this._query(context, query);
   }
@@ -319,18 +324,20 @@ class QueryToolbox {
       {
         ${restriction}
         id @single
-        memberOf @optional
-        prefLabel @single
-        altLabel @optional
-        definition @single @optional
+        ... conceptFields
         related {
           id @single
           inScheme(_:ID) @single
-          memberOf @optional
-          prefLabel @single
-          altLabel @optional
-          definition @single @optional
+          ... conceptFields
         }
+      }
+      
+      fragment conceptFields on Concept {
+        prefLabel @single
+        altLabel @optional
+        hiddenLabel @optional
+        definition @single @optional
+        memberOf @optional
       }`;
     return await this._query(context, query);
   }

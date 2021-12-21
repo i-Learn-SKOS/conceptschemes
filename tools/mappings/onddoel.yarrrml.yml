@@ -39,6 +39,7 @@ mappings:
       - [skos:inScheme, onddoel:_scheme~iri]
       - [skos:topConceptOf, onddoel:_scheme~iri]
       - [skos:prefLabel, $(Id), nl~lang]
+      - [skos:hiddenLabel, $(Nummer / Code), nl~lang]
 #      - [skos:notation, doel-$(Id), xsd:string]
       - p: skos:definition
         o:
