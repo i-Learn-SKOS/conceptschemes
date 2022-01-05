@@ -10,7 +10,7 @@ Collection of all tools to be executed in the scope of this project.
 
 ### 1.1 - Dependencies
 Install the following dependencies on your system:
-* [python3](https://www.python.org) (3.6.9 or better - keeping this for availability from Ubuntu 18.04 LTS distribution)
+* [python3](https://www.python.org) (3.6 ... 3.8 - works for Ubuntu 18.04 LTS and Ubuntu 20.04 LTS distributions)
 * [node](https://nodejs.org/) (v14.15.0 or better)
 * [yarn (1, classic)](https://classic.yarnpkg.com) (1.22.5 or better)
 * Java (I'm using OpenJDK version 14)
@@ -24,6 +24,10 @@ python -V
 python -m pip install -r requirements.txt 
 deactivate
 ```
+
+Note: initial requirements were set in `requirements-initial.txt`.
+Last known good requirements are saved in `requirements.txt`, created in an activated virtual environment with `python -m pip freeze > requirements.txt`.
+
 
 ### 1.3 - Node modules
 ```shell
