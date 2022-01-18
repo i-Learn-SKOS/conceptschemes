@@ -17,7 +17,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://ilearn.ilabt.imec.be/vocab/elem/ondniv> skos:member ondniv:basis, ondniv:basis-kleuter, ondniv:basis-kleuter-3j, ondniv:basis-kleuter-4j, ondniv:basis-kleuter-5j, ondniv:basis-lager, ondniv:basis-lager-lj1, ondniv:basis-lager-lj2, ondniv:basis-lager-lj3, ondniv:basis-lager-lj4, ondniv:basis-lager-lj5, ondniv:basis-lager-lj6, ondniv:sec, ondniv:sec-gr1, ondniv:sec-gr1-astroom, ondniv:sec-gr1-bstroom, ondniv:sec-gr2, ondniv:sec-gr2-arbeidsmarkt, ondniv:sec-gr2-arbeidsmarkt-bso, ondniv:sec-gr2-doorstroom, ondniv:sec-gr2-doorstroom-aso, ondniv:sec-gr2-doorstroom-kso, ondniv:sec-gr2-doorstroom-tso, ondniv:sec-gr2-dubbel, ondniv:sec-gr2-dubbel-kso, ondniv:sec-gr2-dubbel-tso, ondniv:sec-gr3, ondniv:sec-gr3-arbeidsmarkt, ondniv:sec-gr3-arbeidsmarkt-bso, ondniv:sec-gr3-doorstroom, ondniv:sec-gr3-doorstroom-aso, ondniv:sec-gr3-doorstroom-kso, ondniv:sec-gr3-doorstroom-tso, ondniv:sec-gr3-dubbel, ondniv:sec-gr3-dubbel-kso, ondniv:sec-gr3-dubbel-tso, ondniv:sec-gr3lj3, ondniv:sec-gr3lj3-arbeidsmarkt, ondniv:sec-gr3lj3-arbeidsmarkt-bso, ondniv:sec-gr3lj3-arbeidsmarkt-kso, ondniv:sec-gr3lj3-arbeidsmarkt-tso, ondniv:sec-gr3lj3-doorstroom, ondniv:sec-gr3lj3-doorstroom-aso, ondniv:sec-gr3lj3-doorstroom-kso .
+<http://ilearn.ilabt.imec.be/vocab/elem/ondniv> skos:member ondniv:basis, ondniv:basis-bulo, ondniv:basis-kleuter, ondniv:basis-kleuter-3j, ondniv:basis-kleuter-4j, ondniv:basis-kleuter-5j, ondniv:basis-lager, ondniv:basis-lager-lj1, ondniv:basis-lager-lj2, ondniv:basis-lager-lj3, ondniv:basis-lager-lj4, ondniv:basis-lager-lj5, ondniv:basis-lager-lj6, ondniv:buso, ondniv:sec, ondniv:sec-gr1, ondniv:sec-gr1-astroom, ondniv:sec-gr1-bstroom, ondniv:sec-gr2, ondniv:sec-gr2-arbeidsmarkt, ondniv:sec-gr2-arbeidsmarkt-bso, ondniv:sec-gr2-doorstroom, ondniv:sec-gr2-doorstroom-aso, ondniv:sec-gr2-doorstroom-kso, ondniv:sec-gr2-doorstroom-tso, ondniv:sec-gr2-dubbel, ondniv:sec-gr2-dubbel-kso, ondniv:sec-gr2-dubbel-tso, ondniv:sec-gr3, ondniv:sec-gr3-arbeidsmarkt, ondniv:sec-gr3-arbeidsmarkt-bso, ondniv:sec-gr3-doorstroom, ondniv:sec-gr3-doorstroom-aso, ondniv:sec-gr3-doorstroom-kso, ondniv:sec-gr3-doorstroom-tso, ondniv:sec-gr3-dubbel, ondniv:sec-gr3-dubbel-kso, ondniv:sec-gr3-dubbel-tso .
 
 ondniv:_scheme rdf:type skos:ConceptScheme ;
 	skos:prefLabel "onderwijsniveaus"@nl .
@@ -26,6 +26,13 @@ ondniv:basis rdf:type skos:Concept ;
 	skos:inScheme ondniv:_scheme ;
 	skos:prefLabel "basisonderwijs"@nl ;
 	skos:topConceptOf ondniv:_scheme .
+
+ondniv:basis-bulo ilearn:typicalAgeRange "6-11" ;
+	lom:educationalContext "school"@en ;
+	rdf:type skos:Concept ;
+	skos:broader ondniv:basis ;
+	skos:inScheme ondniv:_scheme ;
+	skos:prefLabel "buitengewoon lager onderwijs"@nl .
 
 ondniv:basis-kleuter ilearn:typicalAgeRange "3-5" ;
 	lom:educationalContext "school"@en ;
@@ -105,7 +112,14 @@ ondniv:basis-lager-lj6 ilearn:typicalAgeRange "11" ;
 	skos:inScheme ondniv:_scheme ;
 	skos:prefLabel "6e leerjaar"@nl .
 
-ondniv:sec ilearn:typicalAgeRange "12-18" ;
+ondniv:buso ilearn:typicalAgeRange "12-17" ;
+	lom:educationalContext "school"@en ;
+	rdf:type skos:Concept ;
+	skos:inScheme ondniv:_scheme ;
+	skos:prefLabel "buitengewoon secundair onderwijs"@nl ;
+	skos:topConceptOf ondniv:_scheme .
+
+ondniv:sec ilearn:typicalAgeRange "12-17" ;
 	lom:educationalContext "school"@en ;
 	rdf:type skos:Concept ;
 	skos:inScheme ondniv:_scheme ;
@@ -236,47 +250,4 @@ ondniv:sec-gr3-dubbel-tso rdf:type skos:Concept ;
 	skos:broader ondniv:sec-gr3-dubbel ;
 	skos:inScheme ondniv:_scheme ;
 	skos:prefLabel "tso"@nl .
-
-ondniv:sec-gr3lj3 ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties>, <http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen> ;
-	ilearn:typicalAgeRange "18" ;
-	rdf:type skos:Concept ;
-	skos:altLabel "derde graad, derde leerjaar"@nl ;
-	skos:broader ondniv:sec ;
-	skos:inScheme ondniv:_scheme ;
-	skos:prefLabel "3e graad - 3e leerjaar"@nl .
-
-ondniv:sec-gr3lj3-arbeidsmarkt rdf:type skos:Concept ;
-	skos:broader ondniv:sec-gr3lj3 ;
-	skos:inScheme ondniv:_scheme ;
-	skos:prefLabel "finaliteit arbeidsmarkt"@nl .
-
-ondniv:sec-gr3lj3-arbeidsmarkt-bso rdf:type skos:Concept ;
-	skos:broader ondniv:sec-gr3lj3-arbeidsmarkt ;
-	skos:inScheme ondniv:_scheme ;
-	skos:prefLabel "bso"@nl .
-
-ondniv:sec-gr3lj3-arbeidsmarkt-kso rdf:type skos:Concept ;
-	skos:broader ondniv:sec-gr3lj3-arbeidsmarkt ;
-	skos:inScheme ondniv:_scheme ;
-	skos:prefLabel "kso"@nl .
-
-ondniv:sec-gr3lj3-arbeidsmarkt-tso rdf:type skos:Concept ;
-	skos:broader ondniv:sec-gr3lj3-arbeidsmarkt ;
-	skos:inScheme ondniv:_scheme ;
-	skos:prefLabel "tso"@nl .
-
-ondniv:sec-gr3lj3-doorstroom rdf:type skos:Concept ;
-	skos:broader ondniv:sec-gr3lj3 ;
-	skos:inScheme ondniv:_scheme ;
-	skos:prefLabel "finaliteit doorstroom"@nl .
-
-ondniv:sec-gr3lj3-doorstroom-aso rdf:type skos:Concept ;
-	skos:broader ondniv:sec-gr3lj3-doorstroom ;
-	skos:inScheme ondniv:_scheme ;
-	skos:prefLabel "aso"@nl .
-
-ondniv:sec-gr3lj3-doorstroom-kso rdf:type skos:Concept ;
-	skos:broader ondniv:sec-gr3lj3-doorstroom ;
-	skos:inScheme ondniv:_scheme ;
-	skos:prefLabel "kso"@nl .
 

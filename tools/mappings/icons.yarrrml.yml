@@ -21,7 +21,7 @@ prefixes:
   schema: 'http://schema.org/'
 sources:
   iconSource:
-    access: ../input/iconen/iconen.csv
+    access: ../input/iconen/iconen-stripped.csv
     referenceFormulation: csv
     delimiter: ","
 mappings:

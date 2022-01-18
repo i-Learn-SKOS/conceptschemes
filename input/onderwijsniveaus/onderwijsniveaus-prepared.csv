@@ -11,7 +11,8 @@ basisonderwijs,lager onderwijs,3e leerjaar,,,derde leerjaar,,,8,,,,basis-lager-l
 basisonderwijs,lager onderwijs,4e leerjaar,,,vierde leerjaar,,,9,,,,basis-lager-lj4,basis-lager,graad
 basisonderwijs,lager onderwijs,5e leerjaar,,,vijfde leerjaar,,,10,,,,basis-lager-lj5,basis-lager,graad
 basisonderwijs,lager onderwijs,6e leerjaar,,,zesde leerjaar,,,11,,,,basis-lager-lj6,basis-lager,graad
-secundair onderwijs,,,,,,,school,12-18,,,,sec,,niveau
+basisonderwijs,buitengewoon lager onderwijs,,,,,,school,6-11,,,,basis-bulo,basis,subniveau
+secundair onderwijs,,,,,,,school,12-17,,,,sec,,niveau
 secundair onderwijs,,1ste graad,,,eerste graad,1e graad,,12-13,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties,,,sec-gr1,sec,graad
 secundair onderwijs,,1ste graad,a-stroom,,,,,,,,,sec-gr1-astroom,sec-gr1,finaliteit
 secundair onderwijs,,1ste graad,b-stroom,,,,,,,,,sec-gr1-bstroom,sec-gr1,finaliteit
@@ -35,11 +36,4 @@ secundair onderwijs,,3e graad,dubbele finaliteit,tso,,,,,,,,sec-gr3-dubbel-tso,s
 secundair onderwijs,,3e graad,dubbele finaliteit,kso,,,,,,,,sec-gr3-dubbel-kso,sec-gr3-dubbel,onderwijsvorm
 secundair onderwijs,,3e graad,finaliteit arbeidsmarkt,,,,,,,,,sec-gr3-arbeidsmarkt,sec-gr3,finaliteit
 secundair onderwijs,,3e graad,finaliteit arbeidsmarkt,bso,,,,,,,,sec-gr3-arbeidsmarkt-bso,sec-gr3-arbeidsmarkt,onderwijsvorm
-secundair onderwijs,,3e graad - 3e leerjaar,,,"derde graad, derde leerjaar",,,18,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties,http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen,,sec-gr3lj3,sec,graad
-secundair onderwijs,,3e graad - 3e leerjaar,finaliteit doorstroom,,,,,,,,,sec-gr3lj3-doorstroom,sec-gr3lj3,finaliteit
-secundair onderwijs,,3e graad - 3e leerjaar,finaliteit doorstroom,aso,,,,,,,,sec-gr3lj3-doorstroom-aso,sec-gr3lj3-doorstroom,onderwijsvorm
-secundair onderwijs,,3e graad - 3e leerjaar,finaliteit doorstroom,kso,,,,,,,,sec-gr3lj3-doorstroom-kso,sec-gr3lj3-doorstroom,onderwijsvorm
-secundair onderwijs,,3e graad - 3e leerjaar,finaliteit arbeidsmarkt,,,,,,,,,sec-gr3lj3-arbeidsmarkt,sec-gr3lj3,finaliteit
-secundair onderwijs,,3e graad - 3e leerjaar,finaliteit arbeidsmarkt,tso,,,,,,,,sec-gr3lj3-arbeidsmarkt-tso,sec-gr3lj3-arbeidsmarkt,onderwijsvorm
-secundair onderwijs,,3e graad - 3e leerjaar,finaliteit arbeidsmarkt,kso,,,,,,,,sec-gr3lj3-arbeidsmarkt-kso,sec-gr3lj3-arbeidsmarkt,onderwijsvorm
-secundair onderwijs,,3e graad - 3e leerjaar,finaliteit arbeidsmarkt,bso,,,,,,,,sec-gr3lj3-arbeidsmarkt-bso,sec-gr3lj3-arbeidsmarkt,onderwijsvorm
+buitengewoon secundair onderwijs,,,,,,,school,12-17,,,,buso,,niveau

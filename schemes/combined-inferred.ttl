@@ -2309,6 +2309,7 @@ elem:onddoel a skos:Collection ;
 elem:ondniv a skos:Collection ;
     skos:inScheme elem:_scheme ;
     skos:member ondniv:basis,
+        ondniv:basis-bulo,
         ondniv:basis-kleuter,
         ondniv:basis-kleuter-3j,
         ondniv:basis-kleuter-4j,
@@ -2320,6 +2321,7 @@ elem:ondniv a skos:Collection ;
         ondniv:basis-lager-lj4,
         ondniv:basis-lager-lj5,
         ondniv:basis-lager-lj6,
+        ondniv:buso,
         ondniv:sec,
         ondniv:sec-gr1,
         ondniv:sec-gr1-astroom,
@@ -2343,15 +2345,7 @@ elem:ondniv a skos:Collection ;
         ondniv:sec-gr3-doorstroom-tso,
         ondniv:sec-gr3-dubbel,
         ondniv:sec-gr3-dubbel-kso,
-        ondniv:sec-gr3-dubbel-tso,
-        ondniv:sec-gr3lj3,
-        ondniv:sec-gr3lj3-arbeidsmarkt,
-        ondniv:sec-gr3lj3-arbeidsmarkt-bso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-kso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-tso,
-        ondniv:sec-gr3lj3-doorstroom,
-        ondniv:sec-gr3lj3-doorstroom-aso,
-        ondniv:sec-gr3lj3-doorstroom-kso ;
+        ondniv:sec-gr3-dubbel-tso ;
     skos:prefLabel "onderwijsniveaus"@nl .
 
 elem:secundair-onderwijs a skos:Collection ;
@@ -3699,6 +3693,10 @@ vak1: a owl:Ontology .
 
 icon-data:bouwen-en-wonen.svg schema:contentUrl icon-files:bouwen-en-wonen.svg .
 
+icon-data:buitengewoonlager.svg schema:contentUrl icon-files:buitengewoonlager.svg .
+
+icon-data:buitengewoonsecundair.svg schema:contentUrl icon-files:buitengewoonsecundair.svg .
+
 icon-data:burgerschap.svg schema:contentUrl icon-files:burgerschap.svg .
 
 icon-data:cultureel.svg schema:contentUrl icon-files:cultureel.svg .
@@ -3807,8 +3805,6 @@ elem:leergebieden a skos:Collection ;
         curr2:l-wiskunde ;
     skos:prefLabel "leergebieden"@nl .
 
-icon-data:secundair1.svg schema:contentUrl icon-files:secundair1.svg .
-
 elem:studiedomeinen a skos:Collection ;
     skos:inScheme elem:_scheme ;
     skos:member curr1:d-bouwen-en-wonen,
@@ -3822,17 +3818,15 @@ elem:studiedomeinen a skos:Collection ;
         curr1:d-zorg-en-welzijn ;
     skos:prefLabel "studiedomeinen"@nl .
 
-curr1:s-paarden a skos:Concept ;
-    skos:broader curr1:d-land-en-tuinbouw ;
-    skos:broaderTransitive curr1:d-land-en-tuinbouw ;
-    skos:inScheme curr1:_scheme ;
-    skos:prefLabel "paarden"@nl .
+ondniv:buso a skos:Concept ;
+    ilearn:typicalAgeRange "12-17" ;
+    lom:educationalContext "school"@en ;
+    skos:inScheme ondniv:_scheme ;
+    skos:prefLabel "buitengewoon secundair onderwijs"@nl ;
+    skos:topConceptOf ondniv:_scheme ;
+    foaf:logo icon-data:buitengewoonsecundair.svg .
 
-curr2:s-niet-confessionele-zedenleer a skos:Concept ;
-    skos:broader curr2:l-levensbeschouwelijke-vakken ;
-    skos:broaderTransitive curr2:l-levensbeschouwelijke-vakken ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "niet-confessionele zedenleer"@nl .
+icon-data:secundair1.svg schema:contentUrl icon-files:secundair1.svg .
 
 elem:sleutelcompetenties a skos:Collection ;
     skos:inScheme elem:_scheme ;
@@ -3854,6 +3848,27 @@ elem:sleutelcompetenties a skos:Collection ;
         curr1:c-stem,
         curr1:c-zelfbewustzijn ;
     skos:prefLabel "sleutelcompetenties"@nl .
+
+ondniv:basis-bulo a skos:Concept ;
+    ilearn:typicalAgeRange "6-11" ;
+    lom:educationalContext "school"@en ;
+    skos:broader ondniv:basis ;
+    skos:broaderTransitive ondniv:basis ;
+    skos:inScheme ondniv:_scheme ;
+    skos:prefLabel "buitengewoon lager onderwijs"@nl ;
+    foaf:logo icon-data:buitengewoonlager.svg .
+
+curr1:s-paarden a skos:Concept ;
+    skos:broader curr1:d-land-en-tuinbouw ;
+    skos:broaderTransitive curr1:d-land-en-tuinbouw ;
+    skos:inScheme curr1:_scheme ;
+    skos:prefLabel "paarden"@nl .
+
+curr2:s-niet-confessionele-zedenleer a skos:Concept ;
+    skos:broader curr2:l-levensbeschouwelijke-vakken ;
+    skos:broaderTransitive curr2:l-levensbeschouwelijke-vakken ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "niet-confessionele zedenleer"@nl .
 
 onddoel:basis-lager-23-4163456071 a skos:Concept ;
     skos:definition """23 Om bovenvermelde taaltaken uit te voeren kunnen de leerlingen de volgende lexicale en grammaticale elementen functioneel inzetten:
@@ -19166,51 +19181,6 @@ ondniv:sec-gr3-dubbel-tso a skos:Concept ;
     skos:prefLabel "tso"@nl ;
     foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3lj3-arbeidsmarkt-bso a skos:Concept ;
-    skos:broader ondniv:sec-gr3lj3-arbeidsmarkt ;
-    skos:broaderTransitive ondniv:sec,
-        ondniv:sec-gr3lj3,
-        ondniv:sec-gr3lj3-arbeidsmarkt ;
-    skos:inScheme ondniv:_scheme ;
-    skos:prefLabel "bso"@nl ;
-    foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-arbeidsmarkt-kso a skos:Concept ;
-    skos:broader ondniv:sec-gr3lj3-arbeidsmarkt ;
-    skos:broaderTransitive ondniv:sec,
-        ondniv:sec-gr3lj3,
-        ondniv:sec-gr3lj3-arbeidsmarkt ;
-    skos:inScheme ondniv:_scheme ;
-    skos:prefLabel "kso"@nl ;
-    foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-arbeidsmarkt-tso a skos:Concept ;
-    skos:broader ondniv:sec-gr3lj3-arbeidsmarkt ;
-    skos:broaderTransitive ondniv:sec,
-        ondniv:sec-gr3lj3,
-        ondniv:sec-gr3lj3-arbeidsmarkt ;
-    skos:inScheme ondniv:_scheme ;
-    skos:prefLabel "tso"@nl ;
-    foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-doorstroom-aso a skos:Concept ;
-    skos:broader ondniv:sec-gr3lj3-doorstroom ;
-    skos:broaderTransitive ondniv:sec,
-        ondniv:sec-gr3lj3,
-        ondniv:sec-gr3lj3-doorstroom ;
-    skos:inScheme ondniv:_scheme ;
-    skos:prefLabel "aso"@nl ;
-    foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-doorstroom-kso a skos:Concept ;
-    skos:broader ondniv:sec-gr3lj3-doorstroom ;
-    skos:broaderTransitive ondniv:sec,
-        ondniv:sec-gr3lj3,
-        ondniv:sec-gr3lj3-doorstroom ;
-    skos:inScheme ondniv:_scheme ;
-    skos:prefLabel "kso"@nl ;
-    foaf:logo icon-data:secundair3_3.svg .
-
 tref1:anatomie a skos:Concept ;
     skos:inScheme tref1:_scheme ;
     skos:prefLabel "anatomie"@nl ;
@@ -26107,8 +26077,6 @@ vak1:onthaal a skos:Concept ;
         curr1:s-toerisme ;
     skos:topConceptOf vak1:_scheme .
 
-icon-data:secundair3_3.svg schema:contentUrl icon-files:secundair3_3.svg .
-
 curr1:s-horeca a skos:Concept ;
     skos:broader curr1:d-voeding-en-horeca ;
     skos:broaderTransitive curr1:d-voeding-en-horeca ;
@@ -26654,18 +26622,6 @@ onddoel:sec-9.1-2589386782 a skos:Concept ;
         ondniv:sec-gr2-dubbel,
         ondniv:sec-gr3-arbeidsmarkt ;
     skos:topConceptOf onddoel:_scheme .
-
-ondniv:sec-gr3lj3-doorstroom a skos:Concept ;
-    skos:broader ondniv:sec-gr3lj3 ;
-    skos:broaderTransitive ondniv:sec,
-        ondniv:sec-gr3lj3 ;
-    skos:inScheme ondniv:_scheme ;
-    skos:narrower ondniv:sec-gr3lj3-doorstroom-aso,
-        ondniv:sec-gr3lj3-doorstroom-kso ;
-    skos:narrowerTransitive ondniv:sec-gr3lj3-doorstroom-aso,
-        ondniv:sec-gr3lj3-doorstroom-kso ;
-    skos:prefLabel "finaliteit doorstroom"@nl ;
-    foaf:logo icon-data:secundair3_3.svg .
 
 tref1:klimaat a skos:Concept ;
     skos:inScheme tref1:_scheme ;
@@ -27359,20 +27315,6 @@ onddoel:sec-7.9-1965362034 a skos:Concept ;
         ondniv:sec-gr3-dubbel ;
     skos:topConceptOf onddoel:_scheme .
 
-ondniv:sec-gr3lj3-arbeidsmarkt a skos:Concept ;
-    skos:broader ondniv:sec-gr3lj3 ;
-    skos:broaderTransitive ondniv:sec,
-        ondniv:sec-gr3lj3 ;
-    skos:inScheme ondniv:_scheme ;
-    skos:narrower ondniv:sec-gr3lj3-arbeidsmarkt-bso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-kso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-tso ;
-    skos:narrowerTransitive ondniv:sec-gr3lj3-arbeidsmarkt-bso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-kso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-tso ;
-    skos:prefLabel "finaliteit arbeidsmarkt"@nl ;
-    foaf:logo icon-data:secundair3_3.svg .
-
 vak1:burgerschap a skos:Concept ;
     skos:inScheme vak1:_scheme ;
     skos:prefLabel "burgerschap"@nl ;
@@ -27602,26 +27544,6 @@ onddoel:sec-7.2-3813952046 a skos:Concept ;
         ondniv:sec-gr3-doorstroom,
         ondniv:sec-gr3-dubbel ;
     skos:topConceptOf onddoel:_scheme .
-
-ondniv:sec-gr3lj3 a skos:Concept ;
-    ilearn:hasCurriculum elem:sleutelcompetenties,
-        elem:studiedomeinen ;
-    ilearn:typicalAgeRange "18" ;
-    skos:altLabel "derde graad, derde leerjaar"@nl ;
-    skos:broader ondniv:sec ;
-    skos:broaderTransitive ondniv:sec ;
-    skos:inScheme ondniv:_scheme ;
-    skos:narrower ondniv:sec-gr3lj3-arbeidsmarkt,
-        ondniv:sec-gr3lj3-doorstroom ;
-    skos:narrowerTransitive ondniv:sec-gr3lj3-arbeidsmarkt,
-        ondniv:sec-gr3lj3-arbeidsmarkt-bso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-kso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-tso,
-        ondniv:sec-gr3lj3-doorstroom,
-        ondniv:sec-gr3lj3-doorstroom-aso,
-        ondniv:sec-gr3lj3-doorstroom-kso ;
-    skos:prefLabel "3e graad - 3e leerjaar"@nl ;
-    foaf:logo icon-data:secundair3_3.svg .
 
 vak1:mens-en-samenleving a skos:Concept ;
     skos:inScheme vak1:_scheme ;
@@ -27953,25 +27875,6 @@ curr1:s-wiskunde-redeneren a skos:Concept ;
         onddoel:sec-6.21-2875060543,
         vak1:wiskunde .
 
-ondniv:basis a skos:Concept ;
-    skos:inScheme ondniv:_scheme ;
-    skos:narrower ondniv:basis-kleuter,
-        ondniv:basis-lager ;
-    skos:narrowerTransitive ondniv:basis-kleuter,
-        ondniv:basis-kleuter-3j,
-        ondniv:basis-kleuter-4j,
-        ondniv:basis-kleuter-5j,
-        ondniv:basis-lager,
-        ondniv:basis-lager-lj1,
-        ondniv:basis-lager-lj2,
-        ondniv:basis-lager-lj3,
-        ondniv:basis-lager-lj4,
-        ondniv:basis-lager-lj5,
-        ondniv:basis-lager-lj6 ;
-    skos:prefLabel "basisonderwijs"@nl ;
-    skos:topConceptOf ondniv:_scheme ;
-    foaf:logo icon-data:logo-i-learn.svg .
-
 ondniv:sec-gr2 a skos:Concept ;
     ilearn:hasCurriculum elem:sleutelcompetenties,
         elem:studiedomeinen ;
@@ -28242,6 +28145,27 @@ curr2:s-sociale-vaardigheden a skos:Concept ;
         onddoel:basis-lager-1.9-475309789,
         onddoel:basis-lager-2-875193897,
         onddoel:basis-lager-3-3429633894 .
+
+ondniv:basis a skos:Concept ;
+    skos:inScheme ondniv:_scheme ;
+    skos:narrower ondniv:basis-bulo,
+        ondniv:basis-kleuter,
+        ondniv:basis-lager ;
+    skos:narrowerTransitive ondniv:basis-bulo,
+        ondniv:basis-kleuter,
+        ondniv:basis-kleuter-3j,
+        ondniv:basis-kleuter-4j,
+        ondniv:basis-kleuter-5j,
+        ondniv:basis-lager,
+        ondniv:basis-lager-lj1,
+        ondniv:basis-lager-lj2,
+        ondniv:basis-lager-lj3,
+        ondniv:basis-lager-lj4,
+        ondniv:basis-lager-lj5,
+        ondniv:basis-lager-lj6 ;
+    skos:prefLabel "basisonderwijs"@nl ;
+    skos:topConceptOf ondniv:_scheme ;
+    foaf:logo icon-data:logo-i-learn.svg .
 
 curr1:s-computers-en-systemen a skos:Concept ;
     skos:broader curr1:c-digitale-competenties-en-mediawijsheid ;
@@ -29326,6 +29250,40 @@ curr2:s-techniek a skos:Concept ;
         onddoel:basis-lager-2.8-1197288214,
         onddoel:basis-lager-2.9-1729135840 .
 
+ondniv:sec a skos:Concept ;
+    ilearn:typicalAgeRange "12-17" ;
+    lom:educationalContext "school"@en ;
+    skos:inScheme ondniv:_scheme ;
+    skos:narrower ondniv:sec-gr1,
+        ondniv:sec-gr2,
+        ondniv:sec-gr3 ;
+    skos:narrowerTransitive ondniv:sec-gr1,
+        ondniv:sec-gr1-astroom,
+        ondniv:sec-gr1-bstroom,
+        ondniv:sec-gr2,
+        ondniv:sec-gr2-arbeidsmarkt,
+        ondniv:sec-gr2-arbeidsmarkt-bso,
+        ondniv:sec-gr2-doorstroom,
+        ondniv:sec-gr2-doorstroom-aso,
+        ondniv:sec-gr2-doorstroom-kso,
+        ondniv:sec-gr2-doorstroom-tso,
+        ondniv:sec-gr2-dubbel,
+        ondniv:sec-gr2-dubbel-kso,
+        ondniv:sec-gr2-dubbel-tso,
+        ondniv:sec-gr3,
+        ondniv:sec-gr3-arbeidsmarkt,
+        ondniv:sec-gr3-arbeidsmarkt-bso,
+        ondniv:sec-gr3-doorstroom,
+        ondniv:sec-gr3-doorstroom-aso,
+        ondniv:sec-gr3-doorstroom-kso,
+        ondniv:sec-gr3-doorstroom-tso,
+        ondniv:sec-gr3-dubbel,
+        ondniv:sec-gr3-dubbel-kso,
+        ondniv:sec-gr3-dubbel-tso ;
+    skos:prefLabel "secundair onderwijs"@nl ;
+    skos:topConceptOf ondniv:_scheme ;
+    foaf:logo icon-data:secundair.svg .
+
 curr1:d-stem a skos:Concept ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-ambachten,
@@ -30163,49 +30121,6 @@ curr1:s-ondernemen-en-organisatie a skos:Concept ;
         vak1:zee-en-binnenvaart,
         vak1:zeemanschap .
 
-ondniv:sec a skos:Concept ;
-    ilearn:typicalAgeRange "12-18" ;
-    lom:educationalContext "school"@en ;
-    skos:inScheme ondniv:_scheme ;
-    skos:narrower ondniv:sec-gr1,
-        ondniv:sec-gr2,
-        ondniv:sec-gr3,
-        ondniv:sec-gr3lj3 ;
-    skos:narrowerTransitive ondniv:sec-gr1,
-        ondniv:sec-gr1-astroom,
-        ondniv:sec-gr1-bstroom,
-        ondniv:sec-gr2,
-        ondniv:sec-gr2-arbeidsmarkt,
-        ondniv:sec-gr2-arbeidsmarkt-bso,
-        ondniv:sec-gr2-doorstroom,
-        ondniv:sec-gr2-doorstroom-aso,
-        ondniv:sec-gr2-doorstroom-kso,
-        ondniv:sec-gr2-doorstroom-tso,
-        ondniv:sec-gr2-dubbel,
-        ondniv:sec-gr2-dubbel-kso,
-        ondniv:sec-gr2-dubbel-tso,
-        ondniv:sec-gr3,
-        ondniv:sec-gr3-arbeidsmarkt,
-        ondniv:sec-gr3-arbeidsmarkt-bso,
-        ondniv:sec-gr3-doorstroom,
-        ondniv:sec-gr3-doorstroom-aso,
-        ondniv:sec-gr3-doorstroom-kso,
-        ondniv:sec-gr3-doorstroom-tso,
-        ondniv:sec-gr3-dubbel,
-        ondniv:sec-gr3-dubbel-kso,
-        ondniv:sec-gr3-dubbel-tso,
-        ondniv:sec-gr3lj3,
-        ondniv:sec-gr3lj3-arbeidsmarkt,
-        ondniv:sec-gr3lj3-arbeidsmarkt-bso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-kso,
-        ondniv:sec-gr3lj3-arbeidsmarkt-tso,
-        ondniv:sec-gr3lj3-doorstroom,
-        ondniv:sec-gr3lj3-doorstroom-aso,
-        ondniv:sec-gr3lj3-doorstroom-kso ;
-    skos:prefLabel "secundair onderwijs"@nl ;
-    skos:topConceptOf ondniv:_scheme ;
-    foaf:logo icon-data:secundair.svg .
-
 curr1:s-democratie-en-mensenrechten a skos:Concept ;
     skos:broader curr1:c-burgerschap-en-samenleven,
         curr1:c-juridische-competenties ;
@@ -30456,6 +30371,12 @@ curr2:t-sociaal-culturele-verschijnselen a skos:Concept ;
         tref2:vreemdeling,
         tref2:waarde .
 
+ondniv:_scheme a skos:ConceptScheme ;
+    skos:hasTopConcept ondniv:basis,
+        ondniv:buso,
+        ondniv:sec ;
+    skos:prefLabel "onderwijsniveaus"@nl .
+
 curr2:s-meetkunde a skos:Concept ;
     skos:broader curr2:l-wiskunde ;
     skos:broaderTransitive curr2:l-wiskunde ;
@@ -30638,11 +30559,6 @@ curr2:t-orientatie-en-kaartvaardigheid a skos:Concept ;
         tref2:windroos,
         tref2:windstreek,
         tref2:zonnestand .
-
-ondniv:_scheme a skos:ConceptScheme ;
-    skos:hasTopConcept ondniv:basis,
-        ondniv:sec ;
-    skos:prefLabel "onderwijsniveaus"@nl .
 
 curr1:s-1-communicatie a skos:Concept ;
     skos:altLabel "communicatievaardigheden (andere talen)"@nl,

@@ -26,6 +26,10 @@
 
 icon-data:bouwen-en-wonen.svg schema:contentUrl icon-files:bouwen-en-wonen.svg .
 
+icon-data:buitengewoonlager.svg schema:contentUrl icon-files:buitengewoonlager.svg .
+
+icon-data:buitengewoonsecundair.svg schema:contentUrl icon-files:buitengewoonsecundair.svg .
+
 icon-data:burgerschap.svg schema:contentUrl icon-files:burgerschap.svg .
 
 icon-data:cultureel.svg schema:contentUrl icon-files:cultureel.svg .
@@ -101,8 +105,6 @@ icon-data:secundair1.svg schema:contentUrl icon-files:secundair1.svg .
 icon-data:secundair2.svg schema:contentUrl icon-files:secundair2.svg .
 
 icon-data:secundair3.svg schema:contentUrl icon-files:secundair3.svg .
-
-icon-data:secundair3_3.svg schema:contentUrl icon-files:secundair3_3.svg .
 
 icon-data:sociaal-relationele-vorming.svg schema:contentUrl icon-files:sociaal-relationele-vorming.svg .
 
@@ -204,6 +206,8 @@ curr2:l-wiskunde foaf:logo icon-data:wiskunde.svg .
 
 ondniv:basis foaf:logo icon-data:logo-i-learn.svg .
 
+ondniv:basis-bulo foaf:logo icon-data:buitengewoonlager.svg .
+
 ondniv:basis-kleuter foaf:logo icon-data:logo-i-learn.svg .
 
 ondniv:basis-kleuter-3j foaf:logo icon-data:logo-i-learn.svg .
@@ -225,6 +229,8 @@ ondniv:basis-lager-lj4 foaf:logo icon-data:leerjaar4.svg .
 ondniv:basis-lager-lj5 foaf:logo icon-data:leerjaar5.svg .
 
 ondniv:basis-lager-lj6 foaf:logo icon-data:leerjaar6.svg .
+
+ondniv:buso foaf:logo icon-data:buitengewoonsecundair.svg .
 
 ondniv:sec foaf:logo icon-data:secundair.svg .
 
@@ -273,20 +279,4 @@ ondniv:sec-gr3-dubbel foaf:logo icon-data:secundair3.svg .
 ondniv:sec-gr3-dubbel-kso foaf:logo icon-data:secundair3.svg .
 
 ondniv:sec-gr3-dubbel-tso foaf:logo icon-data:secundair3.svg .
-
-ondniv:sec-gr3lj3 foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-arbeidsmarkt foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-arbeidsmarkt-bso foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-arbeidsmarkt-kso foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-arbeidsmarkt-tso foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-doorstroom foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-doorstroom-aso foaf:logo icon-data:secundair3_3.svg .
-
-ondniv:sec-gr3lj3-doorstroom-kso foaf:logo icon-data:secundair3_3.svg .
 

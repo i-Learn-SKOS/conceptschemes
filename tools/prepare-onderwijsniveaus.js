@@ -20,10 +20,12 @@ const columnHeadersNeeded = [
 
 const transformationsForId = {
   "Onderwijsniveau": x => {
-    if (/basis/i.test(x)) {
+    if (/^basis/i.test(x)) {
       return "basis";
-    } else if (/sec/i.test(x)) {
+    } else if (/^secundair/i.test(x)) {
       return "sec";
+    } else if (/^buitengewoon secundair/i.test(x)) {
+      return "buso";
     } else if (/info/i.test(x)) {
       return "";
     } else {
@@ -32,9 +34,11 @@ const transformationsForId = {
   },
   "Onderwijssubniveau": x => {
     if (/kleuter/i.test(x)) {
-      return "kleuter";
-    } else if (/lager/i.test(x)) {
+      return "^kleuter";
+    } else if (/^lager/i.test(x)) {
       return "lager";
+    } else if (/^buitengewoon lager/i.test(x)) {
+      return "bulo";
     } else {
       return "";
     }

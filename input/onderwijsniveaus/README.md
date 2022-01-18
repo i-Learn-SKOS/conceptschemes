@@ -1,7 +1,8 @@
 # Onderwijsniveaus
 
-This folder contains the input data source **onderwijsniveaus.xlsx** and
-the file **onderwijsniveaus-prepared.csv** derived from it.
+This folder contains the input data source **onderwijsniveaus.xlsx** (full),
+on optional stripped version of it (**onderwijsniveaus-stripped.xlsx**) and
+the file **onderwijsniveaus-prepared.csv** derived from the currently actived alternative (selected in `../../tools/prepare-onderwijsniveaus.sh`).
 
 To reconstruct, execute the script `../../tools/prepare-onderwijsniveaus.sh` documented [here](../../tools/README.md).
 
