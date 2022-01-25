@@ -19,6 +19,16 @@
 
 <http://ilearn.ilabt.imec.be/vocab/elem/ondniv> skos:member ondniv:basis, ondniv:basis-bulo, ondniv:basis-kleuter, ondniv:basis-kleuter-3j, ondniv:basis-kleuter-4j, ondniv:basis-kleuter-5j, ondniv:basis-lager, ondniv:basis-lager-lj1, ondniv:basis-lager-lj2, ondniv:basis-lager-lj3, ondniv:basis-lager-lj4, ondniv:basis-lager-lj5, ondniv:basis-lager-lj6, ondniv:buso, ondniv:sec, ondniv:sec-gr1, ondniv:sec-gr1-astroom, ondniv:sec-gr1-bstroom, ondniv:sec-gr2, ondniv:sec-gr2-arbeidsmarkt, ondniv:sec-gr2-arbeidsmarkt-bso, ondniv:sec-gr2-doorstroom, ondniv:sec-gr2-doorstroom-aso, ondniv:sec-gr2-doorstroom-kso, ondniv:sec-gr2-doorstroom-tso, ondniv:sec-gr2-dubbel, ondniv:sec-gr2-dubbel-kso, ondniv:sec-gr2-dubbel-tso, ondniv:sec-gr3, ondniv:sec-gr3-arbeidsmarkt, ondniv:sec-gr3-arbeidsmarkt-bso, ondniv:sec-gr3-doorstroom, ondniv:sec-gr3-doorstroom-aso, ondniv:sec-gr3-doorstroom-kso, ondniv:sec-gr3-doorstroom-tso, ondniv:sec-gr3-dubbel, ondniv:sec-gr3-dubbel-kso, ondniv:sec-gr3-dubbel-tso .
 
+<http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit> skos:member ondniv:sec-gr1-astroom, ondniv:sec-gr1-bstroom, ondniv:sec-gr2-arbeidsmarkt, ondniv:sec-gr2-doorstroom, ondniv:sec-gr2-dubbel, ondniv:sec-gr3-arbeidsmarkt, ondniv:sec-gr3-doorstroom, ondniv:sec-gr3-dubbel .
+
+<http://ilearn.ilabt.imec.be/vocab/elem/ondniv-graad> skos:member ondniv:basis-kleuter-3j, ondniv:basis-kleuter-4j, ondniv:basis-kleuter-5j, ondniv:basis-lager-lj1, ondniv:basis-lager-lj2, ondniv:basis-lager-lj3, ondniv:basis-lager-lj4, ondniv:basis-lager-lj5, ondniv:basis-lager-lj6, ondniv:sec-gr1, ondniv:sec-gr2, ondniv:sec-gr3 .
+
+<http://ilearn.ilabt.imec.be/vocab/elem/ondniv-niveau> skos:member ondniv:basis, ondniv:buso, ondniv:sec .
+
+<http://ilearn.ilabt.imec.be/vocab/elem/ondniv-onderwijsvorm> skos:member ondniv:sec-gr2-arbeidsmarkt-bso, ondniv:sec-gr2-doorstroom-aso, ondniv:sec-gr2-doorstroom-kso, ondniv:sec-gr2-doorstroom-tso, ondniv:sec-gr2-dubbel-kso, ondniv:sec-gr2-dubbel-tso, ondniv:sec-gr3-arbeidsmarkt-bso, ondniv:sec-gr3-doorstroom-aso, ondniv:sec-gr3-doorstroom-kso, ondniv:sec-gr3-doorstroom-tso, ondniv:sec-gr3-dubbel-kso, ondniv:sec-gr3-dubbel-tso .
+
+<http://ilearn.ilabt.imec.be/vocab/elem/ondniv-subniveau> skos:member ondniv:basis-bulo, ondniv:basis-kleuter, ondniv:basis-lager .
+
 ondniv:_scheme rdf:type skos:ConceptScheme ;
 	skos:prefLabel "onderwijsniveaus"@nl .
 

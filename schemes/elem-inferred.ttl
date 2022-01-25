@@ -28,6 +28,26 @@ elem:ondniv a skos:Collection ;
     skos:inScheme elem:_scheme ;
     skos:prefLabel "onderwijsniveaus"@nl .
 
+elem:ondniv-finaliteit a skos:Collection ;
+    skos:inScheme elem:_scheme ;
+    skos:prefLabel "onderwijsniveaus-finaliteit"@nl .
+
+elem:ondniv-graad a skos:Collection ;
+    skos:inScheme elem:_scheme ;
+    skos:prefLabel "onderwijsniveaus-graad"@nl .
+
+elem:ondniv-niveau a skos:Collection ;
+    skos:inScheme elem:_scheme ;
+    skos:prefLabel "onderwijsniveaus-niveau"@nl .
+
+elem:ondniv-onderwijsvorm a skos:Collection ;
+    skos:inScheme elem:_scheme ;
+    skos:prefLabel "onderwijsniveaus-onderwijsvorm"@nl .
+
+elem:ondniv-subniveau a skos:Collection ;
+    skos:inScheme elem:_scheme ;
+    skos:prefLabel "onderwijsniveaus-subniveau"@nl .
+
 elem:secundair-onderwijs a skos:Collection ;
     skos:inScheme elem:_scheme ;
     skos:prefLabel "secundair onderwijs"@nl .

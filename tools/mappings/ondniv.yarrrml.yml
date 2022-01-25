@@ -200,3 +200,14 @@ mappings:
       parameters:
         - [grel:valueParameter, $(Id)]
         - [grel:valueParameter2, ""]
+  member-additional:
+    sources:
+      - niveaus
+    s: http://ilearn.ilabt.imec.be/vocab/elem/ondniv-$(Mapping)
+    po:
+      - [skos:member, ondniv:$(Id)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Id)]
+        - [grel:valueParameter2, ""]
