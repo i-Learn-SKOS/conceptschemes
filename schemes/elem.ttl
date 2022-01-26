@@ -57,27 +57,27 @@ elem:trefwoorden a skos:Collection ;
 
 elem:ondniv a skos:Collection ;
   skos:inScheme elem:_scheme ;
-  skos:prefLabel "onderwijsniveaus"@nl .
+  skos:prefLabel "onderwijsstructuur"@nl .
 
 elem:ondniv-finaliteit a skos:Collection ;
   skos:inScheme elem:_scheme ;
-  skos:prefLabel "onderwijsniveaus-finaliteit"@nl .
+  skos:prefLabel "stroom of finaliteit"@nl .
 
 elem:ondniv-graad a skos:Collection ;
   skos:inScheme elem:_scheme ;
-  skos:prefLabel "onderwijsniveaus-graad"@nl .
+  skos:prefLabel "jaar of graad"@nl .
 
 elem:ondniv-niveau a skos:Collection ;
   skos:inScheme elem:_scheme ;
-  skos:prefLabel "onderwijsniveaus-niveau"@nl .
+  skos:prefLabel "onderwijsniveau"@nl .
 
 elem:ondniv-onderwijsvorm a skos:Collection ;
   skos:inScheme elem:_scheme ;
-  skos:prefLabel "onderwijsniveaus-onderwijsvorm"@nl .
+  skos:prefLabel "onderwijsvorm"@nl .
 
 elem:ondniv-subniveau a skos:Collection ;
   skos:inScheme elem:_scheme ;
-  skos:prefLabel "onderwijsniveaus-subniveau"@nl .
+  skos:prefLabel "onderwijssubniveau"@nl .
 
 elem:onddoel a skos:Collection ;
   skos:inScheme elem:_scheme ;

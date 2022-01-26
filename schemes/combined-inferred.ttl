@@ -2346,7 +2346,7 @@ elem:ondniv a skos:Collection ;
         ondniv:sec-gr3-dubbel,
         ondniv:sec-gr3-dubbel-kso,
         ondniv:sec-gr3-dubbel-tso ;
-    skos:prefLabel "onderwijsniveaus"@nl .
+    skos:prefLabel "onderwijsstructuur"@nl .
 
 elem:ondniv-finaliteit a skos:Collection ;
     skos:inScheme elem:_scheme ;
@@ -2358,7 +2358,7 @@ elem:ondniv-finaliteit a skos:Collection ;
         ondniv:sec-gr3-arbeidsmarkt,
         ondniv:sec-gr3-doorstroom,
         ondniv:sec-gr3-dubbel ;
-    skos:prefLabel "onderwijsniveaus-finaliteit"@nl .
+    skos:prefLabel "stroom of finaliteit"@nl .
 
 elem:ondniv-graad a skos:Collection ;
     skos:inScheme elem:_scheme ;
@@ -2374,14 +2374,14 @@ elem:ondniv-graad a skos:Collection ;
         ondniv:sec-gr1,
         ondniv:sec-gr2,
         ondniv:sec-gr3 ;
-    skos:prefLabel "onderwijsniveaus-graad"@nl .
+    skos:prefLabel "jaar of graad"@nl .
 
 elem:ondniv-niveau a skos:Collection ;
     skos:inScheme elem:_scheme ;
     skos:member ondniv:basis,
         ondniv:buso,
         ondniv:sec ;
-    skos:prefLabel "onderwijsniveaus-niveau"@nl .
+    skos:prefLabel "onderwijsniveau"@nl .
 
 elem:ondniv-onderwijsvorm a skos:Collection ;
     skos:inScheme elem:_scheme ;
@@ -2397,14 +2397,14 @@ elem:ondniv-onderwijsvorm a skos:Collection ;
         ondniv:sec-gr3-doorstroom-tso,
         ondniv:sec-gr3-dubbel-kso,
         ondniv:sec-gr3-dubbel-tso ;
-    skos:prefLabel "onderwijsniveaus-onderwijsvorm"@nl .
+    skos:prefLabel "onderwijsvorm"@nl .
 
 elem:ondniv-subniveau a skos:Collection ;
     skos:inScheme elem:_scheme ;
     skos:member ondniv:basis-bulo,
         ondniv:basis-kleuter,
         ondniv:basis-lager ;
-    skos:prefLabel "onderwijsniveaus-subniveau"@nl .
+    skos:prefLabel "onderwijssubniveau"@nl .
 
 elem:secundair-onderwijs a skos:Collection ;
     skos:inScheme elem:_scheme ;
