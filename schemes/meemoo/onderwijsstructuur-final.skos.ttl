@@ -1,100 +1,103 @@
+@prefix graad: <https://data.hetarchief.be/term/onderwijs/graad/> .
+@prefix niveau: <https://data.hetarchief.be/term/onderwijs/niveau/> .
+@prefix ond: <https://data.hetarchief.be/term/onderwijs/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://data.hetarchief.be/term/onderwijs/graad> a skos:Collection ;
+ond:graad a skos:Collection ;
     rdfs:label "Onderwijsgraden"@nl ;
-    skos:member <https://data.hetarchief.be/term/onderwijs/graad/lager-1ste-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/lager-2de-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/lager-3de-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/secundair-1ste-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/secundair-2de-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/secundair-3de-graad> .
+    skos:member graad:lager-1ste-graad,
+        graad:lager-2de-graad,
+        graad:lager-3de-graad,
+        graad:secundair-1ste-graad,
+        graad:secundair-2de-graad,
+        graad:secundair-3de-graad .
 
-<https://data.hetarchief.be/term/onderwijs/niveau> a skos:Collection ;
+ond:niveau a skos:Collection ;
     rdfs:label "Onderwijsniveaus"@nl ;
-    skos:member <https://data.hetarchief.be/term/onderwijs/niveau/hoger-onderwijs>,
-        <https://data.hetarchief.be/term/onderwijs/niveau/kleuteronderwijs>,
-        <https://data.hetarchief.be/term/onderwijs/niveau/lager-onderwijs>,
-        <https://data.hetarchief.be/term/onderwijs/niveau/secundair-onderwijs>,
-        <https://data.hetarchief.be/term/onderwijs/niveau/volwassenenonderwijs> .
+    skos:member niveau:hoger-onderwijs,
+        niveau:kleuteronderwijs,
+        niveau:lager-onderwijs,
+        niveau:secundair-onderwijs,
+        niveau:volwassenenonderwijs .
 
-<https://data.hetarchief.be/term/onderwijs/graad/lager-1ste-graad> a skos:Concept ;
-    skos:broader <https://data.hetarchief.be/term/onderwijs/niveau/lager-onderwijs> ;
+graad:lager-1ste-graad a skos:Concept ;
+    skos:broader niveau:lager-onderwijs ;
     skos:definition "Lager 1ste graad"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Lager 1ste graad"@nl .
 
-<https://data.hetarchief.be/term/onderwijs/graad/lager-2de-graad> a skos:Concept ;
-    skos:broader <https://data.hetarchief.be/term/onderwijs/niveau/lager-onderwijs> ;
+graad:lager-2de-graad a skos:Concept ;
+    skos:broader niveau:lager-onderwijs ;
     skos:definition "Lager 2de graad"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Lager 2de graad"@nl .
 
-<https://data.hetarchief.be/term/onderwijs/graad/lager-3de-graad> a skos:Concept ;
-    skos:broader <https://data.hetarchief.be/term/onderwijs/niveau/lager-onderwijs> ;
+graad:lager-3de-graad a skos:Concept ;
+    skos:broader niveau:lager-onderwijs ;
     skos:definition "Lager 3de graad"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Lager 3de graad"@nl .
 
-<https://data.hetarchief.be/term/onderwijs/graad/secundair-1ste-graad> a skos:Concept ;
-    skos:broader <https://data.hetarchief.be/term/onderwijs/niveau/secundair-onderwijs> ;
+graad:secundair-1ste-graad a skos:Concept ;
+    skos:broader niveau:secundair-onderwijs ;
     skos:definition "Secundair 1ste graad"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Secundair 1ste graad"@nl .
 
-<https://data.hetarchief.be/term/onderwijs/graad/secundair-2de-graad> a skos:Concept ;
-    skos:broader <https://data.hetarchief.be/term/onderwijs/niveau/secundair-onderwijs> ;
+graad:secundair-2de-graad a skos:Concept ;
+    skos:broader niveau:secundair-onderwijs ;
     skos:definition "Secundair 2de graad"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Secundair 2de graad"@nl .
 
-<https://data.hetarchief.be/term/onderwijs/graad/secundair-3de-graad> a skos:Concept ;
-    skos:broader <https://data.hetarchief.be/term/onderwijs/niveau/secundair-onderwijs> ;
+graad:secundair-3de-graad a skos:Concept ;
+    skos:broader niveau:secundair-onderwijs ;
     skos:definition "Secundair 3de graad"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Secundair 3de graad"@nl .
 
-<https://data.hetarchief.be/term/onderwijs/niveau/hoger-onderwijs> a skos:Concept ;
+niveau:hoger-onderwijs a skos:Concept ;
     skos:definition "Hoger onderwijs"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Hoger onderwijs"@nl ;
-    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/structuur> .
+    skos:topConceptOf ond:structuur .
 
-<https://data.hetarchief.be/term/onderwijs/niveau/kleuteronderwijs> a skos:Concept ;
+niveau:kleuteronderwijs a skos:Concept ;
     skos:definition "Kleuteronderwijs"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Kleuteronderwijs"@nl ;
-    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/structuur> .
+    skos:topConceptOf ond:structuur .
 
-<https://data.hetarchief.be/term/onderwijs/niveau/volwassenenonderwijs> a skos:Concept ;
+niveau:volwassenenonderwijs a skos:Concept ;
     skos:definition "Volwassenenonderwijs"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
+    skos:inScheme ond:structuur ;
     skos:prefLabel "Volwassenenonderwijs"@nl ;
-    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/structuur> .
+    skos:topConceptOf ond:structuur .
 
-<https://data.hetarchief.be/term/onderwijs/niveau/lager-onderwijs> a skos:Concept ;
+niveau:lager-onderwijs a skos:Concept ;
     skos:definition "Lager onderwijs"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
-    skos:narrower <https://data.hetarchief.be/term/onderwijs/graad/lager-1ste-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/lager-2de-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/lager-3de-graad> ;
+    skos:inScheme ond:structuur ;
+    skos:narrower graad:lager-1ste-graad,
+        graad:lager-2de-graad,
+        graad:lager-3de-graad ;
     skos:prefLabel "Lager onderwijs"@nl ;
-    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/structuur> .
+    skos:topConceptOf ond:structuur .
 
-<https://data.hetarchief.be/term/onderwijs/niveau/secundair-onderwijs> a skos:Concept ;
+niveau:secundair-onderwijs a skos:Concept ;
     skos:definition "Secundair onderwijs"@nl ;
-    skos:inScheme <https://data.hetarchief.be/term/onderwijs/structuur> ;
-    skos:narrower <https://data.hetarchief.be/term/onderwijs/graad/secundair-1ste-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/secundair-2de-graad>,
-        <https://data.hetarchief.be/term/onderwijs/graad/secundair-3de-graad> ;
+    skos:inScheme ond:structuur ;
+    skos:narrower graad:secundair-1ste-graad,
+        graad:secundair-2de-graad,
+        graad:secundair-3de-graad ;
     skos:prefLabel "Secundair onderwijs"@nl ;
-    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/structuur> .
+    skos:topConceptOf ond:structuur .
 
-<https://data.hetarchief.be/term/onderwijs/structuur> a skos:ConceptScheme ;
+ond:structuur a skos:ConceptScheme ;
     rdfs:label "Meemoo lijst onderwijsstructuur"@nl ;
-    skos:hasTopConcept <https://data.hetarchief.be/term/onderwijs/niveau/hoger-onderwijs>,
-        <https://data.hetarchief.be/term/onderwijs/niveau/kleuteronderwijs>,
-        <https://data.hetarchief.be/term/onderwijs/niveau/lager-onderwijs>,
-        <https://data.hetarchief.be/term/onderwijs/niveau/secundair-onderwijs>,
-        <https://data.hetarchief.be/term/onderwijs/niveau/volwassenenonderwijs> .
+    skos:hasTopConcept niveau:hoger-onderwijs,
+        niveau:kleuteronderwijs,
+        niveau:lager-onderwijs,
+        niveau:secundair-onderwijs,
+        niveau:volwassenenonderwijs .
 
