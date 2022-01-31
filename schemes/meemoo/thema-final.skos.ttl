@@ -1,0 +1,1333 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.hetarchief.be/term/onderwijs/thema-volgorde> a skos:OrderedCollection ;
+    rdfs:label "Themas in volgorde"@nl ;
+    skos:memberList ( <https://data.hetarchief.be/term/onderwijs/thema/nederlandse-taal> <https://data.hetarchief.be/term/onderwijs/thema/moderne-talen> <https://data.hetarchief.be/term/onderwijs/thema/klassieke-talen> <https://data.hetarchief.be/term/onderwijs/thema/literatuur> <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie> <https://data.hetarchief.be/term/onderwijs/thema/sport-en-spel> <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg> <https://data.hetarchief.be/term/onderwijs/thema/lichamelijke-verzorging> <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca> <https://data.hetarchief.be/term/onderwijs/thema/politiek-en-overheid> <https://data.hetarchief.be/term/onderwijs/thema/recht> <https://data.hetarchief.be/term/onderwijs/thema/participatie> <https://data.hetarchief.be/term/onderwijs/thema/relaties-en-seksualiteit> <https://data.hetarchief.be/term/onderwijs/thema/psychologie> <https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling> <https://data.hetarchief.be/term/onderwijs/thema/identiteit> <https://data.hetarchief.be/term/onderwijs/thema/armoede-en-welvaart> <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden> <https://data.hetarchief.be/term/onderwijs/thema/rolpatronen-en-stereotypen> <https://data.hetarchief.be/term/onderwijs/thema/leren-en-onderzoeken> <https://data.hetarchief.be/term/onderwijs/thema/religie-en-geloof> <https://data.hetarchief.be/term/onderwijs/thema/filosofie> <https://data.hetarchief.be/term/onderwijs/thema/rampen-en-conflicten> <https://data.hetarchief.be/term/onderwijs/thema/economie> <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer> <https://data.hetarchief.be/term/onderwijs/thema/omgaan-met-geld> <https://data.hetarchief.be/term/onderwijs/thema/beroepen> <https://data.hetarchief.be/term/onderwijs/thema/prehistorie> <https://data.hetarchief.be/term/onderwijs/thema/oudheid> <https://data.hetarchief.be/term/onderwijs/thema/middeleeuwen> <https://data.hetarchief.be/term/onderwijs/thema/vroegmoderne-tijd> <https://data.hetarchief.be/term/onderwijs/thema/moderne-tijd> <https://data.hetarchief.be/term/onderwijs/thema/hedendaagse-tijd> <https://data.hetarchief.be/term/onderwijs/thema/erfgoed> <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit> <https://data.hetarchief.be/term/onderwijs/thema/toerisme> <https://data.hetarchief.be/term/onderwijs/thema/weer-en-klimaat> <https://data.hetarchief.be/term/onderwijs/thema/bevolking-en-ruimtelijke-ordening> <https://data.hetarchief.be/term/onderwijs/thema/landschap-en-reli%C3%ABf> <https://data.hetarchief.be/term/onderwijs/thema/het-heelal> <https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie> <https://data.hetarchief.be/term/onderwijs/thema/wiskunde> <https://data.hetarchief.be/term/onderwijs/thema/chemie> <https://data.hetarchief.be/term/onderwijs/thema/biologie> <https://data.hetarchief.be/term/onderwijs/thema/fysica> <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw> <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica> <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid> <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten> <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> ) .
+
+<https://data.hetarchief.be/term/onderwijs/vak/%22instrument%3A-folk--en-wereldmuziek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/%22instrument%3A-jazz-pop-rock> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/%22instrument%3A-klassiek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/administratie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/afwerking-bouw> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/agrarische-technieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/algemene-muziekleer> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/apotheek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/chemie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/architecturale-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/architectuurtekenen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/atelier-drama> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/atelier-woord> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/autorijtechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/autotechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/beeldende-kunsten> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/beeldende-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/besturing-bouwmachines> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/binnenhuiskunst> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/bosbouw> skos:related <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/bouw> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/bouwkunst> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/centrale-verwarming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/chemie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/chemie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/commerci%C3%ABle-technieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/creatief-musiceren> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/dakwerken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/eigen-cultuur-en-religie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/religie-en-geloof> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/exploratie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/leren-en-onderzoeken> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/filosofie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/filosofie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/fotografie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/fysica> skos:related <https://data.hetarchief.be/term/onderwijs/thema/fysica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/grafische-technieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/grime> skos:related <https://data.hetarchief.be/term/onderwijs/thema/lichamelijke-verzorging> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/groendecoratie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-folk--en-wereldmuziek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-jazz-pop-rock> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-klassiek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-musical> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-opera%2Fmuziektheater> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/haarverzorging> skos:related <https://data.hetarchief.be/term/onderwijs/thema/lichamelijke-verzorging> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/hedendaagse-dans> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/hotel> skos:related <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/hout> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/human-resources> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/indirecte-zorg> skos:related <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/instrumentenbouw> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/keukentechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/klassieke-dans> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/koetswerk> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/kunststoffen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/landbouw> skos:related <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/lassen-constructie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/leren-leren> skos:related <https://data.hetarchief.be/term/onderwijs/thema/leren-en-onderzoeken> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/lichamelijke-opvoeding> skos:related <https://data.hetarchief.be/term/onderwijs/thema/sport-en-spel> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/mechanica> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/mechanische-vormgeving> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/meubelmakerij> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/militaire-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beroepen> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/mode> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/muziektheorie%3A-folk-en-wereldmuziek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/muziektheorie%3A-jazz-pop-rock> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/muziektheorie%3A-klassiek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/natuurbeheer> skos:related <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/nautische-technieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/opvoedkunde> skos:related <https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/orthopedie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/pedagogiek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/praktische-harmonie%3A-folk-en-wereldmuziek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/praktische-harmonie%3A-jazz-pop-rock> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/praktische-harmonie%3A-klassiek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/productie-industrie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/public-relations> skos:related <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/recht> skos:related <https://data.hetarchief.be/term/onderwijs/thema/recht> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/restauranttechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/ruwbouw> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/sanitair> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/scheepswerktuigkunde> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/scheepvaart> skos:related <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/schilderen-en-decoratie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/schoonheidsverzorging> skos:related <https://data.hetarchief.be/term/onderwijs/thema/lichamelijke-verzorging> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/schoonmaak> skos:related <https://data.hetarchief.be/term/onderwijs/thema/lichamelijke-verzorging> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/schrijnwerkerij> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/slagerij> skos:related <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/sport> skos:related <https://data.hetarchief.be/term/onderwijs/thema/sport-en-spel> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/steigerbouw> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/tandtechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/lichamelijke-verzorging> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/techniek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/technologische-opvoeding> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/textielproductie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/textielverzorging> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-beeldende-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-biologie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-chemie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/chemie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-fysica> skos:related <https://data.hetarchief.be/term/onderwijs/thema/fysica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-informatica> skos:related <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toerisme> skos:related <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/topsport> skos:related <https://data.hetarchief.be/term/onderwijs/thema/sport-en-spel> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/tuinbouw> skos:related <https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/uurwerkmaken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/verpleegkunde> skos:related <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/verzorging> skos:related <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/voeding> skos:related <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/vrije-beeldende-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/waarnemingstekenen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/wegenwerken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/wiskunde> skos:related <https://data.hetarchief.be/term/onderwijs/thema/wiskunde> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/zang%3A-folk--en-wereldmuziek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/zang%3A-jazz-pop-rock> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/zang%3A-klassiek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/zang%3A-musical> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/zang%3A-opera%2Fmuziektheater> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/zeemanschap> skos:related <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/algemene-verbale-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/artistieke-expressie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/audiovisuele-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/bakkerij> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/bewegingswetenschappen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg>,
+        <https://data.hetarchief.be/term/onderwijs/thema/sport-en-spel> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/biochemie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/chemie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/boekhouding> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer>,
+        <https://data.hetarchief.be/term/onderwijs/thema/omgaan-met-geld> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/communicatiewetenschappen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/decoratieve-technieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/diamant> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/dierenzorg> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/ecologie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw>,
+        <https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/elektriciteit> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/fysica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/elektronica> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/esthetica> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/glastechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/goud-en-juwelen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/hoefverzorging> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/ict> skos:related <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/informaticawetenschappen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/koeltechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/fysica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/logistiek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer>,
+        <https://data.hetarchief.be/term/onderwijs/thema/economie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/muzikale-opvoeding> skos:related <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/nederlands-voor-nieuwkomers> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/nederlandse-taal> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/onthaal> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/optiek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/plastische-opvoeding> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/podiumtechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/publiciteitstekenen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/restauratie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/rijn--en-binnenvaart> skos:related <https://data.hetarchief.be/term/onderwijs/thema/landschap-en-reli%C3%ABf>,
+        <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/steen--en-marmerbewerking> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-biochemie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/chemie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/zakelijke-communicatie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/nederlandse-taal> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/beroepen> a skos:Concept ;
+    skos:definition "Alles over de arbeidsmarkt, arbeidsomstandigheden, beroepen, vakbonden, solliciteren, arbeidswetgeving, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Beroepen"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/militaire-vorming> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/artistieke-creatie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/bedrijfswetenschappen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer>,
+        <https://data.hetarchief.be/term/onderwijs/thema/economie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/biologie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg>,
+        <https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/duits> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/economie-> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer>,
+        <https://data.hetarchief.be/term/onderwijs/thema/economie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/omgaan-met-geld> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/elektromechanica> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/fysica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/engels-> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/frans> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/interlevensbeschouwelijke-dialoog> skos:related <https://data.hetarchief.be/term/onderwijs/thema/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/religie-en-geloof> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/italiaans> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/kunstbeschouwing> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/muzische-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/natuurwetenschappen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/chemie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/fysica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/nederlands> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/nederlandse-taal> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/printmedia> skos:related <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/psychologie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg>,
+        <https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling>,
+        <https://data.hetarchief.be/term/onderwijs/thema/psychologie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/russisch> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/sociale-vaardigheden> skos:related <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/participatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/relaties-en-seksualiteit> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/spaans> skos:related <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-natuurwetenschappen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/chemie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/fysica> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-psychologie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling>,
+        <https://data.hetarchief.be/term/onderwijs/thema/psychologie> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/veiligheidstechnieken> skos:related <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/verkoop> skos:related <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/economie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/armoede-en-welvaart> a skos:Concept ;
+    skos:definition "Alles over armoede, kansarmoede, armoedebestrijding, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Armoede en welvaart"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/bevolking-en-ruimtelijke-ordening> a skos:Concept ;
+    skos:definition "Demografie en ruimtelijke planning"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Bevolking en ruimtelijke ordening"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/aardrijkskunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/het-heelal> a skos:Concept ;
+    skos:definition "To space ... and beyond"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Het heelal"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/aardrijkskunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/leren-en-onderzoeken> a skos:Concept ;
+    skos:definition "Hoe leren mensen en alles over onderzoekscompetenties en het onderwijs"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Leren en onderzoeken"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/exploratie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/leren-leren> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/rampen-en-conflicten> a skos:Concept ;
+    skos:definition "Denk aan oorlog, hongersnood, Arabische lente, treinramp Buizingen, Fukushima, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Rampen en conflicten"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/geschiedenis>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/weer-en-klimaat> a skos:Concept ;
+    skos:definition "Alles over het weer en het klimaat"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Weer en klimaat"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/aardrijkskunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/wiskunde> a skos:Concept ;
+    skos:definition "Wiskunde"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Wiskunde"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/project-stem>,
+        <https://data.hetarchief.be/term/onderwijs/vak/wiskunde> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/beeld--en-mediacultuur> skos:related <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/godsdienst-> skos:related <https://data.hetarchief.be/term/onderwijs/thema/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/religie-en-geloof> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/grieks> skos:related <https://data.hetarchief.be/term/onderwijs/thema/klassieke-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/oudheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/hebreeuws> skos:related <https://data.hetarchief.be/term/onderwijs/thema/klassieke-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/oudheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/latijn> skos:related <https://data.hetarchief.be/term/onderwijs/thema/klassieke-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/oudheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/niet-confessionele-zedenleer-> skos:related <https://data.hetarchief.be/term/onderwijs/thema/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/religie-en-geloof> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/oud-hebreeuws> skos:related <https://data.hetarchief.be/term/onderwijs/thema/klassieke-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/oudheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/toegepaste-economie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer>,
+        <https://data.hetarchief.be/term/onderwijs/thema/economie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/omgaan-met-geld>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/erfgoed> a skos:Concept ;
+    skos:definition "Materieel en immaterieel erfgoed (tradities, rituelen, ...), alles over hoe we vandaag naar het verleden kijken"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Erfgoed"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/geschiedenis>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/hedendaagse-tijd> a skos:Concept ;
+    skos:definition "Alles over de hedendaagse tijd (na WO II - 10 jaar geleden)"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Hedendaagse tijd"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/geschiedenis>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/landschap-en-reli%C3%ABf> a skos:Concept ;
+    skos:definition "Fysische geografie"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Landschap en reliëf"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/aardrijkskunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/rijn--en-binnenvaart> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/middeleeuwen> a skos:Concept ;
+    skos:definition "Alles over de middeleeuwen"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Middeleeuwen"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/geschiedenis>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/moderne-tijd> a skos:Concept ;
+    skos:definition "Alles over de moderne tijd"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Moderne tijd"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/geschiedenis>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/nederlandse-taal> a skos:Concept ;
+    skos:definition "Taalkunde, exclusief literatuur, voor de Nederlandse taal"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Nederlandse taal"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/nederlands>,
+        <https://data.hetarchief.be/term/onderwijs/vak/nederlands-voor-nieuwkomers>,
+        <https://data.hetarchief.be/term/onderwijs/vak/zakelijke-communicatie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/prehistorie> a skos:Concept ;
+    skos:definition "Alles over de prehistorie"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Prehistorie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/geschiedenis>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/vroegmoderne-tijd> a skos:Concept ;
+    skos:definition "Alles over de vroegmoderne tijd"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Vroegmoderne tijd"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/geschiedenis>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/gedragswetenschappen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling>,
+        <https://data.hetarchief.be/term/onderwijs/thema/psychologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rolpatronen-en-stereotypen> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/project-stem> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/chemie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/fysica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/wiskunde> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/klassieke-talen> a skos:Concept ;
+    skos:definition "Taalkunde, exclusief literatuur, voor de klassieke talen"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Klassieke talen"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/grieks>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hebreeuws>,
+        <https://data.hetarchief.be/term/onderwijs/vak/latijn>,
+        <https://data.hetarchief.be/term/onderwijs/vak/oud-hebreeuws> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/omgaan-met-geld> a skos:Concept ;
+    skos:definition "Persoonlijke financiële geletterdheid"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Omgaan met geld"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/boekhouding>,
+        <https://data.hetarchief.be/term/onderwijs/vak/economie->,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-economie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/psychologie> a skos:Concept ;
+    skos:definition "Alles over psychologie en mentaal welzijn"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Psychologie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/gedragswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/psychologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-psychologie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/relaties-en-seksualiteit> a skos:Concept ;
+    skos:definition "Alles over persoonlijke relaties, inclusief familiebanden en vriendschap, en seksualiteit"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Relaties en seksualiteit"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociale-vaardigheden>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociologie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/sport-en-spel> a skos:Concept ;
+    skos:definition "Alles over lichaamsbeweging, (top)sport, spellen en spelen"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Sport en spel"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/bewegingswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/lichamelijke-opvoeding>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sport>,
+        <https://data.hetarchief.be/term/onderwijs/vak/topsport> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/burgerschap> skos:related <https://data.hetarchief.be/term/onderwijs/thema/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/participatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/politiek-en-overheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/cultuurbeschouwing> skos:related <https://data.hetarchief.be/term/onderwijs/thema/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/participatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/politiek-en-overheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht>,
+        <https://data.hetarchief.be/term/onderwijs/thema/religie-en-geloof> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/sociologie> skos:related <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht>,
+        <https://data.hetarchief.be/term/onderwijs/thema/relaties-en-seksualiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rolpatronen-en-stereotypen> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/wetenschappen-en-techniek> skos:related <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/chemie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/fysica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw>,
+        <https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/lichamelijke-verzorging> a skos:Concept ;
+    skos:definition "Persoonlijke hygiëne, haartooi, cosmetica, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Lichamelijke verzorging"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/grime>,
+        <https://data.hetarchief.be/term/onderwijs/vak/haarverzorging>,
+        <https://data.hetarchief.be/term/onderwijs/vak/schoonheidsverzorging>,
+        <https://data.hetarchief.be/term/onderwijs/vak/schoonmaak>,
+        <https://data.hetarchief.be/term/onderwijs/vak/tandtechnieken> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/participatie> a skos:Concept ;
+    skos:definition "Maatschappelijke participatie"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Participatie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/burgerschap>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociale-vaardigheden> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/politiek-en-overheid> a skos:Concept ;
+    skos:definition "Van politieke partijen en besluitvorming tot de werking van de overheid, wetgeving en burgerparticipatie. Zowel binnen- als buitenland"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Politiek en overheid"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/burgerschap>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/religie-en-geloof> a skos:Concept ;
+    skos:definition "Alles over religies, geloofsovertuigingen en godsdiensten"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Religie en geloof"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/cultuurbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/eigen-cultuur-en-religie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/godsdienst->,
+        <https://data.hetarchief.be/term/onderwijs/vak/interlevensbeschouwelijke-dialoog>,
+        <https://data.hetarchief.be/term/onderwijs/vak/niet-confessionele-zedenleer-> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/rolpatronen-en-stereotypen> a skos:Concept ;
+    skos:definition "Alles over de rollen die mensen opnemen in de maatschappij en de stereotypen die daar bij komen. Ook racisme, seksisme, discriminatie, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Rolpatronen en stereotypen"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/gedragswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociologie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/aardrijkskunde> skos:related <https://data.hetarchief.be/term/onderwijs/thema/bevolking-en-ruimtelijke-ordening>,
+        <https://data.hetarchief.be/term/onderwijs/thema/het-heelal>,
+        <https://data.hetarchief.be/term/onderwijs/thema/landschap-en-reli%C3%ABf>,
+        <https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme>,
+        <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/weer-en-klimaat> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/economie> a skos:Concept ;
+    skos:definition "Micro- en macro-economie"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Economie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/bedrijfswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/economie->,
+        <https://data.hetarchief.be/term/onderwijs/vak/logistiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-economie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/verkoop> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie> a skos:Concept ;
+    skos:definition "Ecosystemen, biodiversiteit, habitat, milieuvervuiling, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Milieu en ecologie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/aardrijkskunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/ecologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/tuinbouw>,
+        <https://data.hetarchief.be/term/onderwijs/vak/wetenschappen-en-techniek> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/moderne-talen> a skos:Concept ;
+    skos:definition "Taalkunde, exclusief literatuur, voor alle moderne talen"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Moderne talen"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/duits>,
+        <https://data.hetarchief.be/term/onderwijs/vak/engels->,
+        <https://data.hetarchief.be/term/onderwijs/vak/frans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/italiaans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/russisch>,
+        <https://data.hetarchief.be/term/onderwijs/vak/spaans> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling> a skos:Concept ;
+    skos:definition "Opvoeding van kinderen en ontwikkeling van de mens"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Opvoeding en ontwikkeling"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/gedragswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/opvoedkunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/pedagogiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/psychologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-psychologie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/geschiedenis> skos:related <https://data.hetarchief.be/term/onderwijs/thema/erfgoed>,
+        <https://data.hetarchief.be/term/onderwijs/thema/hedendaagse-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/middeleeuwen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/oudheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/prehistorie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rampen-en-conflicten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/vroegmoderne-tijd> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid> a skos:Concept ;
+    skos:definition "Mediawijsheid, beeldgeletterdheid, kritische zin"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Mediawijsheid"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/beeld--en-mediacultuur>,
+        <https://data.hetarchief.be/term/onderwijs/vak/communicatiewetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/ict>,
+        <https://data.hetarchief.be/term/onderwijs/vak/informaticawetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociologie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/oudheid> a skos:Concept ;
+    skos:definition "Alles over de oudheid"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Oudheid"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/geschiedenis>,
+        <https://data.hetarchief.be/term/onderwijs/vak/grieks>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hebreeuws>,
+        <https://data.hetarchief.be/term/onderwijs/vak/latijn>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/oud-hebreeuws> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit> a skos:Concept ;
+    skos:definition "Organisatie van het verkeer, verkeersveiligheid, files, geschiedenis van de fiets"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Verkeer en mobiliteit"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/aardrijkskunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/nautische-technieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/rijn--en-binnenvaart>,
+        <https://data.hetarchief.be/term/onderwijs/vak/scheepvaart>,
+        <https://data.hetarchief.be/term/onderwijs/vak/wegenwerken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/zeemanschap> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca> a skos:Concept ;
+    skos:definition "Alles over voeding en alle aspecten van de horeca"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Voeding en horeca"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/bakkerij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hotel>,
+        <https://data.hetarchief.be/term/onderwijs/vak/keukentechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/restauranttechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/slagerij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/voeding> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen> skos:related <https://data.hetarchief.be/term/onderwijs/thema/armoede-en-welvaart>,
+        <https://data.hetarchief.be/term/onderwijs/thema/economie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/politiek-en-overheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rolpatronen-en-stereotypen> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/filosofie> a skos:Concept ;
+    skos:definition "Alles over filosofie, (rationele) levensbeschouwingen en ethische vraagstukken"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Filosofie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/burgerschap>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/godsdienst->,
+        <https://data.hetarchief.be/term/onderwijs/vak/interlevensbeschouwelijke-dialoog>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/niet-confessionele-zedenleer-> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw> a skos:Concept ;
+    skos:definition "Van landbouw tot bosbeheer, van veeteelt tot tuinbouw"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Land- en tuinbouw"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/agrarische-technieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/bosbouw>,
+        <https://data.hetarchief.be/term/onderwijs/vak/ecologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/groendecoratie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hoefverzorging>,
+        <https://data.hetarchief.be/term/onderwijs/vak/landbouw>,
+        <https://data.hetarchief.be/term/onderwijs/vak/natuurbeheer>,
+        <https://data.hetarchief.be/term/onderwijs/vak/wetenschappen-en-techniek> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer> a skos:Concept ;
+    skos:definition "Bedrijfseconomie, ondernemerschap, alle aspecten van bedrijfskunde"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Bedrijfsbeheer"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/administratie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/bedrijfswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/boekhouding>,
+        <https://data.hetarchief.be/term/onderwijs/vak/commerci%C3%ABle-technieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/economie->,
+        <https://data.hetarchief.be/term/onderwijs/vak/human-resources>,
+        <https://data.hetarchief.be/term/onderwijs/vak/logistiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/onthaal>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-economie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/chemie> a skos:Concept ;
+    skos:definition "Chemie (theorie/praktijk)"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Chemie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/apotheek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/biochemie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/chemie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/natuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/project-stem>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-biochemie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-chemie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-natuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/wetenschappen-en-techniek> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica> a skos:Concept ;
+    skos:definition "Digitale technologieën, programmeren, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Digitale vaardigheden en informatica"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/audiovisuele-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/beeld--en-mediacultuur>,
+        <https://data.hetarchief.be/term/onderwijs/vak/elektromechanica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/elektronica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/ict>,
+        <https://data.hetarchief.be/term/onderwijs/vak/informaticawetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/printmedia>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-informatica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/verkoop> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/fysica> a skos:Concept ;
+    skos:definition "Fysica (theorie/praktijk)"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Fysica"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/elektriciteit>,
+        <https://data.hetarchief.be/term/onderwijs/vak/elektromechanica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/fysica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/koeltechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/natuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/project-stem>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-fysica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-natuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/wetenschappen-en-techniek> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/identiteit> a skos:Concept ;
+    skos:definition "Het zelfbeeld van individuen en groepen. Gaande van persoonlijke, sociale, culturele tot nationale identiteitsvorming. Ook gender."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Identiteit"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/burgerschap>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/gedragswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/godsdienst->,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/niet-confessionele-zedenleer->,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociologie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden> a skos:Concept ;
+    skos:definition "Alles over de waarden (idealen en motieven) van een maatschappij en de normen (richtlijnen, gedragsregels) die moeten leiden tot die waarden, plus deviant gedrag"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Normen en waarden"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/burgerschap>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/gedragswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/godsdienst->,
+        <https://data.hetarchief.be/term/onderwijs/vak/interlevensbeschouwelijke-dialoog>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/niet-confessionele-zedenleer->,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociologie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg> a skos:Concept ;
+    skos:definition "Alle aspecten van de gezondheidszorg, lichamelijke gezondheid"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Gezondheid en gezondheidszorg"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/bewegingswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/dierenzorg>,
+        <https://data.hetarchief.be/term/onderwijs/vak/indirecte-zorg>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/optiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/psychologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/veiligheidstechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/verpleegkunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/verzorging> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/recht> a skos:Concept ;
+    skos:definition "Alles over rechtbanken, rechtspraak, criminaliteit, wetgeving, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Recht"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/bedrijfswetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/burgerschap>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/recht>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-economie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/veiligheidstechnieken> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/biologie> a skos:Concept ;
+    skos:definition "Biologie (theorie/praktijk)"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Biologie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/biochemie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/dierenzorg>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hoefverzorging>,
+        <https://data.hetarchief.be/term/onderwijs/vak/natuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/optiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/project-stem>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-biochemie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-biologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-natuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/wetenschappen-en-techniek> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/literatuur> a skos:Concept ;
+    skos:definition "Alles over literatuur, in alle talen"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Literatuur"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/algemene-verbale-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/duits>,
+        <https://data.hetarchief.be/term/onderwijs/vak/engels->,
+        <https://data.hetarchief.be/term/onderwijs/vak/frans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/grieks>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hebreeuws>,
+        <https://data.hetarchief.be/term/onderwijs/vak/italiaans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/latijn>,
+        <https://data.hetarchief.be/term/onderwijs/vak/nederlands>,
+        <https://data.hetarchief.be/term/onderwijs/vak/nederlands-voor-nieuwkomers>,
+        <https://data.hetarchief.be/term/onderwijs/vak/oud-hebreeuws>,
+        <https://data.hetarchief.be/term/onderwijs/vak/russisch>,
+        <https://data.hetarchief.be/term/onderwijs/vak/spaans> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/toerisme> a skos:Concept ;
+    skos:definition "Alles over toerisme"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Toerisme"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/aardrijkskunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/duits>,
+        <https://data.hetarchief.be/term/onderwijs/vak/engels->,
+        <https://data.hetarchief.be/term/onderwijs/vak/frans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/grieks>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hebreeuws>,
+        <https://data.hetarchief.be/term/onderwijs/vak/italiaans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/latijn>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/oud-hebreeuws>,
+        <https://data.hetarchief.be/term/onderwijs/vak/russisch>,
+        <https://data.hetarchief.be/term/onderwijs/vak/spaans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toerisme> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten> a skos:Concept ;
+    skos:definition "Schilderkunst, tekenkunst, film en fotografie, beeldhouwkunst, games, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Beeldende kunsten"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/artistieke-creatie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/artistieke-expressie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/audiovisuele-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/beeld--en-mediacultuur>,
+        <https://data.hetarchief.be/term/onderwijs/vak/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/vak/beeldende-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/esthetica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/fotografie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/kunstbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/muzische-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/plastische-opvoeding>,
+        <https://data.hetarchief.be/term/onderwijs/vak/restauratie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-beeldende-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/vrije-beeldende-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/waarnemingstekenen> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie> a skos:Concept ;
+    skos:definition "Alles over communicatie (verbaal, non-verbaal), communicatiemiddelen en de media"@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Media en communicatie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/beeld--en-mediacultuur>,
+        <https://data.hetarchief.be/term/onderwijs/vak/communicatiewetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/cultuurwetenschappen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/muzische-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/nederlands>,
+        <https://data.hetarchief.be/term/onderwijs/vak/onthaal>,
+        <https://data.hetarchief.be/term/onderwijs/vak/printmedia>,
+        <https://data.hetarchief.be/term/onderwijs/vak/public-relations>,
+        <https://data.hetarchief.be/term/onderwijs/vak/publiciteitstekenen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sociale-vaardigheden>,
+        <https://data.hetarchief.be/term/onderwijs/vak/toegepaste-psychologie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/veiligheidstechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/verkoop>,
+        <https://data.hetarchief.be/term/onderwijs/vak/zakelijke-communicatie> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/maatschappelijke-vorming> skos:related <https://data.hetarchief.be/term/onderwijs/thema/erfgoed>,
+        <https://data.hetarchief.be/term/onderwijs/thema/hedendaagse-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/middeleeuwen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/omgaan-met-geld>,
+        <https://data.hetarchief.be/term/onderwijs/thema/oudheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/participatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/politiek-en-overheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/prehistorie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht>,
+        <https://data.hetarchief.be/term/onderwijs/thema/relaties-en-seksualiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rolpatronen-en-stereotypen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/vroegmoderne-tijd> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten> a skos:Concept ;
+    skos:definition "Mode, sierkunsten, architectuur, design, grafische beeldvorming, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Toegepaste kunsten"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/architecturale-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/architectuurtekenen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/artistieke-creatie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/binnenhuiskunst>,
+        <https://data.hetarchief.be/term/onderwijs/vak/bouwkunst>,
+        <https://data.hetarchief.be/term/onderwijs/vak/decoratieve-technieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/diamant>,
+        <https://data.hetarchief.be/term/onderwijs/vak/glastechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/goud-en-juwelen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/grafische-technieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/kunstbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mode>,
+        <https://data.hetarchief.be/term/onderwijs/vak/muzikale-opvoeding>,
+        <https://data.hetarchief.be/term/onderwijs/vak/plastische-opvoeding>,
+        <https://data.hetarchief.be/term/onderwijs/vak/publiciteitstekenen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/schilderen-en-decoratie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/steen--en-marmerbewerking>,
+        <https://data.hetarchief.be/term/onderwijs/vak/textielproductie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/textielverzorging> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/vak/mens-en-maatschappij> skos:related <https://data.hetarchief.be/term/onderwijs/thema/armoede-en-welvaart>,
+        <https://data.hetarchief.be/term/onderwijs/thema/bevolking-en-ruimtelijke-ordening>,
+        <https://data.hetarchief.be/term/onderwijs/thema/erfgoed>,
+        <https://data.hetarchief.be/term/onderwijs/thema/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg>,
+        <https://data.hetarchief.be/term/onderwijs/thema/hedendaagse-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/het-heelal>,
+        <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/landschap-en-reli%C3%ABf>,
+        <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/middeleeuwen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling>,
+        <https://data.hetarchief.be/term/onderwijs/thema/oudheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/participatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/politiek-en-overheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/prehistorie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/psychologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rampen-en-conflicten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht>,
+        <https://data.hetarchief.be/term/onderwijs/thema/relaties-en-seksualiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rolpatronen-en-stereotypen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme>,
+        <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca>,
+        <https://data.hetarchief.be/term/onderwijs/thema/vroegmoderne-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/weer-en-klimaat> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten> a skos:Concept ;
+    skos:definition "Dans, muziek, theater, ..."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Podiumkunsten"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/%22instrument%3A-folk--en-wereldmuziek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/%22instrument%3A-jazz-pop-rock>,
+        <https://data.hetarchief.be/term/onderwijs/vak/%22instrument%3A-klassiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/algemene-muziekleer>,
+        <https://data.hetarchief.be/term/onderwijs/vak/algemene-verbale-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/artistieke-creatie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/artistieke-expressie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/atelier-drama>,
+        <https://data.hetarchief.be/term/onderwijs/vak/atelier-woord>,
+        <https://data.hetarchief.be/term/onderwijs/vak/creatief-musiceren>,
+        <https://data.hetarchief.be/term/onderwijs/vak/esthetica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-folk--en-wereldmuziek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-jazz-pop-rock>,
+        <https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-klassiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-musical>,
+        <https://data.hetarchief.be/term/onderwijs/vak/groepsmusiceren%3A-opera%2Fmuziektheater>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hedendaagse-dans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/klassieke-dans>,
+        <https://data.hetarchief.be/term/onderwijs/vak/kunstbeschouwing>,
+        <https://data.hetarchief.be/term/onderwijs/vak/muziektheorie%3A-folk-en-wereldmuziek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/muziektheorie%3A-jazz-pop-rock>,
+        <https://data.hetarchief.be/term/onderwijs/vak/muziektheorie%3A-klassiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/muzikale-opvoeding>,
+        <https://data.hetarchief.be/term/onderwijs/vak/muzische-vorming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/podiumtechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/praktische-harmonie%3A-folk-en-wereldmuziek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/praktische-harmonie%3A-jazz-pop-rock>,
+        <https://data.hetarchief.be/term/onderwijs/vak/praktische-harmonie%3A-klassiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/zang%3A-folk--en-wereldmuziek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/zang%3A-jazz-pop-rock>,
+        <https://data.hetarchief.be/term/onderwijs/vak/zang%3A-klassiek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/zang%3A-musical>,
+        <https://data.hetarchief.be/term/onderwijs/vak/zang%3A-opera%2Fmuziektheater> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie> a skos:Concept ;
+    skos:definition "Constructie is de manier waarop een groter geheel uit onderdelen samengesteld wordt. Bijvoorbeeld de assemblage van een auto, het bouwen van een woning, meubels, .... Productie is de manier waarop objecten vanuit hun grondstoffen vervaardigd worden. Bijvoorbeeld het maken van glas, karton, houten planken, ... Maar denk hierbij ook aan industriële assemblage."@nl ;
+    skos:inScheme <https://data.hetarchief.be/term/onderwijs/thema> ;
+    skos:prefLabel "Constructie en productie"@nl ;
+    skos:related <https://data.hetarchief.be/term/onderwijs/vak/afwerking-bouw>,
+        <https://data.hetarchief.be/term/onderwijs/vak/autorijtechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/autotechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/bakkerij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/besturing-bouwmachines>,
+        <https://data.hetarchief.be/term/onderwijs/vak/bouw>,
+        <https://data.hetarchief.be/term/onderwijs/vak/centrale-verwarming>,
+        <https://data.hetarchief.be/term/onderwijs/vak/dakwerken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/decoratieve-technieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/diamant>,
+        <https://data.hetarchief.be/term/onderwijs/vak/elektriciteit>,
+        <https://data.hetarchief.be/term/onderwijs/vak/elektromechanica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/elektronica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/glastechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/goud-en-juwelen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/hout>,
+        <https://data.hetarchief.be/term/onderwijs/vak/instrumentenbouw>,
+        <https://data.hetarchief.be/term/onderwijs/vak/koeltechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/koetswerk>,
+        <https://data.hetarchief.be/term/onderwijs/vak/kunststoffen>,
+        <https://data.hetarchief.be/term/onderwijs/vak/lassen-constructie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mechanica>,
+        <https://data.hetarchief.be/term/onderwijs/vak/mechanische-vormgeving>,
+        <https://data.hetarchief.be/term/onderwijs/vak/meubelmakerij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/orthopedie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/podiumtechnieken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/printmedia>,
+        <https://data.hetarchief.be/term/onderwijs/vak/productie-industrie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/project-stem>,
+        <https://data.hetarchief.be/term/onderwijs/vak/restauratie>,
+        <https://data.hetarchief.be/term/onderwijs/vak/ruwbouw>,
+        <https://data.hetarchief.be/term/onderwijs/vak/sanitair>,
+        <https://data.hetarchief.be/term/onderwijs/vak/scheepswerktuigkunde>,
+        <https://data.hetarchief.be/term/onderwijs/vak/schrijnwerkerij>,
+        <https://data.hetarchief.be/term/onderwijs/vak/steen--en-marmerbewerking>,
+        <https://data.hetarchief.be/term/onderwijs/vak/steigerbouw>,
+        <https://data.hetarchief.be/term/onderwijs/vak/techniek>,
+        <https://data.hetarchief.be/term/onderwijs/vak/technologische-opvoeding>,
+        <https://data.hetarchief.be/term/onderwijs/vak/uurwerkmaken>,
+        <https://data.hetarchief.be/term/onderwijs/vak/wetenschappen-en-techniek> ;
+    skos:topConceptOf <https://data.hetarchief.be/term/onderwijs/thema> .
+
+<https://data.hetarchief.be/term/onderwijs/thema> a skos:ConceptScheme ;
+    rdfs:label "Meemoo lijst themas"@nl ;
+    skos:hasTopConcept <https://data.hetarchief.be/term/onderwijs/thema/armoede-en-welvaart>,
+        <https://data.hetarchief.be/term/onderwijs/thema/bedrijfsbeheer>,
+        <https://data.hetarchief.be/term/onderwijs/thema/beeldende-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/beroepen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/bevolking-en-ruimtelijke-ordening>,
+        <https://data.hetarchief.be/term/onderwijs/thema/biologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/chemie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/constructie-en-productie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/digitale-vaardigheden-en-informatica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/economie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/erfgoed>,
+        <https://data.hetarchief.be/term/onderwijs/thema/filosofie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/fysica>,
+        <https://data.hetarchief.be/term/onderwijs/thema/gezondheid-en-gezondheidszorg>,
+        <https://data.hetarchief.be/term/onderwijs/thema/hedendaagse-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/het-heelal>,
+        <https://data.hetarchief.be/term/onderwijs/thema/identiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/klassieke-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/land--en-tuinbouw>,
+        <https://data.hetarchief.be/term/onderwijs/thema/landschap-en-reli%C3%ABf>,
+        <https://data.hetarchief.be/term/onderwijs/thema/leren-en-onderzoeken>,
+        <https://data.hetarchief.be/term/onderwijs/thema/lichamelijke-verzorging>,
+        <https://data.hetarchief.be/term/onderwijs/thema/literatuur>,
+        <https://data.hetarchief.be/term/onderwijs/thema/media-en-communicatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/mediawijsheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/middeleeuwen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/milieu-en-ecologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-talen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/moderne-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/nederlandse-taal>,
+        <https://data.hetarchief.be/term/onderwijs/thema/normen-en-waarden>,
+        <https://data.hetarchief.be/term/onderwijs/thema/omgaan-met-geld>,
+        <https://data.hetarchief.be/term/onderwijs/thema/opvoeding-en-ontwikkeling>,
+        <https://data.hetarchief.be/term/onderwijs/thema/oudheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/participatie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/podiumkunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/politiek-en-overheid>,
+        <https://data.hetarchief.be/term/onderwijs/thema/prehistorie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/psychologie>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rampen-en-conflicten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/recht>,
+        <https://data.hetarchief.be/term/onderwijs/thema/relaties-en-seksualiteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/religie-en-geloof>,
+        <https://data.hetarchief.be/term/onderwijs/thema/rolpatronen-en-stereotypen>,
+        <https://data.hetarchief.be/term/onderwijs/thema/sport-en-spel>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toegepaste-kunsten>,
+        <https://data.hetarchief.be/term/onderwijs/thema/toerisme>,
+        <https://data.hetarchief.be/term/onderwijs/thema/verkeer-en-mobiliteit>,
+        <https://data.hetarchief.be/term/onderwijs/thema/voeding-en-horeca>,
+        <https://data.hetarchief.be/term/onderwijs/thema/vroegmoderne-tijd>,
+        <https://data.hetarchief.be/term/onderwijs/thema/weer-en-klimaat>,
+        <https://data.hetarchief.be/term/onderwijs/thema/wiskunde> .
+
