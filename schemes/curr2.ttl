@@ -19,8 +19,7 @@ curr2:l-wiskunde a skos:Concept ;
   skos:inScheme curr2:_scheme ;
   skos:topConceptOf curr2:_scheme ;
 #  skos:notation "l-wiskunde" ;
-  skos:prefLabel "wiskunde"@nl ;
-  skos:altLabel "rekenen"@nl .
+  skos:prefLabel "wiskunde"@nl .
 elem:lager-onderwijs skos:member curr2:l-wiskunde .
 elem:leergebieden skos:member curr2:l-wiskunde .
 
@@ -44,9 +43,7 @@ curr2:l-mens-en-maatschappij a skos:Concept ;
   skos:inScheme curr2:_scheme ;
   skos:topConceptOf curr2:_scheme ;
 #  skos:notation "l-mens-en-maatschappij" ;
-  skos:prefLabel "mens en maatschappij"@nl ;
-  skos:altLabel "wereldoriëntatie"@nl ;
-  skos:altLabel "WO"@nl .
+  skos:prefLabel "mens en maatschappij"@nl .
 elem:lager-onderwijs skos:member curr2:l-mens-en-maatschappij .
 elem:leergebieden skos:member curr2:l-mens-en-maatschappij .
 
@@ -62,9 +59,7 @@ curr2:l-wetenschap-en-techniek a skos:Concept ;
   skos:inScheme curr2:_scheme ;
   skos:topConceptOf curr2:_scheme ;
 #  skos:notation "l-wetenschap-en-techniek" ;
-  skos:prefLabel "wetenschap en techniek"@nl ;
-  skos:altLabel "wereldoriëntatie"@nl ;
-  skos:altLabel "WO"@nl .
+  skos:prefLabel "wetenschap en techniek"@nl .
 elem:lager-onderwijs skos:member curr2:l-wetenschap-en-techniek .
 elem:leergebieden skos:member curr2:l-wetenschap-en-techniek .
 
@@ -239,8 +234,7 @@ elem:subdomeinen skos:member curr2:s-taalbeschouwing .
 curr2:s-culturele-gerichtheid a skos:Concept ;
   skos:inScheme curr2:_scheme ;
 #  skos:notation "s-culturele-gerichtheid" ;
-  skos:prefLabel "culturele gerichtheid"@nl ;
-  skos:altLabel "interculturele gerichtheid"@nl ;
+  skos:prefLabel "(inter)culturele gerichtheid"@nl ;
   skos:broader curr2:l-nederlands .
 elem:lager-onderwijs skos:member curr2:s-culturele-gerichtheid .
 elem:subdomeinen skos:member curr2:s-culturele-gerichtheid .
@@ -509,8 +503,7 @@ elem:themas skos:member curr2:t-ruimtebeleving .
 curr2:t-ruimtelijke-ordening a skos:Concept ;
   skos:inScheme curr2:_scheme ;
 #  skos:notation "t-ruimtelijke-ordening" ;
-  skos:prefLabel "ruimtelijke ordening"@nl ;
-  skos:altLabel "ruimtelijke bepaaldheid"@nl ;
+  skos:prefLabel "ruimtelijke ordening/bepaaldheid"@nl ;
   skos:broader curr2:s-ruimte .
 elem:lager-onderwijs skos:member curr2:t-ruimtelijke-ordening .
 elem:themas skos:member curr2:t-ruimtelijke-ordening .

@@ -11066,11 +11066,10 @@ curr2:s-brongebruik a skos:Concept ;
     skos:related onddoel:basis-lager-5.1-3100321070 .
 
 curr2:s-culturele-gerichtheid a skos:Concept ;
-    skos:altLabel "interculturele gerichtheid"@nl ;
     skos:broader curr2:l-nederlands ;
     skos:broaderTransitive curr2:l-nederlands ;
     skos:inScheme curr2:_scheme ;
-    skos:prefLabel "culturele gerichtheid"@nl ;
+    skos:prefLabel "(inter)culturele gerichtheid"@nl ;
     skos:related onddoel:basis-lager-7-1491057510 .
 
 curr2:t-anglicaanse a skos:Concept ;
@@ -24245,11 +24244,10 @@ curr1:d-voeding-en-horeca a skos:Concept ;
     foaf:logo icon-data:voeding-en-horeca.svg .
 
 curr1:s-bank-verzekeringen-en-immobilien a skos:Concept ;
-    skos:altLabel "vastgoed"@nl ;
     skos:broader curr1:d-economie-en-organisatie ;
     skos:broaderTransitive curr1:d-economie-en-organisatie ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "bank, verzekeringen en organisatie"@nl ;
+    skos:prefLabel "bank, verzekeringen en immobiliën"@nl ;
     skos:related vak1:economie,
         vak1:mens-en-samenleving,
         vak1:project-algemene-vakken .
@@ -24318,7 +24316,6 @@ curr1:s-textielcreatie-en-mode a skos:Concept ;
         vak1:textielverzorging .
 
 curr1:s-vaktaal a skos:Concept ;
-    skos:altLabel "jargon"@nl ;
     skos:broader curr1:c-leercompetenties ;
     skos:broaderTransitive curr1:c-leercompetenties ;
     skos:definition "Domeinspecifieke terminologie, symbolen en voorstellingen hanteren."@nl ;
@@ -26191,12 +26188,11 @@ curr2:t-ruimtebeleving a skos:Concept ;
         onddoel:basis-lager-4.8-3748772000 .
 
 curr2:t-ruimtelijke-ordening a skos:Concept ;
-    skos:altLabel "ruimtelijke bepaaldheid"@nl ;
     skos:broader curr2:s-ruimte ;
     skos:broaderTransitive curr2:l-mens-en-maatschappij,
         curr2:s-ruimte ;
     skos:inScheme curr2:_scheme ;
-    skos:prefLabel "ruimtelijke ordening"@nl ;
+    skos:prefLabel "ruimtelijke ordening/bepaaldheid"@nl ;
     skos:related onddoel:basis-lager-4.10-1609899351,
         onddoel:basis-lager-4.11-1290307788,
         onddoel:basis-lager-4.9-2415859818 .
@@ -26864,7 +26860,7 @@ curr1:s-samenwerken a skos:Concept ;
         curr1:c-zelfbewustzijn ;
     skos:definition "Samen het leerproces vormgeven."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "samenwerken"@nl ;
+    skos:prefLabel "samenleren"@nl ;
     skos:related onddoel:sec-13.16-2416694711,
         onddoel:sec-13.17-3588354602,
         onddoel:sec-13.18-2416694711 .
@@ -27632,7 +27628,6 @@ vak1:sociologie a skos:Concept ;
     skos:topConceptOf vak1:_scheme .
 
 curr1:d-kunst-en-cultuur a skos:Concept ;
-    skos:altLabel "kunst en creatie"@nl ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-erfgoed,
         curr1:s-kunst,
@@ -27774,14 +27769,13 @@ curr1:s-landbouw a skos:Concept ;
         vak1:landbouw .
 
 curr1:s-leren-leren a skos:Concept ;
-    skos:altLabel "leervaardigheden"@nl ;
     skos:broader curr1:c-leercompetenties,
         curr1:c-zelfbewustzijn ;
     skos:broaderTransitive curr1:c-leercompetenties,
         curr1:c-zelfbewustzijn ;
     skos:definition "Zichzelf als lerende begrijpen en positioneren ten aanzien van leren in het algemeen en van specifieke leerdomeinen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "leren leren"@nl ;
+    skos:prefLabel "reflecteren over leren"@nl ;
     skos:related onddoel:sec-13.1-1544908571,
         onddoel:sec-13.1-156428157,
         onddoel:sec-13.1-3518264164,
@@ -27899,7 +27893,7 @@ curr1:s-kunstgeschiedenis-en-kunststromingen a skos:Concept ;
     skos:broaderTransitive curr1:c-cultureel-bewustzijn-en-culturele-expressie ;
     skos:definition "Uitingen van kunst en cultuur duiden in relatie tot de maatschappelijke,  historische en geografische context waarin ze zich manifesteren."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "kunstgeschiedenis en kunststromingen"@nl ;
+    skos:prefLabel "cultuur contextualiseren"@nl ;
     skos:related onddoel:sec-16.4-3580639926,
         tref1:cultureel-bewustzijn,
         tref1:kunstkritiek,
@@ -27917,7 +27911,7 @@ curr1:s-wiskunde-redeneren a skos:Concept ;
     skos:broaderTransitive curr1:c-stem ;
     skos:definition "Redeneringen opbouwen en abstraheren rekening houdend met de samenhang en structuur van wiskunde."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "wiskunde - redeneren"@nl ;
+    skos:prefLabel "redeneren en abstraheren"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -28089,7 +28083,7 @@ curr1:s-veiligheid a skos:Concept ;
     skos:broaderTransitive curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn ;
     skos:definition "Een veilige levensstijl realiseren door het correct inschatten van risicofactoren"@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "veiligheid"@nl ;
+    skos:prefLabel "veilige levensstijl"@nl ;
     skos:related onddoel:sec-1.12-4061224566,
         onddoel:sec-1.13-2192582675,
         onddoel:sec-1.13-3611215875,
@@ -28128,7 +28122,7 @@ curr1:s-wiskunde-modelleren-en-heuristiek a skos:Concept ;
     skos:broaderTransitive curr1:c-stem ;
     skos:definition "Modelleren en problemen oplossen door analyseren, (de)mathematiseren of aanwenden van heuristieken."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "wiskunde - modelleren en heuristiek"@nl ;
+    skos:prefLabel "modelleren en problemen oplossen"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -28428,7 +28422,7 @@ curr1:s-reguleren a skos:Concept ;
         curr1:c-zelfbewustzijn ;
     skos:definition "Leeropvattingen, -proces en -resultaten reguleren."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "reguleren"@nl ;
+    skos:prefLabel "reguleren van het leren"@nl ;
     skos:related onddoel:sec-13.13-3129832874,
         onddoel:sec-13.13-3565477961,
         onddoel:sec-13.14-2733767119,
@@ -28519,7 +28513,7 @@ curr1:s-bronnenkritiek a skos:Concept ;
     skos:broaderTransitive curr1:c-historisch-bewustzijn ;
     skos:definition "Kritisch reflecteren met en over historische bronnen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "bronnenkritiek"@nl ;
+    skos:prefLabel "historische bronnenkritiek"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -28569,7 +28563,7 @@ curr1:s-wiskunde-getallenleer a skos:Concept ;
     skos:broaderTransitive curr1:c-stem ;
     skos:definition "Inzicht ontwikkelen in en omgaan met getallen en hoeveelheden: getallenleer."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "wiskunde - getallenleer"@nl ;
+    skos:prefLabel "getallenleer"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -28620,7 +28614,7 @@ curr1:s-economie a skos:Concept ;
         curr1:c-juridische-competenties ;
     skos:definition "Reflecteren over de werking van de markten en de economie als systeem en de invloed van de overheid hierop duiden binnen de (inter)nationale context."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "economie (bouwsteen)"@nl ;
+    skos:prefLabel "algemene economie"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-duurzaamheid,
         curr1:c-leercompetenties,
@@ -28646,7 +28640,7 @@ curr1:s-kunstbeleving-en-waardering a skos:Concept ;
         curr1:c-zelfbewustzijn ;
     skos:definition "Uitingen van kunst en cultuur beleven en de waardering ervoor duiden."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "kunstbeleving en waardering"@nl ;
+    skos:prefLabel "cultuur beleven en waarderen"@nl ;
     skos:related onddoel:sec-16.4-3838996164,
         onddoel:sec-16.5-320453990,
         onddoel:sec-16.5-3296037653,
@@ -28670,7 +28664,7 @@ curr1:s-onderzoeken a skos:Concept ;
     skos:broaderTransitive curr1:c-leercompetenties ;
     skos:definition "Een (onderzoeks-)probleem (v)erkennen en een antwoord of oplossing zoeken gebruikmakend van geschikte (leer-)activiteiten, strategieën en tools."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "onderzoeken"@nl ;
+    skos:prefLabel "onderzoeken en probleemoplossen"@nl ;
     skos:related onddoel:sec-13.10-1893151193,
         onddoel:sec-13.11-1451156578,
         onddoel:sec-13.11-2188436919,
@@ -28696,7 +28690,7 @@ curr1:s-politiek a skos:Concept ;
     skos:broaderTransitive curr1:c-burgerschap-en-samenleven ;
     skos:definition "Democratische besluitvorming op lokaal, nationaal en internationaal niveau duiden"@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "politiek"@nl ;
+    skos:prefLabel "democratische besluitvorming"@nl ;
     skos:related onddoel:sec-7.13-1668461171,
         onddoel:sec-7.13-269365705,
         onddoel:sec-7.14-2140976600,
@@ -28749,7 +28743,7 @@ curr1:s-kunstconcepten a skos:Concept ;
     skos:broaderTransitive curr1:c-cultureel-bewustzijn-en-culturele-expressie ;
     skos:definition "Uitingen van kunst en cultuur waarnemen en conceptualiseren."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "kunstconcepten"@nl ;
+    skos:prefLabel "cultuur waarnemen en conceptualiseren"@nl ;
     skos:related onddoel:sec-16.1-1583452003,
         onddoel:sec-16.1-2362263674,
         onddoel:sec-16.1-2435254341,
@@ -28805,7 +28799,7 @@ curr1:s-maatschappijkritisch-denken a skos:Concept ;
         curr1:c-duurzaamheid ;
     skos:definition "De wederzijdse invloed tussen maatschappelijke domeinen en ontwikkelingen en de impact ervan op de (globale) samenleving en het individu kritisch benaderen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "maatschappijkritisch denken"@nl ;
+    skos:prefLabel "duurzaamheid en systeemdenken"@nl ;
     skos:related curr1:c-juridische-competenties,
         onddoel:sec-7.11-1223351942,
         onddoel:sec-7.11-1275011515,
@@ -29019,7 +29013,7 @@ curr1:s-ruimte-en-tijd a skos:Concept ;
     skos:broaderTransitive curr1:c-ruimtelijk-bewustzijn ;
     skos:definition "Personen, plaatsen, patronen en processen situeren op verschillende ruimtelijke schaalniveaus en tijdsschalen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "ruimte en tijd"@nl ;
+    skos:prefLabel "situeren in ruimte en tijd"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-duurzaamheid,
         curr1:c-leercompetenties,
@@ -29047,7 +29041,7 @@ curr1:s-wiskunde-kansrekenen-statistiek a skos:Concept ;
     skos:broaderTransitive curr1:c-stem ;
     skos:definition "Inzicht ontwikkelen in en omgaan met data en onzekerheid: zoals kansrekenen en statistiek."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "wiskunde - kansrekenen, statistiek"@nl ;
+    skos:prefLabel "kansrekenen, statistiek"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -29156,7 +29150,6 @@ curr1:s-mediawijsheid a skos:Concept ;
         vak1:project-algemene-vakken .
 
 curr1:s-taalsysteem a skos:Concept ;
-    skos:altLabel "taalsystematiek (Nederlands)"@nl ;
     skos:broader curr1:c-nederlands ;
     skos:broaderTransitive curr1:c-nederlands ;
     skos:definition "Kenmerken en principes van het Nederlands begrijpen om ze in te zetten bij het communiceren."@nl ;
@@ -29216,7 +29209,6 @@ curr2:s-maatschappij a skos:Concept ;
         onddoel:basis-lager-2.9-2090996475 .
 
 curr1:s-1-taalsysteem a skos:Concept ;
-    skos:altLabel "taalsystematiek (andere talen)"@nl ;
     skos:broader curr1:c-andere-talen ;
     skos:broaderTransitive curr1:c-andere-talen ;
     skos:definition "Kenmerken en principes van vreemde talen begrijpen om ze in te zetten bij het communiceren."@nl ;
@@ -29252,7 +29244,7 @@ curr1:s-wiskunde-meetkunde-en-metend-rekenen a skos:Concept ;
     skos:broaderTransitive curr1:c-stem ;
     skos:definition "Inzicht ontwikkelen in en omgaan met ruimte en vorm: meetkunde en metend rekenen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "wiskunde - meetkunde en metend rekenen"@nl ;
+    skos:prefLabel "meetkunde en metend rekenen"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -29376,7 +29368,7 @@ curr1:s-informatie-verwerven a skos:Concept ;
     skos:broaderTransitive curr1:c-leercompetenties ;
     skos:definition "Geschikte (leer-)activiteiten, strategieën en tools inzetten om informatie digitaal en niet-digitaal kritisch te verwerven, beheren en verwerken rekening houdend met het beoogde leerresultaat en –proces."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "informatie verwerven"@nl ;
+    skos:prefLabel "informatie verwerven en verwerken"@nl ;
     skos:related onddoel:sec-13.10-2184349076,
         onddoel:sec-13.10-3521148249,
         onddoel:sec-13.3-2706183676,
@@ -29404,7 +29396,6 @@ curr1:s-informatie-verwerven a skos:Concept ;
         onddoel:sec-bg-13.4-3336540627 .
 
 curr1:s-taal-en-cultuur a skos:Concept ;
-    skos:altLabel "taal en maatschappij (Nederlands)"@nl ;
     skos:broader curr1:c-nederlands ;
     skos:broaderTransitive curr1:c-nederlands ;
     skos:definition "Inzicht hebben in taal, in het bijzonder het Nederlands, als exponent en deel van een cultuur en een maatschappij."@nl ;
@@ -29502,7 +29493,6 @@ ondniv:sec a skos:Concept ;
     foaf:logo icon-data:secundair.svg .
 
 curr1:s-1-taal-en-cultuur a skos:Concept ;
-    skos:altLabel "taal en maatschappij (andere talen)"@nl ;
     skos:broader curr1:c-andere-talen ;
     skos:broaderTransitive curr1:c-andere-talen ;
     skos:definition "Inzicht hebben in vreemde talen als exponenten en delen van culturen en maatschappijen."@nl ;
@@ -29606,7 +29596,7 @@ curr1:s-landschap-en-plaats a skos:Concept ;
         curr1:c-ruimtelijk-bewustzijn ;
     skos:definition "Plaatsbegrip hanteren om lokale, nationale en internationale gebeurtenissen in een geografisch kader te plaatsen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "landschap en plaats"@nl ;
+    skos:prefLabel "plaatsbegrip"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -29775,7 +29765,7 @@ curr1:s-historische-dynamieken a skos:Concept ;
     skos:broaderTransitive curr1:c-historisch-bewustzijn ;
     skos:definition "Over de complexe relatie tussen verleden, heden en toekomst reflecteren en deze duiden."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "historische dynamieken"@nl ;
+    skos:prefLabel "verleden en heden"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -29811,7 +29801,7 @@ curr1:s-historische-tijdlijn a skos:Concept ;
     skos:broaderTransitive curr1:c-historisch-bewustzijn ;
     skos:definition "Historische fenomenen situeren in een historisch referentiekader."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "historische tijdlijn"@nl ;
+    skos:prefLabel "historisch referentiekader"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -30031,7 +30021,7 @@ curr1:c-cultureel-bewustzijn-en-culturele-expressie a skos:Concept ;
         curr1:s-kunstconcepten,
         curr1:s-kunstcreatie,
         curr1:s-kunstgeschiedenis-en-kunststromingen ;
-    skos:prefLabel "cultureel bewustzijn en culturele expressie"@nl ;
+    skos:prefLabel "cultureel bewustzijn"@nl ;
     skos:related onddoel:sec-16.1-1583452003,
         onddoel:sec-16.1-2362263674,
         onddoel:sec-16.1-2435254341,
@@ -30067,7 +30057,7 @@ curr1:s-chemie a skos:Concept ;
         curr1:c-stem ;
     skos:definition "Inzicht ontwikkelen in de bouw, structuur en eigenschappen van materie in levende en niet-levende systemen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "chemie (bouwsteen)"@nl ;
+    skos:prefLabel "materie (bouw, structuur, eigenschappen)"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -30104,7 +30094,7 @@ curr1:s-ruimtelijk-onderzoek a skos:Concept ;
     skos:broaderTransitive curr1:c-ruimtelijk-bewustzijn ;
     skos:definition "Geografische methoden en technieken aanwenden om ruimtelijke patronen en processen te onderzoeken."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "ruimtelijk onderzoek"@nl ;
+    skos:prefLabel "geografische methoden en technieken"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-duurzaamheid,
         curr1:c-leercompetenties,
@@ -30139,12 +30129,11 @@ curr1:s-ruimtelijk-onderzoek a skos:Concept ;
         vak1:toerisme .
 
 curr1:s-ondernemen-en-organisatie a skos:Concept ;
-    skos:altLabel "bedrijf en organisatie"@nl ;
     skos:broader curr1:c-economisch-financiele-competenties ;
     skos:broaderTransitive curr1:c-economisch-financiele-competenties ;
     skos:definition "De werking van ondernemingen en organisaties en hun maatschappelijke rol duiden."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "ondernemen en organisatie"@nl ;
+    skos:prefLabel "onderneming en organisatie"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-duurzaamheid,
         curr1:c-juridische-competenties,
@@ -30619,8 +30608,6 @@ curr2:t-orientatie-en-kaartvaardigheid a skos:Concept ;
         tref2:zonnestand .
 
 curr1:s-1-communicatie a skos:Concept ;
-    skos:altLabel "communicatievaardigheden (andere talen)"@nl,
-        "communicatieve vaardigheden (andere talen)"@nl ;
     skos:broader curr1:c-andere-talen ;
     skos:broaderTransitive curr1:c-andere-talen ;
     skos:definition "Vreemde talen receptief, productief en interactief, zowel mondeling als schriftelijk gebruiken als communicatiemiddelen in relevante situaties."@nl ;
@@ -30675,7 +30662,7 @@ curr1:c-sociaal-relationele-vorming a skos:Concept ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-relaties ;
     skos:narrowerTransitive curr1:s-relaties ;
-    skos:prefLabel "sociaal-relationele vorming"@nl ;
+    skos:prefLabel "sociaal-relationele competenties"@nl ;
     skos:related curr1:s-1-communicatie,
         curr1:s-1-literatuur,
         curr1:s-1-taal-en-cultuur,
@@ -30731,7 +30718,7 @@ curr1:s-geld-en-consumptie a skos:Concept ;
         curr1:c-juridische-competenties ;
     skos:definition "Inzicht ontwikkelen in consumptiegedrag, inkomensverwerving en financiële producten om budgettaire gevolgen op korte en lange termijn in te schatten."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "geld en consumptie"@nl ;
+    skos:prefLabel "geld en budget"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -30834,7 +30821,7 @@ curr1:c-economisch-financiele-competenties a skos:Concept ;
     skos:narrowerTransitive curr1:s-economie,
         curr1:s-geld-en-consumptie,
         curr1:s-ondernemen-en-organisatie ;
-    skos:prefLabel "economisch-financiële competenties"@nl ;
+    skos:prefLabel "economische en financiële competenties"@nl ;
     skos:related onddoel:sec-11.1-1044937014,
         onddoel:sec-11.1-1201038432,
         onddoel:sec-11.1-1934316131,
@@ -30884,7 +30871,7 @@ curr1:s-wiskunde-algebra-analyse a skos:Concept ;
     skos:broaderTransitive curr1:c-stem ;
     skos:definition "Inzicht ontwikkelen in en omgaan met relatie en verandering: zoals algebra, analyse en discrete structuren."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "wiskunde - algebra, analyse"@nl ;
+    skos:prefLabel "algebra, analyse en discrete structuren"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -30993,7 +30980,7 @@ curr1:s-mens-en-leefomgeving a skos:Concept ;
         curr1:c-ruimtelijk-bewustzijn ;
     skos:definition "Ruimtelijke patronen en processen aan het aardoppervlak verklaren als het resultaat van interacties tussen natuurlijke processen onderling, tussen menselijke processen onderling en tussen natuurlijke en menselijke processen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "mens en leefomgeving"@nl ;
+    skos:prefLabel "mens en aarde (interacties)"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -31040,7 +31027,6 @@ curr1:s-mens-en-leefomgeving a skos:Concept ;
         vak1:toerisme .
 
 curr1:c-ondernemingszin a skos:Concept ;
-    skos:altLabel "ondernemen"@nl ;
     skos:definition "15. Ontwikkeling van initiatief, ambitie, ondernemingszin en loopbaancompetenties"@nl ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-keuzes-maken,
@@ -31160,7 +31146,7 @@ curr1:s-kunstcreatie a skos:Concept ;
         curr1:c-zelfbewustzijn ;
     skos:definition "Verbeelding gericht inzetten bij het creëren van artistiek werk."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "kunstcreatie"@nl ;
+    skos:prefLabel "artistiek werk creëren"@nl ;
     skos:related onddoel:sec-16.10-4206691557,
         onddoel:sec-16.7-287055070,
         onddoel:sec-16.7-3256151243,
@@ -31325,7 +31311,6 @@ curr1:s-wd-chemie a skos:Concept ;
         vak1:toegepaste-chemie .
 
 curr1:c-andere-talen a skos:Concept ;
-    skos:altLabel "competenties in andere talen"@nl ;
     skos:definition "3. Competenties in andere talen"@nl ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-1-communicatie,
@@ -31392,7 +31377,7 @@ curr1:s-fysica a skos:Concept ;
         curr1:c-stem ;
     skos:definition "Inzicht ontwikkelen in de verschijningsvormen van energie, de wisselwerking tussen materie onderling en met energie alsook de gevolgen ervan."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "fysica (bouwsteen)"@nl ;
+    skos:prefLabel "energie en materie (interacties)"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -31566,8 +31551,6 @@ curr1:c-juridische-competenties a skos:Concept ;
     foaf:logo icon-data:juridische-competenties.svg .
 
 curr2:l-wetenschap-en-techniek a skos:Concept ;
-    skos:altLabel "WO"@nl,
-        "wereldoriëntatie"@nl ;
     skos:inScheme curr2:_scheme ;
     skos:narrower curr2:s-natuur,
         curr2:s-techniek ;
@@ -31630,8 +31613,6 @@ curr2:l-wetenschap-en-techniek a skos:Concept ;
     foaf:logo icon-data:wetenschap-en-techniek.svg .
 
 curr1:s-communicatie a skos:Concept ;
-    skos:altLabel "communicatievaardigheden (Nederlands)"@nl,
-        "communicatieve vaardigheden (Nederlands)"@nl ;
     skos:broader curr1:c-nederlands ;
     skos:broaderTransitive curr1:c-nederlands ;
     skos:definition "Het Nederlands receptief, productief en interactief, zowel mondeling als schriftelijk gebruiken als communicatiemiddel in relevante situaties."@nl ;
@@ -31695,7 +31676,6 @@ curr1:s-communicatie a skos:Concept ;
         vak1:project-algemene-vakken .
 
 curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn a skos:Concept ;
-    skos:altLabel "lichamelijke en geestelijke gezondheid"@nl ;
     skos:definition "1. Competenties op het vlak van lichamelijk, geestelijk en emotioneel bewustzijn/gezondheid"@nl ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-gezonde-levensstijl,
@@ -31706,7 +31686,7 @@ curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn a skos:Concept ;
         curr1:s-mentaal-welbevinden,
         curr1:s-sport-en-beweging,
         curr1:s-veiligheid ;
-    skos:prefLabel "lichamelijk, geestelijk en emotioneel welzijn"@nl ;
+    skos:prefLabel "lichamelijke en geestelijke gezondheid"@nl ;
     skos:related onddoel:sec-1.1-128411788,
         onddoel:sec-1.1-1561466412,
         onddoel:sec-1.10-1942022519,
@@ -31767,7 +31747,7 @@ curr1:s-biologie a skos:Concept ;
         curr1:c-stem ;
     skos:definition "Inzicht ontwikkelen in de basiseigenschappen van levende systemen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "biologie (bouwsteen)"@nl ;
+    skos:prefLabel "levende systemen"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -31962,7 +31942,6 @@ curr2:s-getallen a skos:Concept ;
         tref2:vermenigvuldigen .
 
 curr1:c-historisch-bewustzijn a skos:Concept ;
-    skos:altLabel "geschiedenis"@nl ;
     skos:definition "8. Competenties met betrekking tot historisch bewustzijn"@nl ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-bronnenkritiek,
@@ -32033,7 +32012,6 @@ curr1:c-historisch-bewustzijn a skos:Concept ;
     foaf:logo icon-data:historisch-bewustzijn.svg .
 
 curr1:c-ruimtelijk-bewustzijn a skos:Concept ;
-    skos:altLabel "aardrijkskunde"@nl ;
     skos:definition "9. Competenties met betrekking tot ruimtelijk bewustzijn"@nl ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-landschap-en-plaats,
@@ -32105,9 +32083,6 @@ curr1:c-ruimtelijk-bewustzijn a skos:Concept ;
     foaf:logo icon-data:ruimtelijk-bewustzijn.svg .
 
 curr1:c-zelfbewustzijn a skos:Concept ;
-    skos:altLabel "zelfexpressie"@nl,
-        "zelfsturing"@nl,
-        "zelfwendbaarheid"@nl ;
     skos:definition "14. Zelfbewustzijn en zelfexpressie, zelfsturing en wendbaarheid"@nl ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-kunstbeleving-en-waardering,
@@ -32179,7 +32154,6 @@ curr1:c-zelfbewustzijn a skos:Concept ;
     foaf:logo icon-data:zelfbewustzijn.svg .
 
 curr2:l-wiskunde a skos:Concept ;
-    skos:altLabel "rekenen"@nl ;
     skos:inScheme curr2:_scheme ;
     skos:narrower curr2:s-getallen,
         curr2:s-meetkunde,
@@ -32547,7 +32521,7 @@ curr1:c-digitale-competenties-en-mediawijsheid a skos:Concept ;
     skos:narrowerTransitive curr1:s-computers-en-systemen,
         curr1:s-digitale-media-en-toepassingen,
         curr1:s-mediawijsheid ;
-    skos:prefLabel "digitale competenties en mediawijsheid"@nl ;
+    skos:prefLabel "digitale competenties"@nl ;
     skos:related curr1:s-1-communicatie,
         curr1:s-1-literatuur,
         curr1:s-1-taal-en-cultuur,
@@ -32625,7 +32599,7 @@ curr1:s-stem-onderzoek a skos:Concept ;
         curr1:c-stem ;
     skos:definition "Natuurwetenschappelijke, technologische en wiskundige concepten en methoden inzetten om problemen op te lossen en om objecten, systemen en hun interacties te onderzoeken en te begrijpen."@nl ;
     skos:inScheme curr1:_scheme ;
-    skos:prefLabel "STEM-onderzoek"@nl ;
+    skos:prefLabel "multi- en interdisciplinaire STEM-vaardigheden"@nl ;
     skos:related curr1:c-digitale-competenties-en-mediawijsheid,
         curr1:c-leercompetenties,
         curr1:c-ondernemingszin,
@@ -32783,8 +32757,6 @@ curr1:s-wd-fysica a skos:Concept ;
         vak1:toegepaste-fysica .
 
 curr2:l-mens-en-maatschappij a skos:Concept ;
-    skos:altLabel "WO"@nl,
-        "wereldoriëntatie"@nl ;
     skos:inScheme curr2:_scheme ;
     skos:narrower curr2:s-brongebruik,
         curr2:s-maatschappij,
@@ -32903,7 +32875,7 @@ curr1:c-burgerschap-en-samenleven a skos:Concept ;
         curr1:s-maatschappijkritisch-denken,
         curr1:s-participatie,
         curr1:s-politiek ;
-    skos:prefLabel "burgerschap en samenleven"@nl ;
+    skos:prefLabel "burgerschap"@nl ;
     skos:related onddoel:sec-7.1-3240984483,
         onddoel:sec-7.1-3472947371,
         onddoel:sec-7.1-4122266280,
@@ -34789,7 +34761,6 @@ ondniv:sec-gr2-dubbel a skos:Concept ;
     foaf:logo icon-data:secundair2.svg .
 
 curr1:c-stem a skos:Concept ;
-    skos:altLabel "wetenschappen, technologie, engineering, wiskunde"@nl ;
     skos:definition "6. Competenties inzake wiskunde, exacte wetenschappen en technologie"@nl ;
     skos:inScheme curr1:_scheme ;
     skos:narrower curr1:s-biologie,
@@ -34816,7 +34787,7 @@ curr1:c-stem a skos:Concept ;
         curr1:s-wiskunde-meetkunde-en-metend-rekenen,
         curr1:s-wiskunde-modelleren-en-heuristiek,
         curr1:s-wiskunde-redeneren ;
-    skos:prefLabel "STEM (sleutelcompetentie)"@nl ;
+    skos:prefLabel "wiskunde - natuurwetenschappen - technologie - STEM"@nl ;
     skos:related onddoel:sec-6.1-1113433682,
         onddoel:sec-6.1-2471978869,
         onddoel:sec-6.1-2672577291,

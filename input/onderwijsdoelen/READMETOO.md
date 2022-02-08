@@ -45,7 +45,7 @@ WHERE {
     FILTER LANGMATCHES(LANG(?definitionNl), "nl")
   }
 }
-ORDER BY ?prefLabelNl
+ORDER BY ?concept
 ```
 
 | file | ${coll1} | ${coll2} |
@@ -103,12 +103,12 @@ Add a column `Id` to all `onderwijsdoelen-*-prepared.csv` files, to be used as a
 Principles:
 - used fields per file:
 
-  | file                                                   | Niveau | Onderwijsstructuur | Soort | Graad | Stroom | Finaliteit | Onderwijsvorm | Indeling | Sleutelcompetentie | Wetenschapsdomein | Nummer / Code |
-  | ------------------------------------------------------ | ------ | ------------------ | ----- | ----- | ------ | ---------- | ------------- | -------- | ------------------ | ----------------- | ------------- |
-  | onderwijsdoelen-lager.xlsx                             | *      | *                  | *     |       |        |            |               | *        |                    |                   | *             |
-  | onderwijsdoelen-secundair-graad1-na-modernisering.xlsx | *      |                    | *     | *     | *      |            |               |          | *                  |                   | *             |
-  | onderwijsdoelen-secundair-graad2-na-modernisering.xlsx | *      |                    | *     | *     |        | *          | *             |          | *                  |                   | *             |
-  | onderwijsdoelen-secundair-graad3-na-modernisering.xlsx | *      |                    | *     | *     |        | *          | *             |          | *                  | *                 | *             |
+| file                                                   | Niveau | Onderwijsstructuur | Soort | Graad | Stroom | Finaliteit | Onderwijsvorm | Indeling | Sleutelcompetentie | Wetenschapsdomein | Nummer / Code |
+| ------------------------------------------------------ | ------ | ------------------ | ----- | ----- | ------ | ---------- | ------------- | -------- | ------------------ | ----------------- | ------------- |
+| onderwijsdoelen-lager.xlsx                             | *      | *                  | *     |       |        |            |               | *        |                    |                   | *             |
+| onderwijsdoelen-secundair-graad1-na-modernisering.xlsx | *      |                    | *     | *     | *      |            |               |          | *                  |                   | *             |
+| onderwijsdoelen-secundair-graad2-na-modernisering.xlsx | *      |                    | *     | *     |        | *          | *             |          | *                  |                   | *             |
+| onderwijsdoelen-secundair-graad3-na-modernisering.xlsx | *      |                    | *     | *     |        | *          | *             |          | *                  | *                 | *             |
 
 - fields, generalized and put in a preferred order ([ ]: if column available and field not empty):
 
@@ -140,19 +140,19 @@ Principles:
   Outputs of the lookup are written to the relevant output columns, based on  different conditions:
     - For lager (curr2)
 
-      | Condition | Relevant input column(s) | Relevant output column |
-      | ----------| ------------------------ | ---------------------- |
-      | all | Indeling | Verwant leergebied |
-      | Indeling == "Frans" | Indeling, Titel 2 | Verwant subdomein |
-      | Indeling != "Frans" | Indeling, Titel 1 | Verwant subdomein |
-      | Indeling != "Frans" | Indeling, Titel 2 | Verwant thema |
+| Condition | Relevant input column(s) | Relevant output column |
+| ----------| ------------------------ | ---------------------- |
+| all | Indeling | Verwant leergebied |
+| Indeling == "Frans" | Indeling, Titel 2 | Verwant subdomein |
+| Indeling != "Frans" | Indeling, Titel 1 | Verwant subdomein |
+| Indeling != "Frans" | Indeling, Titel 2 | Verwant thema |
 
     - For secundair (curr1)
 
-      | Condition | Relevant input column(s) | Relevant output column |
-      | ----------| ------------------------ | ---------------------- |
-      | Sleutelcompetentie not empty | Sleutelcompetentie | Verwante sleutelcompetentie |
-      | Sleutelcompetentie not empty | Sleutelcompetentie, Onderdeel | Verwante bouwsteen |
-      | Wetenschapsdomein not empty | Wetenschapsdomein | Verwant wetenschapsdomein |
-      | Wetenschapsdomein not empty | Wetenschapsdomein, Onderdeel | (none!) |
+| Condition | Relevant input column(s) | Relevant output column |
+| ----------| ------------------------ | ---------------------- |
+| Sleutelcompetentie not empty | Sleutelcompetentie | Verwante sleutelcompetentie |
+| Sleutelcompetentie not empty | Sleutelcompetentie, Onderdeel | Verwante bouwsteen |
+| Wetenschapsdomein not empty | Wetenschapsdomein | Verwant wetenschapsdomein |
+| Wetenschapsdomein not empty | Wetenschapsdomein, Onderdeel | (none!) |
 

@@ -13,12 +13,16 @@ echo "=== Creating ../schemes/tref2.ttl"
 ./lager-onderwijs-keywords.sh
 
 echo "=== Skosifying"
-skosify -c skosify-ours.cfg -o ../schemes/elem-inferred.ttl ../schemes/elem.ttl
-skosify -c skosify-ours.cfg -o ../schemes/curr1-inferred.ttl ../schemes/curr1.ttl
-skosify -c skosify-ours.cfg -o ../schemes/vak1-inferred.ttl ../schemes/vak1.ttl
-skosify -c skosify-ours.cfg -o ../schemes/tref1-inferred.ttl ../schemes/tref1.ttl
-skosify -c skosify-ours.cfg -o ../schemes/curr2-inferred.ttl ../schemes/curr2.ttl
-skosify -c skosify-ours.cfg -o ../schemes/tref2-inferred.ttl ../schemes/tref2.ttl
-skosify -c skosify-ours.cfg -o ../schemes/ondniv-inferred.ttl ../schemes/ondniv.ttl
-skosify -c skosify-ours.cfg -o ../schemes/onddoel-inferred.ttl ../schemes/onddoel.ttl
+mkdir -p temp
+# Uncomment to make temp files as needed to look at new developments...
+#skosify -c skosify-ours.cfg -o temp/elem-inferred.ttl ../schemes/elem.ttl
+#skosify -c skosify-ours.cfg -o temp/curr1-inferred.ttl ../schemes/curr1.ttl
+#skosify -c skosify-ours.cfg -o temp/vak1-inferred.ttl ../schemes/vak1.ttl
+#skosify -c skosify-ours.cfg -o temp/tref1-inferred.ttl ../schemes/tref1.ttl
+#skosify -c skosify-ours.cfg -o temp/curr2-inferred.ttl ../schemes/curr2.ttl
+#skosify -c skosify-ours.cfg -o temp/tref2-inferred.ttl ../schemes/tref2.ttl
+#skosify -c skosify-ours.cfg -o temp/ondniv-inferred.ttl ../schemes/ondniv.ttl
+#skosify -c skosify-ours.cfg -o temp/onddoel-inferred.ttl ../schemes/onddoel.ttl
+
+# This is the real thing
 skosify -c skosify-ours.cfg -o ../schemes/combined-inferred.ttl ../schemes/elem.ttl ../schemes/curr1.ttl ../schemes/vak1.ttl ../schemes/tref1.ttl ../schemes/curr2.ttl ../schemes/tref2.ttl ../schemes/ondniv.ttl ../schemes/icons.ttl ../schemes/onddoel.ttl

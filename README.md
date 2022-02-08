@@ -38,13 +38,13 @@ For details on preparing the necessary environment and executing the scripts in 
 
 - if changes are needed to one of the following turtle files in directory `schemes`, edit them directly, based on the corresponding input:
   
-  | turtle file | input file |
-  | ----------- | ---------- |
-  | `elem.ttl` | - | 
-  | `curr1.ttl` | `input/secundair-onderwijs.xlsx` |
-  | `vak1.ttl` | `input/secundair-onderwijs.xlsx` |
-  | `tref1.ttl` | `input/secundair-onderwijs.xlsx` |
-  | `curr2.ttl` | `input/lager-onderwijs.xlsx` |
+| turtle file | input file |
+| ----------- | ---------- |
+| `elem.ttl` | - | 
+| `curr1.ttl` | `input/secundair-onderwijs.xlsx` |
+| `vak1.ttl` | `input/secundair-onderwijs.xlsx` |
+| `tref1.ttl` | `input/secundair-onderwijs.xlsx` |
+| `curr2.ttl` | `input/lager-onderwijs.xlsx` |
   
 - if changes are needed to `schemes/tref2.ttl`, edit `input/lager-onderwijs.xlsx` accordingly
   - conversion to turtle will happen automatically in a later step
@@ -66,22 +66,20 @@ For details on preparing the necessary environment and executing the scripts in 
 
 ### 1. Deploy turtle files
 
-Follow the server-specific instructions ("Modifying the dataset" in the server documentation) to deploy the following files
-on the SPARQL server (Apache Jena Fuseki) and optionally on Skosmos.
+Follow the server-specific instructions ("Modifying the dataset" in the server documentation) to deploy the following required file(s)
+on the SPARQL server (Apache Jena Fuseki) and on Skosmos.
 
-| Graph                                      | Uploaded from file (*) |
-| ------------------------------------------ | ---------------------- |
-| (default)                                  | combined-inferred.ttl  |
-| http://ilearn.ilabt.imec.be/vocab/elem/    | elem-inferred.ttl      |
-| http://ilearn.ilabt.imec.be/vocab/curr1/   | curr1-inferred.ttl     |
-| http://ilearn.ilabt.imec.be/vocab/vak1/    | vak1-inferred.ttl      |
-| http://ilearn.ilabt.imec.be/vocab/tref1/   | tref1-inferred.ttl     |
-| http://ilearn.ilabt.imec.be/vocab/curr2/   | curr2-inferred.ttl     |
-| http://ilearn.ilabt.imec.be/vocab/tref2/   | tref2-inferred.ttl     |
-| http://ilearn.ilabt.imec.be/vocab/ondniv/  | ondniv-inferred.ttl    |
-| http://ilearn.ilabt.imec.be/vocab/onddoel/ | onddoel-inferred.ttl   |
-
-(*) in directory `schemes`
+| Graph                                      | Uploaded from file              | Required? |
+| ------------------------------------------ |---------------------------------|-----------|
+| (default)                                  | schemes/combined-inferred.ttl   | yes       |
+| http://ilearn.ilabt.imec.be/vocab/elem/    | tools/temp/elem-inferred.ttl    | no        |
+| http://ilearn.ilabt.imec.be/vocab/curr1/   | tools/temp/curr1-inferred.ttl   | no        |
+| http://ilearn.ilabt.imec.be/vocab/vak1/    | tools/temp/vak1-inferred.ttl    | no        |
+| http://ilearn.ilabt.imec.be/vocab/tref1/   | tools/temp/tref1-inferred.ttl   | no        |
+| http://ilearn.ilabt.imec.be/vocab/curr2/   | tools/temp/curr2-inferred.ttl   | no        |
+| http://ilearn.ilabt.imec.be/vocab/tref2/   | tools/temp/tref2-inferred.ttl   | no        |
+| http://ilearn.ilabt.imec.be/vocab/ondniv/  | tools/temp/ondniv-inferred.ttl  | no        |
+| http://ilearn.ilabt.imec.be/vocab/onddoel/ | tools/temp/onddoel-inferred.ttl | no        |
 
 ### 2. Deploy static files
 
