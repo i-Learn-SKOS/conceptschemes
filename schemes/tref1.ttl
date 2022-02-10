@@ -28,26 +28,9 @@ tref1:anatomie a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "anatomie"@nl ;
-  skos:related curr1:s-biologie,
-    curr1:s-wd-biologie .
+  skos:related curr1:s-biologie .
 elem:secundair-onderwijs skos:member tref1:anatomie .
 elem:trefwoorden skos:member tref1:anatomie .
-
-tref1:animatie a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "animatie"@nl ;
-  skos:related curr1:s-toerisme .
-elem:secundair-onderwijs skos:member tref1:animatie .
-elem:trefwoorden skos:member tref1:animatie .
-
-tref1:archief a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "archief"@nl ;
-  skos:related curr1:s-erfgoed .
-elem:secundair-onderwijs skos:member tref1:archief .
-elem:trefwoorden skos:member tref1:archief .
 
 tref1:beeldgeletterdheid a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -76,20 +59,11 @@ tref1:bibliografie a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:bibliografie .
 elem:trefwoorden skos:member tref1:bibliografie .
 
-tref1:bibliotheek a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "bibliotheek"@nl ;
-  skos:related curr1:s-erfgoed .
-elem:secundair-onderwijs skos:member tref1:bibliotheek .
-elem:trefwoorden skos:member tref1:bibliotheek .
-
 tref1:biotechniek a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "biotechniek"@nl ;
-  skos:related curr1:s-biologie,
-    curr1:s-wd-biologie .
+  skos:related curr1:s-biologie .
 elem:secundair-onderwijs skos:member tref1:biotechniek .
 elem:trefwoorden skos:member tref1:biotechniek .
 
@@ -103,14 +77,6 @@ tref1:bodem a skos:Concept ;
     curr1:s-ruimtelijk-onderzoek .
 elem:secundair-onderwijs skos:member tref1:bodem .
 elem:trefwoorden skos:member tref1:bodem .
-
-tref1:bodemkunde a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "bodemkunde"@nl ;
-  skos:related curr1:s-aardwetenschappen .
-elem:secundair-onderwijs skos:member tref1:bodemkunde .
-elem:trefwoorden skos:member tref1:bodemkunde .
 
 tref1:bronnen a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -132,26 +98,9 @@ tref1:celleer a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "celleer"@nl ;
-  skos:related curr1:s-biologie,
-    curr1:s-wd-biologie .
+  skos:related curr1:s-biologie .
 elem:secundair-onderwijs skos:member tref1:celleer .
 elem:trefwoorden skos:member tref1:celleer .
-
-tref1:chauffeur a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "chauffeur"@nl ;
-  skos:related curr1:s-vervoer-transport-logistiek .
-elem:secundair-onderwijs skos:member tref1:chauffeur .
-elem:trefwoorden skos:member tref1:chauffeur .
-
-tref1:composietverwerker a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "composietverwerker"@nl ;
-  skos:related curr1:s-technologische-industrie .
-elem:secundair-onderwijs skos:member tref1:composietverwerker .
-elem:trefwoorden skos:member tref1:composietverwerker .
 
 tref1:cultureel-bewustzijn a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -167,35 +116,9 @@ tref1:dier a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "dier"@nl ;
-  skos:related curr1:s-biologie,
-    curr1:s-wd-biologie,
-    curr1:s-landbouw .
+  skos:related curr1:s-biologie .
 elem:secundair-onderwijs skos:member tref1:dier .
 elem:trefwoorden skos:member tref1:dier .
-
-tref1:dispatcher a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "dispatcher"@nl ;
-  skos:related curr1:s-vervoer-transport-logistiek .
-elem:secundair-onderwijs skos:member tref1:dispatcher .
-elem:trefwoorden skos:member tref1:dispatcher .
-
-tref1:distributie a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "distributie"@nl ;
-  skos:related curr1:s-vervoer-transport-logistiek .
-elem:secundair-onderwijs skos:member tref1:distributie .
-elem:trefwoorden skos:member tref1:distributie .
-
-tref1:edelmetalen a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "edelmetalen"@nl ;
-  skos:related curr1:s-ambachten .
-elem:secundair-onderwijs skos:member tref1:edelmetalen .
-elem:trefwoorden skos:member tref1:edelmetalen .
 
 tref1:ehbo a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -210,8 +133,7 @@ tref1:elektrodynamica a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "elektrodynamica"@nl ;
-  skos:related curr1:s-fysica,
-     curr1:s-wd-fysica .
+  skos:related curr1:s-fysica .
 elem:secundair-onderwijs skos:member tref1:elektrodynamica .
 elem:trefwoorden skos:member tref1:elektrodynamica .
 
@@ -219,8 +141,7 @@ tref1:elektromagnetisme a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "elektromagnetisme"@nl ;
-  skos:related curr1:s-fysica,
-    curr1:s-wd-fysica .
+  skos:related curr1:s-fysica .
 elem:secundair-onderwijs skos:member tref1:elektromagnetisme .
 elem:trefwoorden skos:member tref1:elektromagnetisme .
 
@@ -228,8 +149,7 @@ tref1:energie a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "energie"@nl ;
-  skos:related curr1:s-fysica,
-     curr1:s-wd-fysica .
+  skos:related curr1:s-fysica .
 elem:secundair-onderwijs skos:member tref1:energie .
 elem:trefwoorden skos:member tref1:energie .
 
@@ -241,20 +161,11 @@ tref1:ergonomie a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:ergonomie .
 elem:trefwoorden skos:member tref1:ergonomie .
 
-tref1:florist a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "florist"@nl ;
-  skos:related curr1:s-bloemsierkunst .
-elem:secundair-onderwijs skos:member tref1:florist .
-elem:trefwoorden skos:member tref1:florist .
-
 tref1:fysiologie a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "fysiologie"@nl ;
-  skos:related curr1:s-biologie,
-    curr1:s-wd-biologie .
+  skos:related curr1:s-biologie .
 elem:secundair-onderwijs skos:member tref1:fysiologie .
 elem:trefwoorden skos:member tref1:fysiologie .
 
@@ -263,53 +174,25 @@ tref1:garage a skos:Concept ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "garage"@nl ;
   skos:related curr1:s-technologie-en-technieken,
-    curr1:s-technologisch-inzicht,
-    curr1:s-garage-en-koetswerk .
+    curr1:s-technologisch-inzicht .
 elem:secundair-onderwijs skos:member tref1:garage .
 elem:trefwoorden skos:member tref1:garage .
-
-tref1:goederenbehandeling a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "goederenbehandeling"@nl ;
-  skos:related curr1:s-vervoer-transport-logistiek .
-elem:secundair-onderwijs skos:member tref1:goederenbehandeling .
-elem:trefwoorden skos:member tref1:goederenbehandeling .
 
 tref1:grammatica a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "grammatica"@nl ;
-  skos:related curr1:s-taalsysteem,
-    curr1:s-moderne-talen .
+  skos:related curr1:s-taalsysteem .
 elem:secundair-onderwijs skos:member tref1:grammatica .
 elem:trefwoorden skos:member tref1:grammatica .
-
-tref1:handel a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "handel"@nl ;
-  skos:related curr1:s-handel-verkoop-groothandel .
-elem:secundair-onderwijs skos:member tref1:handel .
-elem:trefwoorden skos:member tref1:handel .
 
 tref1:hardware a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "hardware"@nl ;
-  skos:related curr1:s-computers-en-systemen,
-    curr1:s-technologische-industrie,
-    curr1:s-informaticawetenschappen .
+  skos:related curr1:s-computers-en-systemen .
 elem:secundair-onderwijs skos:member tref1:hardware .
 elem:trefwoorden skos:member tref1:hardware .
-
-tref1:havenarbeid a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "havenarbeid"@nl ;
-  skos:related curr1:s-vervoer-transport-logistiek .
-elem:secundair-onderwijs skos:member tref1:havenarbeid .
-elem:trefwoorden skos:member tref1:havenarbeid .
 
 tref1:hedendaagse-tijd a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -319,20 +202,11 @@ tref1:hedendaagse-tijd a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:hedendaagse-tijd .
 elem:trefwoorden skos:member tref1:hedendaagse-tijd .
 
-tref1:hoor-en-spraakkunde a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "hoor- en spraakkunde"@nl ;
-  skos:related curr1:s-gezondheidszorg-en-welzijn .
-elem:secundair-onderwijs skos:member tref1:hoor-en-spraakkunde .
-elem:trefwoorden skos:member tref1:hoor-en-spraakkunde .
-
 tref1:ict a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "ICT"@nl ;
-  skos:related curr1:s-computers-en-systemen,
-    curr1:s-informaticawetenschappen .
+  skos:related curr1:s-computers-en-systemen .
 elem:secundair-onderwijs skos:member tref1:ict .
 elem:trefwoorden skos:member tref1:ict .
 
@@ -346,30 +220,6 @@ tref1:immobilien a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:immobilien .
 elem:trefwoorden skos:member tref1:immobilien .
 
-tref1:installatietechnieken a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "installatietechnieken"@nl ;
-  skos:related curr1:s-elektriciteit .
-elem:secundair-onderwijs skos:member tref1:installatietechnieken .
-elem:trefwoorden skos:member tref1:installatietechnieken .
-
-tref1:internationale-handel a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "internationale handel"@nl ;
-  skos:related curr1:s-handel-verkoop-groothandel .
-elem:secundair-onderwijs skos:member tref1:internationale-handel .
-elem:trefwoorden skos:member tref1:internationale-handel .
-
-tref1:kinderbegeleiding a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "kinderbegeleiding"@nl ;
-  skos:related curr1:s-gezondheidszorg-en-welzijn .
-elem:secundair-onderwijs skos:member tref1:kinderbegeleiding .
-elem:trefwoorden skos:member tref1:kinderbegeleiding .
-
 tref1:klimaat a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
@@ -377,8 +227,7 @@ tref1:klimaat a skos:Concept ;
   skos:related curr1:s-ruimte-en-tijd,
     curr1:s-landschap-en-plaats,
     curr1:s-mens-en-leefomgeving,
-    curr1:s-ruimtelijk-onderzoek,
-    curr1:s-aardwetenschappen .
+    curr1:s-ruimtelijk-onderzoek .
 elem:secundair-onderwijs skos:member tref1:klimaat .
 elem:trefwoorden skos:member tref1:klimaat .
 
@@ -391,14 +240,6 @@ tref1:kunstkritiek a skos:Concept ;
     curr1:s-kunstgeschiedenis-en-kunststromingen .
 elem:secundair-onderwijs skos:member tref1:kunstkritiek .
 elem:trefwoorden skos:member tref1:kunstkritiek .
-
-tref1:landbouw a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "landbouw"@nl ;
-  skos:related curr1:s-aardwetenschappen .
-elem:secundair-onderwijs skos:member tref1:landbouw .
-elem:trefwoorden skos:member tref1:landbouw .
 
 tref1:landeskunde a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -419,29 +260,11 @@ tref1:landschap a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:landschap .
 elem:trefwoorden skos:member tref1:landschap .
 
-tref1:leren-leren a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "leren leren"@nl ;
-  skos:related curr1:s-algemene-doorstroomcompetenties .
-elem:secundair-onderwijs skos:member tref1:leren-leren .
-elem:trefwoorden skos:member tref1:leren-leren .
-
-tref1:magazijn a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "magazijn"@nl ;
-  skos:related curr1:s-vervoer-transport-logistiek .
-elem:secundair-onderwijs skos:member tref1:magazijn .
-elem:trefwoorden skos:member tref1:magazijn .
-
 tref1:materie a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "materie"@nl ;
-  skos:related curr1:s-chemie,
-    curr1:s-wd-chemie,
-    curr1:s-bk-chemie  .
+  skos:related curr1:s-chemie .
 elem:secundair-onderwijs skos:member tref1:materie .
 elem:trefwoorden skos:member tref1:materie .
 
@@ -460,8 +283,7 @@ tref1:mediation a skos:Concept ;
   skos:related curr1:s-1-communicatie,
     curr1:s-1-taalsysteem,
     curr1:s-1-taal-en-cultuur,
-    curr1:s-1-literatuur,
-    curr1:s-moderne-talen .
+    curr1:s-1-literatuur .
 elem:secundair-onderwijs skos:member tref1:mediation .
 elem:trefwoorden skos:member tref1:mediation .
 
@@ -472,14 +294,6 @@ tref1:mediawijsheid a skos:Concept ;
   skos:related curr1:s-leren-leren .
 elem:secundair-onderwijs skos:member tref1:mediawijsheid .
 elem:trefwoorden skos:member tref1:mediawijsheid .
-
-tref1:melkvee a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "melkvee"@nl ;
-  skos:related curr1:s-landbouw .
-elem:secundair-onderwijs skos:member tref1:melkvee .
-elem:trefwoorden skos:member tref1:melkvee .
 
 tref1:middeleeuwen a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -493,19 +307,9 @@ tref1:milieu a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "milieu"@nl ;
-  skos:related curr1:s-biologie,
-    curr1:s-wd-biologie,
-    curr1:s-aardwetenschappen .
+  skos:related curr1:s-biologie .
 elem:secundair-onderwijs skos:member tref1:milieu .
 elem:trefwoorden skos:member tref1:milieu .
-
-tref1:milieudeskundige a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "milieudeskundige"@nl ;
-  skos:related curr1:s-milieu .
-elem:secundair-onderwijs skos:member tref1:milieudeskundige .
-elem:trefwoorden skos:member tref1:milieudeskundige .
 
 tref1:moderne-tijd a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -519,50 +323,9 @@ tref1:multimedia a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "multimedia"@nl ;
-  skos:related curr1:s-computers-en-systemen,
-    curr1:s-informaticawetenschappen .
+  skos:related curr1:s-computers-en-systemen .
 elem:secundair-onderwijs skos:member tref1:multimedia .
 elem:trefwoorden skos:member tref1:multimedia .
-
-tref1:muziekinstrumentenbouw a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "muziekinstrumentenbouw"@nl ;
-  skos:related curr1:s-ambachten .
-elem:secundair-onderwijs skos:member tref1:muziekinstrumentenbouw .
-elem:trefwoorden skos:member tref1:muziekinstrumentenbouw .
-
-tref1:natuur a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "natuur"@nl ;
-  skos:related curr1:s-aardwetenschappen .
-elem:secundair-onderwijs skos:member tref1:natuur .
-elem:trefwoorden skos:member tref1:natuur .
-
-tref1:onderzoek a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "onderzoek"@nl ;
-  skos:related curr1:s-algemene-doorstroomcompetenties .
-elem:secundair-onderwijs skos:member tref1:onderzoek .
-elem:trefwoorden skos:member tref1:onderzoek .
-
-tref1:optica a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "optica"@nl ;
-  skos:related curr1:s-gezondheidszorg-en-welzijn .
-elem:secundair-onderwijs skos:member tref1:optica .
-elem:trefwoorden skos:member tref1:optica .
-
-tref1:organisatie a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "organisatie"@nl ;
-  skos:related curr1:s-vervoer-transport-logistiek .
-elem:secundair-onderwijs skos:member tref1:organisatie .
-elem:trefwoorden skos:member tref1:organisatie .
 
 tref1:oudheid a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -572,39 +335,13 @@ tref1:oudheid a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:oudheid .
 elem:trefwoorden skos:member tref1:oudheid .
 
-tref1:paardenverzorging a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "paardenverzorging"@nl ;
-  skos:related curr1:s-ambachten .
-elem:secundair-onderwijs skos:member tref1:paardenverzorging .
-elem:trefwoorden skos:member tref1:paardenverzorging .
-
-tref1:planner a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "planner"@nl ;
-  skos:related curr1:s-vervoer-transport-logistiek .
-elem:secundair-onderwijs skos:member tref1:planner .
-elem:trefwoorden skos:member tref1:planner .
-
 tref1:plant a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "plant"@nl ;
-  skos:related curr1:s-biologie,
-    curr1:s-wd-biologie,
-    curr1:s-landbouw .
+  skos:related curr1:s-biologie .
 elem:secundair-onderwijs skos:member tref1:plant .
 elem:trefwoorden skos:member tref1:plant .
-
-tref1:pluimvee a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "pluimvee"@nl ;
-  skos:related curr1:s-landbouw .
-elem:secundair-onderwijs skos:member tref1:pluimvee .
-elem:trefwoorden skos:member tref1:pluimvee .
 
 tref1:politie a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -639,15 +376,6 @@ tref1:preventie a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:preventie .
 elem:trefwoorden skos:member tref1:preventie .
 
-tref1:productie a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "productie"@nl ;
-  skos:related curr1:s-wd-chemie,
-    curr1:s-bk-chemie .
-elem:secundair-onderwijs skos:member tref1:productie .
-elem:trefwoorden skos:member tref1:productie .
-
 tref1:relief a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
@@ -670,14 +398,6 @@ tref1:ruimtelijke-ordening a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:ruimtelijke-ordening .
 elem:trefwoorden skos:member tref1:ruimtelijke-ordening .
 
-tref1:samenbouw a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "samenbouw"@nl ;
-  skos:related curr1:s-technologische-industrie .
-elem:secundair-onderwijs skos:member tref1:samenbouw .
-elem:trefwoorden skos:member tref1:samenbouw .
-
 tref1:seksualiteit a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
@@ -685,14 +405,6 @@ tref1:seksualiteit a skos:Concept ;
   skos:related curr1:s-veiligheid .
 elem:secundair-onderwijs skos:member tref1:seksualiteit .
 elem:trefwoorden skos:member tref1:seksualiteit .
-
-tref1:socio-cultureel-werk a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "socio-cultureel werk"@nl ;
-  skos:related curr1:s-gezondheidszorg-en-welzijn .
-elem:secundair-onderwijs skos:member tref1:socio-cultureel-werk .
-elem:trefwoorden skos:member tref1:socio-cultureel-werk .
 
 tref1:sociolinguistiek a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -707,9 +419,7 @@ tref1:software a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "software"@nl ;
-  skos:related curr1:s-digitale-media-en-toepassingen,
-    curr1:s-communicatie-media-en-multimedia,
-    curr1:s-informaticawetenschappen .
+  skos:related curr1:s-digitale-media-en-toepassingen .
 elem:secundair-onderwijs skos:member tref1:software .
 elem:trefwoorden skos:member tref1:software .
 
@@ -717,8 +427,7 @@ tref1:taalontwikkeling a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "taalontwikkeling"@nl ;
-  skos:related curr1:s-communicatie,
-    curr1:s-moderne-talen .
+  skos:related curr1:s-communicatie .
 elem:secundair-onderwijs skos:member tref1:taalontwikkeling .
 elem:trefwoorden skos:member tref1:taalontwikkeling .
 
@@ -726,67 +435,17 @@ tref1:taalverwerving a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "taalverwerving"@nl ;
-  skos:related curr1:s-communicatie,
-    curr1:s-moderne-talen .
+  skos:related curr1:s-communicatie .
 elem:secundair-onderwijs skos:member tref1:taalverwerving .
 elem:trefwoorden skos:member tref1:taalverwerving .
-
-tref1:taxidermie a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "taxidermie"@nl ;
-  skos:related curr1:s-ambachten .
-elem:secundair-onderwijs skos:member tref1:taxidermie .
-elem:trefwoorden skos:member tref1:taxidermie .
-
-tref1:terugwinning a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "terugwinning"@nl ;
-  skos:related curr1:s-garage-en-koetswerk .
-elem:secundair-onderwijs skos:member tref1:terugwinning .
-elem:trefwoorden skos:member tref1:terugwinning .
-
-tref1:toegepaste-wiskunde a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "toegepaste wiskunde"@nl ;
-  skos:related curr1:s-wiskunde .
-elem:secundair-onderwijs skos:member tref1:toegepaste-wiskunde .
-elem:trefwoorden skos:member tref1:toegepaste-wiskunde .
 
 tref1:tolken a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "tolken"@nl ;
-  skos:related curr1:s-communicatie,
-    curr1:s-moderne-talen .
+  skos:related curr1:s-communicatie .
 elem:secundair-onderwijs skos:member tref1:tolken .
 elem:trefwoorden skos:member tref1:tolken .
-
-tref1:uitgebreide-wiskunde a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "uitgebreide wiskunde"@nl ;
-  skos:related curr1:s-wiskunde .
-elem:secundair-onderwijs skos:member tref1:uitgebreide-wiskunde .
-elem:trefwoorden skos:member tref1:uitgebreide-wiskunde .
-
-tref1:uitvaartbegeleiding a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "uitvaartbegeleiding"@nl ;
-  skos:related curr1:s-gezondheidszorg-en-welzijn .
-elem:secundair-onderwijs skos:member tref1:uitvaartbegeleiding .
-elem:trefwoorden skos:member tref1:uitvaartbegeleiding .
-
-tref1:varkens a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "varkens"@nl ;
-  skos:related curr1:s-landbouw .
-elem:secundair-onderwijs skos:member tref1:varkens .
-elem:trefwoorden skos:member tref1:varkens .
 
 tref1:vastgoed a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -828,18 +487,9 @@ tref1:vertalen a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "vertalen"@nl ;
-  skos:related curr1:s-communicatie,
-    curr1:s-moderne-talen .
+  skos:related curr1:s-communicatie .
 elem:secundair-onderwijs skos:member tref1:vertalen .
 elem:trefwoorden skos:member tref1:vertalen .
-
-tref1:verwerking a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "verwerking"@nl ;
-  skos:related curr1:s-technologische-industrie .
-elem:secundair-onderwijs skos:member tref1:verwerking .
-elem:trefwoorden skos:member tref1:verwerking .
 
 tref1:verzekeringen a skos:Concept ;
   skos:inScheme tref1:_scheme ;
@@ -851,14 +501,6 @@ tref1:verzekeringen a skos:Concept ;
 elem:secundair-onderwijs skos:member tref1:verzekeringen .
 elem:trefwoorden skos:member tref1:verzekeringen .
 
-tref1:voertuigen a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "voertuigen"@nl ;
-  skos:related curr1:s-garage-en-koetswerk .
-elem:secundair-onderwijs skos:member tref1:voertuigen .
-elem:trefwoorden skos:member tref1:voertuigen .
-
 tref1:vroegmoderne-tijd a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
@@ -866,14 +508,6 @@ tref1:vroegmoderne-tijd a skos:Concept ;
   skos:related curr1:s-historische-tijdlijn .
 elem:secundair-onderwijs skos:member tref1:vroegmoderne-tijd .
 elem:trefwoorden skos:member tref1:vroegmoderne-tijd .
-
-tref1:zaal a skos:Concept ;
-  skos:inScheme tref1:_scheme ;
-  skos:topConceptOf tref1:_scheme ;
-  skos:prefLabel "zaal"@nl ;
-  skos:related curr1:s-horeca .
-elem:secundair-onderwijs skos:member tref1:zaal .
-elem:trefwoorden skos:member tref1:zaal .
 
 tref1:zoekstrategieen a skos:Concept ;
   skos:inScheme tref1:_scheme ;

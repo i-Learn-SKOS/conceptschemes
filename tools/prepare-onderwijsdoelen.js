@@ -158,43 +158,6 @@ const transformationsForId = {
       return { error: `Unsupported Sleutelcompetentie entry: "${x}"` };
     }
   },
-  "Wetenschapsdomein": x => { // return value based on part of URI of the 16 wetenschapsdomeinen in curr1
-    if (/aardwetenschappen/i.test(x)) {
-      return "aardwetenschappen";
-    } else if (/algemene.*doorstroomcompetenties/i.test(x)) {
-      return "algemene-doorstroomcompetenties";
-    } else if (/bewegingswetenschappen/i.test(x)) {
-      return "bewegingswetenschappen";
-    } else if (/biologie/i.test(x)) {
-      return "biologie";
-    } else if (/chemie/i.test(x)) {
-      return "chemie";
-    } else if (/economie/i.test(x)) {
-      return "economie";
-    } else if (/filosofie/i.test(x)) {
-      return "filosofie";
-    } else if (/fysica/i.test(x)) {
-      return "fysica";
-    } else if (/gedragswetenschappen/i.test(x)) {
-      return "gedragswetenschappen";
-    } else if (/informaticawetenschappen/i.test(x)) {
-      return "informaticawetenschappen";
-    } else if (/klassieke.*talen/i.test(x)) {
-      return "klassieke-talen";
-    } else if (/kunst.*cultuur/i.test(x)) {
-      return "kunst-en-cultuur";
-    } else if (/moderne.*talen/i.test(x)) {
-      return "moderne-talen";
-    } else if (/sociale.*wetenschappen/i.test(x)) {
-      return "sociale-wetenschappen";
-    } else if (/stem/i.test(x)) {
-      return "stem";
-    } else if (/wiskunde/i.test(x)) {
-      return "wiskunde";
-    } else {
-      return { error: `Unsupported Wetenschapsdomein entry: "${x}"` };
-    }
-  },
   "Nummer / Code": x => {
     if (/[0-9]/.test(x)) {
       return x.replace(/\*/g, "s").replace(/\.$/, "")
@@ -212,9 +175,6 @@ const transformationsForId = {
   //   return x.split('/').slice(-1)[0]
   // },
   // "Verwante bouwsteen": x => {
-  //   return x.split('/').slice(-1)[0]
-  // },
-  // "Verwant wetenschapsdomein": x => {
   //   return x.split('/').slice(-1)[0]
   // },
   "Onderwijsdoel": x => {
@@ -288,10 +248,6 @@ const relatedColumnsInfo = {
   "S-BS": {
     "inputColumnHeaders": ["Sleutelcompetentie", "Onderdeel"],
     "outputColumnHeader": "Verwante bouwsteen"
-  },
-  "S-WD": {
-    "inputColumnHeaders": ["Wetenschapsdomein"],
-    "outputColumnHeader": "Verwant wetenschapsdomein"
   }
 }
 

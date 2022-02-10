@@ -170,137 +170,15 @@ curr1:c-zelfbewustzijn a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:c-zelfbewustzijn .
 elem:sleutelcompetenties skos:member curr1:c-zelfbewustzijn .
 
-### studie(d)omeinen
-###   alle URIs: curr1:d-[a-z-]+
-###   alle skos:notations: st-[a-z-]+
-
-curr1:d-bouwen-en-wonen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-bouwen-en-wonen" ;
-  skos:prefLabel "bouwen en wonen"@nl .
-elem:secundair-onderwijs skos:member curr1:d-bouwen-en-wonen .
-elem:studiedomeinen skos:member curr1:d-bouwen-en-wonen .
-
-curr1:d-economie-en-organisatie a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-economie-en-organisatie" ;
-  skos:prefLabel "economie en organisatie"@nl .
-elem:secundair-onderwijs skos:member curr1:d-economie-en-organisatie .
-elem:studiedomeinen skos:member curr1:d-economie-en-organisatie .
-
-curr1:d-kunst-en-cultuur a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-kunst-en-cultuur" ;
-  skos:prefLabel "kunst en cultuur"@nl .
-elem:secundair-onderwijs skos:member curr1:d-kunst-en-cultuur .
-elem:studiedomeinen skos:member curr1:d-kunst-en-cultuur .
-
-curr1:d-land-en-tuinbouw a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-land-en-tuinbouw" ;
-  skos:prefLabel "land- en tuinbouw"@nl .
-elem:secundair-onderwijs skos:member curr1:d-land-en-tuinbouw .
-elem:studiedomeinen skos:member curr1:d-land-en-tuinbouw .
-
-curr1:d-niet-bepaald a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-niet-bepaald" ;
-  skos:prefLabel "niet bepaald studiedomein"@nl .
-elem:secundair-onderwijs skos:member curr1:d-niet-bepaald .
-elem:studiedomeinen skos:member curr1:d-niet-bepaald .
-
-curr1:d-sport-en-ontspanning a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-sport-en-ontspanning" ;
-  skos:prefLabel "sport en ontspanning"@nl .
-elem:secundair-onderwijs skos:member curr1:d-sport-en-ontspanning .
-elem:studiedomeinen skos:member curr1:d-sport-en-ontspanning .
-
-curr1:d-stem a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-stem" ;
-  skos:prefLabel "STEM (studiedomein)"@nl .
-elem:secundair-onderwijs skos:member curr1:d-stem .
-elem:studiedomeinen skos:member curr1:d-stem .
-
-curr1:d-voeding-en-horeca a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-voeding-en-horeca" ;
-  skos:prefLabel "voeding en horeca"@nl .
-elem:secundair-onderwijs skos:member curr1:d-voeding-en-horeca .
-elem:studiedomeinen skos:member curr1:d-voeding-en-horeca .
-
-curr1:d-zorg-en-welzijn a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-  skos:topConceptOf curr1:_scheme ;
-#  skos:notation "st-zorg-en-welzijn" ;
-  skos:prefLabel "zorg en welzijn"@nl .
-elem:secundair-onderwijs skos:member curr1:d-zorg-en-welzijn .
-elem:studiedomeinen skos:member curr1:d-zorg-en-welzijn .
-
-### overige
-
 ###### niveau 2
 
-### vroegere (s)ubdomeinen: bouwstenen - beroepskwalificaties - wetenschapsdomeinen
+### vroegere (s)ubdomeinen: bouwstenen
 ###   alle URIs: curr1:s-[a-z-]+
 ###   alle skos:notations: su-[a-z-]+
-###   ontdubbelen bouwstenen die tegelijk ook beroepskwalificatie en/of wetenschapsdomein waren:
-###   - bouwstenen blijven oorspronkelijke URI behouden
-###   - wetenschapsdomeinen:  URI: curr1:s-wd-[a-z-]+ ; notation: su-wd-[a-z-]+ (invoeging wd-)
-###   - beroekskwalificaties: URI: curr1:s-bk-[a-z-]+ ; notation: su-bk-[a-z-]+ (invoeging bk-)
 ###   ontdubbelen bouwstenen die narrower waren van verschillende sleutelcompetenties:
 ###   - telkens behoudt één bouwsteen de oorspronkelijke URI en skos:notation
 ###   - de overige krijgen een aangepaste URI en notation (x is een cijfer):
 ###     URI: curr1:s-x-[a-z-]+ ; notation: su-x-[a-z-]+ (invoeging x-)
-
-curr1:s-aardwetenschappen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-aardwetenschappen" ;
-  skos:prefLabel "aardwetenschappen"@nl ;
-  skos:broader curr1:d-niet-bepaald .
-elem:secundair-onderwijs skos:member curr1:s-aardwetenschappen .
-elem:wetenschapsdomeinen skos:member curr1:s-aardwetenschappen .
-
-curr1:s-algemene-doorstroomcompetenties a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-algemene-doorstroomcompetenties" ;
-  skos:prefLabel "algemene doorstroomcompetenties"@nl ;
-  skos:broader curr1:d-niet-bepaald .
-elem:secundair-onderwijs skos:member curr1:s-algemene-doorstroomcompetenties .
-elem:wetenschapsdomeinen skos:member curr1:s-algemene-doorstroomcompetenties .
-
-curr1:s-ambachten a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-ambachten" ;
-  skos:prefLabel "ambachten"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-ambachten .
-elem:beroepskwalificaties skos:member curr1:s-ambachten .
-
-curr1:s-bank-verzekeringen-en-immobilien a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-bank-verzekeringen-en-immobilien" ;
-  skos:prefLabel "bank, verzekeringen en immobiliën"@nl ;
-  skos:broader curr1:d-economie-en-organisatie .
-elem:secundair-onderwijs skos:member curr1:s-bank-verzekeringen-en-immobilien .
-elem:beroepskwalificaties skos:member curr1:s-bank-verzekeringen-en-immobilien .
-
-curr1:s-bewegingswetenschappen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-bewegingswetenschappen" ;
-  skos:prefLabel "bewegingswetenschappen"@nl ;
-  skos:broader curr1:d-sport-en-ontspanning .
-elem:secundair-onderwijs skos:member curr1:s-bewegingswetenschappen .
-elem:wetenschapsdomeinen skos:member curr1:s-bewegingswetenschappen .
 
 curr1:s-biologie a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -315,30 +193,6 @@ curr1:s-biologie a skos:Concept ;
     curr1:c-ondernemingszin .
 elem:secundair-onderwijs skos:member curr1:s-biologie .
 elem:bouwstenen skos:member curr1:s-biologie .
-
-curr1:s-wd-biologie a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-wd-biologie" ;
-  skos:prefLabel "biologie (wetenschapsdomein)"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-wd-biologie .
-elem:wetenschapsdomeinen skos:member curr1:s-wd-biologie .
-
-curr1:s-bloemsierkunst a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-bloemsierkunst" ;
-  skos:prefLabel "bloemsierkunst"@nl ;
-  skos:broader curr1:d-land-en-tuinbouw .
-elem:secundair-onderwijs skos:member curr1:s-bloemsierkunst .
-elem:beroepskwalificaties skos:member curr1:s-bloemsierkunst .
-
-curr1:s-bouw a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-bouw" ;
-  skos:prefLabel "bouw"@nl ;
-  skos:broader curr1:d-bouwen-en-wonen .
-elem:secundair-onderwijs skos:member curr1:s-bouw .
-elem:beroepskwalificaties skos:member curr1:s-bouw .
 
 curr1:s-bronnenkritiek a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -367,22 +221,6 @@ curr1:s-chemie a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-chemie .
 elem:bouwstenen skos:member curr1:s-chemie .
 
-curr1:s-wd-chemie a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-wd-chemie" ;
-  skos:prefLabel "chemie (wetenschapsdomein)"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-wd-chemie .
-elem:wetenschapsdomeinen skos:member curr1:s-wd-chemie .
-
-curr1:s-bk-chemie a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-bk-chemie" ;
-  skos:prefLabel "chemie (beroepskwalificatie)"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-bk-chemie .
-elem:beroepskwalificaties skos:member curr1:s-bk-chemie .
-
 curr1:s-communicatie a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-communicatie" ;
@@ -408,14 +246,6 @@ curr1:s-1-communicatie a skos:Concept ;
     curr1:c-ondernemingszin .
 elem:secundair-onderwijs skos:member curr1:s-1-communicatie .
 elem:bouwstenen skos:member curr1:s-1-communicatie .
-
-curr1:s-communicatie-media-en-multimedia a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-communicatie-media-en-multimedia" ;
-  skos:prefLabel "communicatie, media en multimedia"@nl ;
-  skos:broader curr1:d-economie-en-organisatie .
-elem:secundair-onderwijs skos:member curr1:s-communicatie-media-en-multimedia .
-elem:beroepskwalificaties skos:member curr1:s-communicatie-media-en-multimedia .
 
 curr1:s-computers-en-systemen a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -448,14 +278,6 @@ curr1:s-dialoog a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-dialoog .
 elem:bouwstenen skos:member curr1:s-dialoog .
 
-curr1:s-diensten-aan-de-gemeenschap a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-diensten-aan-de-gemeenschap" ;
-  skos:prefLabel "diensten aan de gemeenschap"@nl ;
-  skos:broader curr1:d-economie-en-organisatie .
-elem:secundair-onderwijs skos:member curr1:s-diensten-aan-de-gemeenschap .
-elem:beroepskwalificaties skos:member curr1:s-diensten-aan-de-gemeenschap .
-
 curr1:s-digitale-media-en-toepassingen a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-digitale-media-en-toepassingen" ;
@@ -476,14 +298,6 @@ curr1:s-diversiteit a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-diversiteit .
 elem:bouwstenen skos:member curr1:s-diversiteit .
 
-curr1:s-elektriciteit a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-elektriciteit" ;
-  skos:prefLabel "elektriciteit"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-elektriciteit .
-elem:beroepskwalificaties skos:member curr1:s-elektriciteit .
-
 curr1:s-economie a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-economie" ;
@@ -498,22 +312,6 @@ curr1:s-economie a skos:Concept ;
     curr1:c-duurzaamheid .
 elem:secundair-onderwijs skos:member curr1:s-economie .
 elem:bouwstenen skos:member curr1:s-economie .
-
-curr1:s-wd-economie a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-wd-economie" ;
-  skos:prefLabel "economie (wetenschapsdomein)"@nl ;
-  skos:broader curr1:d-economie-en-organisatie .
-elem:secundair-onderwijs skos:member curr1:s-wd-economie .
-elem:wetenschapsdomeinen skos:member curr1:s-wd-economie .
-
-curr1:s-erfgoed a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-erfgoed" ;
-  skos:prefLabel "erfgoed"@nl ;
-  skos:broader curr1:d-kunst-en-cultuur .
-elem:secundair-onderwijs skos:member curr1:s-erfgoed .
-elem:beroepskwalificaties skos:member curr1:s-erfgoed .
 
 curr1:s-ethiek a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -531,14 +329,6 @@ curr1:s-filosofie a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-filosofie .
 elem:bouwstenen skos:member curr1:s-filosofie .
 
-curr1:s-wd-filosofie a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-wd-filosofie" ;
-  skos:prefLabel "filosofie (wetenschapsdomein)"@nl ;
-  skos:broader curr1:d-niet-bepaald .
-elem:secundair-onderwijs skos:member curr1:s-wd-filosofie .
-elem:wetenschapsdomeinen skos:member curr1:s-wd-filosofie .
-
 curr1:s-fysica a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-fysica" ;
@@ -552,30 +342,6 @@ curr1:s-fysica a skos:Concept ;
     curr1:c-ondernemingszin .
 elem:secundair-onderwijs skos:member curr1:s-fysica .
 elem:bouwstenen skos:member curr1:s-fysica .
-
-curr1:s-wd-fysica a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-wd-fysica" ;
-  skos:prefLabel "fysica (wetenschapsdomein)"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-wd-fysica .
-elem:wetenschapsdomeinen skos:member curr1:s-wd-fysica .
-
-curr1:s-garage-en-koetswerk a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-garage-en-koetswerk" ;
-  skos:prefLabel "garage- en koetswerk"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-garage-en-koetswerk .
-elem:beroepskwalificaties skos:member curr1:s-garage-en-koetswerk .
-
-curr1:s-gedragswetenschappen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-gedragswetenschappen" ;
-  skos:prefLabel "gedragswetenschappen"@nl ;
-  skos:broader curr1:d-zorg-en-welzijn .
-elem:secundair-onderwijs skos:member curr1:s-gedragswetenschappen .
-elem:wetenschapsdomeinen skos:member curr1:s-gedragswetenschappen .
 
 curr1:s-geld-en-consumptie a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -600,38 +366,6 @@ curr1:s-gezonde-levensstijl a skos:Concept ;
   skos:broader curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn .
 elem:secundair-onderwijs skos:member curr1:s-gezonde-levensstijl .
 elem:bouwstenen skos:member curr1:s-gezonde-levensstijl .
-
-curr1:s-gezondheidszorg-en-welzijn a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-gezondheidszorg-en-welzijn" ;
-  skos:prefLabel "gezondheidszorg en welzijn"@nl ;
-  skos:broader curr1:d-zorg-en-welzijn .
-elem:secundair-onderwijs skos:member curr1:s-gezondheidszorg-en-welzijn .
-elem:beroepskwalificaties skos:member curr1:s-gezondheidszorg-en-welzijn .
-
-curr1:s-glas-en-steen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-glas-en-steen" ;
-  skos:prefLabel "glas en steen"@nl ;
-  skos:broader curr1:d-bouwen-en-wonen .
-elem:secundair-onderwijs skos:member curr1:s-glas-en-steen .
-elem:beroepskwalificaties skos:member curr1:s-glas-en-steen .
-
-curr1:s-groenaanleg-en-groenbeheer a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-groenaanleg-en-groenbeheer" ;
-  skos:prefLabel "groenaanleg en groenbeheer"@nl ;
-  skos:broader curr1:d-land-en-tuinbouw .
-elem:secundair-onderwijs skos:member curr1:s-groenaanleg-en-groenbeheer .
-elem:beroepskwalificaties skos:member curr1:s-groenaanleg-en-groenbeheer .
-
-curr1:s-handel-verkoop-groothandel a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-handel-verkoop-groothandel" ;
-  skos:prefLabel "handel, verkoop, groothandel"@nl ;
-  skos:broader curr1:d-economie-en-organisatie .
-elem:secundair-onderwijs skos:member curr1:s-handel-verkoop-groothandel .
-elem:beroepskwalificaties skos:member curr1:s-handel-verkoop-groothandel .
 
 curr1:s-historische-beeldvorming a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -672,22 +406,6 @@ curr1:s-historische-tijdlijn a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-historische-tijdlijn .
 elem:bouwstenen skos:member curr1:s-historische-tijdlijn .
 
-curr1:s-horeca a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-horeca" ;
-  skos:prefLabel "horeca"@nl ;
-  skos:broader curr1:d-voeding-en-horeca .
-elem:secundair-onderwijs skos:member curr1:s-horeca .
-elem:beroepskwalificaties skos:member curr1:s-horeca .
-
-curr1:s-hout a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-hout" ;
-  skos:prefLabel "hout"@nl ;
-  skos:broader curr1:d-bouwen-en-wonen .
-elem:secundair-onderwijs skos:member curr1:s-hout .
-elem:beroepskwalificaties skos:member curr1:s-hout .
-
 curr1:s-identiteit a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-identiteit" ;
@@ -699,14 +417,6 @@ curr1:s-identiteit a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-identiteit .
 elem:bouwstenen skos:member curr1:s-identiteit .
 
-curr1:s-industrieel-onderhoud-en-ontwerp a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-industrieel-onderhoud-en-ontwerp" ;
-  skos:prefLabel "industrieel onderhoud en ontwerp"@nl ;
-  skos:broader curr1:d-zorg-en-welzijn .
-elem:secundair-onderwijs skos:member curr1:s-industrieel-onderhoud-en-ontwerp .
-elem:beroepskwalificaties skos:member curr1:s-industrieel-onderhoud-en-ontwerp .
-
 curr1:s-informatie-verwerven a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-informatie-verwerven" ;
@@ -715,14 +425,6 @@ curr1:s-informatie-verwerven a skos:Concept ;
   skos:broader curr1:c-leercompetenties .
 elem:secundair-onderwijs skos:member curr1:s-informatie-verwerven .
 elem:bouwstenen skos:member curr1:s-informatie-verwerven .
-
-curr1:s-informaticawetenschappen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-informaticawetenschappen" ;
-  skos:prefLabel "informaticawetenschappen"@nl ;
-  skos:broader curr1:d-niet-bepaald .
-elem:secundair-onderwijs skos:member curr1:s-informaticawetenschappen .
-elem:wetenschapsdomeinen skos:member curr1:s-informaticawetenschappen .
 
 curr1:s-keuzes-maken a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -733,38 +435,6 @@ curr1:s-keuzes-maken a skos:Concept ;
     curr1:c-ondernemingszin .
 elem:secundair-onderwijs skos:member curr1:s-keuzes-maken .
 elem:bouwstenen skos:member curr1:s-keuzes-maken .
-
-curr1:s-klassieke-talen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-klassieke-talen" ;
-  skos:prefLabel "klassieke talen"@nl ;
-  skos:broader curr1:d-niet-bepaald .
-elem:secundair-onderwijs skos:member curr1:s-klassieke-talen .
-elem:wetenschapsdomeinen skos:member curr1:s-klassieke-talen .
-
-curr1:s-koeling-en-warmte a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-koeling-en-warmte" ;
-  skos:prefLabel "koeling en warmte"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-koeling-en-warmte .
-elem:beroepskwalificaties skos:member curr1:s-koeling-en-warmte .
-
-curr1:s-kunst a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-kunst" ;
-  skos:prefLabel "kunst"@nl ;
-  skos:broader curr1:d-kunst-en-cultuur .
-elem:secundair-onderwijs skos:member curr1:s-kunst .
-elem:beroepskwalificaties skos:member curr1:s-kunst .
-
-curr1:s-kunst-en-cultuur a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-kunst-en-cultuur" ;
-  skos:prefLabel "kunst en cultuur"@nl ;
-  skos:broader curr1:d-kunst-en-cultuur .
-elem:secundair-onderwijs skos:member curr1:s-kunst-en-cultuur .
-elem:wetenschapsdomeinen skos:member curr1:s-kunst-en-cultuur .
 
 curr1:s-kunstbeleving-en-waardering a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -803,14 +473,6 @@ curr1:s-kunstgeschiedenis-en-kunststromingen a skos:Concept ;
   skos:broader curr1:c-cultureel-bewustzijn-en-culturele-expressie .
 elem:secundair-onderwijs skos:member curr1:s-kunstgeschiedenis-en-kunststromingen .
 elem:bouwstenen skos:member curr1:s-kunstgeschiedenis-en-kunststromingen .
-
-curr1:s-landbouw a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-landbouw" ;
-  skos:prefLabel "landbouw"@nl ;
-  skos:broader curr1:d-land-en-tuinbouw .
-elem:secundair-onderwijs skos:member curr1:s-landbouw .
-elem:beroepskwalificaties skos:member curr1:s-landbouw .
 
 curr1:s-landschap-en-plaats a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -907,22 +569,6 @@ curr1:s-mentaal-welbevinden a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-mentaal-welbevinden .
 elem:bouwstenen skos:member curr1:s-mentaal-welbevinden .
 
-curr1:s-milieu a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-milieu" ;
-  skos:prefLabel "milieu"@nl ;
-  skos:broader curr1:d-land-en-tuinbouw .
-elem:secundair-onderwijs skos:member curr1:s-milieu .
-elem:beroepskwalificaties skos:member curr1:s-milieu .
-
-curr1:s-moderne-talen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-moderne-talen" ;
-  skos:prefLabel "moderne talen"@nl ;
-  skos:broader curr1:d-niet-bepaald .
-elem:secundair-onderwijs skos:member curr1:s-moderne-talen .
-elem:wetenschapsdomeinen skos:member curr1:s-moderne-talen .
-
 curr1:s-ondernemen-en-organisatie a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-ondernemen-en-organisatie" ;
@@ -937,14 +583,6 @@ curr1:s-ondernemen-en-organisatie a skos:Concept ;
     curr1:c-juridische-competenties .
 elem:secundair-onderwijs skos:member curr1:s-ondernemen-en-organisatie .
 elem:bouwstenen skos:member curr1:s-ondernemen-en-organisatie .
-
-curr1:s-ondersteuning-aan-bedrijven-en-organisaties a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-ondersteuning-aan-bedrijven-en-organisaties" ;
-  skos:prefLabel "ondersteuning aan bedrijven en organisaties"@nl ;
-  skos:broader curr1:d-economie-en-organisatie .
-elem:secundair-onderwijs skos:member curr1:s-ondersteuning-aan-bedrijven-en-organisaties .
-elem:beroepskwalificaties skos:member curr1:s-ondersteuning-aan-bedrijven-en-organisaties .
 
 curr1:s-onderzoeken a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -963,14 +601,6 @@ curr1:s-opportuniteiten-verkennen a skos:Concept ;
   skos:broader curr1:c-ondernemingszin .
 elem:secundair-onderwijs skos:member curr1:s-opportuniteiten-verkennen .
 elem:bouwstenen skos:member curr1:s-opportuniteiten-verkennen .
-
-curr1:s-paarden a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-paarden" ;
-  skos:prefLabel "paarden"@nl ;
-  skos:broader curr1:d-land-en-tuinbouw .
-elem:secundair-onderwijs skos:member curr1:s-paarden .
-elem:beroepskwalificaties skos:member curr1:s-paarden .
 
 curr1:s-participatie a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -991,14 +621,6 @@ curr1:s-politiek a skos:Concept ;
   skos:broader curr1:c-burgerschap-en-samenleven .
 elem:secundair-onderwijs skos:member curr1:s-politiek .
 elem:bouwstenen skos:member curr1:s-politiek .
-
-curr1:s-printmedia a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-printmedia" ;
-  skos:prefLabel "printmedia"@nl ;
-  skos:broader curr1:d-kunst-en-cultuur .
-elem:secundair-onderwijs skos:member curr1:s-printmedia .
-elem:beroepskwalificaties skos:member curr1:s-printmedia .
 
 curr1:s-reguleren a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -1066,14 +688,6 @@ curr1:s-samenwerken a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-samenwerken .
 elem:bouwstenen skos:member curr1:s-samenwerken .
 
-curr1:s-sociale-wetenschappen a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-sociale-wetenschappen" ;
-  skos:prefLabel "sociale wetenschappen"@nl ;
-  skos:broader curr1:d-zorg-en-welzijn .
-elem:secundair-onderwijs skos:member curr1:s-sociale-wetenschappen .
-elem:wetenschapsdomeinen skos:member curr1:s-sociale-wetenschappen .
-
 curr1:s-sport-en-beweging a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-sport-en-beweging" ;
@@ -1082,22 +696,6 @@ curr1:s-sport-en-beweging a skos:Concept ;
   skos:broader curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn .
 elem:secundair-onderwijs skos:member curr1:s-sport-en-beweging .
 elem:bouwstenen skos:member curr1:s-sport-en-beweging .
-
-curr1:s-sport-en-ontspanning a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-sport-en-ontspanning" ;
-  skos:prefLabel "sport en ontspanning"@nl ;
-  skos:broader curr1:d-sport-en-ontspanning .
-elem:secundair-onderwijs skos:member curr1:s-sport-en-ontspanning .
-elem:beroepskwalificaties skos:member curr1:s-sport-en-ontspanning .
-
-curr1:s-stem a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-stem" ;
-  skos:prefLabel "STEM"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-stem .
-elem:wetenschapsdomeinen skos:member curr1:s-stem .
 
 curr1:s-stem-onderzoek a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -1179,14 +777,6 @@ curr1:s-technologie-en-technieken a skos:Concept ;
 elem:secundair-onderwijs skos:member curr1:s-technologie-en-technieken .
 elem:bouwstenen skos:member curr1:s-technologie-en-technieken .
 
-curr1:s-technologische-industrie a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-technologische-industrie" ;
-  skos:prefLabel "technologische industrie"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-technologische-industrie .
-elem:beroepskwalificaties skos:member curr1:s-technologische-industrie .
-
 curr1:s-technologisch-inzicht a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-technologisch-inzicht" ;
@@ -1200,30 +790,6 @@ curr1:s-technologisch-inzicht a skos:Concept ;
     curr1:c-duurzaamheid .
 elem:secundair-onderwijs skos:member curr1:s-technologisch-inzicht .
 elem:bouwstenen skos:member curr1:s-technologisch-inzicht .
-
-curr1:s-textiel-kledij-confectie a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-textiel-kledij-confectie" ;
-  skos:prefLabel "textiel, kledij, confectie"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-textiel-kledij-confectie .
-elem:beroepskwalificaties skos:member curr1:s-textiel-kledij-confectie .
-
-curr1:s-textielcreatie-en-mode a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-textielcreatie-en-mode" ;
-  skos:prefLabel "textielcreatie en mode"@nl ;
-  skos:broader curr1:d-kunst-en-cultuur .
-elem:secundair-onderwijs skos:member curr1:s-textielcreatie-en-mode .
-elem:beroepskwalificaties skos:member curr1:s-textielcreatie-en-mode .
-
-curr1:s-toerisme a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-toerisme" ;
-  skos:prefLabel "toerisme"@nl ;
-  skos:broader curr1:d-economie-en-organisatie .
-elem:secundair-onderwijs skos:member curr1:s-toerisme .
-elem:beroepskwalificaties skos:member curr1:s-toerisme .
 
 curr1:s-uitvoeringsanalyse a skos:Concept ;
   skos:inScheme curr1:_scheme ;
@@ -1251,39 +817,6 @@ curr1:s-veiligheid a skos:Concept ;
   skos:broader curr1:c-lichamelijk-geestelijk-en-emotioneel-welzijn .
 elem:secundair-onderwijs skos:member curr1:s-veiligheid .
 elem:bouwstenen skos:member curr1:s-veiligheid .
-
-curr1:s-vervoer-transport-logistiek a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-vervoer-transport-logistiek" ;
-  skos:prefLabel "vervoer, transport, logistiek"@nl ;
-  skos:broader curr1:d-stem,
-    curr1:d-economie-en-organisatie .
-elem:secundair-onderwijs skos:member curr1:s-vervoer-transport-logistiek .
-elem:beroepskwalificaties skos:member curr1:s-vervoer-transport-logistiek .
-
-curr1:s-voeding a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-voeding" ;
-  skos:prefLabel "voeding"@nl ;
-  skos:broader curr1:d-voeding-en-horeca .
-elem:secundair-onderwijs skos:member curr1:s-voeding .
-elem:beroepskwalificaties skos:member curr1:s-voeding .
-
-curr1:s-wijnbouw a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-wijnbouw" ;
-  skos:prefLabel "wijnbouw"@nl ;
-  skos:broader curr1:d-land-en-tuinbouw .
-elem:secundair-onderwijs skos:member curr1:s-wijnbouw .
-elem:beroepskwalificaties skos:member curr1:s-wijnbouw .
-
-curr1:s-wiskunde a skos:Concept ;
-  skos:inScheme curr1:_scheme ;
-#  skos:notation "su-wiskunde" ;
-  skos:prefLabel "wiskunde"@nl ;
-  skos:broader curr1:d-stem .
-elem:secundair-onderwijs skos:member curr1:s-wiskunde .
-elem:wetenschapsdomeinen skos:member curr1:s-wiskunde .
 
 curr1:s-wiskunde-algebra-analyse a skos:Concept ;
   skos:inScheme curr1:_scheme ;

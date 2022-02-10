@@ -74,8 +74,6 @@ What is mapped for each onderwijsdoel:
 
 - For secundair
   - Cannot create an onderwijsdoel concept for onderwijsdoelen in the input where the column `Nummer / Code` contains `zie eindterm(en)`: can't create a unique `Id` in these cases.
-  - "Onderdelen" (parts of) a wetenschapsdomein cannot be linked to curriculum concepts: in our curr1.ttl, we do not have parts of wetenschapsdomeinen (which are already at the second hierarchical level of our meemoo-based dataset).    
-  - In our curriculum, a wetenschapsdomein can overlap with (= have the same URI as) a bouwsteen, even also with a beroepskwalificatie. Consequence: the created links are not specific enough for those wetenschapsdomeinen. Example: http://ilearn.ilabt.imec.be/vocab/curr1/s-chemie.
+  - Wetenschapsdomeinen and "Onderdelen" (parts of) a wetenschapsdomein cannot be linked to curriculum concepts: in our curr1.ttl, we do not have wetenschapsdomeinen and parts of wetenschapsdomeinen.    
   - In our curriculum, some bouwstenen are shared (skos:narrower) between multiple sleutelcompetenties. Consequence: the created links are not specific for those bouwstenen. This will require queries thet specify both the sleutelcomptentie and the bouwsteen.
-  - Our curriculum has `studiedomeinen`, but the onderwijsdoelen do not mention any.
   - There is no onderwijsdoelen input for graad 3, leerjaar 3 at this moment.

@@ -54,7 +54,6 @@ ORDER BY ?concept
 | lookup-more-columns-L-SD.csv | `<http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs>` | `<http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen>` |
 | lookup-more-columns-L-TH.csv | `<http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs>` | `<http://ilearn.ilabt.imec.be/vocab/elem/themas>` |
 | lookup-more-columns-S-SL.csv | `<http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs>` | `<http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties>` |
-| lookup-more-columns-S-WD.csv | `<http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs>` | `<http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen>` |
 | lookup-more-columns-S-BS.csv | `<http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs>` | `<http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen>` |
 
 ### lookup-onderwijsdoelen-*.xlsx
@@ -103,16 +102,16 @@ Add a column `Id` to all `onderwijsdoelen-*-prepared.csv` files, to be used as a
 Principles:
 - used fields per file:
 
-| file                                                   | Niveau | Onderwijsstructuur | Soort | Graad | Stroom | Finaliteit | Onderwijsvorm | Indeling | Sleutelcompetentie | Wetenschapsdomein | Nummer / Code |
-| ------------------------------------------------------ | ------ | ------------------ | ----- | ----- | ------ | ---------- | ------------- | -------- | ------------------ | ----------------- | ------------- |
-| onderwijsdoelen-lager.xlsx                             | *      | *                  | *     |       |        |            |               | *        |                    |                   | *             |
-| onderwijsdoelen-secundair-graad1-na-modernisering.xlsx | *      |                    | *     | *     | *      |            |               |          | *                  |                   | *             |
-| onderwijsdoelen-secundair-graad2-na-modernisering.xlsx | *      |                    | *     | *     |        | *          | *             |          | *                  |                   | *             |
-| onderwijsdoelen-secundair-graad3-na-modernisering.xlsx | *      |                    | *     | *     |        | *          | *             |          | *                  | *                 | *             |
+| file                                                   | Niveau | Onderwijsstructuur | Soort | Graad | Stroom | Finaliteit | Onderwijsvorm | Indeling | Sleutelcompetentie | Nummer / Code |
+| ------------------------------------------------------ | ------ | ------------------ | ----- | ----- | ------ | ---------- | ------------- | -------- | ------------------ | ------------- |
+| onderwijsdoelen-lager.xlsx                             | *      | *                  | *     |       |        |            |               | *        |                    | *             |
+| onderwijsdoelen-secundair-graad1-na-modernisering.xlsx | *      |                    | *     | *     | *      |            |               |          | *                  | *             |
+| onderwijsdoelen-secundair-graad2-na-modernisering.xlsx | *      |                    | *     | *     |        | *          | *             |          | *                  | *             |
+| onderwijsdoelen-secundair-graad3-na-modernisering.xlsx | *      |                    | *     | *     |        | *          | *             |          | *                  | *             |
 
 - fields, generalized and put in a preferred order ([ ]: if column available and field not empty):
 
-  `Niveau` `[Onderwijsstructuur]` `Soort` `[Graad]` `[Stroom]` `[Finaliteit]` `[Onderwijsvorm]` `[Indeling]` `[Sleutelcompetentie]` `[Wetenschapsdomein]` `Nummer / Code`
+  `Niveau` `[Onderwijsstructuur]` `Soort` `[Graad]` `[Stroom]` `[Finaliteit]` `[Onderwijsvorm]` `[Indeling]` `[Sleutelcompetentie]` `Nummer / Code`
 
 - in construction of Id, don't write fields literally, but use some ad hoc code lists (inspired on how we created URIs elsewhere).
   (See `transformationsForId` in `../../tools/prepare-onderwijsdoelen.js`)
@@ -129,7 +128,7 @@ Add several columns `Verwant ...` to all `onderwijsdoelen-*-prepared.csv` files,
 
 Principles:
 - The URI of a related
-  `leergebied`, `subdomein`, `thema`, `sleutelcompetentie`, `bouwsteen` and `wetenschapsdomein`
+  `leergebied`, `subdomein`, `thema`, `sleutelcompetentie` and `bouwsteen`
   is added in new output columns with corresponding names `Verwant leergebied`, `Verwant subdomein`, etc.
 
 - This URI is looked up from the helper files `lookup-onderwijsdoelen-L.xlsx` and `lookup-onderwijsdoelen-S.xlsx` described above.
@@ -153,6 +152,4 @@ Principles:
 | ----------| ------------------------ | ---------------------- |
 | Sleutelcompetentie not empty | Sleutelcompetentie | Verwante sleutelcompetentie |
 | Sleutelcompetentie not empty | Sleutelcompetentie, Onderdeel | Verwante bouwsteen |
-| Wetenschapsdomein not empty | Wetenschapsdomein | Verwant wetenschapsdomein |
-| Wetenschapsdomein not empty | Wetenschapsdomein, Onderdeel | (none!) |
 

@@ -119,15 +119,3 @@ mappings:
       parameters:
         - [grel:valueParameter, $(Verwante bouwsteen)]
         - [grel:valueParameter2, ""]
-  verwant-wetenschapsdomein:
-    sources:
-      - sec-gr2
-      - sec-gr3
-    s: onddoel:$(Id)
-    po:
-      - [skos:related, $(Verwant wetenschapsdomein)~iri]
-    condition:
-      function: idlab-fn:notEqual
-      parameters:
-        - [grel:valueParameter, $(Verwant wetenschapsdomein)]
-        - [grel:valueParameter2, ""]

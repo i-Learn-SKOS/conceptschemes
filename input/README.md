@@ -24,6 +24,8 @@ Formatted to be printable on A4, portrait.
 
 Formatted to print comments at the end of sheet "Redux termenlijst"
 
+Added comment "Inhoud vanaf hier (studiedomeinen, beroepskwalificaties en wetenschapsdomeinen) weer weggelaten uit de data voor iLearn" 
+
 ## Lager onderwijs
 
 Filename: `lager-onderwijs.xlsx`

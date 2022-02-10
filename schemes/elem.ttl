@@ -31,21 +31,9 @@ elem:sleutelcompetenties a skos:Collection ;
   skos:inScheme elem:_scheme ;
   skos:prefLabel "sleutelcompetenties"@nl .
 
-elem:studiedomeinen a skos:Collection ;
-  skos:inScheme elem:_scheme ;
-  skos:prefLabel "studiedomeinen"@nl .
-
 elem:bouwstenen a skos:Collection ;
   skos:inScheme elem:_scheme ;
   skos:prefLabel "bouwstenen"@nl .
-
-elem:beroepskwalificaties a skos:Collection ;
-  skos:inScheme elem:_scheme ;
-  skos:prefLabel "beroepskwalificaties"@nl .
-
-elem:wetenschapsdomeinen a skos:Collection ;
-  skos:inScheme elem:_scheme ;
-  skos:prefLabel "wetenschapsdomeinen"@nl .
 
 elem:vakken a skos:Collection ;
   skos:inScheme elem:_scheme ;
