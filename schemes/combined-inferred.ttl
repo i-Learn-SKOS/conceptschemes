@@ -26068,8 +26068,7 @@ elem:_scheme a skos:ConceptScheme ;
     skos:prefLabel "elementsoorten"@nl .
 
 ondniv:sec-gr2 a skos:Concept ;
-    ilearn:hasCurriculum elem:sleutelcompetenties,
-        elem:studiedomeinen ;
+    ilearn:hasCurriculum elem:sleutelcompetenties ;
     ilearn:typicalAgeRange "14-15" ;
     skos:altLabel "tweede graad"@nl ;
     skos:broader ondniv:sec ;
@@ -33113,8 +33112,7 @@ ondniv:basis-lager a skos:Concept ;
     foaf:logo icon-data:leerjaar.svg .
 
 ondniv:sec-gr3 a skos:Concept ;
-    ilearn:hasCurriculum elem:sleutelcompetenties,
-        elem:studiedomeinen ;
+    ilearn:hasCurriculum elem:sleutelcompetenties ;
     ilearn:typicalAgeRange "16-17" ;
     skos:broader ondniv:sec ;
     skos:broaderTransitive ondniv:sec ;

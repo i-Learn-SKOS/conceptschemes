@@ -16,7 +16,7 @@ secundair onderwijs,,,,,,,school,12-17,,,,sec,,niveau
 secundair onderwijs,,1ste graad,,,eerste graad,1e graad,,12-13,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties,,,sec-gr1,sec,graad
 secundair onderwijs,,1ste graad,a-stroom,,,,,,,,,sec-gr1-astroom,sec-gr1,finaliteit
 secundair onderwijs,,1ste graad,b-stroom,,,,,,,,,sec-gr1-bstroom,sec-gr1,finaliteit
-secundair onderwijs,,2e graad,,,tweede graad,,,14-15,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties,http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen,,sec-gr2,sec,graad
+secundair onderwijs,,2e graad,,,tweede graad,,,14-15,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties,,,sec-gr2,sec,graad
 secundair onderwijs,,2e graad,finaliteit doorstroom,,doorstroomfinaliteit,,,,,,,sec-gr2-doorstroom,sec-gr2,finaliteit
 secundair onderwijs,,2e graad,finaliteit doorstroom,aso,,,,,,,,sec-gr2-doorstroom-aso,sec-gr2-doorstroom,onderwijsvorm
 secundair onderwijs,,2e graad,finaliteit doorstroom,tso,,,,,,,,sec-gr2-doorstroom-tso,sec-gr2-doorstroom,onderwijsvorm
@@ -26,7 +26,7 @@ secundair onderwijs,,2e graad,dubbele finaliteit,tso,,,,,,,,sec-gr2-dubbel-tso,s
 secundair onderwijs,,2e graad,dubbele finaliteit,kso,,,,,,,,sec-gr2-dubbel-kso,sec-gr2-dubbel,onderwijsvorm
 secundair onderwijs,,2e graad,finaliteit arbeidsmarkt,,arbeidsmarktfinaliteit,,,,,,,sec-gr2-arbeidsmarkt,sec-gr2,finaliteit
 secundair onderwijs,,2e graad,finaliteit arbeidsmarkt,bso,,,,,,,,sec-gr2-arbeidsmarkt-bso,sec-gr2-arbeidsmarkt,onderwijsvorm
-secundair onderwijs,,3e graad,,,,,,16-17,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties,http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen,,sec-gr3,sec,graad
+secundair onderwijs,,3e graad,,,,,,16-17,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties,,,sec-gr3,sec,graad
 secundair onderwijs,,3e graad,finaliteit doorstroom,,,,,,,,,sec-gr3-doorstroom,sec-gr3,finaliteit
 secundair onderwijs,,3e graad,finaliteit doorstroom,aso,,,,,,,,sec-gr3-doorstroom-aso,sec-gr3-doorstroom,onderwijsvorm
 secundair onderwijs,,3e graad,finaliteit doorstroom,tso,,,,,,,,sec-gr3-doorstroom-tso,sec-gr3-doorstroom,onderwijsvorm

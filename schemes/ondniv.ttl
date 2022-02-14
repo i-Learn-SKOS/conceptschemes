@@ -154,7 +154,7 @@ ondniv:sec-gr1-bstroom rdf:type skos:Concept ;
 	skos:inScheme ondniv:_scheme ;
 	skos:prefLabel "b-stroom"@nl .
 
-ondniv:sec-gr2 ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties>, <http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen> ;
+ondniv:sec-gr2 ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties> ;
 	ilearn:typicalAgeRange "14-15" ;
 	rdf:type skos:Concept ;
 	skos:altLabel "tweede graad"@nl ;
@@ -209,7 +209,7 @@ ondniv:sec-gr2-dubbel-tso rdf:type skos:Concept ;
 	skos:inScheme ondniv:_scheme ;
 	skos:prefLabel "tso"@nl .
 
-ondniv:sec-gr3 ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties>, <http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen> ;
+ondniv:sec-gr3 ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties> ;
 	ilearn:typicalAgeRange "16-17" ;
 	rdf:type skos:Concept ;
 	skos:broader ondniv:sec ;

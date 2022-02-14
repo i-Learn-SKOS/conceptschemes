@@ -32,7 +32,6 @@ Abbreviations in the filenames:
 | TH  | thema |
 | SL | sleutelcompetentie |
 | BS | bouwsteen |
-| WD | wetenschapsdomein |
 
 List of helper files:
 - `lookup-column-X-Y[-Z].txt` (X and Y one of the abbreviations, Z an optional extra specification)
@@ -58,7 +57,6 @@ What is mapped for each onderwijsdoel:
   - for secundair onderwijs:
     - `sleutelcompetenties`
     - `bouwstenen`
-    - `wetenschapsdomeinen`
 
 ## Issues
 - In general
