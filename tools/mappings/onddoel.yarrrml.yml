@@ -13,6 +13,8 @@ sources:
   sec-gr1: ['../input/onderwijsdoelen/onderwijsdoelen-secundair-graad1-na-modernisering-prepared.csv~csv']
   sec-gr2: ['../input/onderwijsdoelen/onderwijsdoelen-secundair-graad2-na-modernisering-prepared.csv~csv']
   sec-gr3: ['../input/onderwijsdoelen/onderwijsdoelen-secundair-graad3-na-modernisering-prepared.csv~csv']
+  lager-ilearnextra: ['../input/onderwijsdoelen/ilearnextra/onderwijsdoelen-lager-prepared.csv~csv']
+  sec-ilearnextra: ['../input/onderwijsdoelen/ilearnextra/onderwijsdoelen-secundair-prepared.csv~csv']
 
 mappings:
   scheme:
@@ -33,6 +35,8 @@ mappings:
       - sec-gr1
       - sec-gr2
       - sec-gr3
+      - lager-ilearnextra
+      - sec-ilearnextra
     s: onddoel:$(Id)
     po:
       - [a, skos:Concept]
@@ -45,13 +49,14 @@ mappings:
         o:
           - function: grel:array_join(p_array_a = $(Nummer / Code), p_array_a = $(Onderwijsdoel), p_string_sep = " ")
             language: nl
-      - [skos:related, $(Onderwijsniveau_id)~iri]
   member:
     sources:
       - lager
       - sec-gr1
       - sec-gr2
       - sec-gr3
+      - lager-ilearnextra
+      - sec-ilearnextra
     s: http://ilearn.ilabt.imec.be/vocab/elem/onddoel
     po:
       - [skos:member, onddoel:$(Id)~iri]
@@ -60,9 +65,26 @@ mappings:
       parameters:
         - [grel:valueParameter, $(Id)]
         - [grel:valueParameter2, ""]
+  verwant-onderwijsniveau:
+    sources:
+      - lager
+      - sec-gr1
+      - sec-gr2
+      - sec-gr3
+      - lager-ilearnextra
+      - sec-ilearnextra
+    s: onddoel:$(Id)
+    po:
+      - [skos:related, $(Onderwijsniveau_id)~iri]
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(Onderwijsniveau_id)]
+        - [grel:valueParameter2, ""]
   verwant-leergebied:
     sources:
       - lager
+      - lager-ilearnextra
     s: onddoel:$(Id)
     po:
       - [skos:related, $(Verwant leergebied)~iri]
@@ -74,6 +96,7 @@ mappings:
   verwant-subdomein:
     sources:
       - lager
+      - lager-ilearnextra
     s: onddoel:$(Id)
     po:
       - [skos:related, $(Verwant subdomein)~iri]
@@ -98,6 +121,7 @@ mappings:
       - sec-gr1
       - sec-gr2
       - sec-gr3
+      - sec-ilearnextra
     s: onddoel:$(Id)
     po:
       - [skos:related, $(Verwante sleutelcompetentie)~iri]
@@ -111,6 +135,7 @@ mappings:
       - sec-gr1
       - sec-gr2
       - sec-gr3
+      - sec-ilearnextra
     s: onddoel:$(Id)
     po:
       - [skos:related, $(Verwante bouwsteen)~iri]

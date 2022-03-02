@@ -183,6 +183,9 @@ const transformationsForId = {
   },
 }
 
+const instructionHeader = "Instruction";
+const instructionNoOndnivLink = "no-ondniv-link";
+
 function onlyUnique(value, index, self) {
   return self.map(s => s.s).indexOf(value.s) === index;
 }
@@ -376,31 +379,41 @@ class PrepareOnderwijsdoelenToolbox {
               });
               setRowValueAtHeader(hcEx, row, "Id", id, this.logger);
               this.logger.debug(`Id: ${id}`);
+
               // Fill OndNiv
-              let ondnivId = "";
-              orderedOndNivHeadersForId.forEach(header => {
-                if (!faulty) {
-                  let txt = getRowValueAtHeader(hcEx, row, header, this.logger);
-                  if (txt) {
-                    let r = transformationsForId[header](txt);
-                    if (typeof (r) != "string") {
-                      this.logger.warn(`No Id for row ${rowNumber} because: ${r.error}`);
-                      ondnivId = "";
-                      faulty = true;
-                    } else {
-                      let s = slugify(r);
-                      if (s.length > 0) {
-                        if (ondnivId.length > 0) {
-                          ondnivId = ondnivId + "-" + s;
-                        } else {
-                          ondnivId = s;
+              if (hcEx.hasOwnProperty(instructionHeader) && getRowValueAtHeader(hcEx, row, instructionHeader, this.logger).includes(instructionNoOndnivLink)) {
+                this.logger.warn('Not linking to onderwijsstructuur on request');
+              } else {
+                let ondnivId = "";
+                let faulty = false;
+                orderedOndNivHeadersForId.forEach(header => {
+                  if (!faulty) {
+                    let txt = getRowValueAtHeader(hcEx, row, header, this.logger);
+                    if (txt) {
+                      let r = transformationsForId[header](txt);
+                      if (typeof (r) != "string") {
+                        this.logger.warn(`No Id for row ${rowNumber} because: ${r.error}`);
+                        ondnivId = "";
+                        faulty = true;
+                      } else {
+                        let s = slugify(r);
+                        if (s.length > 0) {
+                          if (ondnivId.length > 0) {
+                            ondnivId = ondnivId + "-" + s;
+                          } else {
+                            ondnivId = s;
+                          }
                         }
                       }
                     }
                   }
+                });
+                if (ondnivId) {
+                  setRowValueAtHeader(hcEx, row, ondnivColumnHeader, `http://ilearn.ilabt.imec.be/vocab/ondniv/${ondnivId}`, this.logger);
+                } else {
+                  this.logger.warn(`No ${ondnivColumnHeader} for row ${rowNumber} because no info available`);
                 }
-              });
-              setRowValueAtHeader(hcEx, row, ondnivColumnHeader, `http://ilearn.ilabt.imec.be/vocab/ondniv/${ondnivId}`, this.logger);
+              }
             }
           }.bind(this));
         }

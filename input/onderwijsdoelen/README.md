@@ -1,10 +1,12 @@
 # Onderwijsdoelen
 
-This folder contains input files and self-created helper files about `onderwijsdoelen`, all with the purpose of creating a onderwijsdoelen SKOS concept scheme.
+This directory contains input files and self-created helper files about `onderwijsdoelen`, all with the purpose of creating a onderwijsdoelen SKOS concept scheme.
 
 To read how to reconstruct, see [READMETOO.md](READMETOO.md).
 
 Below is a birdseye overview of all files, the mappings and all known issues.
+
+Subdirectory `ilearnextra` contains iLearn-specific extensions. Filenames follow the same structure as the one described here. 
 
 ## Input files
 

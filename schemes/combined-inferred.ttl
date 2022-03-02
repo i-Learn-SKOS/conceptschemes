@@ -670,7 +670,8 @@ elem:lager-onderwijs a skos:Collection ;
 
 elem:onddoel a skos:Collection ;
     skos:inScheme elem:_scheme ;
-    skos:member onddoel:basis-lager-1-133507717,
+    skos:member onddoel:basis-lager-0-531868484,
+        onddoel:basis-lager-1-133507717,
         onddoel:basis-lager-1-150499233,
         onddoel:basis-lager-1-3154454773,
         onddoel:basis-lager-1.1-1499005007,
@@ -1001,6 +1002,7 @@ elem:onddoel a skos:Collection ;
         onddoel:basis-lager-8-3792225747,
         onddoel:basis-lager-8-4094544339,
         onddoel:basis-lager-9-3986372844,
+        onddoel:sec-0-2131951827,
         onddoel:sec-1.1-128411788,
         onddoel:sec-1.1-1561466412,
         onddoel:sec-1.1.1-1451156578,
@@ -2672,6 +2674,10 @@ elem:secundair-onderwijs a skos:Collection ;
         vak1:zee-en-binnenvaart,
         vak1:zeemanschap ;
     skos:prefLabel "secundair onderwijs"@nl .
+
+elem:studiedomeinen a skos:Collection ;
+    skos:inScheme elem:_scheme ;
+    skos:prefLabel "studiedomeinen"@nl .
 
 elem:subdomeinen a skos:Collection ;
     skos:inScheme elem:_scheme ;
@@ -6324,12 +6330,6 @@ ondniv:buso a skos:Concept ;
     skos:prefLabel "buitengewoon secundair onderwijs"@nl ;
     skos:topConceptOf ondniv:_scheme ;
     foaf:logo icon-data:buitengewoonsecundair.svg .
-
-curr2:s-niet-confessionele-zedenleer a skos:Concept ;
-    skos:broader curr2:l-levensbeschouwelijke-vakken ;
-    skos:broaderTransitive curr2:l-levensbeschouwelijke-vakken ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "niet-confessionele zedenleer"@nl .
 
 onddoel:basis-lager-23-4163456071 a skos:Concept ;
     skos:definition """23 Om bovenvermelde taaltaken uit te voeren kunnen de leerlingen de volgende lexicale en grammaticale elementen functioneel inzetten:
@@ -11147,20 +11147,6 @@ vak1:zeemanschap a skos:Concept ;
 
 icon-data:logo-i-learn.svg schema:contentUrl icon-files:logo-i-learn.svg .
 
-curr1:s-ethiek a skos:Concept ;
-    skos:broader curr1:c-religie-en-levensbeschouwing ;
-    skos:broaderTransitive curr1:c-religie-en-levensbeschouwing ;
-    skos:inScheme curr1:_scheme ;
-    skos:prefLabel "ethiek"@nl ;
-    skos:related vak1:maatschappelijke-vorming .
-
-curr1:s-filosofie a skos:Concept ;
-    skos:broader curr1:c-religie-en-levensbeschouwing ;
-    skos:broaderTransitive curr1:c-religie-en-levensbeschouwing ;
-    skos:inScheme curr1:_scheme ;
-    skos:prefLabel "filosofie (bouwsteen)"@nl ;
-    skos:related vak1:filosofie .
-
 curr2:s-brongebruik a skos:Concept ;
     skos:broader curr2:l-mens-en-maatschappij ;
     skos:broaderTransitive curr2:l-mens-en-maatschappij ;
@@ -11174,6 +11160,13 @@ curr2:s-culturele-gerichtheid a skos:Concept ;
     skos:inScheme curr2:_scheme ;
     skos:prefLabel "(inter)culturele gerichtheid"@nl ;
     skos:related onddoel:basis-lager-7-1491057510 .
+
+curr2:s-niet-confessionele-zedenleer a skos:Concept ;
+    skos:broader curr2:l-levensbeschouwelijke-vakken ;
+    skos:broaderTransitive curr2:l-levensbeschouwelijke-vakken ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "niet-confessionele zedenleer"@nl ;
+    skos:related onddoel:basis-lager-0-531868484 .
 
 curr2:t-anglicaanse a skos:Concept ;
     skos:broader curr2:s-godsdienst ;
@@ -18800,6 +18793,22 @@ vak1:toegepaste-biochemie a skos:Concept ;
         curr1:s-chemie ;
     skos:topConceptOf vak1:_scheme .
 
+curr1:s-ethiek a skos:Concept ;
+    skos:broader curr1:c-religie-en-levensbeschouwing ;
+    skos:broaderTransitive curr1:c-religie-en-levensbeschouwing ;
+    skos:inScheme curr1:_scheme ;
+    skos:prefLabel "ethiek"@nl ;
+    skos:related onddoel:sec-0-2131951827,
+        vak1:maatschappelijke-vorming .
+
+curr1:s-filosofie a skos:Concept ;
+    skos:broader curr1:c-religie-en-levensbeschouwing ;
+    skos:broaderTransitive curr1:c-religie-en-levensbeschouwing ;
+    skos:inScheme curr1:_scheme ;
+    skos:prefLabel "filosofie"@nl ;
+    skos:related onddoel:sec-0-2131951827,
+        vak1:filosofie .
+
 curr1:s-opportuniteiten-verkennen a skos:Concept ;
     skos:broader curr1:c-ondernemingszin ;
     skos:broaderTransitive curr1:c-ondernemingszin ;
@@ -18808,23 +18817,6 @@ curr1:s-opportuniteiten-verkennen a skos:Concept ;
     skos:prefLabel "opportuniteiten verkennen"@nl ;
     skos:related onddoel:sec-15.1-1638034401,
         onddoel:sec-15.1-2724819294 .
-
-curr2:l-extra-curriculair a skos:Concept ;
-    skos:inScheme curr2:_scheme ;
-    skos:narrower curr2:s-extra-curriculair ;
-    skos:narrowerTransitive curr2:s-extra-curriculair,
-        curr2:t-extra-curriculair ;
-    skos:prefLabel "extracurriculair"@nl ;
-    skos:topConceptOf curr2:_scheme ;
-    foaf:logo icon-data:extra-curriculair.svg .
-
-curr2:s-extra-curriculair a skos:Concept ;
-    skos:broader curr2:l-extra-curriculair ;
-    skos:broaderTransitive curr2:l-extra-curriculair ;
-    skos:inScheme curr2:_scheme ;
-    skos:narrower curr2:t-extra-curriculair ;
-    skos:narrowerTransitive curr2:t-extra-curriculair ;
-    skos:prefLabel "extracurriculair"@nl .
 
 curr2:t-algemene-vaardigheden-tijd a skos:Concept ;
     skos:broader curr2:s-tijd ;
@@ -19888,6 +19880,17 @@ onddoel:basis-lager-4.9-2415859818 a skos:Concept ;
         curr2:s-ruimte,
         curr2:t-ruimtelijke-ordening,
         ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:sec-0-2131951827 a skos:Concept ;
+    skos:definition "0 Geen eindterm (secundair onderwijs)"@nl ;
+    skos:hiddenLabel "0"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "sec-0-2131951827"@nl ;
+    skos:related curr1:c-religie-en-levensbeschouwing,
+        curr1:s-ethiek,
+        curr1:s-filosofie,
+        curr1:s-religie-en-geloof ;
     skos:topConceptOf onddoel:_scheme .
 
 onddoel:sec-1.1-128411788 a skos:Concept ;
@@ -22694,6 +22697,25 @@ curr1:s-vaktaal a skos:Concept ;
         onddoel:sec-13.18-485787450,
         onddoel:sec-13.19-2747202084 .
 
+curr2:l-extra-curriculair a skos:Concept ;
+    skos:inScheme curr2:_scheme ;
+    skos:narrower curr2:s-extra-curriculair ;
+    skos:narrowerTransitive curr2:s-extra-curriculair,
+        curr2:t-extra-curriculair ;
+    skos:prefLabel "extracurriculair"@nl ;
+    skos:related onddoel:basis-lager-0-531868484 ;
+    skos:topConceptOf curr2:_scheme ;
+    foaf:logo icon-data:extra-curriculair.svg .
+
+curr2:s-extra-curriculair a skos:Concept ;
+    skos:broader curr2:l-extra-curriculair ;
+    skos:broaderTransitive curr2:l-extra-curriculair ;
+    skos:inScheme curr2:_scheme ;
+    skos:narrower curr2:t-extra-curriculair ;
+    skos:narrowerTransitive curr2:t-extra-curriculair ;
+    skos:prefLabel "extracurriculair"@nl ;
+    skos:related onddoel:basis-lager-0-531868484 .
+
 curr2:s-mondelinge-interactie a skos:Concept ;
     skos:broader curr2:l-frans ;
     skos:broaderTransitive curr2:l-frans ;
@@ -24655,6 +24677,19 @@ curr2:t-techniek-en-samenleving a skos:Concept ;
         onddoel:basis-lager-2.17-1131064814,
         onddoel:basis-lager-2.18-2686660963 .
 
+onddoel:basis-lager-0-531868484 a skos:Concept ;
+    skos:definition "0 Geen eindterm (lager onderwijs)"@nl ;
+    skos:hiddenLabel "0"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-0-531868484"@nl ;
+    skos:related curr2:l-extra-curriculair,
+        curr2:l-levensbeschouwelijke-vakken,
+        curr2:s-extra-curriculair,
+        curr2:s-godsdienst,
+        curr2:s-niet-confessionele-zedenleer,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
 onddoel:sec-1.14-603277467 a skos:Concept ;
     skos:definition "1.14 De leerlingen uiten hun gevoelens respectvol."@nl ;
     skos:hiddenLabel "1.14"@nl ;
@@ -25155,30 +25190,6 @@ vak1:zakelijke-communicatie a skos:Concept ;
         curr1:s-ondernemen-en-organisatie ;
     skos:topConceptOf vak1:_scheme .
 
-curr1:c-religie-en-levensbeschouwing a skos:Concept ;
-    skos:definition "Competenties betreffende religie en levensbeschouwing"@nl ;
-    skos:inScheme curr1:_scheme ;
-    skos:narrower curr1:s-ethiek,
-        curr1:s-filosofie,
-        curr1:s-religie-en-geloof ;
-    skos:narrowerTransitive curr1:s-ethiek,
-        curr1:s-filosofie,
-        curr1:s-religie-en-geloof ;
-    skos:prefLabel "religie en levenbeschouwing"@nl ;
-    skos:topConceptOf curr1:_scheme ;
-    foaf:logo icon-data:religie-en-levensbeschouwing.svg .
-
-curr1:s-religie-en-geloof a skos:Concept ;
-    skos:broader curr1:c-religie-en-levensbeschouwing ;
-    skos:broaderTransitive curr1:c-religie-en-levensbeschouwing ;
-    skos:inScheme curr1:_scheme ;
-    skos:prefLabel "religie en geloof"@nl ;
-    skos:related vak1:eigen-cultuur-en-religie,
-        vak1:godsdienst,
-        vak1:interlevensbeschouwelijke-dialoog,
-        vak1:niet-confessionele-zedenleer,
-        vak1:zedenleer .
-
 curr1:s-samenwerken a skos:Concept ;
     skos:broader curr1:c-leercompetenties,
         curr1:c-zelfbewustzijn ;
@@ -25319,6 +25330,32 @@ vak1:wiskunde a skos:Concept ;
 icon-data:secundair2.svg schema:contentUrl icon-files:secundair2.svg .
 
 icon-data:secundair3.svg schema:contentUrl icon-files:secundair3.svg .
+
+curr1:c-religie-en-levensbeschouwing a skos:Concept ;
+    skos:definition "Competenties betreffende religie en levensbeschouwing"@nl ;
+    skos:inScheme curr1:_scheme ;
+    skos:narrower curr1:s-ethiek,
+        curr1:s-filosofie,
+        curr1:s-religie-en-geloof ;
+    skos:narrowerTransitive curr1:s-ethiek,
+        curr1:s-filosofie,
+        curr1:s-religie-en-geloof ;
+    skos:prefLabel "religie en levenbeschouwing"@nl ;
+    skos:related onddoel:sec-0-2131951827 ;
+    skos:topConceptOf curr1:_scheme ;
+    foaf:logo icon-data:religie-en-levensbeschouwing.svg .
+
+curr1:s-religie-en-geloof a skos:Concept ;
+    skos:broader curr1:c-religie-en-levensbeschouwing ;
+    skos:broaderTransitive curr1:c-religie-en-levensbeschouwing ;
+    skos:inScheme curr1:_scheme ;
+    skos:prefLabel "religie en geloof"@nl ;
+    skos:related onddoel:sec-0-2131951827,
+        vak1:eigen-cultuur-en-religie,
+        vak1:godsdienst,
+        vak1:interlevensbeschouwelijke-dialoog,
+        vak1:niet-confessionele-zedenleer,
+        vak1:zedenleer .
 
 curr1:s-uitvoeringsanalyse a skos:Concept ;
     skos:broader curr1:c-ondernemingszin ;
@@ -25805,22 +25842,6 @@ vak1:nederlands a skos:Concept ;
         curr1:s-taalsysteem ;
     skos:topConceptOf vak1:_scheme .
 
-curr2:l-levensbeschouwelijke-vakken a skos:Concept ;
-    skos:inScheme curr2:_scheme ;
-    skos:narrower curr2:s-godsdienst,
-        curr2:s-niet-confessionele-zedenleer ;
-    skos:narrowerTransitive curr2:s-godsdienst,
-        curr2:s-niet-confessionele-zedenleer,
-        curr2:t-anglicaanse,
-        curr2:t-islamitische,
-        curr2:t-israelitische,
-        curr2:t-orthodoxe,
-        curr2:t-protestants-evangelische,
-        curr2:t-rooms-katholieke ;
-    skos:prefLabel "levensbeschouwelijke vakken"@nl ;
-    skos:topConceptOf curr2:_scheme ;
-    foaf:logo icon-data:levensbeschouwelijke-vakken.svg .
-
 curr2:t-ik-en-de-anderen-in-groep a skos:Concept ;
     skos:broader curr2:s-mens ;
     skos:broaderTransitive curr2:l-mens-en-maatschappij,
@@ -25887,6 +25908,23 @@ curr2:l-ict a skos:Concept ;
         onddoel:basis-lager-8-4094544339 ;
     skos:topConceptOf curr2:_scheme ;
     foaf:logo icon-data:ict.svg .
+
+curr2:l-levensbeschouwelijke-vakken a skos:Concept ;
+    skos:inScheme curr2:_scheme ;
+    skos:narrower curr2:s-godsdienst,
+        curr2:s-niet-confessionele-zedenleer ;
+    skos:narrowerTransitive curr2:s-godsdienst,
+        curr2:s-niet-confessionele-zedenleer,
+        curr2:t-anglicaanse,
+        curr2:t-islamitische,
+        curr2:t-israelitische,
+        curr2:t-orthodoxe,
+        curr2:t-protestants-evangelische,
+        curr2:t-rooms-katholieke ;
+    skos:prefLabel "levensbeschouwelijke vakken"@nl ;
+    skos:related onddoel:basis-lager-0-531868484 ;
+    skos:topConceptOf curr2:_scheme ;
+    foaf:logo icon-data:levensbeschouwelijke-vakken.svg .
 
 curr2:s-ict a skos:Concept ;
     skos:broader curr2:l-ict ;
@@ -26028,24 +26066,6 @@ curr1:s-veiligheid a skos:Concept ;
         vak1:maatschappelijke-vorming,
         vak1:veiligheidstechnieken .
 
-curr2:s-godsdienst a skos:Concept ;
-    skos:broader curr2:l-levensbeschouwelijke-vakken ;
-    skos:broaderTransitive curr2:l-levensbeschouwelijke-vakken ;
-    skos:inScheme curr2:_scheme ;
-    skos:narrower curr2:t-anglicaanse,
-        curr2:t-islamitische,
-        curr2:t-israelitische,
-        curr2:t-orthodoxe,
-        curr2:t-protestants-evangelische,
-        curr2:t-rooms-katholieke ;
-    skos:narrowerTransitive curr2:t-anglicaanse,
-        curr2:t-islamitische,
-        curr2:t-israelitische,
-        curr2:t-orthodoxe,
-        curr2:t-protestants-evangelische,
-        curr2:t-rooms-katholieke ;
-    skos:prefLabel "godsdienst"@nl .
-
 curr2:s-media a skos:Concept ;
     skos:broader curr2:l-muzische-vorming ;
     skos:broaderTransitive curr2:l-muzische-vorming ;
@@ -26063,9 +26083,6 @@ curr2:s-media a skos:Concept ;
         onddoel:basis-lager-5.3-222731821,
         onddoel:basis-lager-5.4-2726762688,
         onddoel:basis-lager-5.5-1449090885 .
-
-elem:_scheme a skos:ConceptScheme ;
-    skos:prefLabel "elementsoorten"@nl .
 
 ondniv:sec-gr2 a skos:Concept ;
     ilearn:hasCurriculum elem:sleutelcompetenties ;
@@ -26169,6 +26186,25 @@ curr2:l-sociale-vaardigheden a skos:Concept ;
     skos:topConceptOf curr2:_scheme ;
     foaf:logo icon-data:sociale-vaardigheden.svg .
 
+curr2:s-godsdienst a skos:Concept ;
+    skos:broader curr2:l-levensbeschouwelijke-vakken ;
+    skos:broaderTransitive curr2:l-levensbeschouwelijke-vakken ;
+    skos:inScheme curr2:_scheme ;
+    skos:narrower curr2:t-anglicaanse,
+        curr2:t-islamitische,
+        curr2:t-israelitische,
+        curr2:t-orthodoxe,
+        curr2:t-protestants-evangelische,
+        curr2:t-rooms-katholieke ;
+    skos:narrowerTransitive curr2:t-anglicaanse,
+        curr2:t-islamitische,
+        curr2:t-israelitische,
+        curr2:t-orthodoxe,
+        curr2:t-protestants-evangelische,
+        curr2:t-rooms-katholieke ;
+    skos:prefLabel "godsdienst"@nl ;
+    skos:related onddoel:basis-lager-0-531868484 .
+
 curr2:s-mens a skos:Concept ;
     skos:broader curr2:l-mens-en-maatschappij ;
     skos:broaderTransitive curr2:l-mens-en-maatschappij ;
@@ -26206,6 +26242,9 @@ curr2:s-sociale-vaardigheden a skos:Concept ;
         onddoel:basis-lager-1.9-475309789,
         onddoel:basis-lager-2-875193897,
         onddoel:basis-lager-3-3429633894 .
+
+elem:_scheme a skos:ConceptScheme ;
+    skos:prefLabel "elementsoorten"@nl .
 
 curr1:s-computers-en-systemen a skos:Concept ;
     skos:broader curr1:c-digitale-competenties-en-mediawijsheid ;
@@ -32778,7 +32817,8 @@ ondniv:basis-lager a skos:Concept ;
         ondniv:basis-lager-lj5,
         ondniv:basis-lager-lj6 ;
     skos:prefLabel "lager onderwijs"@nl ;
-    skos:related onddoel:basis-lager-1-133507717,
+    skos:related onddoel:basis-lager-0-531868484,
+        onddoel:basis-lager-1-133507717,
         onddoel:basis-lager-1-150499233,
         onddoel:basis-lager-1-3154454773,
         onddoel:basis-lager-1.1-1499005007,
@@ -33996,7 +34036,8 @@ tref2:_scheme a skos:ConceptScheme ;
     skos:prefLabel "trefwoorden lager onderwijs"@nl .
 
 onddoel:_scheme a skos:ConceptScheme ;
-    skos:hasTopConcept onddoel:basis-lager-1-133507717,
+    skos:hasTopConcept onddoel:basis-lager-0-531868484,
+        onddoel:basis-lager-1-133507717,
         onddoel:basis-lager-1-150499233,
         onddoel:basis-lager-1-3154454773,
         onddoel:basis-lager-1.1-1499005007,
@@ -34327,6 +34368,7 @@ onddoel:_scheme a skos:ConceptScheme ;
         onddoel:basis-lager-8-3792225747,
         onddoel:basis-lager-8-4094544339,
         onddoel:basis-lager-9-3986372844,
+        onddoel:sec-0-2131951827,
         onddoel:sec-1.1-128411788,
         onddoel:sec-1.1-1561466412,
         onddoel:sec-1.1.1-1451156578,

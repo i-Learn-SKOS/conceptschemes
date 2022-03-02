@@ -324,7 +324,7 @@ elem:bouwstenen skos:member curr1:s-ethiek .
 curr1:s-filosofie a skos:Concept ;
   skos:inScheme curr1:_scheme ;
 #  skos:notation "su-filosofie" ;
-  skos:prefLabel "filosofie (bouwsteen)"@nl ;
+  skos:prefLabel "filosofie"@nl ;
   skos:broader curr1:c-religie-en-levensbeschouwing .
 elem:secundair-onderwijs skos:member curr1:s-filosofie .
 elem:bouwstenen skos:member curr1:s-filosofie .

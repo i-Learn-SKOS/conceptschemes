@@ -4,6 +4,8 @@ Description of the steps to execute in order to create derived files for onderwi
 
 The derived files are used later as the input for the RML mapper, who'll create a concept scheme from it.
 
+Note: these steps are also valid for the extra input files found in the subdirectory `ilearnextra`, added later.
+
 # Step 1: Create helper files
 ## Goal
 Make Excel files `lookup-onderwijsdoelen-*.xlsx` containing lookup tables, suitable for processing in the next step.
