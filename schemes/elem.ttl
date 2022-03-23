@@ -31,11 +31,6 @@ elem:sleutelcompetenties a skos:Collection ;
   skos:inScheme elem:_scheme ;
   skos:prefLabel "sleutelcompetenties"@nl .
 
-# TODO delete me again once MyWay people are ready for this
-elem:studiedomeinen a skos:Collection ;
-  skos:inScheme elem:_scheme ;
-  skos:prefLabel "studiedomeinen"@nl .
-
 elem:bouwstenen a skos:Collection ;
   skos:inScheme elem:_scheme ;
   skos:prefLabel "bouwstenen"@nl .

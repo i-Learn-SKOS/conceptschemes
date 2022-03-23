@@ -2675,10 +2675,6 @@ elem:secundair-onderwijs a skos:Collection ;
         vak1:zeemanschap ;
     skos:prefLabel "secundair onderwijs"@nl .
 
-elem:studiedomeinen a skos:Collection ;
-    skos:inScheme elem:_scheme ;
-    skos:prefLabel "studiedomeinen"@nl .
-
 elem:subdomeinen a skos:Collection ;
     skos:inScheme elem:_scheme ;
     skos:member curr2:s-beeld,
@@ -6330,156 +6326,6 @@ ondniv:buso a skos:Concept ;
     skos:prefLabel "buitengewoon secundair onderwijs"@nl ;
     skos:topConceptOf ondniv:_scheme ;
     foaf:logo icon-data:buitengewoonsecundair.svg .
-
-onddoel:basis-lager-23-4163456071 a skos:Concept ;
-    skos:definition """23 Om bovenvermelde taaltaken uit te voeren kunnen de leerlingen de volgende lexicale en grammaticale elementen functioneel inzetten:
-a) vorm, betekenis en reëel gebruik in context van woorden en woordcombinaties uit de woordvelden die de taaltaken en de taalgebruikssituaties vereisen:
--persoonlijke gegevens: naam, leeftijd, adres, telefoon, dichte familie, kleding, gezondheid, lichaamsdelen, uiterlijke kenmerken, huisdieren
--dagelijks leven: huis, vrijetijdsbesteding, school, klas, de klasafspraken en -instructies, schoolmateriaal, verplaatsingen, boodschappen doen
--relatie tot de anderen: zich voorstellen, iemand voorstellen, begroeten, bedanken, feliciteren, beleefdheidsrituelen, gevoelens uitdrukken
--eten en drinken: wat men eet of drinkt, de maaltijden
--tijd, ruimte, natuur: jaar, seizoenen, maanden, dagen, uuraanduidingen, tijdsmarkeerders, feesten, dieren
--het weer
--functiewoorden: voorzetsels en voegwoorden
--hoeveelheidsaanduidingen: hoofdtelwoorden en frequente rangtelwoorden
-
-b) grammaticale constructies:
-• morfologisch domein
-• zelfstandige naamwoorden: genus, getal, overeenkomst
-• lidwoorden
-• bijvoeglijk gebruikte woordsoorten
-• bijvoeglijke naamwoorden
-• bezittelijke voornaamwoorden
-• aanwijzende voornaamwoorden
-• infinitieven
-• werkwoordsvormen en de tijdmarkeerders i.f.v. communicatie in de tegenwoordige tijd en de “futur proche”
-• zeer frequente vormen van de “passé composé”
-• syntactisch domein
-• eenvoudige bevestigende, ontkennende en vragende zinnen
-• persoonlijke voornaamwoorden als onderwerp"""@nl ;
-    skos:hiddenLabel "23"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-23-4163456071"@nl ;
-    skos:related curr2:l-frans,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-24-2872038705 a skos:Concept ;
-    skos:definition "24 De leerlingen reflecteren over taal en taalgebruik binnen de vermelde taalgebruikssituaties om zo hun functionele en ondersteunende kennis uit te breiden."@nl ;
-    skos:hiddenLabel "24"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-24-2872038705"@nl ;
-    skos:related curr2:l-frans,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-25-2759754046 a skos:Concept ;
-    skos:definition "25 De leerlingen werken aan de volgende attitudes: tonen bereidheid en durf om te luisteren, te lezen, te spreken, gesprekken te voeren en te schrijven in het Frans."@nl ;
-    skos:hiddenLabel "25"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-25-2759754046"@nl ;
-    skos:related curr2:l-frans,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-26-2297158100 a skos:Concept ;
-    skos:definition "26 De leerlingen werken aan de volgende attitudes: tonen bereidheid om te streven naar taalverzorging."@nl ;
-    skos:hiddenLabel "26"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-26-2297158100"@nl ;
-    skos:related curr2:l-frans,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-27-308862829 a skos:Concept ;
-    skos:definition "27 De leerlingen werken aan de volgende attitudes: tonen belangstelling voor de aanwezigheid van moderne vreemde talen in hun leefwereld, ook buiten de school, en voor de socioculturele wereld van de taalgebruikers."@nl ;
-    skos:hiddenLabel "27"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-27-308862829"@nl ;
-    skos:related curr2:l-frans,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-5.1-562715506 a skos:Concept ;
-    skos:definition "5.1 De leerlingen brengen waardering op voor wiskunde als dimensie van menselijke inventiviteit."@nl ;
-    skos:hiddenLabel "5.1"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-5.1-562715506"@nl ;
-    skos:related curr2:l-wiskunde,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-5.2-2286825362 a skos:Concept ;
-    skos:definition "5.2 De leerlingen ontwikkelen een kritische houding ten aanzien van allerlei cijfermateriaal, tabellen, berekeningen waarvan in hun omgeving bewust of onbewust, gebruik (misbruik) gemaakt wordt om mensen te informeren, te overtuigen, te misleiden …"@nl ;
-    skos:hiddenLabel "5.2"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-5.2-2286825362"@nl ;
-    skos:related curr2:l-wiskunde,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-5.3-3058276357 a skos:Concept ;
-    skos:definition "5.3 De leerlingen ervaren dat bezig zijn met wiskunde een actief en een constructief proces is dat kan groeien en uitbreiden als gevolg van eigen denk- en leeractiviteiten; ze ontwikkelen bijgevolg de opvatting dat alle leerlingen wiskundige bekwaamheid kunnen verwerven die kan leiden naar studies en beroepen waarin wiskunde aan bod komt."@nl ;
-    skos:hiddenLabel "5.3"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-5.3-3058276357"@nl ;
-    skos:related curr2:l-wiskunde,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-5.4-2360627509 a skos:Concept ;
-    skos:definition "5.4 De leerlingen zijn bereid zichzelf vragen te stellen over hun aanpak voor, tijdens en na het oplossen van een wiskundig probleem en willen op basis hiervan hun aanpak bijsturen."@nl ;
-    skos:hiddenLabel "5.4"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-5.4-2360627509"@nl ;
-    skos:related curr2:l-wiskunde,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-6.1-256688663 a skos:Concept ;
-    skos:definition "6.1 De leerlingen kunnen blijvend nieuwe dingen uit hun omgeving ontdekken."@nl ;
-    skos:hiddenLabel "6.1"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-6.1-256688663"@nl ;
-    skos:related curr2:l-muzische-vorming,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-6.2-4076767426 a skos:Concept ;
-    skos:definition "6.2 De leerlingen kunnen zonder vooroordelen naar kunst kijken en luisteren."@nl ;
-    skos:hiddenLabel "6.2"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-6.2-4076767426"@nl ;
-    skos:related curr2:l-muzische-vorming,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-6.3-2141357885 a skos:Concept ;
-    skos:definition "6.3 De leerlingen kunnen genieten van het muzisch handelen waardoor hun expressiemogelijkheden verruimen."@nl ;
-    skos:hiddenLabel "6.3"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-6.3-2141357885"@nl ;
-    skos:related curr2:l-muzische-vorming,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-6.4-4244845683 a skos:Concept ;
-    skos:definition "6.4 De leerlingen kunnen vertrouwen op hun eigen expressiemogelijkheden en durven hun creatieve uitingen tonen."@nl ;
-    skos:hiddenLabel "6.4"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-6.4-4244845683"@nl ;
-    skos:related curr2:l-muzische-vorming,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
-
-onddoel:basis-lager-6.5-2609996583 a skos:Concept ;
-    skos:definition "6.5 De leerlingen kunnen respect betonen voor uitingen van leeftijdgenoten, behorend tot eigen en andere culturen."@nl ;
-    skos:hiddenLabel "6.5"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "basis-lager-6.5-2609996583"@nl ;
-    skos:related curr2:l-muzische-vorming,
-        ondniv:basis-lager ;
-    skos:topConceptOf onddoel:_scheme .
 
 onddoel:sec-1.2.2-3992895483 a skos:Concept ;
     skos:definition "1.2.2 De leerlingen evalueren een historische vraag op basis van de soort, de onderzoekbaarheid en de situering ervan in het historisch referentiekader."@nl ;
@@ -22716,15 +22562,6 @@ curr2:s-extra-curriculair a skos:Concept ;
     skos:prefLabel "extracurriculair"@nl ;
     skos:related onddoel:basis-lager-0-531868484 .
 
-curr2:s-mondelinge-interactie a skos:Concept ;
-    skos:broader curr2:l-frans ;
-    skos:broaderTransitive curr2:l-frans ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "mondelinge interactie"@nl ;
-    skos:related onddoel:basis-lager-16-3981867495,
-        onddoel:basis-lager-17-2388293520,
-        onddoel:basis-lager-18-2577907915 .
-
 curr2:t-algemene-vaardigheden a skos:Concept ;
     skos:broader curr2:s-natuur ;
     skos:broaderTransitive curr2:l-wetenschap-en-techniek,
@@ -24607,26 +24444,6 @@ vak1:spaans a skos:Concept ;
         curr1:s-1-taalsysteem ;
     skos:topConceptOf vak1:_scheme .
 
-curr2:s-fr-luisteren a skos:Concept ;
-    skos:broader curr2:l-frans ;
-    skos:broaderTransitive curr2:l-frans ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "luisteren (Frans)"@nl ;
-    skos:related onddoel:basis-lager-1-133507717,
-        onddoel:basis-lager-2-1862377204,
-        onddoel:basis-lager-3-3424874630,
-        onddoel:basis-lager-4-3563876482 .
-
-curr2:s-fr-schrijven a skos:Concept ;
-    skos:broader curr2:l-frans ;
-    skos:broaderTransitive curr2:l-frans ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "schrijven (Frans)"@nl ;
-    skos:related onddoel:basis-lager-19-2407349663,
-        onddoel:basis-lager-20-226333013,
-        onddoel:basis-lager-21-3801515952,
-        onddoel:basis-lager-22-664559933 .
-
 curr2:s-strategieen a skos:Concept ;
     skos:broader curr2:l-nederlands ;
     skos:broaderTransitive curr2:l-nederlands ;
@@ -24687,6 +24504,58 @@ onddoel:basis-lager-0-531868484 a skos:Concept ;
         curr2:s-extra-curriculair,
         curr2:s-godsdienst,
         curr2:s-niet-confessionele-zedenleer,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-5.1-562715506 a skos:Concept ;
+    skos:definition "5.1 De leerlingen brengen waardering op voor wiskunde als dimensie van menselijke inventiviteit."@nl ;
+    skos:hiddenLabel "5.1"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-5.1-562715506"@nl ;
+    skos:related curr2:l-wiskunde,
+        curr2:s-getallen,
+        curr2:s-meetkunde,
+        curr2:s-meten,
+        curr2:s-stratprobv,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-5.2-2286825362 a skos:Concept ;
+    skos:definition "5.2 De leerlingen ontwikkelen een kritische houding ten aanzien van allerlei cijfermateriaal, tabellen, berekeningen waarvan in hun omgeving bewust of onbewust, gebruik (misbruik) gemaakt wordt om mensen te informeren, te overtuigen, te misleiden …"@nl ;
+    skos:hiddenLabel "5.2"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-5.2-2286825362"@nl ;
+    skos:related curr2:l-wiskunde,
+        curr2:s-getallen,
+        curr2:s-meetkunde,
+        curr2:s-meten,
+        curr2:s-stratprobv,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-5.3-3058276357 a skos:Concept ;
+    skos:definition "5.3 De leerlingen ervaren dat bezig zijn met wiskunde een actief en een constructief proces is dat kan groeien en uitbreiden als gevolg van eigen denk- en leeractiviteiten; ze ontwikkelen bijgevolg de opvatting dat alle leerlingen wiskundige bekwaamheid kunnen verwerven die kan leiden naar studies en beroepen waarin wiskunde aan bod komt."@nl ;
+    skos:hiddenLabel "5.3"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-5.3-3058276357"@nl ;
+    skos:related curr2:l-wiskunde,
+        curr2:s-getallen,
+        curr2:s-meetkunde,
+        curr2:s-meten,
+        curr2:s-stratprobv,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-5.4-2360627509 a skos:Concept ;
+    skos:definition "5.4 De leerlingen zijn bereid zichzelf vragen te stellen over hun aanpak voor, tijdens en na het oplossen van een wiskundig probleem en willen op basis hiervan hun aanpak bijsturen."@nl ;
+    skos:hiddenLabel "5.4"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-5.4-2360627509"@nl ;
+    skos:related curr2:l-wiskunde,
+        curr2:s-getallen,
+        curr2:s-meetkunde,
+        curr2:s-meten,
+        curr2:s-stratprobv,
         ondniv:basis-lager ;
     skos:topConceptOf onddoel:_scheme .
 
@@ -25202,27 +25071,169 @@ curr1:s-samenwerken a skos:Concept ;
         onddoel:sec-13.17-3588354602,
         onddoel:sec-13.18-2416694711 .
 
-curr2:s-fr-lezen a skos:Concept ;
-    skos:broader curr2:l-frans ;
-    skos:broaderTransitive curr2:l-frans ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "lezen (Frans)"@nl ;
-    skos:related onddoel:basis-lager-5-1922863437,
-        onddoel:basis-lager-6-1334163312,
-        onddoel:basis-lager-7-3746987964,
-        onddoel:basis-lager-8-3792225747,
-        onddoel:basis-lager-9-3986372844 .
+onddoel:basis-lager-23-4163456071 a skos:Concept ;
+    skos:definition """23 Om bovenvermelde taaltaken uit te voeren kunnen de leerlingen de volgende lexicale en grammaticale elementen functioneel inzetten:
+a) vorm, betekenis en reëel gebruik in context van woorden en woordcombinaties uit de woordvelden die de taaltaken en de taalgebruikssituaties vereisen:
+-persoonlijke gegevens: naam, leeftijd, adres, telefoon, dichte familie, kleding, gezondheid, lichaamsdelen, uiterlijke kenmerken, huisdieren
+-dagelijks leven: huis, vrijetijdsbesteding, school, klas, de klasafspraken en -instructies, schoolmateriaal, verplaatsingen, boodschappen doen
+-relatie tot de anderen: zich voorstellen, iemand voorstellen, begroeten, bedanken, feliciteren, beleefdheidsrituelen, gevoelens uitdrukken
+-eten en drinken: wat men eet of drinkt, de maaltijden
+-tijd, ruimte, natuur: jaar, seizoenen, maanden, dagen, uuraanduidingen, tijdsmarkeerders, feesten, dieren
+-het weer
+-functiewoorden: voorzetsels en voegwoorden
+-hoeveelheidsaanduidingen: hoofdtelwoorden en frequente rangtelwoorden
 
-curr2:s-muziek a skos:Concept ;
-    skos:broader curr2:l-muzische-vorming ;
-    skos:broaderTransitive curr2:l-muzische-vorming ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "muziek"@nl ;
-    skos:related onddoel:basis-lager-2.1-3820239649,
-        onddoel:basis-lager-2.2-377075722,
-        onddoel:basis-lager-2.3-2097001838,
-        onddoel:basis-lager-2.4-3081435358,
-        onddoel:basis-lager-2.5-426873817 .
+b) grammaticale constructies:
+• morfologisch domein
+• zelfstandige naamwoorden: genus, getal, overeenkomst
+• lidwoorden
+• bijvoeglijk gebruikte woordsoorten
+• bijvoeglijke naamwoorden
+• bezittelijke voornaamwoorden
+• aanwijzende voornaamwoorden
+• infinitieven
+• werkwoordsvormen en de tijdmarkeerders i.f.v. communicatie in de tegenwoordige tijd en de “futur proche”
+• zeer frequente vormen van de “passé composé”
+• syntactisch domein
+• eenvoudige bevestigende, ontkennende en vragende zinnen
+• persoonlijke voornaamwoorden als onderwerp"""@nl ;
+    skos:hiddenLabel "23"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-23-4163456071"@nl ;
+    skos:related curr2:l-frans,
+        curr2:s-fr-lezen,
+        curr2:s-fr-luisteren,
+        curr2:s-fr-schrijven,
+        curr2:s-fr-spreken,
+        curr2:s-mondelinge-interactie,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-24-2872038705 a skos:Concept ;
+    skos:definition "24 De leerlingen reflecteren over taal en taalgebruik binnen de vermelde taalgebruikssituaties om zo hun functionele en ondersteunende kennis uit te breiden."@nl ;
+    skos:hiddenLabel "24"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-24-2872038705"@nl ;
+    skos:related curr2:l-frans,
+        curr2:s-fr-lezen,
+        curr2:s-fr-luisteren,
+        curr2:s-fr-schrijven,
+        curr2:s-fr-spreken,
+        curr2:s-mondelinge-interactie,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-25-2759754046 a skos:Concept ;
+    skos:definition "25 De leerlingen werken aan de volgende attitudes: tonen bereidheid en durf om te luisteren, te lezen, te spreken, gesprekken te voeren en te schrijven in het Frans."@nl ;
+    skos:hiddenLabel "25"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-25-2759754046"@nl ;
+    skos:related curr2:l-frans,
+        curr2:s-fr-lezen,
+        curr2:s-fr-luisteren,
+        curr2:s-fr-schrijven,
+        curr2:s-fr-spreken,
+        curr2:s-mondelinge-interactie,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-26-2297158100 a skos:Concept ;
+    skos:definition "26 De leerlingen werken aan de volgende attitudes: tonen bereidheid om te streven naar taalverzorging."@nl ;
+    skos:hiddenLabel "26"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-26-2297158100"@nl ;
+    skos:related curr2:l-frans,
+        curr2:s-fr-lezen,
+        curr2:s-fr-luisteren,
+        curr2:s-fr-schrijven,
+        curr2:s-fr-spreken,
+        curr2:s-mondelinge-interactie,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-27-308862829 a skos:Concept ;
+    skos:definition "27 De leerlingen werken aan de volgende attitudes: tonen belangstelling voor de aanwezigheid van moderne vreemde talen in hun leefwereld, ook buiten de school, en voor de socioculturele wereld van de taalgebruikers."@nl ;
+    skos:hiddenLabel "27"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-27-308862829"@nl ;
+    skos:related curr2:l-frans,
+        curr2:s-fr-lezen,
+        curr2:s-fr-luisteren,
+        curr2:s-fr-schrijven,
+        curr2:s-fr-spreken,
+        curr2:s-mondelinge-interactie,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-6.1-256688663 a skos:Concept ;
+    skos:definition "6.1 De leerlingen kunnen blijvend nieuwe dingen uit hun omgeving ontdekken."@nl ;
+    skos:hiddenLabel "6.1"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-6.1-256688663"@nl ;
+    skos:related curr2:l-muzische-vorming,
+        curr2:s-beeld,
+        curr2:s-beweging,
+        curr2:s-drama,
+        curr2:s-media,
+        curr2:s-muziek,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-6.2-4076767426 a skos:Concept ;
+    skos:definition "6.2 De leerlingen kunnen zonder vooroordelen naar kunst kijken en luisteren."@nl ;
+    skos:hiddenLabel "6.2"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-6.2-4076767426"@nl ;
+    skos:related curr2:l-muzische-vorming,
+        curr2:s-beeld,
+        curr2:s-beweging,
+        curr2:s-drama,
+        curr2:s-media,
+        curr2:s-muziek,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-6.3-2141357885 a skos:Concept ;
+    skos:definition "6.3 De leerlingen kunnen genieten van het muzisch handelen waardoor hun expressiemogelijkheden verruimen."@nl ;
+    skos:hiddenLabel "6.3"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-6.3-2141357885"@nl ;
+    skos:related curr2:l-muzische-vorming,
+        curr2:s-beeld,
+        curr2:s-beweging,
+        curr2:s-drama,
+        curr2:s-media,
+        curr2:s-muziek,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-6.4-4244845683 a skos:Concept ;
+    skos:definition "6.4 De leerlingen kunnen vertrouwen op hun eigen expressiemogelijkheden en durven hun creatieve uitingen tonen."@nl ;
+    skos:hiddenLabel "6.4"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-6.4-4244845683"@nl ;
+    skos:related curr2:l-muzische-vorming,
+        curr2:s-beeld,
+        curr2:s-beweging,
+        curr2:s-drama,
+        curr2:s-media,
+        curr2:s-muziek,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
+
+onddoel:basis-lager-6.5-2609996583 a skos:Concept ;
+    skos:definition "6.5 De leerlingen kunnen respect betonen voor uitingen van leeftijdgenoten, behorend tot eigen en andere culturen."@nl ;
+    skos:hiddenLabel "6.5"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "basis-lager-6.5-2609996583"@nl ;
+    skos:related curr2:l-muzische-vorming,
+        curr2:s-beeld,
+        curr2:s-beweging,
+        curr2:s-drama,
+        curr2:s-media,
+        curr2:s-muziek,
+        ondniv:basis-lager ;
+    skos:topConceptOf onddoel:_scheme .
 
 onddoel:sec-1.14-3449946359 a skos:Concept ;
     skos:definition "1.14 De leerlingen handelen veilig in een schoolse context."@nl ;
@@ -25369,54 +25380,6 @@ curr1:s-uitvoeringsanalyse a skos:Concept ;
         onddoel:sec-15.3-638366304,
         onddoel:sec-15.3-680199775,
         onddoel:sec-15.4-3922448705 .
-
-curr2:s-beeld a skos:Concept ;
-    skos:broader curr2:l-muzische-vorming ;
-    skos:broaderTransitive curr2:l-muzische-vorming ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "beeld"@nl ;
-    skos:related onddoel:basis-lager-1.1-4175547651,
-        onddoel:basis-lager-1.2-16630165,
-        onddoel:basis-lager-1.3-1119272291,
-        onddoel:basis-lager-1.4-654136355,
-        onddoel:basis-lager-1.5-2248184887,
-        onddoel:basis-lager-1.6-4125006378 .
-
-curr2:s-beweging a skos:Concept ;
-    skos:broader curr2:l-muzische-vorming ;
-    skos:broaderTransitive curr2:l-muzische-vorming ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "beweging"@nl ;
-    skos:related onddoel:basis-lager-4.1-4056010554,
-        onddoel:basis-lager-4.2-3156976075,
-        onddoel:basis-lager-4.3-133874335,
-        onddoel:basis-lager-4.4-1702845721,
-        onddoel:basis-lager-4.5-3903133675,
-        onddoel:basis-lager-4.6-1130682997 .
-
-curr2:s-fr-spreken a skos:Concept ;
-    skos:broader curr2:l-frans ;
-    skos:broaderTransitive curr2:l-frans ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "spreken (Frans)"@nl ;
-    skos:related onddoel:basis-lager-10-3353537581,
-        onddoel:basis-lager-11-376195287,
-        onddoel:basis-lager-12-1960170116,
-        onddoel:basis-lager-13-1712752151,
-        onddoel:basis-lager-14-4037474233,
-        onddoel:basis-lager-15-662274125 .
-
-curr2:s-stratprobv a skos:Concept ;
-    skos:broader curr2:l-wiskunde ;
-    skos:broaderTransitive curr2:l-wiskunde ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "strategieën en probleemoplossende vaardigheden"@nl ;
-    skos:related curr2:s-getallen,
-        curr2:s-meetkunde,
-        curr2:s-meten,
-        onddoel:basis-lager-4.1-3302408462,
-        onddoel:basis-lager-4.2-3630348472,
-        onddoel:basis-lager-4.3-2956019024 .
 
 onddoel:sec-1.1-1561466412 a skos:Concept ;
     skos:definition "1.1 De leerlingen ontwikkelen een gezonde levensstijl."@nl ;
@@ -25685,19 +25648,6 @@ vak1:burgerschap a skos:Concept ;
         curr1:s-politiek ;
     skos:topConceptOf vak1:_scheme .
 
-curr2:s-drama a skos:Concept ;
-    skos:broader curr2:l-muzische-vorming ;
-    skos:broaderTransitive curr2:l-muzische-vorming ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "drama"@nl ;
-    skos:related onddoel:basis-lager-3.1-1937010419,
-        onddoel:basis-lager-3.2-1602838144,
-        onddoel:basis-lager-3.3-4189912101,
-        onddoel:basis-lager-3.4-2623774378,
-        onddoel:basis-lager-3.5-3295924010,
-        onddoel:basis-lager-3.6-549490566,
-        onddoel:basis-lager-3.7-1206812015 .
-
 onddoel:sec-5.5-2937599691 a skos:Concept ;
     skos:definition "5.5 De leerlingen zijn sociaal vaardig in informele en formele relaties."@nl ;
     skos:hiddenLabel "5.5"@nl ;
@@ -25784,6 +25734,20 @@ curr2:s-leren-leren a skos:Concept ;
         onddoel:basis-lager-5-2739217588,
         onddoel:basis-lager-6-3597771002 .
 
+curr2:s-mondelinge-interactie a skos:Concept ;
+    skos:broader curr2:l-frans ;
+    skos:broaderTransitive curr2:l-frans ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "mondelinge interactie"@nl ;
+    skos:related onddoel:basis-lager-16-3981867495,
+        onddoel:basis-lager-17-2388293520,
+        onddoel:basis-lager-18-2577907915,
+        onddoel:basis-lager-23-4163456071,
+        onddoel:basis-lager-24-2872038705,
+        onddoel:basis-lager-25-2759754046,
+        onddoel:basis-lager-26-2297158100,
+        onddoel:basis-lager-27-308862829 .
+
 curr2:t-ruimtelijke-ordening-bepaaldheid skos:related tref2:gebergte,
         tref2:geografisch-kenmerk,
         tref2:industrieel,
@@ -25841,6 +25805,36 @@ vak1:nederlands a skos:Concept ;
         curr1:s-taal-en-cultuur,
         curr1:s-taalsysteem ;
     skos:topConceptOf vak1:_scheme .
+
+curr2:s-fr-luisteren a skos:Concept ;
+    skos:broader curr2:l-frans ;
+    skos:broaderTransitive curr2:l-frans ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "luisteren (Frans)"@nl ;
+    skos:related onddoel:basis-lager-1-133507717,
+        onddoel:basis-lager-2-1862377204,
+        onddoel:basis-lager-23-4163456071,
+        onddoel:basis-lager-24-2872038705,
+        onddoel:basis-lager-25-2759754046,
+        onddoel:basis-lager-26-2297158100,
+        onddoel:basis-lager-27-308862829,
+        onddoel:basis-lager-3-3424874630,
+        onddoel:basis-lager-4-3563876482 .
+
+curr2:s-fr-schrijven a skos:Concept ;
+    skos:broader curr2:l-frans ;
+    skos:broaderTransitive curr2:l-frans ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "schrijven (Frans)"@nl ;
+    skos:related onddoel:basis-lager-19-2407349663,
+        onddoel:basis-lager-20-226333013,
+        onddoel:basis-lager-21-3801515952,
+        onddoel:basis-lager-22-664559933,
+        onddoel:basis-lager-23-4163456071,
+        onddoel:basis-lager-24-2872038705,
+        onddoel:basis-lager-25-2759754046,
+        onddoel:basis-lager-26-2297158100,
+        onddoel:basis-lager-27-308862829 .
 
 curr2:t-ik-en-de-anderen-in-groep a skos:Concept ;
     skos:broader curr2:s-mens ;
@@ -25926,6 +25920,22 @@ curr2:l-levensbeschouwelijke-vakken a skos:Concept ;
     skos:topConceptOf curr2:_scheme ;
     foaf:logo icon-data:levensbeschouwelijke-vakken.svg .
 
+curr2:s-fr-lezen a skos:Concept ;
+    skos:broader curr2:l-frans ;
+    skos:broaderTransitive curr2:l-frans ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "lezen (Frans)"@nl ;
+    skos:related onddoel:basis-lager-23-4163456071,
+        onddoel:basis-lager-24-2872038705,
+        onddoel:basis-lager-25-2759754046,
+        onddoel:basis-lager-26-2297158100,
+        onddoel:basis-lager-27-308862829,
+        onddoel:basis-lager-5-1922863437,
+        onddoel:basis-lager-6-1334163312,
+        onddoel:basis-lager-7-3746987964,
+        onddoel:basis-lager-8-3792225747,
+        onddoel:basis-lager-9-3986372844 .
+
 curr2:s-ict a skos:Concept ;
     skos:broader curr2:l-ict ;
     skos:broaderTransitive curr2:l-ict ;
@@ -25941,6 +25951,38 @@ curr2:s-ict a skos:Concept ;
         onddoel:basis-lager-6-4096536706,
         onddoel:basis-lager-7-2747842180,
         onddoel:basis-lager-8-4094544339 .
+
+curr2:s-muziek a skos:Concept ;
+    skos:broader curr2:l-muzische-vorming ;
+    skos:broaderTransitive curr2:l-muzische-vorming ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "muziek"@nl ;
+    skos:related onddoel:basis-lager-2.1-3820239649,
+        onddoel:basis-lager-2.2-377075722,
+        onddoel:basis-lager-2.3-2097001838,
+        onddoel:basis-lager-2.4-3081435358,
+        onddoel:basis-lager-2.5-426873817,
+        onddoel:basis-lager-6.1-256688663,
+        onddoel:basis-lager-6.2-4076767426,
+        onddoel:basis-lager-6.3-2141357885,
+        onddoel:basis-lager-6.4-4244845683,
+        onddoel:basis-lager-6.5-2609996583 .
+
+curr2:s-stratprobv a skos:Concept ;
+    skos:broader curr2:l-wiskunde ;
+    skos:broaderTransitive curr2:l-wiskunde ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "strategieën en probleemoplossende vaardigheden"@nl ;
+    skos:related curr2:s-getallen,
+        curr2:s-meetkunde,
+        curr2:s-meten,
+        onddoel:basis-lager-4.1-3302408462,
+        onddoel:basis-lager-4.2-3630348472,
+        onddoel:basis-lager-4.3-2956019024,
+        onddoel:basis-lager-5.1-562715506,
+        onddoel:basis-lager-5.2-2286825362,
+        onddoel:basis-lager-5.3-3058276357,
+        onddoel:basis-lager-5.4-2360627509 .
 
 curr2:t-ik-en-de-ander a skos:Concept ;
     skos:broader curr2:s-mens ;
@@ -26028,6 +26070,57 @@ curr1:s-wiskunde-redeneren a skos:Concept ;
         onddoel:sec-6.21-2875060543,
         vak1:wiskunde .
 
+curr2:s-beeld a skos:Concept ;
+    skos:broader curr2:l-muzische-vorming ;
+    skos:broaderTransitive curr2:l-muzische-vorming ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "beeld"@nl ;
+    skos:related onddoel:basis-lager-1.1-4175547651,
+        onddoel:basis-lager-1.2-16630165,
+        onddoel:basis-lager-1.3-1119272291,
+        onddoel:basis-lager-1.4-654136355,
+        onddoel:basis-lager-1.5-2248184887,
+        onddoel:basis-lager-1.6-4125006378,
+        onddoel:basis-lager-6.1-256688663,
+        onddoel:basis-lager-6.2-4076767426,
+        onddoel:basis-lager-6.3-2141357885,
+        onddoel:basis-lager-6.4-4244845683,
+        onddoel:basis-lager-6.5-2609996583 .
+
+curr2:s-beweging a skos:Concept ;
+    skos:broader curr2:l-muzische-vorming ;
+    skos:broaderTransitive curr2:l-muzische-vorming ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "beweging"@nl ;
+    skos:related onddoel:basis-lager-4.1-4056010554,
+        onddoel:basis-lager-4.2-3156976075,
+        onddoel:basis-lager-4.3-133874335,
+        onddoel:basis-lager-4.4-1702845721,
+        onddoel:basis-lager-4.5-3903133675,
+        onddoel:basis-lager-4.6-1130682997,
+        onddoel:basis-lager-6.1-256688663,
+        onddoel:basis-lager-6.2-4076767426,
+        onddoel:basis-lager-6.3-2141357885,
+        onddoel:basis-lager-6.4-4244845683,
+        onddoel:basis-lager-6.5-2609996583 .
+
+curr2:s-fr-spreken a skos:Concept ;
+    skos:broader curr2:l-frans ;
+    skos:broaderTransitive curr2:l-frans ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "spreken (Frans)"@nl ;
+    skos:related onddoel:basis-lager-10-3353537581,
+        onddoel:basis-lager-11-376195287,
+        onddoel:basis-lager-12-1960170116,
+        onddoel:basis-lager-13-1712752151,
+        onddoel:basis-lager-14-4037474233,
+        onddoel:basis-lager-15-662274125,
+        onddoel:basis-lager-23-4163456071,
+        onddoel:basis-lager-24-2872038705,
+        onddoel:basis-lager-25-2759754046,
+        onddoel:basis-lager-26-2297158100,
+        onddoel:basis-lager-27-308862829 .
+
 curr1:s-identiteit a skos:Concept ;
     skos:broader curr1:c-burgerschap-en-samenleven ;
     skos:broaderTransitive curr1:c-burgerschap-en-samenleven ;
@@ -26066,23 +26159,26 @@ curr1:s-veiligheid a skos:Concept ;
         vak1:maatschappelijke-vorming,
         vak1:veiligheidstechnieken .
 
-curr2:s-media a skos:Concept ;
+curr2:s-drama a skos:Concept ;
     skos:broader curr2:l-muzische-vorming ;
     skos:broaderTransitive curr2:l-muzische-vorming ;
     skos:inScheme curr2:_scheme ;
-    skos:prefLabel "media"@nl ;
-    skos:related curr2:l-frans,
-        curr2:l-lichamelijke-opvoeding,
-        curr2:l-mens-en-maatschappij,
-        curr2:l-nederlands,
-        curr2:l-wetenschap-en-techniek,
-        curr2:l-wiskunde,
-        curr2:t-ict,
-        onddoel:basis-lager-5.1-943621866,
-        onddoel:basis-lager-5.2-2646812878,
-        onddoel:basis-lager-5.3-222731821,
-        onddoel:basis-lager-5.4-2726762688,
-        onddoel:basis-lager-5.5-1449090885 .
+    skos:prefLabel "drama"@nl ;
+    skos:related onddoel:basis-lager-3.1-1937010419,
+        onddoel:basis-lager-3.2-1602838144,
+        onddoel:basis-lager-3.3-4189912101,
+        onddoel:basis-lager-3.4-2623774378,
+        onddoel:basis-lager-3.5-3295924010,
+        onddoel:basis-lager-3.6-549490566,
+        onddoel:basis-lager-3.7-1206812015,
+        onddoel:basis-lager-6.1-256688663,
+        onddoel:basis-lager-6.2-4076767426,
+        onddoel:basis-lager-6.3-2141357885,
+        onddoel:basis-lager-6.4-4244845683,
+        onddoel:basis-lager-6.5-2609996583 .
+
+elem:_scheme a skos:ConceptScheme ;
+    skos:prefLabel "elementsoorten"@nl .
 
 ondniv:sec-gr2 a skos:Concept ;
     ilearn:hasCurriculum elem:sleutelcompetenties ;
@@ -26243,9 +26339,6 @@ curr2:s-sociale-vaardigheden a skos:Concept ;
         onddoel:basis-lager-2-875193897,
         onddoel:basis-lager-3-3429633894 .
 
-elem:_scheme a skos:ConceptScheme ;
-    skos:prefLabel "elementsoorten"@nl .
-
 curr1:s-computers-en-systemen a skos:Concept ;
     skos:broader curr1:c-digitale-competenties-en-mediawijsheid ;
     skos:broaderTransitive curr1:c-digitale-competenties-en-mediawijsheid ;
@@ -26399,6 +26492,29 @@ curr2:s-lezen a skos:Concept ;
         tref2:schema,
         tref2:tabel,
         tref2:uitnodiging .
+
+curr2:s-media a skos:Concept ;
+    skos:broader curr2:l-muzische-vorming ;
+    skos:broaderTransitive curr2:l-muzische-vorming ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "media"@nl ;
+    skos:related curr2:l-frans,
+        curr2:l-lichamelijke-opvoeding,
+        curr2:l-mens-en-maatschappij,
+        curr2:l-nederlands,
+        curr2:l-wetenschap-en-techniek,
+        curr2:l-wiskunde,
+        curr2:t-ict,
+        onddoel:basis-lager-5.1-943621866,
+        onddoel:basis-lager-5.2-2646812878,
+        onddoel:basis-lager-5.3-222731821,
+        onddoel:basis-lager-5.4-2726762688,
+        onddoel:basis-lager-5.5-1449090885,
+        onddoel:basis-lager-6.1-256688663,
+        onddoel:basis-lager-6.2-4076767426,
+        onddoel:basis-lager-6.3-2141357885,
+        onddoel:basis-lager-6.4-4244845683,
+        onddoel:basis-lager-6.5-2609996583 .
 
 curr2:s-tijd a skos:Concept ;
     skos:broader curr2:l-mens-en-maatschappij ;
@@ -28070,96 +28186,6 @@ ondniv:_scheme a skos:ConceptScheme ;
         ondniv:sec ;
     skos:prefLabel "onderwijsniveaus"@nl .
 
-curr2:s-meetkunde a skos:Concept ;
-    skos:broader curr2:l-wiskunde ;
-    skos:broaderTransitive curr2:l-wiskunde ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "meetkunde"@nl ;
-    skos:related curr2:s-stratprobv,
-        onddoel:basis-lager-3.1-45199027,
-        onddoel:basis-lager-3.2-861078542,
-        onddoel:basis-lager-3.3-2503105637,
-        onddoel:basis-lager-3.4-2968854896,
-        onddoel:basis-lager-3.5-3687703151,
-        onddoel:basis-lager-3.6-3623825569,
-        onddoel:basis-lager-3.7-2172422019,
-        tref2:balk,
-        tref2:blokkenconstructie,
-        tref2:bol,
-        tref2:cirkel,
-        tref2:coordinatenrooster,
-        tref2:driehoek,
-        tref2:evenwijdig,
-        tref2:gezichtspunt,
-        tref2:hoek,
-        tref2:kubus,
-        tref2:lijnstuk,
-        tref2:loodrecht,
-        tref2:parallellogram,
-        tref2:piramide,
-        tref2:plattegrond,
-        tref2:punt,
-        tref2:rechte,
-        tref2:rechthoek,
-        tref2:ruimte,
-        tref2:ruit,
-        tref2:spiegelas,
-        tref2:spiegelbeeld,
-        tref2:spiegeling,
-        tref2:symmetrieas,
-        tref2:trapezium,
-        tref2:veelvlak,
-        tref2:vierhoek,
-        tref2:vierkant,
-        tref2:vlak,
-        tref2:vlakke-figuur,
-        tref2:vormleer .
-
-curr2:s-meten a skos:Concept ;
-    skos:broader curr2:l-wiskunde ;
-    skos:broaderTransitive curr2:l-wiskunde ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "meten"@nl ;
-    skos:related curr2:s-stratprobv,
-        curr2:s-tijd,
-        curr2:t-dagelijkse-tijd,
-        curr2:t-levende-en-niet-levende-natuur,
-        curr2:t-orientatie-en-kaartvaardigheid,
-        onddoel:basis-lager-2.1-2837819034,
-        onddoel:basis-lager-2.10-4226648553,
-        onddoel:basis-lager-2.11-1594288325,
-        onddoel:basis-lager-2.19-2759375246,
-        onddoel:basis-lager-2.2-3628733312,
-        onddoel:basis-lager-2.3-1083615176,
-        onddoel:basis-lager-2.4-3552424495,
-        onddoel:basis-lager-2.5-4033050724,
-        onddoel:basis-lager-2.6-2055570142,
-        onddoel:basis-lager-2.7-2035930679,
-        onddoel:basis-lager-2.8-2340924715,
-        onddoel:basis-lager-2.9-2715779029,
-        tref2:afgelegde-weg,
-        tref2:afstand,
-        tref2:breukschaal,
-        tref2:dichtheid,
-        tref2:geldwaarde,
-        tref2:gewicht,
-        tref2:hoek,
-        tref2:inhoud,
-        tref2:intrest,
-        tref2:lengte,
-        tref2:lijnschaal,
-        tref2:maateenheid,
-        tref2:maatgetal,
-        tref2:massa,
-        tref2:meetresultaat,
-        tref2:omtrek,
-        tref2:oppervlakte,
-        tref2:schaal,
-        tref2:snelheid,
-        tref2:temperatuur,
-        tref2:tijd,
-        tref2:volume .
-
 curr2:s-taalbeschouwing a skos:Concept ;
     skos:broader curr2:l-nederlands ;
     skos:broaderTransitive curr2:l-nederlands ;
@@ -28302,6 +28328,104 @@ curr1:s-1-communicatie a skos:Concept ;
         vak1:russisch,
         vak1:spaans,
         vak1:zakelijke-communicatie .
+
+curr2:s-meetkunde a skos:Concept ;
+    skos:broader curr2:l-wiskunde ;
+    skos:broaderTransitive curr2:l-wiskunde ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "meetkunde"@nl ;
+    skos:related curr2:s-stratprobv,
+        onddoel:basis-lager-3.1-45199027,
+        onddoel:basis-lager-3.2-861078542,
+        onddoel:basis-lager-3.3-2503105637,
+        onddoel:basis-lager-3.4-2968854896,
+        onddoel:basis-lager-3.5-3687703151,
+        onddoel:basis-lager-3.6-3623825569,
+        onddoel:basis-lager-3.7-2172422019,
+        onddoel:basis-lager-5.1-562715506,
+        onddoel:basis-lager-5.2-2286825362,
+        onddoel:basis-lager-5.3-3058276357,
+        onddoel:basis-lager-5.4-2360627509,
+        tref2:balk,
+        tref2:blokkenconstructie,
+        tref2:bol,
+        tref2:cirkel,
+        tref2:coordinatenrooster,
+        tref2:driehoek,
+        tref2:evenwijdig,
+        tref2:gezichtspunt,
+        tref2:hoek,
+        tref2:kubus,
+        tref2:lijnstuk,
+        tref2:loodrecht,
+        tref2:parallellogram,
+        tref2:piramide,
+        tref2:plattegrond,
+        tref2:punt,
+        tref2:rechte,
+        tref2:rechthoek,
+        tref2:ruimte,
+        tref2:ruit,
+        tref2:spiegelas,
+        tref2:spiegelbeeld,
+        tref2:spiegeling,
+        tref2:symmetrieas,
+        tref2:trapezium,
+        tref2:veelvlak,
+        tref2:vierhoek,
+        tref2:vierkant,
+        tref2:vlak,
+        tref2:vlakke-figuur,
+        tref2:vormleer .
+
+curr2:s-meten a skos:Concept ;
+    skos:broader curr2:l-wiskunde ;
+    skos:broaderTransitive curr2:l-wiskunde ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "meten"@nl ;
+    skos:related curr2:s-stratprobv,
+        curr2:s-tijd,
+        curr2:t-dagelijkse-tijd,
+        curr2:t-levende-en-niet-levende-natuur,
+        curr2:t-orientatie-en-kaartvaardigheid,
+        onddoel:basis-lager-2.1-2837819034,
+        onddoel:basis-lager-2.10-4226648553,
+        onddoel:basis-lager-2.11-1594288325,
+        onddoel:basis-lager-2.19-2759375246,
+        onddoel:basis-lager-2.2-3628733312,
+        onddoel:basis-lager-2.3-1083615176,
+        onddoel:basis-lager-2.4-3552424495,
+        onddoel:basis-lager-2.5-4033050724,
+        onddoel:basis-lager-2.6-2055570142,
+        onddoel:basis-lager-2.7-2035930679,
+        onddoel:basis-lager-2.8-2340924715,
+        onddoel:basis-lager-2.9-2715779029,
+        onddoel:basis-lager-5.1-562715506,
+        onddoel:basis-lager-5.2-2286825362,
+        onddoel:basis-lager-5.3-3058276357,
+        onddoel:basis-lager-5.4-2360627509,
+        tref2:afgelegde-weg,
+        tref2:afstand,
+        tref2:breukschaal,
+        tref2:dichtheid,
+        tref2:geldwaarde,
+        tref2:gewicht,
+        tref2:hoek,
+        tref2:inhoud,
+        tref2:intrest,
+        tref2:lengte,
+        tref2:lijnschaal,
+        tref2:maateenheid,
+        tref2:maatgetal,
+        tref2:massa,
+        tref2:meetresultaat,
+        tref2:omtrek,
+        tref2:oppervlakte,
+        tref2:schaal,
+        tref2:snelheid,
+        tref2:temperatuur,
+        tref2:tijd,
+        tref2:volume .
 
 curr1:c-sociaal-relationele-vorming a skos:Concept ;
     skos:definition "5. Sociaal-relationele competenties"@nl ;
@@ -29404,73 +29528,6 @@ curr2:l-nederlands a skos:Concept ;
     skos:topConceptOf curr2:_scheme ;
     foaf:logo icon-data:nederlands.svg .
 
-curr2:s-getallen a skos:Concept ;
-    skos:broader curr2:l-wiskunde ;
-    skos:broaderTransitive curr2:l-wiskunde ;
-    skos:inScheme curr2:_scheme ;
-    skos:prefLabel "getallen"@nl ;
-    skos:related curr2:s-stratprobv,
-        onddoel:basis-lager-1.1-3141084095,
-        onddoel:basis-lager-1.10-3317509620,
-        onddoel:basis-lager-1.11-3572260196,
-        onddoel:basis-lager-1.12-3932769865,
-        onddoel:basis-lager-1.13-3218912525,
-        onddoel:basis-lager-1.14-3616091011,
-        onddoel:basis-lager-1.15-3922473984,
-        onddoel:basis-lager-1.16-2672875172,
-        onddoel:basis-lager-1.17-2730423308,
-        onddoel:basis-lager-1.18-1012019210,
-        onddoel:basis-lager-1.19-390410305,
-        onddoel:basis-lager-1.2-3053493420,
-        onddoel:basis-lager-1.20-2341475439,
-        onddoel:basis-lager-1.21-957776084,
-        onddoel:basis-lager-1.22-1823950079,
-        onddoel:basis-lager-1.23-2190093355,
-        onddoel:basis-lager-1.24-3037284851,
-        onddoel:basis-lager-1.25-2248984778,
-        onddoel:basis-lager-1.26-2182085419,
-        onddoel:basis-lager-1.27-2773419707,
-        onddoel:basis-lager-1.28-3365354403,
-        onddoel:basis-lager-1.29s-2122154517,
-        onddoel:basis-lager-1.3-1824265921,
-        onddoel:basis-lager-1.4-3820724868,
-        onddoel:basis-lager-1.5-7312312,
-        onddoel:basis-lager-1.6-1088795878,
-        onddoel:basis-lager-1.7-1484903146,
-        onddoel:basis-lager-1.8-2907252610,
-        onddoel:basis-lager-1.9-955442238,
-        tref2:aftrekken,
-        tref2:associativiteit,
-        tref2:bewerkingsschema,
-        tref2:breuk,
-        tref2:brug,
-        tref2:cijferen,
-        tref2:commutativiteit,
-        tref2:deelbaarheid,
-        tref2:delen,
-        tref2:deler,
-        tref2:distributiviteit,
-        tref2:geheel-getal,
-        tref2:getallijn,
-        tref2:hoofdrekenen,
-        tref2:kommagetal,
-        tref2:macht,
-        tref2:natuurlijk-getal,
-        tref2:negatief-getal,
-        tref2:optellen,
-        tref2:positief-getal,
-        tref2:priemgetal,
-        tref2:procent,
-        tref2:rationaal-getal,
-        tref2:rekenmachine,
-        tref2:romeins-cijfer,
-        tref2:schatten,
-        tref2:splitsen,
-        tref2:tafel,
-        tref2:veelvoud,
-        tref2:verhouding,
-        tref2:vermenigvuldigen .
-
 curr1:c-historisch-bewustzijn a skos:Concept ;
     skos:definition "8. Competenties met betrekking tot historisch bewustzijn"@nl ;
     skos:inScheme curr1:_scheme ;
@@ -29752,6 +29809,77 @@ curr2:l-wiskunde a skos:Concept ;
         onddoel:basis-lager-5.4-2360627509 ;
     skos:topConceptOf curr2:_scheme ;
     foaf:logo icon-data:wiskunde.svg .
+
+curr2:s-getallen a skos:Concept ;
+    skos:broader curr2:l-wiskunde ;
+    skos:broaderTransitive curr2:l-wiskunde ;
+    skos:inScheme curr2:_scheme ;
+    skos:prefLabel "getallen"@nl ;
+    skos:related curr2:s-stratprobv,
+        onddoel:basis-lager-1.1-3141084095,
+        onddoel:basis-lager-1.10-3317509620,
+        onddoel:basis-lager-1.11-3572260196,
+        onddoel:basis-lager-1.12-3932769865,
+        onddoel:basis-lager-1.13-3218912525,
+        onddoel:basis-lager-1.14-3616091011,
+        onddoel:basis-lager-1.15-3922473984,
+        onddoel:basis-lager-1.16-2672875172,
+        onddoel:basis-lager-1.17-2730423308,
+        onddoel:basis-lager-1.18-1012019210,
+        onddoel:basis-lager-1.19-390410305,
+        onddoel:basis-lager-1.2-3053493420,
+        onddoel:basis-lager-1.20-2341475439,
+        onddoel:basis-lager-1.21-957776084,
+        onddoel:basis-lager-1.22-1823950079,
+        onddoel:basis-lager-1.23-2190093355,
+        onddoel:basis-lager-1.24-3037284851,
+        onddoel:basis-lager-1.25-2248984778,
+        onddoel:basis-lager-1.26-2182085419,
+        onddoel:basis-lager-1.27-2773419707,
+        onddoel:basis-lager-1.28-3365354403,
+        onddoel:basis-lager-1.29s-2122154517,
+        onddoel:basis-lager-1.3-1824265921,
+        onddoel:basis-lager-1.4-3820724868,
+        onddoel:basis-lager-1.5-7312312,
+        onddoel:basis-lager-1.6-1088795878,
+        onddoel:basis-lager-1.7-1484903146,
+        onddoel:basis-lager-1.8-2907252610,
+        onddoel:basis-lager-1.9-955442238,
+        onddoel:basis-lager-5.1-562715506,
+        onddoel:basis-lager-5.2-2286825362,
+        onddoel:basis-lager-5.3-3058276357,
+        onddoel:basis-lager-5.4-2360627509,
+        tref2:aftrekken,
+        tref2:associativiteit,
+        tref2:bewerkingsschema,
+        tref2:breuk,
+        tref2:brug,
+        tref2:cijferen,
+        tref2:commutativiteit,
+        tref2:deelbaarheid,
+        tref2:delen,
+        tref2:deler,
+        tref2:distributiviteit,
+        tref2:geheel-getal,
+        tref2:getallijn,
+        tref2:hoofdrekenen,
+        tref2:kommagetal,
+        tref2:macht,
+        tref2:natuurlijk-getal,
+        tref2:negatief-getal,
+        tref2:optellen,
+        tref2:positief-getal,
+        tref2:priemgetal,
+        tref2:procent,
+        tref2:rationaal-getal,
+        tref2:rekenmachine,
+        tref2:romeins-cijfer,
+        tref2:schatten,
+        tref2:splitsen,
+        tref2:tafel,
+        tref2:veelvoud,
+        tref2:verhouding,
+        tref2:vermenigvuldigen .
 
 curr2:t-levende-en-niet-levende-natuur a skos:Concept ;
     skos:broader curr2:s-natuur ;

@@ -1,3 +1,12 @@
 Extracurriculair|Extracurriculair
 Levensbeschouwelijke vakken|Godsdienst
 Levensbeschouwelijke vakken|Niet-confessionele zedenleer
+Muzische Vorming|MUZISCHE VORMING - BEELD
+Muzische Vorming|MUZISCHE VORMING - BEWEGING
+Muzische Vorming|MUZISCHE VORMING - DRAMA
+Muzische Vorming|MUZISCHE VORMING - MEDIA
+Muzische Vorming|MUZISCHE VORMING - MUZIEK
+Wiskunde|Wiskunde - Getallen
+Wiskunde|Wiskunde - Meetkunde
+Wiskunde|Wiskunde - Meten
+Wiskunde|Wiskunde - Strategieën en probleemoplossende vaardigheden

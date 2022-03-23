@@ -65,9 +65,9 @@ What is mapped for each onderwijsdoel:
   - The onderwijsdoelen do not have a short unique name that could be used as a skos:prefLabel. Hence we use the synthetic value from the `Id` column.
 
 - For lager
-  - For `leergebied` "Frans": no `subdomein` found in curriculum to match "Kennis".
-  - For `leergebied` "Muzische vorming": no `subdomein` found in curriculum to match "Attitudes".
-  - For `leergebied` "Wiskunde": no `subdomein` found in curriculum to match "Attitudes".
+  - For `leergebied` "Frans": no `subdomein` found in curriculum to match "Kennis" (note: covered in ilearnextra, see [READMETOO.md](READMETOO.md)).
+  - For `leergebied` "Muzische vorming": no `subdomein` found in curriculum to match "MUZISCHE VORMING - ATTITUDES" (note: covered in ilearnextra, see [READMETOO.md](READMETOO.md)).
+  - For `leergebied` "Wiskunde": no `subdomein` found in curriculum to match "Attitudes" (note: covered in ilearnextra, see [READMETOO.md](READMETOO.md)).
   - For `leergebied` "Lichamelijke opvoeding": only one common `subdomein` placeholder "Lichamelijke opvoeding" found in curriculum (and used as a replacement for all 3 entries "Motorische competenties", "Gezonde en veilige levensstijl" and "Zelfconcept en het sociaal functioneren").
   - For `leergebied` "Sociale vaardigheden": only one common `subdomein` placeholder "Sociale vaardigheden" found in curriculum (and used as a replacement for all 3 entries "Relatiewijzen", "Gespreksconventies" en "Samenwerking").
   - For all `leergebieden` except for "Mens en maatschappij" and "Wetenschap en techniek": no `themas` found.

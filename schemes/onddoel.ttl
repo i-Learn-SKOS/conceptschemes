@@ -1699,7 +1699,7 @@ onddoel:basis-lager-23-4163456071 rdf:type skos:Concept ;
 	skos:hiddenLabel "23"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-23-4163456071"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-lezen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-luisteren>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-schrijven>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-spreken>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-mondelinge-interactie>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-24-2872038705 rdf:type skos:Concept ;
@@ -1707,7 +1707,7 @@ onddoel:basis-lager-24-2872038705 rdf:type skos:Concept ;
 	skos:hiddenLabel "24"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-24-2872038705"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-lezen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-luisteren>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-schrijven>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-spreken>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-mondelinge-interactie>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-25-2759754046 rdf:type skos:Concept ;
@@ -1715,7 +1715,7 @@ onddoel:basis-lager-25-2759754046 rdf:type skos:Concept ;
 	skos:hiddenLabel "25"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-25-2759754046"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-lezen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-luisteren>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-schrijven>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-spreken>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-mondelinge-interactie>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-26-2297158100 rdf:type skos:Concept ;
@@ -1723,7 +1723,7 @@ onddoel:basis-lager-26-2297158100 rdf:type skos:Concept ;
 	skos:hiddenLabel "26"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-26-2297158100"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-lezen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-luisteren>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-schrijven>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-spreken>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-mondelinge-interactie>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-27-308862829 rdf:type skos:Concept ;
@@ -1731,7 +1731,7 @@ onddoel:basis-lager-27-308862829 rdf:type skos:Concept ;
 	skos:hiddenLabel "27"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-27-308862829"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-frans>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-lezen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-luisteren>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-schrijven>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-spreken>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-mondelinge-interactie>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-3-1705659036 rdf:type skos:Concept ;
@@ -2419,7 +2419,7 @@ onddoel:basis-lager-5.1-562715506 rdf:type skos:Concept ;
 	skos:hiddenLabel "5.1"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-5.1-562715506"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-getallen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-meetkunde>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-meten>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-stratprobv>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-5.1-943621866 rdf:type skos:Concept ;
@@ -2435,7 +2435,7 @@ onddoel:basis-lager-5.2-2286825362 rdf:type skos:Concept ;
 	skos:hiddenLabel "5.2"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-5.2-2286825362"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-getallen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-meetkunde>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-meten>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-stratprobv>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-5.2-2646812878 rdf:type skos:Concept ;
@@ -2467,7 +2467,7 @@ onddoel:basis-lager-5.3-3058276357 rdf:type skos:Concept ;
 	skos:hiddenLabel "5.3"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-5.3-3058276357"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-getallen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-meetkunde>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-meten>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-stratprobv>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-5.3-903632096 rdf:type skos:Concept ;
@@ -2483,7 +2483,7 @@ onddoel:basis-lager-5.4-2360627509 rdf:type skos:Concept ;
 	skos:hiddenLabel "5.4"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-5.4-2360627509"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-getallen>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-meetkunde>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-meten>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-stratprobv>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-5.4-2726762688 rdf:type skos:Concept ;
@@ -2539,7 +2539,7 @@ onddoel:basis-lager-6.1-256688663 rdf:type skos:Concept ;
 	skos:hiddenLabel "6.1"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-6.1-256688663"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beeld>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beweging>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-drama>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-media>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-muziek>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-6.1-3515384159 rdf:type skos:Concept ;
@@ -2563,7 +2563,7 @@ onddoel:basis-lager-6.2-4076767426 rdf:type skos:Concept ;
 	skos:hiddenLabel "6.2"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-6.2-4076767426"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beeld>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beweging>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-drama>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-media>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-muziek>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-6.3-2141357885 rdf:type skos:Concept ;
@@ -2571,7 +2571,7 @@ onddoel:basis-lager-6.3-2141357885 rdf:type skos:Concept ;
 	skos:hiddenLabel "6.3"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-6.3-2141357885"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beeld>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beweging>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-drama>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-media>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-muziek>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-6.3-734750181 rdf:type skos:Concept ;
@@ -2587,7 +2587,7 @@ onddoel:basis-lager-6.4-4244845683 rdf:type skos:Concept ;
 	skos:hiddenLabel "6.4"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-6.4-4244845683"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beeld>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beweging>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-drama>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-media>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-muziek>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-6.4-969536599 rdf:type skos:Concept ;
@@ -2603,7 +2603,7 @@ onddoel:basis-lager-6.5-2609996583 rdf:type skos:Concept ;
 	skos:hiddenLabel "6.5"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-6.5-2609996583"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beeld>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-beweging>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-drama>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-media>, <http://ilearn.ilabt.imec.be/vocab/curr2/s-muziek>, <http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-6.5-4181926653 rdf:type skos:Concept ;

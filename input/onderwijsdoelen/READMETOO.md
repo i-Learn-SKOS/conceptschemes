@@ -5,6 +5,7 @@ Description of the steps to execute in order to create derived files for onderwi
 The derived files are used later as the input for the RML mapper, who'll create a concept scheme from it.
 
 Note: these steps are also valid for the extra input files found in the subdirectory `ilearnextra`, added later.
+Detailed info about these extra input files in [ilearnextra/READMETOO2.md](ilearnextra/READMETOO2.md).
 
 # Step 1: Create helper files
 ## Goal
@@ -78,6 +79,12 @@ For every X in `L`, `S`:
             - For `L-SD-frans`, consider only values `Frans|...`
             - Fpr `L-SD-generic`, do no consider values `Frans|...`
     - Clear `Sheet1`.
+
+In `lookup-onderwijsdoelen-L.xlsx`, worksheet `L-SD-generic`, add rows to cover the following exceptions:
+  - `Frans|Kennis en attitudes` should link to all concepts that are already linked to `Frans|...` in sheet `L-SD-frans`. Note: For `Frans`, this includes but exceeds the non-existing subdomein `Kennis`, listed in column `Titel 2`.
+  - `Muzische Vorming|MUZISCHE VORMING - ATTITUDES` should link to all concepts that are already linked to `Muzische vorming|...` in sheet `L-SD-generic`.
+  - `Wiskunde|Attitudes` should link to all concepts that are already linked to `Wiskunde|...`  in sheet `L-SD-generic`.
+
 
 # Step 2: Compile input files and helper files into final derived files
 ## Goal

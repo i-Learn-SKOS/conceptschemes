@@ -1,0 +1,5 @@
+Frans|Lezen
+Frans|Luisteren
+Frans|Mondelinge interactie
+Frans|Schrijven
+Frans|Spreken
