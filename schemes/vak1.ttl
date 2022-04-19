@@ -516,7 +516,7 @@ vak1:fysica a skos:Concept ;
   skos:inScheme vak1:_scheme ;
   skos:topConceptOf vak1:_scheme ;
   skos:prefLabel "fysica"@nl ;
-  skos:related curr1:s-fysicaa .
+  skos:related curr1:s-fysica .
 elem:secundair-onderwijs skos:member vak1:fysica .
 elem:vakken skos:member vak1:fysica .
 

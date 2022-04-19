@@ -3542,8 +3542,6 @@ icon-data:zelfbewustzijn.svg schema:contentUrl icon-files:zelfbewustzijn.svg .
 
 icon-data:zorg-en-welzijn.svg schema:contentUrl icon-files:zorg-en-welzijn.svg .
 
-curr1:s-fysicaa skos:related vak1:fysica .
-
 elem:leergebieden a skos:Collection ;
     skos:inScheme elem:_scheme ;
     skos:member curr2:l-extra-curriculair,
@@ -10658,7 +10656,7 @@ vak1:fotografie a skos:Concept ;
 vak1:fysica a skos:Concept ;
     skos:inScheme vak1:_scheme ;
     skos:prefLabel "fysica"@nl ;
-    skos:related curr1:s-fysicaa ;
+    skos:related curr1:s-fysica ;
     skos:topConceptOf vak1:_scheme .
 
 vak1:fysiologie a skos:Concept ;
@@ -29023,64 +29021,6 @@ curr2:l-frans a skos:Concept ;
     skos:topConceptOf curr2:_scheme ;
     foaf:logo icon-data:frans.svg .
 
-curr1:s-fysica a skos:Concept ;
-    skos:broader curr1:c-duurzaamheid,
-        curr1:c-stem ;
-    skos:broaderTransitive curr1:c-duurzaamheid,
-        curr1:c-stem ;
-    skos:definition "Inzicht ontwikkelen in de verschijningsvormen van energie, de wisselwerking tussen materie onderling en met energie alsook de gevolgen ervan."@nl ;
-    skos:inScheme curr1:_scheme ;
-    skos:prefLabel "energie en materie (interacties)"@nl ;
-    skos:related curr1:c-digitale-competenties-en-mediawijsheid,
-        curr1:c-leercompetenties,
-        curr1:c-ondernemingszin,
-        curr1:c-sociaal-relationele-vorming,
-        onddoel:sec-6.10-1086234763,
-        onddoel:sec-6.10-2684395510,
-        onddoel:sec-6.11-167456829,
-        onddoel:sec-6.12-3969719747,
-        onddoel:sec-6.13-3860997114,
-        onddoel:sec-6.14-1560973353,
-        onddoel:sec-6.17-407277678,
-        onddoel:sec-6.18-2978623408,
-        onddoel:sec-6.18-3357967122,
-        onddoel:sec-6.19-163317592,
-        onddoel:sec-6.19-3750303009,
-        onddoel:sec-6.20-1086234763,
-        onddoel:sec-6.20-2362829360,
-        onddoel:sec-6.21-1535442684,
-        onddoel:sec-6.21-3917619039,
-        onddoel:sec-6.22-2145158075,
-        onddoel:sec-6.23-1379620542,
-        onddoel:sec-6.23-4050551020,
-        onddoel:sec-6.24-2924911808,
-        onddoel:sec-6.24-3313539547,
-        onddoel:sec-6.25-2378715300,
-        onddoel:sec-6.25-375233548,
-        onddoel:sec-6.26-3493729956,
-        onddoel:sec-6.27-379908337,
-        onddoel:sec-6.29-2859093570,
-        onddoel:sec-6.30-3074324823,
-        onddoel:sec-6.31-3239895949,
-        onddoel:sec-6.32-1251998701,
-        onddoel:sec-6.33-1077881065,
-        onddoel:sec-6.34-606645426,
-        onddoel:sec-6.35-382842002,
-        onddoel:sec-6.36-407277678,
-        onddoel:sec-6.37-1340818274,
-        onddoel:sec-6.38-4009558834,
-        onddoel:sec-6.39-394105862,
-        onddoel:sec-6.40-1718214648,
-        onddoel:sec-6.8-4058950576,
-        onddoel:sec-6.8-407708778,
-        onddoel:sec-6.9-2260208044,
-        onddoel:sec-6.9-2982155451,
-        tref1:elektrodynamica,
-        tref1:elektromagnetisme,
-        tref1:energie,
-        vak1:natuurwetenschappen,
-        vak1:toegepaste-fysica .
-
 curr1:c-andere-talen a skos:Concept ;
     skos:definition "3. Competenties in andere talen"@nl ;
     skos:inScheme curr1:_scheme ;
@@ -29140,6 +29080,65 @@ curr1:c-andere-talen a skos:Concept ;
         onddoel:sec-3.9-380484548 ;
     skos:topConceptOf curr1:_scheme ;
     foaf:logo icon-data:talen.svg .
+
+curr1:s-fysica a skos:Concept ;
+    skos:broader curr1:c-duurzaamheid,
+        curr1:c-stem ;
+    skos:broaderTransitive curr1:c-duurzaamheid,
+        curr1:c-stem ;
+    skos:definition "Inzicht ontwikkelen in de verschijningsvormen van energie, de wisselwerking tussen materie onderling en met energie alsook de gevolgen ervan."@nl ;
+    skos:inScheme curr1:_scheme ;
+    skos:prefLabel "energie en materie (interacties)"@nl ;
+    skos:related curr1:c-digitale-competenties-en-mediawijsheid,
+        curr1:c-leercompetenties,
+        curr1:c-ondernemingszin,
+        curr1:c-sociaal-relationele-vorming,
+        onddoel:sec-6.10-1086234763,
+        onddoel:sec-6.10-2684395510,
+        onddoel:sec-6.11-167456829,
+        onddoel:sec-6.12-3969719747,
+        onddoel:sec-6.13-3860997114,
+        onddoel:sec-6.14-1560973353,
+        onddoel:sec-6.17-407277678,
+        onddoel:sec-6.18-2978623408,
+        onddoel:sec-6.18-3357967122,
+        onddoel:sec-6.19-163317592,
+        onddoel:sec-6.19-3750303009,
+        onddoel:sec-6.20-1086234763,
+        onddoel:sec-6.20-2362829360,
+        onddoel:sec-6.21-1535442684,
+        onddoel:sec-6.21-3917619039,
+        onddoel:sec-6.22-2145158075,
+        onddoel:sec-6.23-1379620542,
+        onddoel:sec-6.23-4050551020,
+        onddoel:sec-6.24-2924911808,
+        onddoel:sec-6.24-3313539547,
+        onddoel:sec-6.25-2378715300,
+        onddoel:sec-6.25-375233548,
+        onddoel:sec-6.26-3493729956,
+        onddoel:sec-6.27-379908337,
+        onddoel:sec-6.29-2859093570,
+        onddoel:sec-6.30-3074324823,
+        onddoel:sec-6.31-3239895949,
+        onddoel:sec-6.32-1251998701,
+        onddoel:sec-6.33-1077881065,
+        onddoel:sec-6.34-606645426,
+        onddoel:sec-6.35-382842002,
+        onddoel:sec-6.36-407277678,
+        onddoel:sec-6.37-1340818274,
+        onddoel:sec-6.38-4009558834,
+        onddoel:sec-6.39-394105862,
+        onddoel:sec-6.40-1718214648,
+        onddoel:sec-6.8-4058950576,
+        onddoel:sec-6.8-407708778,
+        onddoel:sec-6.9-2260208044,
+        onddoel:sec-6.9-2982155451,
+        tref1:elektrodynamica,
+        tref1:elektromagnetisme,
+        tref1:energie,
+        vak1:fysica,
+        vak1:natuurwetenschappen,
+        vak1:toegepaste-fysica .
 
 curr1:c-juridische-competenties a skos:Concept ;
     skos:definition "12. Juridische competenties"@nl ;
