@@ -42,7 +42,7 @@ yarn install
 ### 1.5 - RML Mapper
 Download `rmlmapper.jar` from the releases of https://github.com/RMLio/rmlmapper-java to this directory.
 
-Modify the filename to include the version in the filename, e.g. `rmlmapper-4.12.0.jar`; adapt `map.sh` accordingly.
+The version to download is defined in `RML_MAPPER` in `map.sh`.
 
 ## 2 - Activation
 Only needed for Python-based tools:
@@ -123,6 +123,29 @@ skosify -c skosify-ours.cfg -o ../schemes/<output-file> ../schemes/<input-file>
 
 **Note: skosify is executed for all applicable files from `do-construct-all.sh`.**
 
+## 4.4 - Modify onderwijsdoelen
+Simple tool to modify onderwijsdoelen.
+Modifies local file `../schemes/onddoel.ttl`.
+
+Allows ad hoc corrections to onderwijsdoelen, without touching the input Excel files.
+
+Run:
+```shell
+node modify-onddoel.js
+```
+
+**Note: this script is called from `do-construct-all.sh`.**
+
+## 4.5 - List onderwijsdoelen URIs and definitions
+Simple tool listing onderwijsdoelen URIs and definitions line by line. Implemented as a SPARQL query sent to Comunica. Read local file `../schemes/onddoel.ttl`.
+
+Run:
+```shell
+node list-onddoel-descriptions.js
+```
+
+**Note: this script is called from `do-construct-all.sh`.**
+
 ### 5 - Miscellaneous tools
 
 ## 5.1 - Making overviews using GraphQL-LD queries
@@ -182,3 +205,4 @@ For the purpose it was built, execute:
 ```shell
 ./prepare-onderwijsdoelen-all.sh
 ```
+

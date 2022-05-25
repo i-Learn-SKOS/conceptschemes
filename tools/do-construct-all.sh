@@ -9,6 +9,10 @@ echo "=== Mapping"
 ./map.sh icons
 ./map.sh onddoel
 
+echo "=== Post-fixing ../schemes/onddoel.ttl"
+node modify-onddoel.js
+node list-onddoel-descriptions.js > ../schemes/onddoel-descriptions.txt
+
 echo "=== Creating ../schemes/tref2.ttl"
 ./lager-onderwijs-keywords.sh
 

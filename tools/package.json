@@ -5,12 +5,13 @@
   "author": "Martin Vanbrabant",
   "license": "MIT",
   "dependencies": {
+    "@comunica/query-sparql-file": "^2.2.1",
     "commander": "^7.2.0",
+    "exceljs": "^4.3.0",
     "graphql-ld-comunica": "^1.2.1",
     "graphql-to-sparql": "^2.2.0",
+    "graphy": "^4.3.3",
     "node-fetch": "^2.6.1",
-    "exceljs": "^4.3.0",
-    "winston": "^3.3.3",
-    "graphy": "^4.3.3"
+    "winston": "^3.3.3"
   }
 }

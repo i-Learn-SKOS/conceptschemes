@@ -343,7 +343,7 @@ onddoel:basis-lager-1.19-2677920123 rdf:type skos:Concept ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-1.19-390410305 rdf:type skos:Concept ;
-	skos:definition "1.19 De leerlingen kunnen de delers van een natuurlijk getal (=100) vinden; zij kunnen van twee dergelijke getallen de (grootste) gemeenschappelijke deler(s) vinden."@nl ;
+	skos:definition "1.19 De leerlingen kunnen de delers van een natuurlijk getal (≤100) vinden; zij kunnen van twee dergelijke getallen de (grootste) gemeenschappelijke deler(s) vinden."@nl ;
 	skos:hiddenLabel "1.19"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-1.19-390410305"@nl ;
@@ -423,7 +423,7 @@ onddoel:basis-lager-1.20-2007515131 rdf:type skos:Concept ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:basis-lager-1.20-2341475439 rdf:type skos:Concept ;
-	skos:definition "1.20 De leerlingen kunnen de veelvouden van een natuurlijk getal (<20) vinden, zij kunnen van twee dergelijke getallen het (kleinste) gemeenschappelijk veelvoud vinden."@nl ;
+	skos:definition "1.20 De leerlingen kunnen de veelvouden van een natuurlijk getal (≤20) vinden, zij kunnen van twee dergelijke getallen het (kleinste) gemeenschappelijk veelvoud vinden."@nl ;
 	skos:hiddenLabel "1.20"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "basis-lager-1.20-2341475439"@nl ;
