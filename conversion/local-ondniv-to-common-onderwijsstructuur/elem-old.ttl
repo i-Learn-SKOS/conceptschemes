@@ -1,7 +1,6 @@
 @prefix elem: <http://ilearn.ilabt.imec.be/vocab/elem/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix ocol: <https://w3id.org/onderwijs-vlaanderen/id/collectie/> .
 
 <http://ilearn.ilabt.imec.be/vocab/elem/> a owl:Ontology .
 
@@ -44,15 +43,29 @@ elem:trefwoorden a skos:Collection ;
   skos:inScheme elem:_scheme ;
   skos:prefLabel "trefwoorden"@nl .
 
-ocol:structuur skos:inScheme elem:_scheme .
-ocol:niveau skos:inScheme elem:_scheme .
-ocol:subniveau skos:inScheme elem:_scheme .
-ocol:onderwijsvorm skos:inScheme elem:_scheme .
-ocol:opleidingsvorm skos:inScheme elem:_scheme .
-ocol:graad skos:inScheme elem:_scheme .
-ocol:leerjaar skos:inScheme elem:_scheme .
-ocol:stroom skos:inScheme elem:_scheme .
-ocol:finaliteit skos:inScheme elem:_scheme .
+elem:ondniv a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsstructuur"@nl .
+
+elem:ondniv-finaliteit a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "stroom of finaliteit"@nl .
+
+elem:ondniv-graad a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "jaar of graad"@nl .
+
+elem:ondniv-niveau a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsniveau"@nl .
+
+elem:ondniv-onderwijsvorm a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsvorm"@nl .
+
+elem:ondniv-subniveau a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijssubniveau"@nl .
 
 elem:onddoel a skos:Collection ;
   skos:inScheme elem:_scheme ;

@@ -1,0 +1,25 @@
+ID,IEEE LOM,leeftijd,curriculum
+kleuteronderwijs,school,3-5,
+kleuter-3-jaar-of-jonger,,3,
+kleuter-4-jaar,,4,
+kleuter-5-jaar,,5,
+lager-onderwijs,school,6-11,http://ilearn.ilabt.imec.be/vocab/elem/leergebieden
+lager-1e-leerjaar,,6,
+lager-2e-leerjaar,,7,
+lager-3e-leerjaar,,8,
+lager-4e-leerjaar,,9,
+lager-5e-leerjaar,,10,
+lager-6e-leerjaar,,11,
+lager-1e-graad,,6-7,
+lager-2e-graad,,8-9,
+lager-3e-graad,,10-11,
+secundair-onderwijs,school,12-17,
+secundair-1e-graad,,12-13,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties
+secundair-2e-graad,,14-15,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties
+secundair-3e-graad,,16-17,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties
+buitengewoon-kleuteronderwijs,school,3-5,
+buitengewoon-lager-onderwijs,school,6-11,
+buitengewoon-secundair-onderwijs,school,12-17,
+buitengewoon-secundair-1e-graad,,12-13,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties
+buitengewoon-secundair-2e-graad,,14-15,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties
+buitengewoon-secundair-3e-graad,,16-17,http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties

@@ -1,0 +1,29 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix elem: <http://ilearn.ilabt.imec.be/vocab/elem/> .
+@prefix ocol: <https://w3id.org/onderwijs-vlaanderen/id/collectie/> .
+@prefix ilearn: <http://semweb.mmlab.be/ns/ilearn#> .
+
+elem:lager-onderwijs ilearn:inUseBy "myway" .
+elem:leergebieden ilearn:inUseBy "myway" .
+elem:subdomeinen ilearn:inUseBy "myway" .
+elem:themas ilearn:inUseBy "myway" .
+
+elem:secundair-onderwijs ilearn:inUseBy "myway" .
+elem:sleutelcompetenties ilearn:inUseBy "myway" .
+elem:bouwstenen ilearn:inUseBy "myway" .
+elem:vakken ilearn:inUseBy "myway" .
+elem:trefwoorden ilearn:inUseBy "myway" .
+
+# WILLEN WE NIET IN Z'N GEHEEL (ALLEEN DEELVERZAMELINGEN):
+# ocol:structuur ilearn:inUseBy "myway" .
+ocol:niveau ilearn:inUseBy "myway" .
+ocol:subniveau ilearn:inUseBy "myway" .
+ocol:onderwijsvorm ilearn:inUseBy "myway" .
+ocol:opleidingsvorm ilearn:inUseBy "myway" .
+ocol:graad ilearn:inUseBy "myway" .
+# WILLEN WE NIET:
+# ocol:leerjaar ilearn:inUseBy "myway" .
+ocol:stroom ilearn:inUseBy "myway" .
+ocol:finaliteit ilearn:inUseBy "myway" .
+
+elem:onddoel ilearn:inUseBy "myway" .

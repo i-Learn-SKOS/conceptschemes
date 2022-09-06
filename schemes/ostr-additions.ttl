@@ -1,0 +1,65 @@
+@prefix ilearn: <http://semweb.mmlab.be/ns/ilearn#> .
+@prefix lom: <http://semweb.mmlab.be/ns/lom#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/buitengewoon-kleuteronderwijs> ilearn:typicalAgeRange "3-5" ;
+	lom:educationalContext "school"@en .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/buitengewoon-lager-onderwijs> ilearn:typicalAgeRange "6-11" ;
+	lom:educationalContext "school"@en .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/buitengewoon-secundair-1e-graad> ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties> ;
+	ilearn:typicalAgeRange "12-13" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/buitengewoon-secundair-2e-graad> ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties> ;
+	ilearn:typicalAgeRange "14-15" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/buitengewoon-secundair-3e-graad> ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties> ;
+	ilearn:typicalAgeRange "16-17" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/buitengewoon-secundair-onderwijs> ilearn:typicalAgeRange "12-17" ;
+	lom:educationalContext "school"@en .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/kleuter-3-jaar-of-jonger> ilearn:typicalAgeRange "3" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/kleuter-4-jaar> ilearn:typicalAgeRange "4" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/kleuter-5-jaar> ilearn:typicalAgeRange "5" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/kleuteronderwijs> ilearn:typicalAgeRange "3-5" ;
+	lom:educationalContext "school"@en .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-1e-graad> ilearn:typicalAgeRange "6-7" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-1e-leerjaar> ilearn:typicalAgeRange "6" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-2e-graad> ilearn:typicalAgeRange "8-9" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-2e-leerjaar> ilearn:typicalAgeRange "7" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-3e-graad> ilearn:typicalAgeRange "10-11" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-3e-leerjaar> ilearn:typicalAgeRange "8" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-4e-leerjaar> ilearn:typicalAgeRange "9" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-5e-leerjaar> ilearn:typicalAgeRange "10" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-6e-leerjaar> ilearn:typicalAgeRange "11" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/lager-onderwijs> ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/leergebieden> ;
+	ilearn:typicalAgeRange "6-11" ;
+	lom:educationalContext "school"@en .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-1e-graad> ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties> ;
+	ilearn:typicalAgeRange "12-13" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-2e-graad> ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties> ;
+	ilearn:typicalAgeRange "14-15" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-3e-graad> ilearn:hasCurriculum <http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties> ;
+	ilearn:typicalAgeRange "16-17" .
+
+<https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-onderwijs> ilearn:typicalAgeRange "12-17" ;
+	lom:educationalContext "school"@en .
+

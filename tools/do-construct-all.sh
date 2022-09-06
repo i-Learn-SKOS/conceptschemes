@@ -5,8 +5,8 @@ set -e
 set -x
 
 echo "=== Mapping"
-./map.sh ondniv
 ./map.sh icons
+./map.sh ostr-additions
 ./map.sh onddoel
 
 echo "=== Post-fixing ../schemes/onddoel.ttl"
@@ -25,8 +25,7 @@ mkdir -p temp
 #skosify -c skosify-ours.cfg -o temp/tref1-inferred.ttl ../schemes/tref1.ttl
 #skosify -c skosify-ours.cfg -o temp/curr2-inferred.ttl ../schemes/curr2.ttl
 #skosify -c skosify-ours.cfg -o temp/tref2-inferred.ttl ../schemes/tref2.ttl
-#skosify -c skosify-ours.cfg -o temp/ondniv-inferred.ttl ../schemes/ondniv.ttl
 #skosify -c skosify-ours.cfg -o temp/onddoel-inferred.ttl ../schemes/onddoel.ttl
 
 # This is the real thing
-skosify -c skosify-ours.cfg -o ../schemes/combined-inferred.ttl ../schemes/elem.ttl ../schemes/curr1.ttl ../schemes/vak1.ttl ../schemes/tref1.ttl ../schemes/curr2.ttl ../schemes/tref2.ttl ../schemes/ondniv.ttl ../schemes/icons.ttl ../schemes/onddoel.ttl
+skosify -c skosify-ours.cfg -o ../schemes/combined-inferred.ttl ../schemes/elem.ttl ../schemes/curr1.ttl ../schemes/vak1.ttl ../schemes/tref1.ttl ../schemes/curr2.ttl ../schemes/tref2.ttl ../schemes/onderwijsstructuur-final.skos.ttl ../schemes/ostr-additions.ttl ../schemes/icons.ttl ../schemes/onddoel.ttl ../schemes/in-use-by-myway.ttl

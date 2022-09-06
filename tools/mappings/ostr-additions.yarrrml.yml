@@ -1,0 +1,51 @@
+prefixes:
+  ostr: "https://w3id.org/onderwijs-vlaanderen/id/structuur/"
+  ilearn: "http://semweb.mmlab.be/ns/ilearn#"
+  lom: "http://semweb.mmlab.be/ns/lom#"
+  idlab-fn: "http://example.com/idlab/function/"
+  grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+
+sources:
+  # paths are relative to the ../tools directory; see ../tools/map.sh
+  helper: ['mappings/helper.csv~csv']
+  niveaus: ['../input/onderwijsstructuur/ostr-additions.csv~csv']
+
+mappings:
+  eduContext:
+    sources:
+      - niveaus
+    s: ostr:$(ID)
+    po:
+      - p: lom:educationalContext
+        o:
+          value: $(IEEE LOM)
+          language: en
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(IEEE LOM)]
+        - [grel:valueParameter2, ""]
+  typicalAgeRange:
+    sources:
+      - niveaus
+    s: ostr:$(ID)
+    po:
+      - p: ilearn:typicalAgeRange
+        o: $(leeftijd)
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(leeftijd)]
+        - [grel:valueParameter2, ""]
+  hasCurriculum:
+    sources:
+      - niveaus
+    s: ostr:$(ID)
+    po:
+      - p: ilearn:hasCurriculum
+        o: $(curriculum)~iri
+    condition:
+      function: idlab-fn:notEqual
+      parameters:
+        - [grel:valueParameter, $(curriculum)]
+        - [grel:valueParameter2, ""]

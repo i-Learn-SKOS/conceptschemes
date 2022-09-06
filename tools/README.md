@@ -123,7 +123,7 @@ skosify -c skosify-ours.cfg -o ../schemes/<output-file> ../schemes/<input-file>
 
 **Note: skosify is executed for all applicable files from `do-construct-all.sh`.**
 
-## 4.4 - Modify onderwijsdoelen
+### 4.4 - Modify onderwijsdoelen
 Simple tool to modify onderwijsdoelen.
 Modifies local file `../schemes/onddoel.ttl`.
 
@@ -136,7 +136,7 @@ node modify-onddoel.js
 
 **Note: this script is called from `do-construct-all.sh`.**
 
-## 4.5 - List onderwijsdoelen URIs and definitions
+### 4.5 - List onderwijsdoelen URIs and definitions
 Simple tool listing onderwijsdoelen URIs and definitions line by line. Implemented as a SPARQL query sent to Comunica. Read local file `../schemes/onddoel.ttl`.
 
 Run:
@@ -146,9 +146,15 @@ node list-onddoel-descriptions.js
 
 **Note: this script is called from `do-construct-all.sh`.**
 
-### 5 - Miscellaneous tools
+### 4.6 Convert a string using a lookup table in another .xlsx file
 
-## 5.1 - Making overviews using GraphQL-LD queries
+A node module (`utils-excel-lookup.js`) provides this functionality.
+
+**Note: this module is used when `do-construct-all.sh` is executed (through `prepare-onderwijsdoelen.js`).**
+
+## 5 - Miscellaneous tools
+
+### 5.1 - Making overviews using GraphQL-LD queries
 This tool consults the deployed output through the API project.
 
 Help:
@@ -163,21 +169,7 @@ To make all applicable overviews in a (git-ignored) `../overviews` folder, execu
 
 **Note: > It is important to execute `get-overviews.sh` *after* having deployed all RDF files.**
 
-## 5.2 - Prepare Onderwijsniveaus input
-Convert input files `../input/onderwijsniveaus/onderwijsniveaus.xlsx` into `../input/onderwijsniveaus/onderwijsniveaus-prepared.xlsx` for further usage.
-
-Help, test:
-```shell
-node prepare-onderwijsniveaus.js -h
-node prepare-onderwijsniveaus.js -i ./test/onderwijsniveaus-test.xlsx -o ./temp/onderwijsniveaus-test-prepared.xlsx -l debug
-```
-
-For the purpose it was built, execute:
-```shell
-./prepare-onderwijsniveaus.sh
-```
-
-## 5.3 - Prepare Onderwijsdoelen lookup columns
+### 5.2 - Prepare Onderwijsdoelen lookup columns
 Extract from downloaded files `../input/onderwijsdoelen/*.xlsx` unique texts to create the first column of a lookup table
 to be used by the next tool (`prepare-onderwijsdoelen.js`).
 
@@ -191,8 +183,7 @@ For the purpose it was built, execute:
 ./prepare-onderwijsdoelen-lookup-column-all.sh
 ```
 
-
-## 5.4 - Prepare Onderwijsdoelen input
+### 5.3 - Prepare Onderwijsdoelen input
 Convert downloaded files `../input/onderwijsdoelen/*.xlsx` into `../input/onderwijsdoelen/*-prepared.xlsx` for further usage.
 
 Help, test:
@@ -206,3 +197,33 @@ For the purpose it was built, execute:
 ./prepare-onderwijsdoelen-all.sh
 ```
 
+### 5.4 - Make conversion workbooks
+
+From the old onderwijsniveaus and the new common onderwijsstructuur, make helper .xlsx files to facilitate the making of a was-is list.
+
+Output is in the directory `../conversion/local-ondniv-to-common-onderwijsstructuur`.
+
+Use the output to handcraft `../conversion/local-ondniv-to-common-onderwijsstructuur/was-is.xlsx`
+
+Execute:
+```shell
+node make-conversion-workbooks.js
+```
+
+### 5.5 - Convert a .xlsx file using a lookup table in another .xlsx file
+
+This tool's primary goal is to convert old local ondniv uris to new common onderwijsstructuur uris, using the conversion workbook `../conversion/local-ondniv-to-common-onderwijsstructuur/was-is.xlsx`. But the tool is generic.
+
+This tool makes use of `utils-excel-lookup.js`, described above under the "underlying tools".
+
+Help, test:
+```shell
+node replace-cells.js -h
+node replace-cells.js -i ./test/replaceCellsFileIn.xlsx -s "Sheet1" -o ./temp/replaceCellsFileOut.csv -L ./test/replaceCellsLookupFile.xlsx -S "Sheet1" -I "from" -O "to" -l debug
+```
+
+To make new `input/iconen/iconen.xlsx` and `input/iconen/iconen.xlsx`(a one-time operation after switching to the new common onderwijsstructuur uris), execute:
+```shell
+node replace-cells.js -i ../input/iconen/iconen-before-common-ondstruct-uris.xlsx -s "Sheet1" -o ../input/iconen/iconen.xlsx -L ../conversion/local-ondniv-to-common-onderwijsstructuur/was-is.xlsx -S "Concepts" -I "old uri" -O "new uri" -l debug
+node replace-cells.js -i ../input/iconen/iconen-before-common-ondstruct-uris.xlsx -s "Sheet1" -o ../input/iconen/iconen.csv  -L ../conversion/local-ondniv-to-common-onderwijsstructuur/was-is.xlsx -S "Concepts" -I "old uri" -O "new uri" -l debug
+```

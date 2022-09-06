@@ -5,10 +5,11 @@
  */
 
 const commander = require("commander");
-const ExcelJS = require('exceljs');
+const ExcelJS = require("exceljs");
 const createLogger = require("./create-logger");
 const { slugify } = require("./utils-generic");
 const { deleteHeaderlessColumns, cleanText, getHeadersColumnNumbers, addColumnWithHeader, getRowValueAtHeader, setRowValueAtHeader } = require("./utils-exceljs");
+const ExcelLookup = require("./utils-excel-lookup");
 
 // in the order of how the id is to be constructed:
 const columnHeadersToConsiderForId = [
@@ -409,7 +410,13 @@ class PrepareOnderwijsdoelenToolbox {
                   }
                 });
                 if (ondnivId) {
-                  setRowValueAtHeader(hcEx, row, ondnivColumnHeader, `http://ilearn.ilabt.imec.be/vocab/ondniv/${ondnivId}`, this.logger);
+                  this.logger.debug(`ondnivId: ${ondnivId}`);
+                  const oldOndNivUri = `http://ilearn.ilabt.imec.be/vocab/ondniv/${ondnivId}`;
+                  const newOndStrUri = this.ondNivToOndStructConversionExcelLookup.lookup(oldOndNivUri);
+                  if (oldOndNivUri == newOndStrUri) {
+                    this.logger.warn(`No newOndStrUri found for ${oldOndNivUri}`);
+                  }
+                  setRowValueAtHeader(hcEx, row, ondnivColumnHeader, newOndStrUri, this.logger);
                 } else {
                   this.logger.warn(`No ${ondnivColumnHeader} for row ${rowNumber} because no info available`);
                 }
@@ -496,6 +503,16 @@ class PrepareOnderwijsdoelenToolbox {
   }
 
   /**
+   * Read one more lookup: the one to convert the old ondniv uris to the new ondstruct uris
+   * @returns {Promise<void>}
+   */
+  async readOndNivToOndStructConversionExcelLookup() {
+    this.ondNivToOndStructConversionExcelLookup = new ExcelLookup(this.logger);
+    await this.ondNivToOndStructConversionExcelLookup.read("../conversion/local-ondniv-to-common-onderwijsstructuur/was-is.xlsx");
+    this.ondNivToOndStructConversionExcelLookup.prepareLookup("Concepts", "old uri", "new uri");
+  }
+
+  /**
    * Process the contents
    * @param onlySheet restrict processing to sheet with this name
    */
@@ -553,6 +570,7 @@ class PrepareOnderwijsdoelenToolbox {
   const box = new PrepareOnderwijsdoelenToolbox(logger);
   await box.read(options.input);
   await box.readLookup(options.lookup);
+  await box.readOndNivToOndStructConversionExcelLookup();
   box.process(options.sheet);
   await box.write(options.output, options.csv, options.sheet);
 })();

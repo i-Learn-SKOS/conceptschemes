@@ -17,7 +17,7 @@ prefixes:
   icon-files: 'https://ilearn.ilabt.imec.be/iconen/'
   curr1: 'http://ilearn.ilabt.imec.be/vocab/curr1/'
   curr2: 'http://ilearn.ilabt.imec.be/vocab/curr2/'
-  ondniv: 'http://ilearn.ilabt.imec.be/vocab/ondniv/'
+  ostr: 'https://w3id.org/onderwijs-vlaanderen/id/structuur/'
   schema: 'http://schema.org/'
 sources:
   iconSource:

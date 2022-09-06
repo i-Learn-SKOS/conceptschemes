@@ -10,6 +10,8 @@
 set -e
 
 YARRRML_PARSER="./yarrrml-parser/bin/parser.js"
+# need to stick to version 4.12.0 because it does not have this bug https://github.com/RMLio/rmlmapper-java/issues/165 not solved in any later version at present
+# hence there is no lookup function available
 RML_MAPPER="rmlmapper-4.12.0.jar"
 if [ ! -f $YARRRML_PARSER ];
 then

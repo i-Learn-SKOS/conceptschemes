@@ -18,7 +18,7 @@ class QueryToolbox {
    */
   constructor(logLevel) {
     const comunicaConfig = {
-      sources: [{type: "sparql", value: "https://ilearn.ilabt.imec.be/skosmos/sparql"}],
+      sources: [{type: "sparql", value: "https://ilearn-dev.ilabt.imec.be/skosmos/sparql"}],
       log: new LoggerPretty({level: logLevel})
     };
     this.queryEngine = new QueryEngineComunica(comunicaConfig);
@@ -48,7 +48,20 @@ class QueryToolbox {
 
       // skos, reverse predicates
       "memberOf": {"@reverse": "http://www.w3.org/2004/02/skos/core#member"},
-      "schemeHas": {"@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"}
+      "schemeHas": {"@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"},
+
+      // skosxl types
+      "LabelSkosxl": {"@id": "http://www.w3.org/2008/05/skos-xl#Label"},
+
+      // skosxl predicates
+      "altLabelSkosxl": {"@id": "http://www.w3.org/2008/05/skos-xl#altLabel"},
+      "literalFormSkosxl": {"@id": "http://www.w3.org/2008/05/skos-xl#literalForm"},
+
+      // dct predicates
+      "typeDct": {"@id": "http://purl.org/dc/terms/type"},
+
+      // publications.eu label types
+      "SHORTLABEL": {"@id": "http://publications.europa.eu/resource/authority/label-type/SHORTLABEL"}
     };
   }
 
@@ -302,6 +315,10 @@ class QueryToolbox {
         hiddenLabel @optional
         definition @single @optional
         memberOf @optional
+        altLabelSkosxl @optional @single {
+          literalFormSkosxl @single
+          typeDct(_:SHORTLABEL)
+        }
       }`;
     return await this._query(context, query);
   }

@@ -10,8 +10,8 @@
 @prefix icon-data: <http://ilearn.ilabt.imec.be/iconen#> .
 @prefix icon-files: <https://ilearn.ilabt.imec.be/iconen/> .
 @prefix locn: <http://www.w3.org/ns/locn#> .
-@prefix ondniv: <http://ilearn.ilabt.imec.be/vocab/ondniv/> .
 @prefix org: <http://www.w3.org/ns/org#> .
+@prefix ostr: <https://w3id.org/onderwijs-vlaanderen/id/structuur/> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -204,79 +204,79 @@ curr2:l-wetenschap-en-techniek foaf:logo icon-data:wetenschap-en-techniek.svg .
 
 curr2:l-wiskunde foaf:logo icon-data:wiskunde.svg .
 
-ondniv:basis foaf:logo icon-data:logo-i-learn.svg .
+ostr:basisonderwijs foaf:logo icon-data:logo-i-learn.svg .
 
-ondniv:basis-bulo foaf:logo icon-data:buitengewoonlager.svg .
+ostr:buitengewoon-lager-onderwijs foaf:logo icon-data:buitengewoonlager.svg .
 
-ondniv:basis-kleuter foaf:logo icon-data:logo-i-learn.svg .
+ostr:buitengewoon-secundair-onderwijs foaf:logo icon-data:buitengewoonsecundair.svg .
 
-ondniv:basis-kleuter-3j foaf:logo icon-data:logo-i-learn.svg .
+ostr:kleuter-3-jaar-of-jonger foaf:logo icon-data:logo-i-learn.svg .
 
-ondniv:basis-kleuter-4j foaf:logo icon-data:logo-i-learn.svg .
+ostr:kleuter-4-jaar foaf:logo icon-data:logo-i-learn.svg .
 
-ondniv:basis-kleuter-5j foaf:logo icon-data:logo-i-learn.svg .
+ostr:kleuter-5-jaar foaf:logo icon-data:logo-i-learn.svg .
 
-ondniv:basis-lager foaf:logo icon-data:leerjaar.svg .
+ostr:kleuteronderwijs foaf:logo icon-data:logo-i-learn.svg .
 
-ondniv:basis-lager-lj1 foaf:logo icon-data:leerjaar1.svg .
+ostr:lager-1e-leerjaar foaf:logo icon-data:leerjaar1.svg .
 
-ondniv:basis-lager-lj2 foaf:logo icon-data:leerjaar2.svg .
+ostr:lager-2e-leerjaar foaf:logo icon-data:leerjaar2.svg .
 
-ondniv:basis-lager-lj3 foaf:logo icon-data:leerjaar3.svg .
+ostr:lager-3e-leerjaar foaf:logo icon-data:leerjaar3.svg .
 
-ondniv:basis-lager-lj4 foaf:logo icon-data:leerjaar4.svg .
+ostr:lager-4e-leerjaar foaf:logo icon-data:leerjaar4.svg .
 
-ondniv:basis-lager-lj5 foaf:logo icon-data:leerjaar5.svg .
+ostr:lager-5e-leerjaar foaf:logo icon-data:leerjaar5.svg .
 
-ondniv:basis-lager-lj6 foaf:logo icon-data:leerjaar6.svg .
+ostr:lager-6e-leerjaar foaf:logo icon-data:leerjaar6.svg .
 
-ondniv:buso foaf:logo icon-data:buitengewoonsecundair.svg .
+ostr:lager-onderwijs foaf:logo icon-data:leerjaar.svg .
 
-ondniv:sec foaf:logo icon-data:secundair.svg .
+ostr:secundair-1e-graad foaf:logo icon-data:secundair1.svg .
 
-ondniv:sec-gr1 foaf:logo icon-data:secundair1.svg .
+ostr:secundair-1e-graad-a-stroom foaf:logo icon-data:secundair1.svg .
 
-ondniv:sec-gr1-astroom foaf:logo icon-data:secundair1.svg .
+ostr:secundair-1e-graad-b-stroom foaf:logo icon-data:secundair1.svg .
 
-ondniv:sec-gr1-bstroom foaf:logo icon-data:secundair1.svg .
+ostr:secundair-2e-graad foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2 foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-arbeidsmarkt foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-arbeidsmarkt foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-arbeidsmarkt-bso foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-arbeidsmarkt-bso foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-doorstroom foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-doorstroom foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-doorstroom-aso foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-doorstroom-aso foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-doorstroom-kso foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-doorstroom-kso foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-doorstroom-tso foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-doorstroom-tso foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-dubbel foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-dubbel foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-dubbel-kso foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-dubbel-kso foaf:logo icon-data:secundair2.svg .
+ostr:secundair-2e-graad-dubbel-tso foaf:logo icon-data:secundair2.svg .
 
-ondniv:sec-gr2-dubbel-tso foaf:logo icon-data:secundair2.svg .
+ostr:secundair-3e-graad foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3 foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-arbeidsmarkt foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-arbeidsmarkt foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-arbeidsmarkt-bso foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-arbeidsmarkt-bso foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-doorstroom foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-doorstroom foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-doorstroom-aso foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-doorstroom-aso foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-doorstroom-kso foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-doorstroom-kso foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-doorstroom-tso foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-doorstroom-tso foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-dubbel foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-dubbel foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-dubbel-kso foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-dubbel-kso foaf:logo icon-data:secundair3.svg .
+ostr:secundair-3e-graad-dubbel-tso foaf:logo icon-data:secundair3.svg .
 
-ondniv:sec-gr3-dubbel-tso foaf:logo icon-data:secundair3.svg .
+ostr:secundair-onderwijs foaf:logo icon-data:secundair.svg .
 
