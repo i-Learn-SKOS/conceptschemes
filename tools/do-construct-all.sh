@@ -28,4 +28,4 @@ mkdir -p temp
 #skosify -c skosify-ours.cfg -o temp/onddoel-inferred.ttl ../schemes/onddoel.ttl
 
 # This is the real thing
-skosify -c skosify-ours.cfg -o ../schemes/combined-inferred.ttl ../schemes/elem.ttl ../schemes/curr1.ttl ../schemes/vak1.ttl ../schemes/tref1.ttl ../schemes/curr2.ttl ../schemes/tref2.ttl ../schemes/onderwijsstructuur-final.skos.ttl ../schemes/ostr-additions.ttl ../schemes/icons.ttl ../schemes/onddoel.ttl ../schemes/in-use-by-myway.ttl
+skosify -c skosify-ours.cfg -o ../schemes/combined-inferred.ttl ../schemes/elem.ttl ../schemes/curr1.ttl ../schemes/vak-norelated-final.skos.ttl ../schemes/bs-to-vak.ttl ../schemes/tref1.ttl ../schemes/curr2.ttl ../schemes/tref2.ttl ../schemes/onderwijsstructuur-final.skos.ttl ../schemes/ostr-additions.ttl ../schemes/icons.ttl ../schemes/onddoel.ttl ../schemes/in-use-by-myway.ttl

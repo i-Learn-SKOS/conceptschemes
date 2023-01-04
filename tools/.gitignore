@@ -2,5 +2,5 @@ virtualenv/
 yarrrml-parser/
 node_modules/
 temp/
-overviews/
+overviews*/
 *.jar

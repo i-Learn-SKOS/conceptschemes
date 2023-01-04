@@ -1,0 +1,128 @@
+@prefix curr1: <http://ilearn.ilabt.imec.be/vocab/curr1/> .
+@prefix ovak: <https://w3id.org/onderwijs-vlaanderen/id/vak/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+curr1:s-1-communicatie skos:related ovak:duits, ovak:engels-, ovak:frans, ovak:grieks, ovak:hebreeuws, ovak:italiaans, ovak:latijn, ovak:oud-hebreeuws, ovak:project-algemene-vakken, ovak:russisch, ovak:spaans, ovak:zakelijke-communicatie .
+
+curr1:s-1-literatuur skos:related ovak:duits, ovak:engels-, ovak:frans, ovak:grieks, ovak:hebreeuws, ovak:italiaans, ovak:latijn, ovak:oud-hebreeuws, ovak:project-algemene-vakken, ovak:russisch, ovak:spaans, ovak:zakelijke-communicatie .
+
+curr1:s-1-taal-en-cultuur skos:related ovak:duits, ovak:engels-, ovak:frans, ovak:grieks, ovak:hebreeuws, ovak:italiaans, ovak:latijn, ovak:oud-hebreeuws, ovak:project-algemene-vakken, ovak:russisch, ovak:spaans, ovak:zakelijke-communicatie .
+
+curr1:s-1-taalsysteem skos:related ovak:duits, ovak:engels-, ovak:frans, ovak:grieks, ovak:hebreeuws, ovak:italiaans, ovak:latijn, ovak:oud-hebreeuws, ovak:project-algemene-vakken, ovak:russisch, ovak:spaans, ovak:zakelijke-communicatie .
+
+curr1:s-biologie skos:related ovak:biochemie, ovak:biologie, ovak:natuurwetenschappen, ovak:project-algemene-vakken, ovak:toegepaste-biochemie, ovak:toegepaste-biologie, ovak:toegepaste-natuurwetenschappen .
+
+curr1:s-bronnenkritiek skos:related ovak:burgerschap, ovak:geschiedenis, ovak:maatschappelijke-vorming, ovak:nederlands, ovak:project-algemene-vakken .
+
+curr1:s-chemie skos:related ovak:biochemie, ovak:chemie, ovak:natuurwetenschappen, ovak:toegepaste-biochemie, ovak:toegepaste-chemie, ovak:toegepaste-natuurwetenschappen .
+
+curr1:s-communicatie skos:related ovak:communicatiewetenschappen, ovak:nederlands, ovak:nederlands-voor-nieuwkomers, ovak:project-algemene-vakken .
+
+curr1:s-computers-en-systemen skos:related ovak:ict, ovak:informaticawetenschappen, ovak:toegepaste-informatica .
+
+curr1:s-democratie-en-mensenrechten skos:related ovak:burgerschap, ovak:communicatiewetenschappen, ovak:gedragswetenschappen, ovak:maatschappelijke-vorming, ovak:mens-en-maatschappij, ovak:project-algemene-vakken, ovak:sociologie .
+
+curr1:s-dialoog skos:related ovak:burgerschap, ovak:communicatiewetenschappen, ovak:gedragswetenschappen, ovak:maatschappelijke-vorming, ovak:mens-en-maatschappij, ovak:project-algemene-vakken, ovak:sociologie .
+
+curr1:s-digitale-media-en-toepassingen skos:related ovak:ict, ovak:informaticawetenschappen, ovak:toegepaste-informatica .
+
+curr1:s-diversiteit skos:related ovak:burgerschap, ovak:communicatiewetenschappen, ovak:gedragswetenschappen, ovak:maatschappelijke-vorming, ovak:mens-en-maatschappij, ovak:project-algemene-vakken, ovak:sociologie .
+
+curr1:s-economie skos:related ovak:bedrijfswetenschappen, ovak:economie-, ovak:recht, ovak:toegepaste-economie .
+
+curr1:s-ethiek skos:related ovak:maatschappelijke-vorming .
+
+curr1:s-filosofie skos:related ovak:filosofie .
+
+curr1:s-fysica skos:related ovak:fysica, ovak:natuurwetenschappen, ovak:toegepaste-fysica, ovak:toegepaste-natuurwetenschappen .
+
+curr1:s-geld-en-consumptie skos:related ovak:burgerschap, ovak:economie-, ovak:mens-en-maatschappij, ovak:project-algemene-vakken, ovak:recht, ovak:toegepaste-economie, ovak:toerisme .
+
+curr1:s-gezonde-levensstijl skos:related ovak:apotheek, ovak:haarverzorging, ovak:indirecte-zorg, ovak:maatschappelijke-vorming, ovak:schoonheidsverzorging, ovak:schoonmaak, ovak:tandtechnieken, ovak:verpleegkunde .
+
+curr1:s-historische-beeldvorming skos:related ovak:burgerschap, ovak:geschiedenis, ovak:maatschappelijke-vorming, ovak:nederlands, ovak:project-algemene-vakken .
+
+curr1:s-historische-dynamieken skos:related ovak:burgerschap, ovak:geschiedenis, ovak:maatschappelijke-vorming, ovak:nederlands, ovak:project-algemene-vakken .
+
+curr1:s-historische-tijdlijn skos:related ovak:burgerschap, ovak:geschiedenis, ovak:maatschappelijke-vorming, ovak:nederlands, ovak:project-algemene-vakken .
+
+curr1:s-identiteit skos:related ovak:burgerschap, ovak:communicatiewetenschappen, ovak:gedragswetenschappen, ovak:maatschappelijke-vorming, ovak:mens-en-maatschappij, ovak:project-algemene-vakken, ovak:sociologie .
+
+curr1:s-informatie-verwerven skos:related ovak:leren-leren .
+
+curr1:s-keuzes-maken skos:related ovak:exploratie .
+
+curr1:s-kunstbeleving-en-waardering skos:related ovak:algemene-muziekleer, ovak:algemene-verbale-vorming, ovak:beeld--en-mediacultuur, ovak:cultuurbeschouwing, ovak:cultuurwetenschappen, ovak:esthetica, ovak:kunstbeschouwing, ovak:muziektheorie%3A-folk-en-wereldmuziek, ovak:muziektheorie%3A-jazz-pop-rock, ovak:muziektheorie%3A-klassiek, ovak:muzische-vorming .
+
+curr1:s-kunstconcepten skos:related ovak:algemene-muziekleer, ovak:algemene-verbale-vorming, ovak:beeld--en-mediacultuur, ovak:cultuurbeschouwing, ovak:cultuurwetenschappen, ovak:esthetica, ovak:kunstbeschouwing, ovak:muziektheorie%3A-folk-en-wereldmuziek, ovak:muziektheorie%3A-jazz-pop-rock, ovak:muziektheorie%3A-klassiek, ovak:muzische-vorming .
+
+curr1:s-kunstcreatie skos:related ovak:algemene-muziekleer, ovak:architecturale-vorming, ovak:architectuurtekenen, ovak:artistieke-creatie, ovak:artistieke-expressie, ovak:atelier-drama, ovak:atelier-woord, ovak:audiovisuele-vorming, ovak:beeldende-kunsten, ovak:beeldende-vorming, ovak:binnenhuiskunst, ovak:bouwkunst, ovak:creatief-musiceren, ovak:decoratieve-technieken, ovak:fotografie, ovak:grafische-technieken, ovak:grime, ovak:groepsmusiceren%3A-folk--en-wereldmuziek, ovak:groepsmusiceren%3A-jazz-pop-rock, ovak:groepsmusiceren%3A-klassiek, ovak:groepsmusiceren%3A-musical, ovak:groepsmusiceren%3A-opera%2Fmuziektheater, ovak:hedendaagse-dans, ovak:instrument%3A-folk--en-wereldmuziek, ovak:instrument%3A-jazz-pop-rock, ovak:instrument%3A-klassiek, ovak:klassieke-dans, ovak:mode, ovak:muzikale-opvoeding, ovak:muzische-vorming, ovak:plastische-opvoeding, ovak:praktische-harmonie%3A-folk-en-wereldmuziek, ovak:praktische-harmonie%3A-jazz-pop-rock, ovak:praktische-harmonie%3A-klassiek, ovak:printmedia, ovak:publiciteitstekenen, ovak:restauratie, ovak:schilderen-en-decoratie, ovak:textielverzorging, ovak:toegepaste-beeldende-vorming, ovak:verkoop, ovak:vrije-beeldende-vorming, ovak:waarnemingstekenen, ovak:zang%3A-folk--en-wereldmuziek, ovak:zang%3A-jazz-pop-rock, ovak:zang%3A-klassiek, ovak:zang%3A-musical, ovak:zang%3A-opera%2Fmuziektheater .
+
+curr1:s-kunstgeschiedenis-en-kunststromingen skos:related ovak:algemene-muziekleer, ovak:algemene-verbale-vorming, ovak:beeld--en-mediacultuur, ovak:cultuurbeschouwing, ovak:cultuurwetenschappen, ovak:esthetica, ovak:kunstbeschouwing, ovak:muziektheorie%3A-folk-en-wereldmuziek, ovak:muziektheorie%3A-jazz-pop-rock, ovak:muziektheorie%3A-klassiek, ovak:muzische-vorming .
+
+curr1:s-landschap-en-plaats skos:related ovak:aardrijkskunde, ovak:ecologie, ovak:maatschappelijke-vorming, ovak:project-algemene-vakken, ovak:toerisme .
+
+curr1:s-leren-leren skos:related ovak:leren-leren .
+
+curr1:s-literatuur skos:related ovak:communicatiewetenschappen, ovak:nederlands, ovak:nederlands-voor-nieuwkomers, ovak:project-algemene-vakken .
+
+curr1:s-maatschappijkritisch-denken skos:related ovak:burgerschap, ovak:communicatiewetenschappen, ovak:gedragswetenschappen, ovak:maatschappelijke-vorming, ovak:mens-en-maatschappij, ovak:project-algemene-vakken, ovak:sociologie .
+
+curr1:s-mediawijsheid skos:related ovak:ict, ovak:informaticawetenschappen, ovak:maatschappelijke-vorming, ovak:nederlands, ovak:project-algemene-vakken, ovak:toegepaste-informatica .
+
+curr1:s-mens-en-leefomgeving skos:related ovak:aardrijkskunde, ovak:ecologie, ovak:maatschappelijke-vorming, ovak:project-algemene-vakken, ovak:toerisme .
+
+curr1:s-mentaal-welbevinden skos:related ovak:gedragswetenschappen, ovak:maatschappelijke-vorming, ovak:psychologie, ovak:toegepaste-psychologie .
+
+curr1:s-ondernemen-en-organisatie skos:related ovak:administratie, ovak:autorijtechnieken, ovak:bedrijfswetenschappen, ovak:boekhouding, ovak:commerci%C3%ABle-technieken, ovak:economie-, ovak:human-resources, ovak:ict, ovak:informaticawetenschappen, ovak:logistiek, ovak:onthaal, ovak:public-relations, ovak:rijn--en-binnenvaart, ovak:scheepvaart, ovak:toegepaste-economie, ovak:toegepaste-informatica, ovak:verkoop, ovak:zakelijke-communicatie, ovak:zeemanschap .
+
+curr1:s-onderzoeken skos:related ovak:exploratie .
+
+curr1:s-opportuniteiten-verkennen skos:related ovak:aardrijkskunde, ovak:administratie, ovak:afwerking-bouw, ovak:agrarische-technieken, ovak:algemene-muziekleer, ovak:algemene-verbale-vorming, ovak:apotheek, ovak:architecturale-vorming, ovak:architectuurtekenen, ovak:artistieke-creatie, ovak:artistieke-expressie, ovak:atelier-drama, ovak:atelier-woord, ovak:audiovisuele-vorming, ovak:autorijtechnieken, ovak:autotechnieken, ovak:bakkerij, ovak:bedrijfswetenschappen, ovak:beeld--en-mediacultuur, ovak:beeldende-kunsten, ovak:beeldende-vorming, ovak:besturing-bouwmachines, ovak:bewegingswetenschappen, ovak:binnenhuiskunst, ovak:biochemie, ovak:biologie, ovak:boekhouding, ovak:bosbouw, ovak:bouw, ovak:bouwkunst, ovak:burgerschap, ovak:centrale-verwarming, ovak:chemie, ovak:commerci%C3%ABle-technieken, ovak:communicatiewetenschappen, ovak:creatief-musiceren, ovak:cultuurbeschouwing, ovak:cultuurwetenschappen, ovak:dakwerken, ovak:decoratieve-technieken, ovak:diamant, ovak:dierenzorg, ovak:duits, ovak:ecologie, ovak:economie-, ovak:eigen-cultuur-en-religie, ovak:elektriciteit, ovak:elektromechanica, ovak:elektronica, ovak:engels-, ovak:esthetica, ovak:exploratie, ovak:filosofie, ovak:fotografie, ovak:frans, ovak:fysica, ovak:gedragswetenschappen, ovak:geschiedenis, ovak:glastechnieken, ovak:godsdienst-, ovak:goud-en-juwelen, ovak:grafische-technieken, ovak:grieks, ovak:grime, ovak:groendecoratie, ovak:groepsmusiceren%3A-folk--en-wereldmuziek, ovak:groepsmusiceren%3A-jazz-pop-rock, ovak:groepsmusiceren%3A-klassiek, ovak:groepsmusiceren%3A-musical, ovak:groepsmusiceren%3A-opera%2Fmuziektheater, ovak:haarverzorging, ovak:hebreeuws, ovak:hedendaagse-dans, ovak:hoefverzorging, ovak:hotel, ovak:hout, ovak:human-resources, ovak:ict, ovak:indirecte-zorg, ovak:informaticawetenschappen, ovak:instrument%3A-folk--en-wereldmuziek, ovak:instrument%3A-jazz-pop-rock, ovak:instrument%3A-klassiek, ovak:instrumentenbouw, ovak:interlevensbeschouwelijke-dialoog, ovak:italiaans, ovak:keukentechnieken, ovak:klassieke-dans, ovak:koeltechnieken, ovak:koetswerk, ovak:kunstbeschouwing, ovak:kunststoffen, ovak:landbouw, ovak:lassen-constructie, ovak:latijn, ovak:leren-leren, ovak:lichamelijke-opvoeding, ovak:logistiek, ovak:maatschappelijke-vorming, ovak:mechanica, ovak:mechanische-vormgeving, ovak:mens-en-maatschappij, ovak:meubelmakerij, ovak:militaire-vorming, ovak:mode, ovak:muziektheorie%3A-folk-en-wereldmuziek, ovak:muziektheorie%3A-jazz-pop-rock, ovak:muziektheorie%3A-klassiek, ovak:muzikale-opvoeding, ovak:muzische-vorming, ovak:natuurbeheer, ovak:natuurwetenschappen, ovak:nautische-technieken, ovak:nederlands, ovak:nederlands-voor-nieuwkomers, ovak:niet-confessionele-zedenleer-, ovak:onthaal, ovak:optiek, ovak:opvoedkunde, ovak:orthopedie, ovak:oud-hebreeuws, ovak:pedagogiek, ovak:plastische-opvoeding, ovak:podiumtechnieken, ovak:praktische-harmonie%3A-folk-en-wereldmuziek, ovak:praktische-harmonie%3A-jazz-pop-rock, ovak:praktische-harmonie%3A-klassiek, ovak:printmedia, ovak:productie-industrie, ovak:project-algemene-vakken, ovak:project-stem, ovak:psychologie, ovak:public-relations, ovak:publiciteitstekenen, ovak:recht, ovak:restauranttechnieken, ovak:restauratie, ovak:rijn--en-binnenvaart, ovak:russisch, ovak:ruwbouw, ovak:sanitair, ovak:scheepswerktuigkunde, ovak:scheepvaart, ovak:schilderen-en-decoratie, ovak:schoonheidsverzorging, ovak:schoonmaak, ovak:schrijnwerkerij, ovak:slagerij, ovak:sociale-activiteit, ovak:sociale-vaardigheden, ovak:sociologie, ovak:spaans, ovak:sport, ovak:steen--en-marmerbewerking, ovak:steigerbouw, ovak:tandtechnieken, ovak:techniek, ovak:technologische-opvoeding, ovak:textielproductie, ovak:textielverzorging, ovak:toegepaste-beeldende-vorming, ovak:toegepaste-biochemie, ovak:toegepaste-biologie, ovak:toegepaste-chemie, ovak:toegepaste-economie, ovak:toegepaste-fysica, ovak:toegepaste-informatica, ovak:toegepaste-natuurwetenschappen, ovak:toegepaste-psychologie, ovak:toerisme, ovak:topsport, ovak:tuinbouw, ovak:uurwerkmaken, ovak:veiligheidstechnieken, ovak:verkoop, ovak:verpleegkunde, ovak:verzorging, ovak:voeding, ovak:vrije-beeldende-vorming, ovak:waarnemingstekenen, ovak:wegenwerken, ovak:wetenschappen-en-techniek, ovak:wiskunde, ovak:zakelijke-communicatie, ovak:zang%3A-folk--en-wereldmuziek, ovak:zang%3A-jazz-pop-rock, ovak:zang%3A-klassiek, ovak:zang%3A-musical, ovak:zang%3A-opera%2Fmuziektheater, ovak:zeemanschap .
+
+curr1:s-participatie skos:related ovak:burgerschap, ovak:communicatiewetenschappen, ovak:gedragswetenschappen, ovak:maatschappelijke-vorming, ovak:mens-en-maatschappij, ovak:project-algemene-vakken, ovak:recht, ovak:sociologie .
+
+curr1:s-politiek skos:related ovak:burgerschap, ovak:communicatiewetenschappen, ovak:gedragswetenschappen, ovak:maatschappelijke-vorming, ovak:mens-en-maatschappij, ovak:project-algemene-vakken, ovak:recht, ovak:sociologie .
+
+curr1:s-reguleren skos:related ovak:leren-leren .
+
+curr1:s-relaties skos:related ovak:cultuurwetenschappen, ovak:gedragswetenschappen, ovak:pedagogiek, ovak:sociale-activiteit, ovak:sociale-vaardigheden, ovak:sociologie .
+
+curr1:s-religie-en-geloof skos:related ovak:eigen-cultuur-en-religie, ovak:godsdienst-, ovak:interlevensbeschouwelijke-dialoog, ovak:niet-confessionele-zedenleer- .
+
+curr1:s-ruimte-en-tijd skos:related ovak:aardrijkskunde, ovak:ecologie, ovak:maatschappelijke-vorming, ovak:project-algemene-vakken, ovak:toerisme .
+
+curr1:s-ruimtelijk-onderzoek skos:related ovak:aardrijkskunde, ovak:ecologie, ovak:maatschappelijke-vorming, ovak:project-algemene-vakken, ovak:toerisme .
+
+curr1:s-samenwerken skos:related ovak:burgerschap, ovak:mens-en-maatschappij .
+
+curr1:s-sport-en-beweging skos:related ovak:bewegingswetenschappen, ovak:lichamelijke-opvoeding, ovak:sport .
+
+curr1:s-stem-onderzoek skos:related ovak:autorijtechnieken, ovak:autotechnieken, ovak:biochemie, ovak:biologie, ovak:centrale-verwarming, ovak:chemie, ovak:elektriciteit, ovak:elektromechanica, ovak:elektronica, ovak:fysica, ovak:ict, ovak:informaticawetenschappen, ovak:koeltechnieken, ovak:koetswerk, ovak:kunststoffen, ovak:mechanica, ovak:mechanische-vormgeving, ovak:natuurwetenschappen, ovak:podiumtechnieken, ovak:productie-industrie, ovak:project-algemene-vakken, ovak:sanitair, ovak:textielproductie, ovak:toegepaste-biochemie, ovak:toegepaste-biologie, ovak:toegepaste-chemie, ovak:toegepaste-fysica, ovak:toegepaste-informatica, ovak:toegepaste-natuurwetenschappen, ovak:wiskunde .
+
+curr1:s-taal-en-cultuur skos:related ovak:communicatiewetenschappen, ovak:nederlands, ovak:nederlands-voor-nieuwkomers, ovak:project-algemene-vakken .
+
+curr1:s-taalsysteem skos:related ovak:communicatiewetenschappen, ovak:nederlands, ovak:nederlands-voor-nieuwkomers, ovak:project-algemene-vakken .
+
+curr1:s-technologie-en-technieken skos:related ovak:autorijtechnieken, ovak:autotechnieken, ovak:centrale-verwarming, ovak:elektriciteit, ovak:elektromechanica, ovak:elektronica, ovak:koeltechnieken, ovak:koetswerk, ovak:kunststoffen, ovak:mechanica, ovak:mechanische-vormgeving, ovak:podiumtechnieken, ovak:productie-industrie, ovak:sanitair, ovak:textielproductie .
+
+curr1:s-technologisch-inzicht skos:related ovak:autorijtechnieken, ovak:autotechnieken, ovak:centrale-verwarming, ovak:elektriciteit, ovak:elektromechanica, ovak:elektronica, ovak:koeltechnieken, ovak:koetswerk, ovak:kunststoffen, ovak:mechanica, ovak:mechanische-vormgeving, ovak:podiumtechnieken, ovak:productie-industrie, ovak:sanitair, ovak:textielproductie .
+
+curr1:s-uitvoeringsanalyse skos:related ovak:aardrijkskunde, ovak:administratie, ovak:afwerking-bouw, ovak:agrarische-technieken, ovak:algemene-muziekleer, ovak:algemene-verbale-vorming, ovak:apotheek, ovak:architecturale-vorming, ovak:architectuurtekenen, ovak:artistieke-creatie, ovak:artistieke-expressie, ovak:atelier-drama, ovak:atelier-woord, ovak:audiovisuele-vorming, ovak:autorijtechnieken, ovak:autotechnieken, ovak:bakkerij, ovak:bedrijfswetenschappen, ovak:beeld--en-mediacultuur, ovak:beeldende-kunsten, ovak:beeldende-vorming, ovak:besturing-bouwmachines, ovak:bewegingswetenschappen, ovak:binnenhuiskunst, ovak:biochemie, ovak:biologie, ovak:boekhouding, ovak:bosbouw, ovak:bouw, ovak:bouwkunst, ovak:burgerschap, ovak:centrale-verwarming, ovak:chemie, ovak:commerci%C3%ABle-technieken, ovak:communicatiewetenschappen, ovak:creatief-musiceren, ovak:cultuurbeschouwing, ovak:cultuurwetenschappen, ovak:dakwerken, ovak:decoratieve-technieken, ovak:diamant, ovak:dierenzorg, ovak:duits, ovak:ecologie, ovak:economie-, ovak:eigen-cultuur-en-religie, ovak:elektriciteit, ovak:elektromechanica, ovak:elektronica, ovak:engels-, ovak:esthetica, ovak:exploratie, ovak:filosofie, ovak:fotografie, ovak:frans, ovak:fysica, ovak:gedragswetenschappen, ovak:geschiedenis, ovak:glastechnieken, ovak:godsdienst-, ovak:goud-en-juwelen, ovak:grafische-technieken, ovak:grieks, ovak:grime, ovak:groendecoratie, ovak:groepsmusiceren%3A-folk--en-wereldmuziek, ovak:groepsmusiceren%3A-jazz-pop-rock, ovak:groepsmusiceren%3A-klassiek, ovak:groepsmusiceren%3A-musical, ovak:groepsmusiceren%3A-opera%2Fmuziektheater, ovak:haarverzorging, ovak:hebreeuws, ovak:hedendaagse-dans, ovak:hoefverzorging, ovak:hotel, ovak:hout, ovak:human-resources, ovak:ict, ovak:indirecte-zorg, ovak:informaticawetenschappen, ovak:instrument%3A-folk--en-wereldmuziek, ovak:instrument%3A-jazz-pop-rock, ovak:instrument%3A-klassiek, ovak:instrumentenbouw, ovak:interlevensbeschouwelijke-dialoog, ovak:italiaans, ovak:keukentechnieken, ovak:klassieke-dans, ovak:koeltechnieken, ovak:koetswerk, ovak:kunstbeschouwing, ovak:kunststoffen, ovak:landbouw, ovak:lassen-constructie, ovak:latijn, ovak:leren-leren, ovak:lichamelijke-opvoeding, ovak:logistiek, ovak:maatschappelijke-vorming, ovak:mechanica, ovak:mechanische-vormgeving, ovak:mens-en-maatschappij, ovak:meubelmakerij, ovak:militaire-vorming, ovak:mode, ovak:muziektheorie%3A-folk-en-wereldmuziek, ovak:muziektheorie%3A-jazz-pop-rock, ovak:muziektheorie%3A-klassiek, ovak:muzikale-opvoeding, ovak:muzische-vorming, ovak:natuurbeheer, ovak:natuurwetenschappen, ovak:nautische-technieken, ovak:nederlands, ovak:nederlands-voor-nieuwkomers, ovak:niet-confessionele-zedenleer-, ovak:onthaal, ovak:optiek, ovak:opvoedkunde, ovak:orthopedie, ovak:oud-hebreeuws, ovak:pedagogiek, ovak:plastische-opvoeding, ovak:podiumtechnieken, ovak:praktische-harmonie%3A-folk-en-wereldmuziek, ovak:praktische-harmonie%3A-jazz-pop-rock, ovak:praktische-harmonie%3A-klassiek, ovak:printmedia, ovak:productie-industrie, ovak:project-algemene-vakken, ovak:project-stem, ovak:psychologie, ovak:public-relations, ovak:publiciteitstekenen, ovak:recht, ovak:restauranttechnieken, ovak:restauratie, ovak:rijn--en-binnenvaart, ovak:russisch, ovak:ruwbouw, ovak:sanitair, ovak:scheepswerktuigkunde, ovak:scheepvaart, ovak:schilderen-en-decoratie, ovak:schoonheidsverzorging, ovak:schoonmaak, ovak:schrijnwerkerij, ovak:slagerij, ovak:sociale-activiteit, ovak:sociale-vaardigheden, ovak:sociologie, ovak:spaans, ovak:sport, ovak:steen--en-marmerbewerking, ovak:steigerbouw, ovak:tandtechnieken, ovak:techniek, ovak:technologische-opvoeding, ovak:textielproductie, ovak:textielverzorging, ovak:toegepaste-beeldende-vorming, ovak:toegepaste-biochemie, ovak:toegepaste-biologie, ovak:toegepaste-chemie, ovak:toegepaste-economie, ovak:toegepaste-fysica, ovak:toegepaste-informatica, ovak:toegepaste-natuurwetenschappen, ovak:toegepaste-psychologie, ovak:toerisme, ovak:topsport, ovak:tuinbouw, ovak:uurwerkmaken, ovak:veiligheidstechnieken, ovak:verkoop, ovak:verpleegkunde, ovak:verzorging, ovak:voeding, ovak:vrije-beeldende-vorming, ovak:waarnemingstekenen, ovak:wegenwerken, ovak:wetenschappen-en-techniek, ovak:wiskunde, ovak:zakelijke-communicatie, ovak:zang%3A-folk--en-wereldmuziek, ovak:zang%3A-jazz-pop-rock, ovak:zang%3A-klassiek, ovak:zang%3A-musical, ovak:zang%3A-opera%2Fmuziektheater, ovak:zeemanschap .
+
+curr1:s-vaktaal skos:related ovak:aardrijkskunde, ovak:administratie, ovak:afwerking-bouw, ovak:agrarische-technieken, ovak:algemene-muziekleer, ovak:algemene-verbale-vorming, ovak:apotheek, ovak:architecturale-vorming, ovak:architectuurtekenen, ovak:artistieke-creatie, ovak:artistieke-expressie, ovak:atelier-drama, ovak:atelier-woord, ovak:audiovisuele-vorming, ovak:autorijtechnieken, ovak:autotechnieken, ovak:bakkerij, ovak:bedrijfswetenschappen, ovak:beeld--en-mediacultuur, ovak:beeldende-kunsten, ovak:beeldende-vorming, ovak:besturing-bouwmachines, ovak:bewegingswetenschappen, ovak:binnenhuiskunst, ovak:biochemie, ovak:biologie, ovak:boekhouding, ovak:bosbouw, ovak:bouw, ovak:bouwkunst, ovak:burgerschap, ovak:centrale-verwarming, ovak:chemie, ovak:commerci%C3%ABle-technieken, ovak:communicatiewetenschappen, ovak:creatief-musiceren, ovak:cultuurbeschouwing, ovak:cultuurwetenschappen, ovak:dakwerken, ovak:decoratieve-technieken, ovak:diamant, ovak:dierenzorg, ovak:duits, ovak:ecologie, ovak:economie-, ovak:eigen-cultuur-en-religie, ovak:elektriciteit, ovak:elektromechanica, ovak:elektronica, ovak:engels-, ovak:esthetica, ovak:exploratie, ovak:filosofie, ovak:fotografie, ovak:frans, ovak:fysica, ovak:gedragswetenschappen, ovak:geschiedenis, ovak:glastechnieken, ovak:godsdienst-, ovak:goud-en-juwelen, ovak:grafische-technieken, ovak:grieks, ovak:grime, ovak:groendecoratie, ovak:groepsmusiceren%3A-folk--en-wereldmuziek, ovak:groepsmusiceren%3A-jazz-pop-rock, ovak:groepsmusiceren%3A-klassiek, ovak:groepsmusiceren%3A-musical, ovak:groepsmusiceren%3A-opera%2Fmuziektheater, ovak:haarverzorging, ovak:hebreeuws, ovak:hedendaagse-dans, ovak:hoefverzorging, ovak:hotel, ovak:hout, ovak:human-resources, ovak:ict, ovak:indirecte-zorg, ovak:informaticawetenschappen, ovak:instrument%3A-folk--en-wereldmuziek, ovak:instrument%3A-jazz-pop-rock, ovak:instrument%3A-klassiek, ovak:instrumentenbouw, ovak:interlevensbeschouwelijke-dialoog, ovak:italiaans, ovak:keukentechnieken, ovak:klassieke-dans, ovak:koeltechnieken, ovak:koetswerk, ovak:kunstbeschouwing, ovak:kunststoffen, ovak:landbouw, ovak:lassen-constructie, ovak:latijn, ovak:leren-leren, ovak:lichamelijke-opvoeding, ovak:logistiek, ovak:maatschappelijke-vorming, ovak:mechanica, ovak:mechanische-vormgeving, ovak:mens-en-maatschappij, ovak:meubelmakerij, ovak:militaire-vorming, ovak:mode, ovak:muziektheorie%3A-folk-en-wereldmuziek, ovak:muziektheorie%3A-jazz-pop-rock, ovak:muziektheorie%3A-klassiek, ovak:muzikale-opvoeding, ovak:muzische-vorming, ovak:natuurbeheer, ovak:natuurwetenschappen, ovak:nautische-technieken, ovak:nederlands, ovak:nederlands-voor-nieuwkomers, ovak:niet-confessionele-zedenleer-, ovak:onthaal, ovak:optiek, ovak:opvoedkunde, ovak:orthopedie, ovak:oud-hebreeuws, ovak:pedagogiek, ovak:plastische-opvoeding, ovak:podiumtechnieken, ovak:praktische-harmonie%3A-folk-en-wereldmuziek, ovak:praktische-harmonie%3A-jazz-pop-rock, ovak:praktische-harmonie%3A-klassiek, ovak:printmedia, ovak:productie-industrie, ovak:project-algemene-vakken, ovak:project-stem, ovak:psychologie, ovak:public-relations, ovak:publiciteitstekenen, ovak:recht, ovak:restauranttechnieken, ovak:restauratie, ovak:rijn--en-binnenvaart, ovak:russisch, ovak:ruwbouw, ovak:sanitair, ovak:scheepswerktuigkunde, ovak:scheepvaart, ovak:schilderen-en-decoratie, ovak:schoonheidsverzorging, ovak:schoonmaak, ovak:schrijnwerkerij, ovak:slagerij, ovak:sociale-activiteit, ovak:sociale-vaardigheden, ovak:sociologie, ovak:spaans, ovak:sport, ovak:steen--en-marmerbewerking, ovak:steigerbouw, ovak:tandtechnieken, ovak:techniek, ovak:technologische-opvoeding, ovak:textielproductie, ovak:textielverzorging, ovak:toegepaste-beeldende-vorming, ovak:toegepaste-biochemie, ovak:toegepaste-biologie, ovak:toegepaste-chemie, ovak:toegepaste-economie, ovak:toegepaste-fysica, ovak:toegepaste-informatica, ovak:toegepaste-natuurwetenschappen, ovak:toegepaste-psychologie, ovak:toerisme, ovak:topsport, ovak:tuinbouw, ovak:uurwerkmaken, ovak:veiligheidstechnieken, ovak:verkoop, ovak:verpleegkunde, ovak:verzorging, ovak:voeding, ovak:vrije-beeldende-vorming, ovak:waarnemingstekenen, ovak:wegenwerken, ovak:wetenschappen-en-techniek, ovak:wiskunde, ovak:zakelijke-communicatie, ovak:zang%3A-folk--en-wereldmuziek, ovak:zang%3A-jazz-pop-rock, ovak:zang%3A-klassiek, ovak:zang%3A-musical, ovak:zang%3A-opera%2Fmuziektheater, ovak:zeemanschap .
+
+curr1:s-veiligheid skos:related ovak:maatschappelijke-vorming, ovak:veiligheidstechnieken .
+
+curr1:s-wiskunde-algebra-analyse skos:related ovak:wiskunde .
+
+curr1:s-wiskunde-getallenleer skos:related ovak:wiskunde .
+
+curr1:s-wiskunde-kansrekenen-statistiek skos:related ovak:wiskunde .
+
+curr1:s-wiskunde-meetkunde-en-metend-rekenen skos:related ovak:wiskunde .
+
+curr1:s-wiskunde-modelleren-en-heuristiek skos:related ovak:wiskunde .
+
+curr1:s-wiskunde-redeneren skos:related ovak:wiskunde .
+

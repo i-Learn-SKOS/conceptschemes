@@ -1,6 +1,6 @@
 # Onderderwijsstructuur
 
-> This is about the i-Learn local onderwijsstructuur used in v1 of the SKOS-API only.
+> This is about the i-Learn local onderwijsstructuur used in v2 of the SKOS-API only.
 
 ## Intro
 

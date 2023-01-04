@@ -1,0 +1,3 @@
+@prefix curr1: <http://ilearn.ilabt.imec.be/vocab/curr1/> .
+@prefix ovak: <https://w3id.org/onderwijs-vlaanderen/id/vak/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .

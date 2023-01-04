@@ -5,3 +5,4 @@
 | Filename                          | Origin                                                                                                                     |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | onderwijsstructuur-final.skos.ttl | https://github.com/i-Learn-SKOS/common-conceptschemes/blob/v1.0.0.correct/common/schemes/onderwijsstructuur-final.skos.ttl |
+| vak-norelated-final.skos.ttl      | https://github.com/i-Learn-SKOS/common-conceptschemes/blob/v1.0.0.correct/common/schemes/vak-norelated-final.skos.ttl      |

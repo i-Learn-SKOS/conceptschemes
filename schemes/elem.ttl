@@ -36,9 +36,7 @@ elem:bouwstenen a skos:Collection ;
   skos:inScheme elem:_scheme ;
   skos:prefLabel "bouwstenen"@nl .
 
-elem:vakken a skos:Collection ;
-  skos:inScheme elem:_scheme ;
-  skos:prefLabel "vakken"@nl .
+ocol:vak skos:inScheme elem:_scheme.
 
 elem:trefwoorden a skos:Collection ;
   skos:inScheme elem:_scheme ;

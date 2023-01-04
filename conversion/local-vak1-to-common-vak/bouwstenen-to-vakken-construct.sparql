@@ -1,0 +1,20 @@
+# Return list of bouwstenen with prefLabel and related vakken
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX elem: <http://ilearn.ilabt.imec.be/vocab/elem/>
+
+CONSTRUCT { ?concept skos:related ?relatedConcept }
+WHERE {
+  elem:bouwstenen skos:member ?concept .
+  ?concept skos:prefLabel ?prefLabel .
+  OPTIONAL {
+    ?concept skos:related ?relatedConcept .
+    elem:vakken skos:member ?relatedConcept .
+    ?relatedConcept skos:prefLabel ?relatedPrefLabel
+  }
+}
+ORDER BY ?concept

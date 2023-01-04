@@ -11,7 +11,7 @@ elem:themas ilearn:inUseBy "myway" .
 elem:secundair-onderwijs ilearn:inUseBy "myway" .
 elem:sleutelcompetenties ilearn:inUseBy "myway" .
 elem:bouwstenen ilearn:inUseBy "myway" .
-elem:vakken ilearn:inUseBy "myway" .
+ocol:vak ilearn:inUseBy "myway" .
 elem:trefwoorden ilearn:inUseBy "myway" .
 
 # WILLEN WE NIET IN Z'N GEHEEL (ALLEEN DEELVERZAMELINGEN):

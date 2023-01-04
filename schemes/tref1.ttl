@@ -2,7 +2,7 @@
 # This file contains keyword concepts applicable to SECUNDAIR ONDERWIJS only #
 ##############################################################################
 @prefix tref1: <http://ilearn.ilabt.imec.be/vocab/tref1/> .
-@prefix vak1: <http://ilearn.ilabt.imec.be/vocab/vak1/> .
+@prefix ovak: <https://w3id.org/onderwijs-vlaanderen/id/vak/> .
 @prefix curr1: <http://ilearn.ilabt.imec.be/vocab/curr1/> .
 @prefix elem: <http://ilearn.ilabt.imec.be/vocab/elem/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -245,7 +245,7 @@ tref1:landeskunde a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "landeskunde"@nl ;
-  skos:related vak1:duits .
+  skos:related ovak:duits .
 elem:secundair-onderwijs skos:member tref1:landeskunde .
 elem:trefwoorden skos:member tref1:landeskunde .
 
@@ -355,8 +355,8 @@ tref1:pragmatiek a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "pragmatiek"@nl ;
-  skos:related vak1:engels,
-    vak1:frans .
+  skos:related ovak:engels-,
+    ovak:frans .
 elem:secundair-onderwijs skos:member tref1:pragmatiek .
 elem:trefwoorden skos:member tref1:pragmatiek .
 
@@ -410,8 +410,8 @@ tref1:sociolinguistiek a skos:Concept ;
   skos:inScheme tref1:_scheme ;
   skos:topConceptOf tref1:_scheme ;
   skos:prefLabel "sociolinguistiek"@nl ;
-  skos:related vak1:engels,
-    vak1:frans .
+  skos:related ovak:engels-,
+    ovak:frans .
 elem:secundair-onderwijs skos:member tref1:sociolinguistiek .
 elem:trefwoorden skos:member tref1:sociolinguistiek .
 

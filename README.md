@@ -38,18 +38,18 @@ For details on preparing the necessary environment and executing the scripts in 
 
 - if changes are needed to one of the following turtle files in directory `schemes`, edit them directly, based on the corresponding input:
   
-| turtle file           | input file                       |
-|-----------------------|----------------------------------|
-| `elem.ttl`            | -                                | 
-| `curr1.ttl`           | `input/secundair-onderwijs.xlsx` |
-| `vak1.ttl`            | `input/secundair-onderwijs.xlsx` |
-| `tref1.ttl`           | `input/secundair-onderwijs.xlsx` |
-| `curr2.ttl`           | `input/lager-onderwijs.xlsx`     |
-| `in-use-by-myway.ttl` | -                                |
+| turtle file           | input file                                      |
+|-----------------------|-------------------------------------------------|
+| `elem.ttl`            | -                                               | 
+| `curr1.ttl`           | `input/secundair-onderwijs.xlsx`                |
+ | `bs-to-vak.ttl`       | `conversion/local-vak1-to-common-vak/README.md` | 
+| `tref1.ttl`           | `input/secundair-onderwijs.xlsx`                |
+| `curr2.ttl`           | `input/lager-onderwijs.xlsx`                    |
+| `in-use-by-myway.ttl` | -                                               |
 
 - if changes are needed to `schemes/tref2.ttl`, edit `input/lager-onderwijs.xlsx` accordingly
   - conversion to turtle will happen automatically in a later step
-- Note that no changes are allowed to `schemes/onderwijsstructuur-final.skos.ttl`; see [here](schemes/README.md) for file origin.
+- note that no changes are allowed to shopped files; see [here](schemes/README.md) for file origin.
 - if one of above changes requires an update of `schemes/onddoel.ttl` (onderwijsdoelen), proceed as follows:
   - execute `do-construct-all.sh` in the `tools` directory
   - deploy the temporary version of `combined-inferred.ttl` to the default graph - see "Deploy turtle files" below
@@ -76,7 +76,6 @@ on the SPARQL server (Apache Jena Fuseki) and on Skosmos.
 | (default)                                           | schemes/combined-inferred.ttl                         | yes       |
 | http://ilearn.ilabt.imec.be/vocab/elem/             | tools/temp/elem-inferred.ttl                          | no        |
 | http://ilearn.ilabt.imec.be/vocab/curr1/            | tools/temp/curr1-inferred.ttl                         | no        |
-| http://ilearn.ilabt.imec.be/vocab/vak1/             | tools/temp/vak1-inferred.ttl                          | no        |
 | http://ilearn.ilabt.imec.be/vocab/tref1/            | tools/temp/tref1-inferred.ttl                         | no        |
 | http://ilearn.ilabt.imec.be/vocab/curr2/            | tools/temp/curr2-inferred.ttl                         | no        |
 | http://ilearn.ilabt.imec.be/vocab/tref2/            | tools/temp/tref2-inferred.ttl                         | no        |
