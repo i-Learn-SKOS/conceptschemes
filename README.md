@@ -38,14 +38,15 @@ For details on preparing the necessary environment and executing the scripts in 
 
 - if changes are needed to one of the following turtle files in directory `schemes`, edit them directly, based on the corresponding input:
   
-| turtle file           | input file                                      |
-|-----------------------|-------------------------------------------------|
-| `elem.ttl`            | -                                               | 
-| `curr1.ttl`           | `input/secundair-onderwijs.xlsx`                |
- | `bs-to-vak.ttl`       | `conversion/local-vak1-to-common-vak/README.md` | 
-| `tref1.ttl`           | `input/secundair-onderwijs.xlsx`                |
-| `curr2.ttl`           | `input/lager-onderwijs.xlsx`                    |
-| `in-use-by-myway.ttl` | -                                               |
+| turtle file                    | input file                                      |
+|--------------------------------|-------------------------------------------------|
+| `elem.ttl`                     | -                                               | 
+| `curr1.ttl`                    | `input/secundair-onderwijs.xlsx`                |
+ | `bs-to-vak.ttl`                | `conversion/local-vak1-to-common-vak/README.md` | 
+| `tref1.ttl`                    | `input/secundair-onderwijs.xlsx`                |
+| `curr2.ttl`                    | `input/lager-onderwijs.xlsx`                    |
+| `onderwijsstructuur-extra.ttl` | -                                               |
+| `in-use-by-myway.ttl`          | -                                               |
 
 - if changes are needed to `schemes/tref2.ttl`, edit `input/lager-onderwijs.xlsx` accordingly
   - conversion to turtle will happen automatically in a later step

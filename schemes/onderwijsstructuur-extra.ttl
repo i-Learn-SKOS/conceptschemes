@@ -1,0 +1,57 @@
+@prefix elem: <http://ilearn.ilabt.imec.be/vocab/elem/> .
+@prefix ostr: <https://w3id.org/onderwijs-vlaanderen/id/structuur/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# --- subsets of ocol: Collections used in MyWay
+
+# excluded ostr:buitengewoon-secundair-3e-graad-3e-leerjaar, ostr:secundair-3e-graad-3e-leerjaar
+elem:graad skos:member
+    ostr:buitengewoon-secundair-1e-graad,
+    ostr:buitengewoon-secundair-2e-graad,
+    ostr:buitengewoon-secundair-3e-graad,
+    ostr:lager-1e-graad,
+    ostr:lager-2e-graad,
+    ostr:lager-3e-graad,
+    ostr:secundair-1e-graad,
+    ostr:secundair-2e-graad,
+    ostr:secundair-3e-graad .
+
+# excluded ostr:secundair-1e-leerjaar..ostr:secundair-7e-leerjaar
+elem:leerjaar skos:member
+    ostr:lager-1e-leerjaar,
+    ostr:lager-2e-leerjaar,
+    ostr:lager-3e-leerjaar,
+    ostr:lager-4e-leerjaar,
+    ostr:lager-5e-leerjaar,
+    ostr:lager-6e-leerjaar .
+
+# excluded nothing, added for future flexibility
+elem:stroom skos:member
+    ostr:secundair-1e-graad-a-stroom,
+    ostr:secundair-1e-graad-b-stroom .
+
+# excluded ostr:secundair-3e-graad-3e-leerjaar-arbeidsmarkt
+elem:finaliteit skos:member
+    ostr:secundair-2e-graad-arbeidsmarkt,
+    ostr:secundair-2e-graad-doorstroom,
+    ostr:secundair-2e-graad-dubbel,
+    ostr:secundair-3e-graad-arbeidsmarkt,
+    ostr:secundair-3e-graad-doorstroom,
+    ostr:secundair-3e-graad-dubbel .
+
+# excluded ostr:secundair-3e-graad-3e-leerjaar-arbeidsmarkt-bso
+elem:onderwijsvorm skos:member
+    ostr:secundair-2e-graad-arbeidsmarkt-bso,
+    ostr:secundair-2e-graad-doorstroom-aso,
+    ostr:secundair-2e-graad-doorstroom-kso,
+    ostr:secundair-2e-graad-doorstroom-tso,
+    ostr:secundair-2e-graad-dubbel-kso,
+    ostr:secundair-2e-graad-dubbel-tso,
+    ostr:secundair-3e-graad-arbeidsmarkt-bso,
+    ostr:secundair-3e-graad-doorstroom-aso,
+    ostr:secundair-3e-graad-doorstroom-kso,
+    ostr:secundair-3e-graad-doorstroom-tso,
+    ostr:secundair-3e-graad-dubbel-kso,
+    ostr:secundair-3e-graad-dubbel-tso .
+

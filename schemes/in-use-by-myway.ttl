@@ -14,16 +14,24 @@ elem:bouwstenen ilearn:inUseBy "myway" .
 ocol:vak ilearn:inUseBy "myway" .
 elem:trefwoorden ilearn:inUseBy "myway" .
 
-# WILLEN WE NIET IN Z'N GEHEEL (ALLEEN DEELVERZAMELINGEN):
+# willen we niet in z'n geheel:
 # ocol:structuur ilearn:inUseBy "myway" .
+
+# deelverzamelingen van ocol:structuur:
 ocol:niveau ilearn:inUseBy "myway" .
 ocol:subniveau ilearn:inUseBy "myway" .
-ocol:onderwijsvorm ilearn:inUseBy "myway" .
 ocol:opleidingsvorm ilearn:inUseBy "myway" .
-ocol:graad ilearn:inUseBy "myway" .
-# WILLEN WE NIET:
+# ocol:graad ilearn:inUseBy "myway" .
 # ocol:leerjaar ilearn:inUseBy "myway" .
-ocol:stroom ilearn:inUseBy "myway" .
-ocol:finaliteit ilearn:inUseBy "myway" .
+# ocol:stroom ilearn:inUseBy "myway" .
+# ocol:finaliteit ilearn:inUseBy "myway" .
+# ocol:onderwijsvorm ilearn:inUseBy "myway" .
+
+# vervanging van sommige ocol:structuur deelverzamelingen:
+elem:graad ilearn:inUseBy "myway" .
+elem:leerjaar ilearn:inUseBy "myway" .
+elem:stroom ilearn:inUseBy "myway" .
+elem:finaliteit ilearn:inUseBy "myway" .
+elem:onderwijsvorm ilearn:inUseBy "myway" .
 
 elem:onddoel ilearn:inUseBy "myway" .

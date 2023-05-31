@@ -45,13 +45,36 @@ elem:trefwoorden a skos:Collection ;
 ocol:structuur skos:inScheme elem:_scheme .
 ocol:niveau skos:inScheme elem:_scheme .
 ocol:subniveau skos:inScheme elem:_scheme .
-ocol:onderwijsvorm skos:inScheme elem:_scheme .
 ocol:opleidingsvorm skos:inScheme elem:_scheme .
 ocol:graad skos:inScheme elem:_scheme .
 ocol:leerjaar skos:inScheme elem:_scheme .
 ocol:stroom skos:inScheme elem:_scheme .
 ocol:finaliteit skos:inScheme elem:_scheme .
+ocol:onderwijsvorm skos:inScheme elem:_scheme .
 
 elem:onddoel a skos:Collection ;
   skos:inScheme elem:_scheme ;
   skos:prefLabel "onderwijsdoelen"@nl .
+
+# --- (see onderwijsstructuur-extra.ttl)
+
+elem:graad a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsgraden"@nl .
+
+elem:leerjaar a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijs leerjaren"@nl .
+
+elem:stroom a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsstromen"@nl .
+
+elem:finaliteit a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsfinaliteiten"@nl .
+
+elem:onderwijsvorm a skos:Collection ;
+  skos:inScheme elem:_scheme ;
+  skos:prefLabel "onderwijsvormen"@nl .
+
