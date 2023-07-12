@@ -2683,7 +2683,7 @@ onddoel:sec-0-2131951827 rdf:type skos:Concept ;
 	skos:hiddenLabel "0"@nl ;
 	skos:inScheme onddoel:_scheme ;
 	skos:prefLabel "sec-0-2131951827"@nl ;
-	skos:related <http://ilearn.ilabt.imec.be/vocab/curr1/c-religie-en-levensbeschouwing>, <http://ilearn.ilabt.imec.be/vocab/curr1/s-ethiek>, <http://ilearn.ilabt.imec.be/vocab/curr1/s-filosofie>, <http://ilearn.ilabt.imec.be/vocab/curr1/s-religie-en-geloof> ;
+	skos:related <http://ilearn.ilabt.imec.be/vocab/curr1/c-religie-en-levensbeschouwing>, <http://ilearn.ilabt.imec.be/vocab/curr1/s-ethiek>, <http://ilearn.ilabt.imec.be/vocab/curr1/s-filosofie>, <http://ilearn.ilabt.imec.be/vocab/curr1/s-religie-en-geloof>, <https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-1e-graad-a-stroom>, <https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-1e-graad-b-stroom>, <https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-2e-graad-arbeidsmarkt>, <https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-2e-graad-doorstroom>, <https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-2e-graad-dubbel>, <https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-3e-graad-arbeidsmarkt>, <https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-3e-graad-doorstroom>, <https://w3id.org/onderwijs-vlaanderen/id/structuur/secundair-3e-graad-dubbel> ;
 	skos:topConceptOf onddoel:_scheme .
 
 onddoel:sec-1.1-128411788 rdf:type skos:Concept ;

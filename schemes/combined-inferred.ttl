@@ -19194,17 +19194,6 @@ onddoel:basis-lager-4.9-2415859818 a skos:Concept ;
         ostr:lager-onderwijs ;
     skos:topConceptOf onddoel:_scheme .
 
-onddoel:sec-0-2131951827 a skos:Concept ;
-    skos:definition "0 Geen eindterm (secundair onderwijs)"@nl ;
-    skos:hiddenLabel "0"@nl ;
-    skos:inScheme onddoel:_scheme ;
-    skos:prefLabel "sec-0-2131951827"@nl ;
-    skos:related curr1:c-religie-en-levensbeschouwing,
-        curr1:s-ethiek,
-        curr1:s-filosofie,
-        curr1:s-religie-en-geloof ;
-    skos:topConceptOf onddoel:_scheme .
-
 onddoel:sec-1.1-128411788 a skos:Concept ;
     skos:definition "1.1 De leerlingen verklaren het belang van een gezonde levensstijl."@nl ;
     skos:hiddenLabel "1.1"@nl ;
@@ -26361,7 +26350,7 @@ curr1:c-religie-en-levensbeschouwing a skos:Concept ;
     skos:narrowerTransitive curr1:s-ethiek,
         curr1:s-filosofie,
         curr1:s-religie-en-geloof ;
-    skos:prefLabel "religie en levenbeschouwing"@nl ;
+    skos:prefLabel "religie en levensbeschouwing"@nl ;
     skos:related onddoel:sec-0-2131951827 ;
     skos:topConceptOf curr1:_scheme ;
     foaf:logo icon-data:religie-en-levensbeschouwing.svg .
@@ -27351,6 +27340,25 @@ curr2:t-ik-en-de-ander a skos:Concept ;
         tref2:weerbaarheid,
         tref2:zelfbewustzijn,
         tref2:zelfvertrouwen .
+
+onddoel:sec-0-2131951827 a skos:Concept ;
+    skos:definition "0 Geen eindterm (secundair onderwijs)"@nl ;
+    skos:hiddenLabel "0"@nl ;
+    skos:inScheme onddoel:_scheme ;
+    skos:prefLabel "sec-0-2131951827"@nl ;
+    skos:related curr1:c-religie-en-levensbeschouwing,
+        curr1:s-ethiek,
+        curr1:s-filosofie,
+        curr1:s-religie-en-geloof,
+        ostr:secundair-1e-graad-a-stroom,
+        ostr:secundair-1e-graad-b-stroom,
+        ostr:secundair-2e-graad-arbeidsmarkt,
+        ostr:secundair-2e-graad-doorstroom,
+        ostr:secundair-2e-graad-dubbel,
+        ostr:secundair-3e-graad-arbeidsmarkt,
+        ostr:secundair-3e-graad-doorstroom,
+        ostr:secundair-3e-graad-dubbel ;
+    skos:topConceptOf onddoel:_scheme .
 
 ostr:secundair-1e-graad a skos:Concept ;
     ilearn:hasCurriculum elem:sleutelcompetenties ;
@@ -32403,7 +32411,8 @@ ostr:secundair-3e-graad-arbeidsmarkt a skos:Concept ;
     skos:narrower ostr:secundair-3e-graad-arbeidsmarkt-bso ;
     skos:narrowerTransitive ostr:secundair-3e-graad-arbeidsmarkt-bso ;
     skos:prefLabel "secundair 3e graad finaliteit arbeidsmarkt"@nl ;
-    skos:related onddoel:sec-1.1-1561466412,
+    skos:related onddoel:sec-0-2131951827,
+        onddoel:sec-1.1-1561466412,
         onddoel:sec-1.10-1942022519,
         onddoel:sec-1.11-1955743420,
         onddoel:sec-1.12-4061224566,
@@ -32555,7 +32564,8 @@ ostr:secundair-2e-graad-arbeidsmarkt a skos:Concept ;
     skos:narrower ostr:secundair-2e-graad-arbeidsmarkt-bso ;
     skos:narrowerTransitive ostr:secundair-2e-graad-arbeidsmarkt-bso ;
     skos:prefLabel "secundair 2e graad finaliteit arbeidsmarkt"@nl ;
-    skos:related onddoel:sec-1.1-1561466412,
+    skos:related onddoel:sec-0-2131951827,
+        onddoel:sec-1.1-1561466412,
         onddoel:sec-1.10-2055836180,
         onddoel:sec-1.11-1335941691,
         onddoel:sec-1.12-2470245608,
@@ -32710,7 +32720,8 @@ ostr:secundair-3e-graad-dubbel a skos:Concept ;
     skos:narrowerTransitive ostr:secundair-3e-graad-dubbel-kso,
         ostr:secundair-3e-graad-dubbel-tso ;
     skos:prefLabel "secundair 3e graad dubbele finaliteit"@nl ;
-    skos:related onddoel:sec-1.1-1561466412,
+    skos:related onddoel:sec-0-2131951827,
+        onddoel:sec-1.1-1561466412,
         onddoel:sec-1.10-1942022519,
         onddoel:sec-1.11-1955743420,
         onddoel:sec-1.12-4061224566,
@@ -32881,7 +32892,8 @@ ostr:secundair-1e-graad-b-stroom a skos:Concept ;
     skos:definition "secundair 1e graad b-stroom"@nl ;
     skos:inScheme ond:structuur ;
     skos:prefLabel "secundair 1e graad b-stroom"@nl ;
-    skos:related onddoel:sec-1.1-128411788,
+    skos:related onddoel:sec-0-2131951827,
+        onddoel:sec-1.1-128411788,
         onddoel:sec-1.10-3691661147,
         onddoel:sec-1.11-2251481747,
         onddoel:sec-1.12-3004955675,
@@ -33484,7 +33496,8 @@ ostr:secundair-3e-graad-doorstroom a skos:Concept ;
         ostr:secundair-3e-graad-doorstroom-kso,
         ostr:secundair-3e-graad-doorstroom-tso ;
     skos:prefLabel "secundair 3e graad finaliteit doorstroom"@nl ;
-    skos:related onddoel:sec-1.1-1561466412,
+    skos:related onddoel:sec-0-2131951827,
+        onddoel:sec-1.1-1561466412,
         onddoel:sec-1.10-1942022519,
         onddoel:sec-1.11-1955743420,
         onddoel:sec-1.12-4061224566,
@@ -33883,7 +33896,8 @@ ostr:secundair-1e-graad-a-stroom a skos:Concept ;
     skos:definition "secundair 1e graad a-stroom"@nl ;
     skos:inScheme ond:structuur ;
     skos:prefLabel "secundair 1e graad a-stroom"@nl ;
-    skos:related onddoel:sec-1.1-128411788,
+    skos:related onddoel:sec-0-2131951827,
+        onddoel:sec-1.1-128411788,
         onddoel:sec-1.10-3691661147,
         onddoel:sec-1.11-2251481747,
         onddoel:sec-1.12-3004955675,
@@ -34114,7 +34128,8 @@ ostr:secundair-2e-graad-dubbel a skos:Concept ;
     skos:narrowerTransitive ostr:secundair-2e-graad-dubbel-kso,
         ostr:secundair-2e-graad-dubbel-tso ;
     skos:prefLabel "secundair 2e graad dubbele finaliteit"@nl ;
-    skos:related onddoel:sec-1.1-1561466412,
+    skos:related onddoel:sec-0-2131951827,
+        onddoel:sec-1.1-1561466412,
         onddoel:sec-1.10-2055836180,
         onddoel:sec-1.11-1335941691,
         onddoel:sec-1.12-2470245608,
@@ -34680,7 +34695,8 @@ ostr:secundair-2e-graad-doorstroom a skos:Concept ;
         ostr:secundair-2e-graad-doorstroom-kso,
         ostr:secundair-2e-graad-doorstroom-tso ;
     skos:prefLabel "secundair 2e graad finaliteit doorstroom"@nl ;
-    skos:related onddoel:sec-1.1-1561466412,
+    skos:related onddoel:sec-0-2131951827,
+        onddoel:sec-1.1-1561466412,
         onddoel:sec-1.10-2055836180,
         onddoel:sec-1.11-1335941691,
         onddoel:sec-1.12-2470245608,

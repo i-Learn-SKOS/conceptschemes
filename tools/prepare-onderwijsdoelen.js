@@ -145,7 +145,7 @@ const transformationsForId = {
       return "nederlands";
     } else if (/ondernemingszin/i.test(x)) {
       return "ondernemingszin";
-    } else if (/levenbeschouwing/i.test(x)) {
+    } else if (/levensbeschouwing/i.test(x)) {
       return "religie-en-levensbeschouwing";
     } else if (/ruimtelijk/i.test(x)) {
       return "ruimtelijk-bewustzijn";

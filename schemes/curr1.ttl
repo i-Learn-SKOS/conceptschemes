@@ -129,7 +129,7 @@ curr1:c-religie-en-levensbeschouwing a skos:Concept ;
   skos:inScheme curr1:_scheme ;
   skos:topConceptOf curr1:_scheme ;
 #  skos:notation "sl-religie-en-levensbeschouwing" ;
-  skos:prefLabel "religie en levenbeschouwing"@nl ;
+  skos:prefLabel "religie en levensbeschouwing"@nl ;
   skos:definition "Competenties betreffende religie en levensbeschouwing"@nl .
 elem:secundair-onderwijs skos:member curr1:c-religie-en-levensbeschouwing .
 elem:sleutelcompetenties skos:member curr1:c-religie-en-levensbeschouwing .
