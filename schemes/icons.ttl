@@ -218,9 +218,15 @@ ostr:kleuter-5-jaar foaf:logo icon-data:logo-i-learn.svg .
 
 ostr:kleuteronderwijs foaf:logo icon-data:logo-i-learn.svg .
 
+ostr:lager-1e-graad foaf:logo icon-data:leerjaar1.svg .
+
 ostr:lager-1e-leerjaar foaf:logo icon-data:leerjaar1.svg .
 
+ostr:lager-2e-graad foaf:logo icon-data:leerjaar2.svg .
+
 ostr:lager-2e-leerjaar foaf:logo icon-data:leerjaar2.svg .
+
+ostr:lager-3e-graad foaf:logo icon-data:leerjaar3.svg .
 
 ostr:lager-3e-leerjaar foaf:logo icon-data:leerjaar3.svg .
 

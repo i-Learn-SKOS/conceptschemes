@@ -3543,12 +3543,6 @@ icon-data:leercompetenties.svg schema:contentUrl icon-files:leercompetenties.svg
 
 icon-data:leerjaar.svg schema:contentUrl icon-files:leerjaar.svg .
 
-icon-data:leerjaar1.svg schema:contentUrl icon-files:leerjaar1.svg .
-
-icon-data:leerjaar2.svg schema:contentUrl icon-files:leerjaar2.svg .
-
-icon-data:leerjaar3.svg schema:contentUrl icon-files:leerjaar3.svg .
-
 icon-data:leerjaar4.svg schema:contentUrl icon-files:leerjaar4.svg .
 
 icon-data:leerjaar5.svg schema:contentUrl icon-files:leerjaar5.svg .
@@ -3723,6 +3717,12 @@ ostr:secundair-3e-graad-dubbel-short-label a skosxl:Label ;
 ostr:secundair-3e-graad-dubbel-tso-short-label a skosxl:Label ;
     dct:type label-type:SHORTLABEL ;
     skosxl:literalForm "tso"@nl .
+
+icon-data:leerjaar1.svg schema:contentUrl icon-files:leerjaar1.svg .
+
+icon-data:leerjaar2.svg schema:contentUrl icon-files:leerjaar2.svg .
+
+icon-data:leerjaar3.svg schema:contentUrl icon-files:leerjaar3.svg .
 
 icon-data:secundair1.svg schema:contentUrl icon-files:secundair1.svg .
 
@@ -26900,7 +26900,8 @@ ostr:lager-1e-graad a skos:Concept ;
     skos:narrowerTransitive ostr:lager-1e-leerjaar,
         ostr:lager-2e-leerjaar ;
     skos:prefLabel "lager 1e graad"@nl ;
-    skosxl:altLabel ostr:lager-1e-graad-short-label .
+    skosxl:altLabel ostr:lager-1e-graad-short-label ;
+    foaf:logo icon-data:leerjaar1.svg .
 
 ostr:lager-2e-graad a skos:Concept ;
     ilearn:typicalAgeRange "8-9" ;
@@ -26914,7 +26915,8 @@ ostr:lager-2e-graad a skos:Concept ;
     skos:narrowerTransitive ostr:lager-3e-leerjaar,
         ostr:lager-4e-leerjaar ;
     skos:prefLabel "lager 2e graad"@nl ;
-    skosxl:altLabel ostr:lager-2e-graad-short-label .
+    skosxl:altLabel ostr:lager-2e-graad-short-label ;
+    foaf:logo icon-data:leerjaar2.svg .
 
 ostr:lager-3e-graad a skos:Concept ;
     ilearn:typicalAgeRange "10-11" ;
@@ -26928,7 +26930,8 @@ ostr:lager-3e-graad a skos:Concept ;
     skos:narrowerTransitive ostr:lager-5e-leerjaar,
         ostr:lager-6e-leerjaar ;
     skos:prefLabel "lager 3e graad"@nl ;
-    skosxl:altLabel ostr:lager-3e-graad-short-label .
+    skosxl:altLabel ostr:lager-3e-graad-short-label ;
+    foaf:logo icon-data:leerjaar3.svg .
 
 ovak:duits a skos:Concept ;
     skos:definition "Woordenschat, grammatica, Duitse cultuur, vaardigheden, literatuur"@nl ;
